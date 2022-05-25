@@ -9,10 +9,17 @@ uniqueify = lambda l: list(set(l))
 
 
 path = ".\\Components"
-Outputpath = ".\\Uploadable"
-dirs = os.listdir( path )
-# indexVers = True
-indexVers = False
+Outputpath = ".\\Uploadable\\"
+def generatepathlist(BasePath):
+    filenames = []
+    for (path, dir, files) in os.walk(BasePath):
+        print(files)
+        filenames.extend([path[len(BasePath):] + '\\' + f for f in files if f.endswith(".json")])# [] if no file
+    return filenames
+dirs = generatepathlist( path )
+print(dirs)
+indexVers = True
+# indexVers = False
 
 meta = {
         "sources": [{
@@ -40,8 +47,7 @@ def joinToolsData(dirs, path):
     for item in dirs:
         # print(path+'\\'+item)
 
-        if os.path.isfile(path+'\\'+item) and item.find('.json')>0:
-
+        if os.path.isfile(path+'\\'+item):
             with open(path+'\\'+item) as toolsFiles:
                 print(1)
                 print(toolsFiles)
@@ -100,7 +106,8 @@ def IndexVersionNumber(data):
 
 
 if indexVers:
-    IndexVersionNumber(data)
-# with open(Outputpath+'WrathOfRubilax.json', 'w', encoding='utf-8') as f:
-# # with open('data.json', 'w', encoding='utf-8') as f:
-#     json.dump(data, f, ensure_ascii=False, indent=4)
+    data = IndexVersionNumber(data)
+# print(data)
+with open(Outputpath+'WrathOfRubilax.json', 'w', encoding='utf-8') as f:
+# with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
