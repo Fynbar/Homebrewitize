@@ -8,7 +8,7 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.2",
+                "version": "1.0.3",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
@@ -2682,22 +2682,6 @@
             ]
         }
     ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
     "spell": [
         {
             "name": "Aura of Desecration",
@@ -2968,6 +2952,22 @@
                     }
                 ]
             }
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
         }
     ],
     "optionalfeature": [
