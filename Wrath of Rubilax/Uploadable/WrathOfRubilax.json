@@ -1,0 +1,3450 @@
+{
+    "subclassFeature": [{
+            "name": "Dance College of the Twirling Blade",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Dancers of the College of the Twirling Blade pride themselves on their combat capabilities being above most other dancers, twirling and lunging with their bodies as well as their blades.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Dancer|WOR|Blade|WOR|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fighting Style|Dancer|WOR|Blade|WOR|3"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "At 3rd level, when you choose this archetype, you gain proficiency in martial weapons."
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Starting at 3rd level, you gain access to a specific style of fighting to augment your skills. You cannot take a Fighting Style more than once, even if you can later choose again.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [{
+                            "type": "refSubclassFeature",
+                            "subclassFeature": "Archery|Dancer|WOR|Blade|WOR|3"
+                        },
+                        {
+                            "type": "refSubclassFeature",
+                            "subclassFeature": "Defense|Dancer|WOR|Blade|WOR|3"
+                        },
+                        {
+                            "type": "refSubclassFeature",
+                            "subclassFeature": "Dueling|Dancer|WOR|Blade|WOR|3"
+                        },
+                        {
+                            "type": "refSubclassFeature",
+                            "subclassFeature": "Mariner (UA)|Dancer|WOR|Blade|WOR|3"
+                        },
+                        {
+                            "type": "refSubclassFeature",
+                            "subclassFeature": "Two-Weapon Fighting|Dancer|WOR|Blade|WOR|3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Archery",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "You gain a +2 bonus to attack rolls you make with ranged weapons."
+            ]
+        },
+        {
+            "name": "Defense",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "While you are not wearing armor, you gain a +1 bonus to AC."
+            ]
+        },
+        {
+            "name": "Dueling",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+            ]
+        },
+        {
+            "name": "Mariner (UA)",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
+            ]
+        },
+        {
+            "name": "Two-Weapon Fighting",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "When you engage in two-weapon fighting, you can add your ability modifier."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 5,
+            "header": 2,
+            "entries": [
+                "Starting at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Action Surge",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Starting at 10th level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you may use it again."
+            ]
+        },
+        {
+            "name": "Momentum Master",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Starting at 10th level, when you miss with a melee weapon attack, you may use your bonus action to immediately make another melee weapon attack."
+            ]
+        },
+        {
+            "name": "Dance of War Magic",
+            "source": "WOR",
+            "page": 54,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Blade",
+            "subclassSource": "WOR",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "At 14th level, when you use your action to cast a spell, you may use your bonus action to make a weapon attack."
+            ]
+        },
+        {
+            "name": "Dance College of the Emblem",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Dancers of the college of the emblem are those that typically have served in a mercenary band, a military group, or some other similar force, and use their dancing dances to support others on the battlefield.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Dancer|WOR|Emblem|WOR|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Aegis of the Army|Dancer|WOR|Emblem|WOR|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Inspired Performance|Dancer|WOR|Emblem|WOR|3"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Starting at 3rd level, when you choose this archetype, you gain proficiency with medicine and shields."
+            ]
+        },
+        {
+            "name": "Aegis of the Army",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Additionally at 3rd level, your Unarmored Defense feature from this class still applies when you have a shield equipped."
+            ]
+        },
+        {
+            "name": "Inspired Performance",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "At 3rd level, you gain 2 cantrips from the bard spell list and one 1st level spell from the bard list that you can cast once per long rest. This 1st level spell does not count against your spells known and does not use a spell slot."
+            ]
+        },
+        {
+            "name": "Gracious Aid",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 5,
+            "header": 2,
+            "entries": [
+                "Starting at 5th level, your performance can inspire others. As an action, you may inspire one creature within 15 feet of you. The creature may use their reaction to move up to their movement speed and make an action they would normally be able to make on their turn. You have one use of this feature, gaining an additional use at 14th level. After using this feature, you must take a short or long rest before doing so again."
+            ]
+        },
+        {
+            "name": "Angelic Dancing",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Beginning at 10th level, as an action, you may expend a spell slot of 1st level or higher to begin dancing to channel a healing spell. You may choose a creature within 15 feet of you to restore {@dice 1d8} hit points per slot level expended, plus additional hit points equal to your Charisma modifier. As a bonus action, you may restore the hit points of one creature within 15 feet of a target to restore hit points equal to half the amount restored to the original creature."
+            ]
+        },
+        {
+            "name": "Adrenaline Dance",
+            "source": "WOR",
+            "page": 55,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "subclassShortName": "Emblem",
+            "subclassSource": "WOR",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Beginning at 14th level, you inspire others with your performance so fervently that their bodies react with great passion. As an action, you may choose a number of creatures equal to your proficiency bonus of your choice within 15 feet of you to be given the following effects: each chosen creature gains 2d8 temporary hit points, gains advantage on its next {@dice d4} attack rolls, and its proficiency is doubled for all skills the creature is proficient in for its next {@dice d4} ability checks. These effects last up to an hour.",
+                "After using this feature, you gain one level of exhaustion, and you may not use it again until after your next long rest."
+            ]
+        },
+        {
+            "name": "Architect of Ruin",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Asmodeus is the Lord of Acheron, the City of Fear. His illriggers scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.",
+                "Acheron's illriggers work to make Hell's enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, the foe sees the illrigger's forces as impossibly powerful, while their own allies betray them and their armies flee in fear.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Ruin",
+                    "entries": [
+                        "Hell's Architects swear an oath to Asmodeus when they join the Order of Desolation. The oath commits them to destroy Asmodeus' enemies by causing fear and sowing distrust.",
+                        {
+                            "type": "entries",
+                            "name": "The Battlefield of the Mind.",
+                            "entries": [
+                                "By the time my armies meet yours, you will be filled with terror and doubt your own strength. I won't have to lift a finger to defeat you."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Proper Secret.",
+                            "entries": [
+                                "Once I know your secrets,I know what you fear."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Knowledge Is Power.",
+                            "entries": [
+                                "Lore is as powerful as steel. I will learn every detail about my enemy so that, when I strike, I will know their every move. They will be checkmated before the game even begins."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Perception Is Reality.",
+                            "entries": [
+                                "Illusion is {@i also} as powerful as steel. I will spread so many rumors about my own powers, your friends will desert you, your soldiers will quake. So what if none of it's true? And some of it is..."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Contract with Asmodeus",
+                    "entries": [
+                        "Asmodeus' fighting mages must be able to thwart an enemy's spells as well as their plans.",
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Veteran of Sorcery.",
+                            "entries": [
+                                "As a reaction to failing a saving throw against a spell, you can choose to succeed instead."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Spellbreaker.",
+                            "entries": [
+                                "You call on Asmodeus' authority to protect you from enemy magic. Any time you are targeted by a {@spell magic missile} spell, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 5, you are unaffected. On a 6, your are unaffected and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting",
+                    "entries": [
+                        "When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast illrigger spells.",
+                        {
+                            "type": "entries",
+                            "name": "Cantrips.",
+                            "entries": [
+                                "You learn two cantrips of your choice from the illrigger spell list. At 8th level, you learn an additional cantrip."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spell Slots.",
+                            "entries": [
+                                "The Architect of Ruin Spellcasting table shows how many spell slots you have. To cast one of these spells, you must expend a slot of the spell's level or higher. When you finish a long rest, you regain all expended spell slots."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spells Known of 1st Level and Higher.",
+                            "entries": [
+                                "You prepare the list of illrigger spells that are available for you to cast, choosing from the illrigger spell list. When you do so, choose a number of illrigger spells equal to your Charisma modifier + half your illrigger level (rounded down), minimum of one spell. The spells must be of a level for which you have spell slots.",
+                                "For example, if you are a 5th-level illrigger, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level in any combination. If you prepare the 1st-level spell Hell's lash, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+                                "You can change your list of prepared spells when you finish a long rest. Preparing a new list of illrigger spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability.",
+                            "entries": [
+                                "Charisma is your spellcasting ability for your illrigger spells, since your power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.",
+                                {
+                                    "type": "abilityDc",
+                                    "name": "Spell save",
+                                    "attributes": [
+                                        "cha"
+                                    ]
+                                },
+                                {
+                                    "type": "abilityAttackMod",
+                                    "name": "Spell",
+                                    "attributes": [
+                                        "cha"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hellmage",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "When you cast an illusion spell, you may choose to expend an unused seal instead of a spell slot."
+            ]
+        },
+        {
+            "name": "Spellmaster",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 7,
+            "entries": [
+                "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell."
+            ]
+        },
+        {
+            "name": "Instant Illusion",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 9,
+            "entries": [
+                "When you place a seal on an enemy, you can, as a reaction, cast an illusion spell that normally has a casting time of 1 action."
+            ]
+        },
+        {
+            "name": "Submit!",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "As a reaction when you cast a spell, you can consume a seal on an interdicted creature to impose disadvantage on their saving throws against the spell."
+            ]
+        },
+        {
+            "name": "By Will Alone",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 13,
+            "entries": [
+                "Your illusion spells no longer require any components. When casting an illusion spell, there is no indication you are casting the spell. You can cast illusion spells while blind, while gagged, and with your hands bound."
+            ]
+        },
+        {
+            "name": "Asmoedus's Blessing",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 17,
+            "entries": [
+                "You can, as a reaction to taking damage, cast {@spell fire shield}. The shield is always a warm shield, deals fire damage, and deals {@dice 4d8} damage instead of {@dice 2d8}. You cannot use this feature again until you complete a long rest."
+            ]
+        },
+        {
+            "name": "Magic Resistance",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 18,
+            "entries": [
+                "You gain advantage on saving throws against spells and magical effects from interdicted creatures."
+            ]
+        },
+        {
+            "name": "Lore Devil",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Architect",
+            "subclassSource": "WOR",
+            "level": 20,
+            "entries": [
+                "As an action, you can become a lore devil for 1 minute. You gain three extra seals. Enemies with seals on them automatically fail their saving throws against your spells. You emanate an interference aura, forcing any creature within 60 feet trying to cast a spell to first succeed at a DC 18 Intelligence saving throw or else the spell fails and they lose the spell slot.",
+                "Whenever you use a spell slot to cast a spell, there is a 25% chance the spell works normally but you do not lose the spell slot.",
+                "While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest. At their discretion, your GM may choose one {@i codex} and grant you limited use of one of the abilities from that {@i codex}."
+            ]
+        },
+        {
+            "name": "Shadowmaster",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "The hidden assassins of Hell, the Shadowmasters excel at stealth and disguise. These illriggers are assassins, striking from the shadows or using deception to earn high-ranking positions close to powerful rulers. Many Shadowmasters run networks of spies and assassins who have no idea of the infernal provenance of their master.",
+                "The Shadowmasters are sworn not to reveal themselves and to take their own lives before betraying their true allegiance. Many Shadowmasters have elaborate plans ready for their own assassination so that, should someone get close to discovering their true identity, they will be killed by their own assassins, preserving the truth. Of course, these killers have no idea who they were really working for...",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Shadow",
+                    "entries": [
+                        "The Shadowmasters swear an oath to Moloch when they join the Order of Desolation. The oath commits them to serve Moloch's foes as allies before revealing themselves as enemies.",
+                        {
+                            "type": "entries",
+                            "name": "Plans Within Plans.",
+                            "entries": [
+                                "My enemies must never discover my true goals. I will sacrifice myself to protect my schemes."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Create Chaos.",
+                            "entries": [
+                                "Disorder is my goal. Where there is peace, I will create strife. Where there is certainty, I will create doubt. If there is war, it must never end."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Power in Patience.",
+                            "entries": [
+                                "I will study my enemy. I will prepare, research, slowly build trust, so that my loyalty is unquestioned and any thought of my betraying my lord unthinkable."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Hesitation Is Failure.",
+                            "entries": [
+                                "I am perfectly willing and able to kill swiftly and efficiently should the need arise. I may rely on agents, but when the opportunity presents itself I will kill without hesitation."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Contract with Hell",
+                    "entries": [
+                        "Elite assassins must be able to survive to get close to their enemies and quickly eliminate them.",
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Fade",
+                            "entries": [
+                                "As an action, you can become invisible and can, as part of this action, attempt to take the Hide action. The invisibility ends after 1 minute or if you make an attack or cast a spell."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Moloch's Blessing",
+                            "entries": [
+                                "As a bonus action, you can place all your remaining seals on a creature."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flash of Brimstone",
+                    "entries": [
+                        "As a reaction to placing a seal on a target, you can teleport to an unoccupied space that you can see adjacent to the target."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bonus Proficiencies",
+                    "entries": [
+                        "When you become a Shadowmaster, you gain proficiency with Stealth, Acrobatics, and thieves' tools."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dagger Adept",
+                    "entries": [
+                        "Your training makes you skilled with certain light weapons. While two-weapon fighting with daggers and/or sickles, you can add your ability modifier to the damage of the second attack, and you can draw or stow two daggers or sickles when you would normally be able to draw or stow only one.",
+                        "At 5th level, your daggers and sickles do {@dice 1d6} damage. At 11th level, your daggers and sickles do {@dice 1d8} damage. At 17th level, your daggers and sickles do {@dice 1d10} damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Marked for Death",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "Your connection to your archdevil's power deepens. If you hit an interdicted creature with a melee attack, you can mark them for death. The target has disadvantage on attack rolls that do not include you until the end of its next turn. While that creature is interdicted, it must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) whenever it tries to leave your reach. On a failure, its speed instead becomes 0 until the start of its next turn. These effects last until it is no longer interdicted, you leave its reach, or it leaves your reach."
+            ]
+        },
+        {
+            "name": "Relentless",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 7,
+            "entries": [
+                "Your movement increases by 10 feet."
+            ]
+        },
+        {
+            "name": "Only A Memory",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 9,
+            "entries": [
+                "Your mastery of shadow grants you advantage on Dexterity (Stealth) checks when taking the Hide action, and Hide becomes a bonus action for you.."
+            ]
+        },
+        {
+            "name": "He Is the Darkness",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "While within 10 feet of an interdicted enemy, shadows envelop you and you gain the benefits of half cover."
+            ]
+        },
+        {
+            "name": "Evasion",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 13,
+            "entries": [
+                "When you are prompted to make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            ]
+        },
+        {
+            "name": "Shadowkiller",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 17,
+            "entries": [
+                "You gain darkvision and can see normally in magical darkness. In addition you can see the exact location of any creatures within 60 feet using illusion spells to obfuscate their location, such as blur, mirror image, or invisibility."
+            ]
+        },
+        {
+            "name": "Hell's Assassin",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 18,
+            "entries": [
+                "Your seals do {@dice 3d10} damage each, rather than {@dice 3d6}."
+            ]
+        },
+        {
+            "name": "Shadowform",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Shadowmaster",
+            "subclassSource": "WOR",
+            "level": 20,
+            "entries": [
+                "Starting at 20th level, as an action, you can become a greater shadow for 1 minute. You gain damage resistance to acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing damage. You gain Incorporeal Movement and a flying speed of 50 feet. You can move through other creatures and objects as if they were difficult terrain. You take 5 ({@dice 1d10}) force damage if you end your turn inside an object. Your weapon attacks deal necrotic damage, and successful attacks drain {@dice 1d4} Strength from the target. If this drain reduces the target's Strength to 0, it dies. Otherwise, the drain lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later. You cannot use this feature again until you complete a long rest."
+            ]
+        },
+        {
+            "name": "Painkiller",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "The heavily armored death troopers of Hell, the Painkillers lead from the front of every major infernal battle.",
+                "When Hell invades another world or is invaded, the Painkillers do much of the fighting and the dying. Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personal appearance.",
+                "The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning. In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon The Nine Hells. Seeing the opportunity to sew strife and discord, an archdevil might send a Painkiller to lead the desperate lordâ€™s armies... for a price.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Pain",
+                    "entries": [
+                        "The Painkillers swear an oath to an archdevil (often Dispater) when they join the Order of Desolation. The oath commits them to lead Hellâ€™s armies and wage war against Good across the timescape.",
+                        {
+                            "type": "entries",
+                            "name": "Lead from the Front.",
+                            "entries": [
+                                "I am at the front of every battle. I charge in, inspiring my soldiers and causing fear in my enemy. I will not use stealth nor hide my face. Let them see their doom."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Commander.",
+                            "entries": [
+                                "Wherever I go, I command. I give orders, I do not take them."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Victory at Any Cost.",
+                            "entries": [
+                                "I respect the enemy leader and will treat them honorably. But once swords are drawn I will use every tool and trick in my arsenal to win, and they should do the same."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Soldiers Die.",
+                            "entries": [
+                                "I care not for the lives of my soldiers, for they exist to serve my victory. They are resources to be spent."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Contract with Hell",
+                    "entries": [
+                        "Dispater's heavy shock troops must be effective battlefield commanders, and quickly dispatch enemies.",
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Devastator.",
+                            "entries": [
+                                "As an action, you invoke the authority of your Archdevil. A number of allies equal to your Charisma modifier, whom you can see within 60 feet, and you, may use a reaction to make one weapon attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Invoke Authority: Infernal Surge.",
+                            "entries": [
+                                "Upon invoking your Archdevil's authority, you gain an extra action in addition to your normal action and any possible bonus action."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bonus Proficiencies",
+                    "entries": [
+                        "When you become a Painkiller, you gain proficiency with heavy armor."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I am Death",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "After placing a seal on a creature, your attacks against that creature have advantage until the end of your turn."
+            ]
+        },
+        {
+            "name": "By The Throat",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 7,
+            "entries": [
+                "You can, as an action, place a seal on an enemy within 30 feet. If they are Large or smaller, they must make a Wisdom saving throw (DC = 8 + your  Proficiency bonus + your Charisma modifier) or be grappled (escape DC 15), and the target is restrained until the grapple ends."
+            ]
+        },
+        {
+            "name": "Telekinetic Seal",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 9,
+            "entries": [
+                "You can, as a reaction to an enemy moving into a space adjacent to you, place a seal on them. If you do, they must make a Wisdom saving throw (DC = 8 +  your proficiency bonus + your Charisma modifier). If they fail, they are thrown back 30 feet and knocked prone."
+            ]
+        },
+        {
+            "name": "Hell's Fury",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "The bonus action you use to place a seal on a creature now also grants you a weapon attack against them."
+            ]
+        },
+        {
+            "name": "You Die On My Command",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 13,
+            "entries": [
+                "When an ally within 30 feet who can hear you drops to 0 hit points but is not outright killed, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead. You cannot use this feature again until you complete a short or long rest."
+            ]
+        },
+        {
+            "name": "Steelmind",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 17,
+            "entries": [
+                "You gain advantage on Wisdom saving throws against spells and enemy abilities."
+            ]
+        },
+        {
+            "name": "Deathstrike",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 18,
+            "entries": [
+                "When you consume a seal after a successful attack roll against an interdicted creature, you may use your reaction to make the attack score a critical hit."
+            ]
+        },
+        {
+            "name": "Pain Devil",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "subclassShortName": "Painkiller",
+            "subclassSource": "WOR",
+            "level": 20,
+            "entries": [
+                "Starting at 20th level, you can use your action to become a pain devil for 1 minute. Your size becomes Large. You gain +3 to hit and damage with melee weapons. You gain 100 temporary hit points.",
+                "You emanate an aura of pain that forces every enemy starting their turn within 20 feet of you to make a DC 16 Constitution saving throw or suffer {@dice 4d12} force damage on a failed save (half that on a successful saving throw) as wounds in their flesh spontaneously open. Once a creature saves, they are immune to this ability for 24 hours.",
+                "While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest."
+            ]
+        }
+    ],
+    "class": [{
+            "name": "Dancer",
+            "source": "WOR",
+            "page": 51,
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "dex",
+                "cha"
+            ],
+            "spellcastingAbility": "cha",
+            "casterProgression": "1/2",
+            "spellsKnownProgression": [
+                0,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ],
+            "additionalSpells": [{
+                "name": "Magical Secrets",
+                "known": {
+                    "10": [{
+                            "choose": "level=0;1;2;3;4;5"
+                        },
+                        {
+                            "choose": "level=0;1;2;3;4;5"
+                        }
+                    ],
+                    "14": [{
+                            "choose": "level=0;1;2;3;4;5;6;7"
+                        },
+                        {
+                            "choose": "level=0;1;2;3;4;5;6;7"
+                        }
+                    ],
+                    "18": [{
+                            "choose": ""
+                        },
+                        {
+                            "choose": ""
+                        }
+                    ]
+                }
+            }],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple",
+                    "{@item shortsword|phb|shortswords}",
+                    "{@item rapier|phb|rapiers}",
+                    "{@item scimitar|phb|scimitars}",
+                    "{@item whip|phb|whips}"
+                ],
+                "skills": [{
+                    "choose": {
+                        "from": [
+                            "acrobatics",
+                            "arcana",
+                            "deception",
+                            "insight",
+                            "intimidation",
+                            "perception",
+                            "performance",
+                            "persuasion",
+                            "sleight of hand",
+                            "stealth"
+                        ],
+                        "count": 3
+                    }
+                }]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@item rapier|phb}, (b) a {@item scimitar|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) 10 {@item dart|phb|darts}, (b) 2 {@item dagger|phb|daggers}",
+                    "(a) a {@item diplomat's pack|phb} or (b) an {@item entertainer's pack|phb}",
+                    "(a) a {@item costume clothes|phb|dancer's costume} or (b) an {@item arcane focus|phb}",
+                    "{@item Leather armor|phb}, and a {@item dagger|phb}"
+                ],
+                "defaultData": [{
+                        "a": [
+                            "rapier|phb"
+                        ],
+                        "b": [
+                            "scimitar|phb"
+                        ],
+                        "c": [{
+                            "equipmentType": "weaponSimple"
+                        }]
+                    },
+                    {
+                        "a": [
+                            "dart|phb"
+                        ],
+                        "b": [
+                            "dagger|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "diplomat's pack|phb"
+                        ],
+                        "b": [
+                            "entertainer's pack|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "costume clothes|phb"
+                        ],
+                        "b": [
+                            "arcane focus|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "cha": 13
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light"
+                    ],
+                    "skills": [{
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "arcana",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "perception",
+                                "performance",
+                                "persuasion",
+                                "sleight of hand",
+                                "stealth"
+                            ],
+                            "count": 1
+                        }
+                    }]
+                }
+            },
+            "classTableGroups": [{
+                    "colLabels": [
+                        "{@filter Dances|optionalfeatures|Feature Type=Dance}",
+                        "{@filter Spells Known|spells|class=bard}"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            5
+                        ],
+                        [
+                            1,
+                            6
+                        ],
+                        [
+                            2,
+                            7
+                        ],
+                        [
+                            2,
+                            8
+                        ],
+                        [
+                            2,
+                            9
+                        ],
+                        [
+                            2,
+                            10
+                        ],
+                        [
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            12
+                        ],
+                        [
+                            3,
+                            13
+                        ],
+                        [
+                            3,
+                            14
+                        ],
+                        [
+                            3,
+                            15
+                        ],
+                        [
+                            3,
+                            16
+                        ],
+                        [
+                            4,
+                            17
+                        ],
+                        [
+                            4,
+                            18
+                        ],
+                        [
+                            4,
+                            19
+                        ],
+                        [
+                            4,
+                            20
+                        ],
+                        [
+                            5,
+                            21
+                        ],
+                        [
+                            5,
+                            22
+                        ],
+                        [
+                            5,
+                            23
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|class=bard}",
+                        "{@filter 2nd|spells|level=2|class=bard}",
+                        "{@filter 3rd|spells|level=3|class=bard}",
+                        "{@filter 4th|spells|level=4|class=bard}",
+                        "{@filter 5th|spells|level=5|class=bard}"
+                    ],
+                    "rowsSpellProgression": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Unarmored Defense|Dancer|WOR|1",
+                "Dancing Steps|Dancer|WOR|1",
+                "Expert Performer|Dancer|WOR|1",
+                "Spellcasting|Dancer|WOR|2",
+                "Dancing|Dancer|WOR|2",
+                {
+                    "classFeature": "Dancing College|Dancer|WOR|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Dancer|WOR|4",
+                {
+                    "classFeature": "Dancing College feature|Dancer|WOR|5",
+                    "gainSubclassFeature": true
+                },
+                "Dancing Movement|Dancer|WOR|6",
+                "Nimble Contortions|Dancer|WOR|7",
+                "Ability Score Improvement|Dancer|WOR|8",
+                {
+                    "classFeature": "Dancing College feature|Dancer|WOR|10",
+                    "gainSubclassFeature": true
+                },
+                "Reliable Performance|Dancer|WOR|11",
+                "Evasion|Dancer|WOR|11",
+                "Ability Score Improvement|Dancer|WOR|12",
+                "Untouched by Lust|Dancer|WOR|13",
+                {
+                    "classFeature": "Dancing College feature|Dancer|WOR|14",
+                    "gainSubclassFeature": true
+                },
+                "Fluidity of Body|Dancer|WOR|15",
+                "Ability Score Improvement|Dancer|WOR|16",
+                "Unhurt by Words|Dancer|WOR|18",
+                "Ability Score Improvement|Dancer|WOR|19",
+                "Godlike Beauty|Dancer|WOR|20"
+            ],
+            "subclassTitle": "Dancing College",
+            "fluff": [{
+                "name": "The Dancer",
+                "type": "section",
+                "entries": [
+                    "A youthful elf twirls in circles, watching with delight as the leaves on the ground follow her movements. Faced by two brigands, the would-be victim's bursts of motion turn into a flurry that leaves their attackers slack-jawed.",
+                    "The light of the room dims, and the spotlights focus on the lightly dressed woman who makes her way across the stage. With a large smile, she moves effortless along with the music, filling everyone's hearts with joy and pushing them to stay determined in whatever challenges they have.",
+                    "Dancers are masters of their own body. Through careful motion they may inflict dazzling attacks, or even manipulate the energy around them. The very environment is a weapon in a Dancer's hands. Sultry swayers of the night who are refined in the day, only in a tavern brawl would you ever see these graceful devil's show their true colors with a blade.",
+                    {
+                        "type": "entries",
+                        "name": "Of Silk and Steel",
+                        "entries": [
+                            "Dancers draw from many different sources and backgrounds, combining them into a single package which covers a wide variety of situations. Using small weapons to pick away at their unwitting foes as their dances debilitate their marks. Though a rarity on the battlefield, few forget the sight of a skilled dancer at work."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "The Power of Rhythm",
+                        "entries": [
+                            "Dancers perform their magical feats not through a stave or rod, but rather through the rhythm and movement of their bodies. As they dance around the battlefield they move their bodies in specific patterns to manipulate the latent magical power within and to gather residual magic in the environment. Once they've gathered the required magic, they must keep moving to keep their spell active, channeling the magic further."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Creating a Dancer",
+                        "entries": [
+                            "Dancers are passionate people dedicated to their craft. Spending years practicing has gifted them with the ability to weave spells and their passions together into a gorgeous display of skill. When creating a Dancer, you must consider where they have honed their craft.",
+                            "Did they pick up the profession naturally, teaching themselves over long hours, or did they study beneath some kind of mentor? One must consider their motivations, does your Dancer seek fame and fortune, or do they want to bring the gifts of joy to the masses. Perhaps they are going on their journey in an attempt to hone their craft even further. What drives your character to go beyond a normal dancer, and actually fight? Talk to your DM about the role dancers might have in your campaign's societies.",
+                            {
+                                "type": "entries",
+                                "name": "Quick Build",
+                                "entries": [
+                                    "You can make a dancer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the {@background entertainer} background. Finally, choose a {@item rapier|phb}, 2 {@item daggers|phb|dagger}, an {@item entertainer's pack|phb}, and a {@item dancer's costume|phb|costume clothes}."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "source": "WOR",
+                "page": 51
+            }]
+        },
+        {
+            "name": "Illrigger",
+            "source": "WOR",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "con",
+                "cha"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "{@item shield|phb|shields}"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [{
+                    "choose": {
+                        "from": [
+                            "arcana",
+                            "athletics",
+                            "deception",
+                            "insight",
+                            "intimidation",
+                            "investigation",
+                            "persuasion",
+                            "religion"
+                        ],
+                        "count": 2
+                    }
+                }]
+            },
+            "startingEquipment": {
+                "default": [
+                    "(a) a martial weapon and a shield or (b) two martial weapons",
+                    "(a) chain shirt or (b) leather armor, longbow, and 20 arrows",
+                    "(a) a priest's pack or (b) a dungeoneer's pack",
+                    "A holy symbol, two daggers, and five javelins"
+                ],
+                "additionalFromBackground": true,
+                "defaultData": [{
+                        "a": [],
+                        "b": []
+                    },
+                    {
+                        "a": [],
+                        "b": []
+                    },
+                    {
+                        "a": [],
+                        "b": []
+                    },
+                    {
+                        "_": []
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "cha": 13,
+                    "or": [{
+                        "str": 13,
+                        "dex": 13
+                    }]
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium",
+                        "{@item shield|phb|shields}"
+                    ],
+                    "weapons": [
+                        "simple",
+                        "martial"
+                    ]
+                },
+                "entries": [
+                    "Multiclass characters divide their illrigger levels by three for the purposes of determining how many spell slots they get. This may result in an Architect of Ruin losing a spell level, but Asmodeus takes a dim view of Illriggers who stray from strict commitment to the path of Hell."
+                ]
+            },
+            "classTableGroups": [{
+                "colLabels": [
+                    "Infernal Conduit Dice"
+                ],
+                "rows": [
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ],
+                    [
+                        8
+                    ],
+                    [
+                        9
+                    ],
+                    [
+                        9
+                    ],
+                    [
+                        10
+                    ],
+                    [
+                        10
+                    ]
+                ]
+            }],
+            "classFeatures": [
+                "Forked Tongue|Illrigger|WOR|1",
+                "Infernal Conduit|Illrigger|WOR|1",
+                "Fighting Style|Illrigger|WOR|2",
+                "Baleful Interdict|Illrigger|WOR|2",
+                "Hellsight|Illrigger|WOR|3",
+                {
+                    "classFeature": "Diabolic Contract|Illrigger|WOR|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Illrigger|WOR|4",
+                "Extra Attack|Illrigger|WOR|5",
+                {
+                    "classFeature": "Baleful Interdict Improvement|Illrigger|WOR|6",
+                    "gainSubclassFeature": true
+                },
+                {
+                    "classFeature": "Diabolic Contract Improvement|Illrigger|WOR|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Illrigger|WOR|8",
+                {
+                    "classFeature": "Diabolic Contract Improvement|Illrigger|WOR|9",
+                    "gainSubclassFeature": true
+                },
+                {
+                    "classFeature": "Baleful Interdict Improvement|Illrigger|WOR|10",
+                    "gainSubclassFeature": true
+                },
+                "Improved Infernal Conduit|Illrigger|WOR|11",
+                "Ability Score Improvement|Illrigger|WOR|12",
+                {
+                    "classFeature": "Diabolic Contract Improvement|Illrigger|WOR|13",
+                    "gainSubclassFeature": true
+                },
+                "Aura of Despair|Illrigger|WOR|14",
+                "Summon Hell|Illrigger|WOR|15",
+                "Ability Score Improvement|Illrigger|WOR|16",
+                {
+                    "classFeature": "Diabolic Contract Improvement|Illrigger|WOR|17",
+                    "gainSubclassFeature": true
+                },
+                {
+                    "classFeature": "Baleful Interdict Improvement|Illrigger|WOR|18",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Illrigger|WOR|19",
+                {
+                    "classFeature": "Diabolic Contract Improvement|Illrigger|WOR|20",
+                    "gainSubclassFeature": true
+                }
+            ],
+            "subclassTitle": "Diabolic Contracts",
+            "fluff": [{
+                "name": "The Illrigger",
+                "source": "WOR",
+                "type": "section",
+                "entries": [
+                    "The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.",
+                    "Their elite shock troops, the terror-commandos of Hell, are the {@i illriggers}. Knights of Hell, they are charismatic counter-paladins who master devils, disrupt enemy organizations, and command Hell's armies.",
+                    {
+                        "type": "entries",
+                        "name": "The Order of Desolation",
+                        "entries": [
+                            "Millennia ago, the Lords of Hell did something remarkable: they cooperated. They came together to create the Order of Desolation, knights sworn to serve Hell first, their patron archdevil second.",
+                            "Acceptance into the Order of Desolation makes you a comrade with every other illrigger, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But this association of illriggers consider themselves above the petty political squabbles that divide the seven cities.",
+                            "Members of the Order of Desolation, also known as the Desolate, are expected to be intelligent, resourceful, tactical, manipulative. A temple or cult might conclude that the presence of an illrigger in their midst is a sign that their archdevil approves of their actions, but the illriggers are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron's trust. Left to their own devices, the illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.",
+                            "It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from illriggers who serve other archdevils, before going to any church, cult, or temple devoted to their own archdevil."
+                        ]
+                    }
+                ]
+            }]
+        }
+    ],
+    "subclass": [{
+            "name": "Dance College of the Twirling Blade",
+            "shortName": "Blade",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "page": 54,
+            "subclassFeatures": [
+                "Dance College of the Twirling Blade|Dancer|WOR|Blade|WOR|3",
+                "Extra Attack|Dancer|WOR|Blade|WOR|5",
+                "Action Surge|Dancer|WOR|Blade|WOR|10",
+                "Momentum Master|Dancer|WOR|Blade|WOR|10",
+                "Dance of War Magic|Dancer|WOR|Blade|WOR|14"
+            ]
+        },
+        {
+            "name": "Dance College of the Emblem",
+            "shortName": "Emblem",
+            "source": "WOR",
+            "className": "Dancer",
+            "classSource": "WOR",
+            "page": 55,
+            "subclassFeatures": [
+                "Dance College of the Emblem|Dancer|WOR|Emblem|WOR|3",
+                "Gracious Aid|Dancer|WOR|Emblem|WOR|5",
+                "Angelic Dancing|Dancer|WOR|Emblem|WOR|10",
+                "Adrenaline Dance|Dancer|WOR|Emblem|WOR|14"
+            ]
+        },
+        {
+            "name": "Painkiller",
+            "source": "WOR",
+            "shortName": "Painkiller",
+            "subclassFeatures": [
+                "Painkiller|Illrigger|WOR|Painkiller|WOR|3",
+                "I Am Death|Illrigger|WOR|Painkiller|WOR|6",
+                "By The Throat|Illrigger|WOR|Painkiller|WOR|7",
+                "Telekinetic Seal|Illrigger|WOR|Painkiller|WOR|9",
+                "Hell's Fury|Illrigger|WOR|Painkiller|WOR|10",
+                "You Die On My Command|Illrigger|WOR|Painkiller|WOR|13",
+                "Steelmind|Illrigger|WOR|Painkiller|WOR|17",
+                "Deathstrike|Illrigger|WOR|Painkiller|WOR|18",
+                "Pain Devil|Illrigger|WOR|Painkiller|WOR|20"
+            ],
+            "className": "Illrigger",
+            "classSource": "WOR"
+        },
+        {
+            "name": "Shadowmaster",
+            "source": "WOR",
+            "shortName": "Shadowmaster",
+            "subclassFeatures": [
+                "Shadowmaster|Illrigger|WOR|Shadowmaster|WOR|3",
+                "Marked for Death|Illrigger|WOR|Shadowmaster|WOR|6",
+                "Relentless|Illrigger|WOR|Shadowmaster|WOR|7",
+                "Only A Memory|Illrigger|WOR|Shadowmaster|WOR|9",
+                "He Is the Darkness|Illrigger|WOR|Shadowmaster|WOR|10",
+                "Evasion|Illrigger|WOR|Shadowmaster|WOR|13",
+                "Shadowkiller|Illrigger|WOR|Shadowmaster|WOR|17",
+                "Hell's Assassin|Illrigger|WOR|Shadowmaster|WOR|18",
+                "Shadowform|Illrigger|WOR|Shadowmaster|WOR|20"
+            ],
+            "className": "Illrigger",
+            "classSource": "WOR"
+        },
+        {
+            "name": "Architect of Ruin",
+            "source": "WOR",
+            "shortName": "Architect",
+            "subclassTableGroups": [{
+                    "colLabels": [
+                        "{@filter Cantrips Known|spells|level=0|subclass=Illrigger: Architect of Ruin (WOR)}"
+                    ],
+                    "rows": [
+                        [
+                            0
+                        ],
+                        [
+                            0
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|subclass=Illrigger: Architect of Ruin (WOR)}",
+                        "{@filter 2nd|spells|level=2|subclass=Illrigger: Architect of Ruin (WOR)}",
+                        "{@filter 3rd|spells|level=3|subclass=Illrigger: Architect of Ruin (WOR)}",
+                        "{@filter 4th|spells|level=4|subclass=Illrigger: Architect of Ruin (WOR)}",
+                        "{@filter 5th|spells|level=5|subclass=Illrigger: Architect of Ruin (WOR)}",
+                        "{@filter 6th|spells|level=6|subclass=Illrigger: Architect of Ruin (WOR)}"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "spellcastingAbility": "cha",
+            "cantripProgression": [
+                0,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+            ],
+            "spellsKnownProgression": [
+                0,
+                0,
+                2,
+                3,
+                5,
+                5,
+                8,
+                9,
+                10,
+                12,
+                14,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16
+            ],
+            "subclassSpells": [
+                "Chill Touch",
+                "Dancing Lights",
+                "Fire Bolt",
+                "Light",
+                "Message",
+                "Minor Illusion",
+                "Ray of Frost",
+                "Thaumaturgy",
+                "True Strike",
+                "Charm Person",
+                "Color Spray",
+                "Command",
+                "Comprehend Languages",
+                "Detect Magic",
+                "Disguise Self",
+                "Hellish Rebuke",
+                "hell's lash|ill",
+                "Shield of Faith",
+                "silent image|ill",
+                "single combat|ill",
+                "Augury",
+                "Blur",
+                "Darkness",
+                "Enthrall",
+                "Hold Person",
+                "Invisibility",
+                "Lesser Restoration",
+                "Ray of Enfeeblement",
+                "Suggestion",
+                "Dispel Magic",
+                "Fear",
+                "Fly",
+                "Major Image",
+                "Phantom Steed",
+                "Remove Curse",
+                "Revivify",
+                "mote of hell|ill",
+                "Tongues",
+                "Vampiric Touch",
+                "Banishment",
+                "Blight",
+                "Death Ward",
+                "Dimension Door",
+                "Divination",
+                "Greater Invisibility",
+                "Hallucinatory Terrain",
+                "Phantasmal Killer",
+                "aura of desecration|ill",
+                "Contact Other Plane",
+                "Dispel Evil and Good",
+                "Dream",
+                "Hold Monster",
+                "Mislead",
+                "wall of death|ill",
+                "Circle of Death",
+                "Mass Suggestion",
+                "Planar Ally",
+                "Programmed Illusion"
+            ],
+            "subclassFeatures": [
+                "Architect of Ruin|Illrigger|WOR|Architect|WOR|3",
+                "Hellmage|Illrigger|WOR|Architect|WOR|6",
+                "Spellmaster|Illrigger|WOR|Architect|WOR|7",
+                "Instant Illusion|Illrigger|WOR|Architect|WOR|9",
+                "Submit!|Illrigger|WOR|Architect|WOR|10",
+                "By Will Alone|Illrigger|WOR|Architect|WOR|13",
+                "Asmoedus's Blessing|Illrigger|WOR|Architect|WOR|17",
+                "Magic Resistance|Illrigger|WOR|Architect|WOR|18",
+                "Lore Devil|Illrigger|WOR|Architect|WOR|20"
+            ],
+            "className": "Illrigger",
+            "classSource": "WOR"
+        }
+    ],
+    "optionalfeature": [{
+            "name": "Dance of the Dragon",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to unleash a dragon's breath. The breath has a range of either a 15-foot cone, or a 20 by 5-foot line, and creatures in the area must make a Dexterity saving throw, taking half damage on a success. The damage is equal to {@dice 2d6} per level spell slot expended, to a max of 10d6. The damage type may be either poison, acid, fire, cold, or lightning."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance of the Dragon active, you gain resistance to the damage type you used for the active effect and one other of your choice among the original choices. You may re-elect the types each time you use the active effect."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance with Death",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weaponâ€™s damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance with Death active, you deal an additional {@dice d4} necrotic damage on all weapon attacks and gain advantage against saving throws that would frighten you."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Shifting Sand Salsa",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to cast misty step, but target a number of creatures within 30 feet of yourself (including yourself) equal to the slot level to bring with you. The creatures you bring with you are placed within 5 feet of you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Shifting Sand Salsa active, you have the effects of a 1st-level armor of agathys spell cast on yourself, which refreshes at the start of each of your turns. However, the damage is slashing damage, instead of cold."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Tango of the Troll",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to conjure floating spectral troll arms. You conjure a number of arms equal to the spell slot level expended. You make a number of melee spell attacks on creatures within 15 feet of you equal to the number of troll arms summoned. Each attack deals slashing damage equal to {@dice 1d10} plus your Charisma modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Tango of the Troll active, you regain hit points equal to half your dancer level (rounded up) at the start of each of your turns. If you take fire or acid damage, this doesn't function at the start of your next turn. You do not gain temporary hit points if you gain more health than your hit point maximum."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Waltz of the Pouncing Feline",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to fill yourself with beast-like adrenaline, causing you to pounce on a creature within range of your movement speed, making a melee weapon attack on the creature, using your choice of your Strength or Dexterity modifier. On a hit, the creature is knocked prone and takes slashing damage equal to {@dice 1d8} per slot level plus your choice of your Strength or Dexterity modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Waltz of the Pouncing Feline active, you have claws on your hands, causing your unarmed strikes to deal {@dice 1d6} slashing damage, and allow you to use your Dexterity modifier instead of your Strength modifier if you so choose with them. If you use your action to make an unarmed strike, you can use your bonus action to make another unarmed strike, adding your modifier to the bonus action even if you do not possess the Two-Weapon Fighting fighting style."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Avian",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to grow wings and dash forth up to 30 feet. Creatures within 5 feet of you in the path you dash make Dexterity saving throws, taking {@dice 1d8} slashing damage per slot level used on a failure, and half on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Avian active, you have a flight speed of 30 feet. You cannot wear medium or heavy armor with this active and must land at the end of each of your turns."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Mountain Goat Mambo",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself spectral horns that disappear after you ram with them and ram a creature within range of your movement speed, forcing a Dexterity save on the creature you target. On a failed save, the creature takes {@dice 1d12} bludgeoning damage per slot level, and is knocked prone, taking halfdamage and not being knocked prone on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Mountain Goat Mambo active, you have a climbing speed equal to your walking speed."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Elevated Quickstep",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself the ability to levitate, as per the levitate spell. You may cast this spell on other creatures as well, equal to the level of spell slot expended."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Elevated Quickstep active, your jump height and distance are doubled and you gain advantage on Strength (Athletics) checks related to jumping."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Blessed Ballroom Dance",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to cast Bless on a number of allies equal to the level of spell slot + 1 in range for 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Blessed active, those blessed gain an increase to their hit points and hit point maximums equal to your Charisma modifier + proficiency + spell slot level."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Elements",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, target an ally's  and expend one spell slot. Their next attack will deal extra (acid, cold, fire, lightning, or thunder) damage to their target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targeted ally's weapon does {@dice d4} of extra (acid, cold, fire, lightning, or thunder) damage on all weapon attacks after the initial attack."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Barbarian Bolero",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, give a number of allies equal to the level of spell slot expended within 15 ft of you advantage on their attack rolls for their next turn, but enemies will have advantage on their attacks against these targets"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targets take half damage from your choice of slashing, bludgeoning, or piercing damage."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Avoidance",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you begin a special dance that loosens your motion and allows you to evade attacks easier, giving you the benefits of the Dodge action until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You gain a bonus to your AC equal to the level of spell slot expended. Additionally, if you attack a creature that is benefiting from the Dodge action, you ignore those benefits as you match the rhythm of their evasive maneuvers."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Peace Polka",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creature equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets are charmed by you for the next minute. On a successful save, the targeted creatures aren't charmed. A creature who is charmed is able to repeat this saving throw at the beginning of each of their turns, ending the effect on the success. When a creature is no longer charmed, they realize that they have been duped, and become hostile to you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You and your allies gain advantage on attack rolls against creatures charmed by this effect, but if a charmed creature is attacked by you or your allies, regardless of hitting or missing, the effect ends."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Stage Fright Foxtrot",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creatures equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targeted creatures subtract your proficiency bonus from all attack rolls, ability checks, and saving throws against you, your spells, and effects they make during the next {@dice d4} rounds. On a successful save, they resist this effect."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your anxious dance disconcerts your enemies. Hostile creatures within 15 feet of you are considered to be in difficult terrain."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Acrobat",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a reaction, expend a spell slot to begin a special dance as a creature makes an attack against you. Whether they hit or miss, move half your movement speed. This movement doesn't trigger opportunity attacks. If they hit, you have resistance against the damage. You may choose to do so after the attack roll but before you know the result. You may use this reaction a number of times equal to the level of spell slot expended until the start of your next turn but cannot use any other reactions."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "If you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of the turn."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Lightning Bolt Ballet",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you are attacked by a creature within 30 feet of you, expend a spell slot to use a reaction to reduce the damage taken from bludgeoning, force, lightning, or thunder damage equal to a number of d8s equal to the level of spell slot expended. Additionally, the creature that attacked you must succeed on a Dexterity saving throw against your spell save DC or take lightning or thunder damage equal to a number of d8s equal to the level of spell slot expended + your charisma bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After the initial attack, you gain resistance to lightning and thunder damage and deal an extra {@dice d4} of your choice of lightning or thunder damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Fiery Flamenco",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to create a trail of flames of a length equal to or less than your movement speed. Any creature that enters or start its turn inside the trail must make a Constitution saving throw against your spell save DC. On a failed save, its movement speed is halved and it takes fire damage equal to a number of d8s equal to the level of spell slot expended plus your charisma bonus. On a successful save, it takes half the fire damage and its speed isn't halved. The trail fades at the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the trail, you have resistance to fire damage and deal an extra {@dice d4} of fire damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Snowflake Samba",
+            "source": "WOR",
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When a hostile creature successfully attacks you, expend a spell slot to use your reaction to cause the ground beneath and around them to erupt with ice, causing icicles to sprout around them. The area within 5 feet of them becomes difficult terrain, and they must make a Dexterity saving throw against your spell save DC or take cold damage equal to a number of d6s equal to the level of spell slot expended + your charisma bonus. On a successful save, they take half the damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the ice, you have resistance to cold damage and deal an extra {@dice d4} cold damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Entrainment",
+            "source": "WOR",
+            "prerequisite": [{
+                "level": {
+                    "level": 15,
+                    "class": {
+                        "name": "Dancer"
+                    },
+                    "subclass": {
+                        "name": "Dance College of the Twirling Blade",
+                        "visible": false
+                    }
+                }
+            }],
+            "entries": [{
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to begin an irresistible dance. A number of creatures equal to the level of spell slot expended (rounded down) within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets begin to dance uncontrollably, as per the spell Otto's Irresistible Dance unless they are immune to being charmed. On a successful save, the targeted creatures aren't charmed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your dance moves beckon others to join you. When a creature that can see you an enters or starts its turn in a 15-foot radius of you must make a Charisma saving throw. On a failure, they must choose one among moving, taking an action, taking a bonus action, or taking a reaction. On a success, they resist this effect and are immune to it for 1 hour."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        }
+    ],
+    "_meta": {
+        "sources": [{
+            "json": "WOR",
+            "abbreviation": "WOR",
+            "full": "Wrath of Rubilax Unlocked Classes V.0.6",
+            "authors": [
+                "Connor AKA the prettiest girl at the party"
+            ],
+            "version": "1.0.1",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967
+    },
+    "spell": [{
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [{
+                "number": 1,
+                "unit": "action"
+            }],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [{
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 10,
+                    "upTo": true
+                },
+                "concentration": true
+            }],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [{
+                "number": 1,
+                "unit": "action"
+            }],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [{
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [{
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                ]
+            }],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ]
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [{
+                "number": 1,
+                "unit": "action"
+            }],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [{
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ]
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [{
+                "number": 1,
+                "unit": "action"
+            }],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [{
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                }
+            }],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ]
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [{
+                "number": 1,
+                "unit": "action"
+            }],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [{
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ]
+        }
+    ],
+    "classFeature": [{
+            "name": "Unarmored Defense",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+            ]
+        },
+        {
+            "name": "Dancing Steps",
+            "source": "WOR",
+            "page": 3,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "Your acrobatic and seductive movement allows you to move better than most. You can take a bonus action on each of your turns in combat. This bonus action can be used to take either the Dash or Disengage action."
+            ]
+        },
+        {
+            "name": "Expert Performer",
+            "source": "WOR",
+            "page": 3,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "Your Proficiency Bonus is doubled for any ability check you make that uses Performance."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you have learned how to harness the power of your dancing, turning your wishes and wills into pure magic. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter bard spell list|spells|class=bard}.",
+                {
+                    "type": "entries",
+                    "name": "Spell Slots",
+                    "entries": [
+                        "The Dancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spellâ€™s level or higher. You regain all expended spell slots when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spells Known of 1st Level and Higher",
+                    "entries": [
+                        "You know five 1st-level spells of your choice from the bard spell list.",
+                        "The Spells Known column of the Dancer table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table.",
+                        "Additionally, when you gain a level in this class, you can choose one of the dancer spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dance Magic",
+                    "entries": [
+                        "As a Dancer, when you cast a spell, you do not have to fulfill the verbal component of the spell. You must spend 10 feet of movement alongside your spell slot to cast a spell. Any effects that would drop your speed to 0 ft. will prevent you from casting spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Charisma is your spellcasting ability for your dancer spells. Your magic comes from the beauty and elegance of your dancing and movements. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a dancer spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "cha"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "cha"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use a {@item costume clostes|PHB|dancer's costume} as a spellcasting focus for your dancer spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dancing",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "At 2nd level, your skills in the art of dancing and grace have given you special abilities, giving you one dance of your choice.",
+                "A list of the available dance options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=Dance} page. When you gain certain dancer levels, you gain additional dances of your choice, as shown in the Dances column of the Dancer table.",
+                "Additionally, when you learn a new dance, you can choose one of the dances you know and replace it with another dance that you could learn at that level.",
+                {
+                    "type": "entries",
+                    "name": "Dances",
+                    "entries": [
+                        "Dances have two parts: An active effect, and a passive effect. The passive effect stays in effect until the dance ends, which is when you use another dance, become incapacitated, grappled, paralyzed, petrified, or restrained, you take a short or long rest, or after a certain amount of time has passed, unless stated otherwise. Each active effect costs a spell slot of 1st level or higher to use. The amount of time that a dance lasts for is determined by the level of spell slot expended: 1st level -1 minute; 2nd level â€“ 10 minutes; 3rd level â€“ 1 hour; 4th level â€“ 8 hours; 5th level â€“ Until the dance ends by any of the qualifying conditions or triggers.",
+                        "Some dances are complex enough to require a level of concentration to be maintained. This concentration functions the same as that of a spell, and as such, you must make concentration checks when injured and may not concentrate on both a dance and a spell that require concentration."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dancing College",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, you learn the graceful movements of a college of dancers of your choice. Your choice grants you features at 3rd, 5th, 10th, and 14th levels."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Dancing College feature",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 5,
+            "entries": [
+                "At 5th level, you gain a feature from your Dancing College."
+            ]
+        },
+        {
+            "name": "Dancing Movement",
+            "source": "WOR",
+            "page": 1,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 6,
+            "entries": [
+                "Beginning at 6th level, your speed increases by 10 feet while you aren't wearing heavy armor. At 14th level, your speed increases by an additional 5 feet under the same restriction."
+            ]
+        },
+        {
+            "name": "Nimble Contortions",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Dancing College feature",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Dancing College."
+            ]
+        },
+        {
+            "name": "Evasion",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 11,
+            "entries": [
+                "Starting at 11th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            ]
+        },
+        {
+            "name": "Reliable Performance",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 11,
+            "entries": [
+                "By 11th level, you have refined your dancing skills until they approach perfection. Whenever you make a Performance or another ability check that utilizes your mastery of dance, you can treat a d20 roll of 9 or lower, as a 10."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Untouched by Lust",
+            "source": "WOR",
+            "page": 1,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 13,
+            "entries": [
+                "Starting at 13th level, your mind is so accustomed to the ways of seduction that you are immune to being charmed unless you choose not to be.",
+                "Additionally, when a creature would make a saving throw to resist being charmed by you, they make the saving throw with disadvantage."
+            ]
+        },
+        {
+            "name": "Dancing College feature",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature from your Dancing College."
+            ]
+        },
+        {
+            "name": "Fluidity of Body",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 15,
+            "entries": [
+                "Starting at 15th level, your movements cause your body to be harder to hit when you are on the move. All opportunity attacks made against you have disadvantage."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Unhurt by Words",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 18,
+            "entries": [
+                "By 18th level, due to all your time dealing with seducing words and criticism, you have grown a defense to them. You are completely immune to psychic-type damage, and your thoughts may only be detected or read if you choose to let them."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Godlike Beauty",
+            "source": "WOR",
+            "page": 51,
+            "className": "Dancer",
+            "classSource": "WOR",
+            "level": 20,
+            "entries": [
+                "At 20th level, your body is now the embodiment of grace and beauty. Your Charisma score increases by 4, to a maximum of 24. Additionally, your body no longer appears to age, and you cannot be aged magically, however you may still die of old age."
+            ]
+        },
+        {
+            "name": "Forked Tongue",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "You have a facility with speech and know how to manipulate an audience. Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8. Additionally you learn the Infernal language."
+            ]
+        },
+        {
+            "name": "Infernal Conduit",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with {@dice 1d10} at 1st level. Your pool gains dice as shown on the Illrigger table. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life forceof enemies to rejuvenate your own vitality.",
+                "As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. If you miss, nothing happens—you do not roll or lose dice from your pool. If you hit, or if you're targeting a willing creature, roll the chosen dice.",
+                "The result of your roll is the number of hit points you transfer. If you're touching an ally, they gain that many hit points, ignoring any hit points in excess of their maximum. You lose hit points equal to the number of hit points they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.",
+                "If you're touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you would gain hit points in excess of your maximum, you gain that number of temporary hit points instead."
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you choose an illrigger fighting style:",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [{
+                            "type": "refClassFeature",
+                            "classFeature": "Treachery|Illrigger|WOR|2"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Bravado|Illrigger|WOR|2"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Schemes|Illrigger|WOR|2"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Lies|Illrigger|WOR|2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Treachery",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "When you attack an enemy who has none of your allies adjacent to it, you gain a +3 bonus to damage rolls."
+            ]
+        },
+        {
+            "name": "Bravado",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit."
+            ]
+        },
+        {
+            "name": "Schemes",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "While you wield a melee weapon in one hand and no other weapons, you can use your reaction after an adjacent enemy attacks you to move into any other unoccupied space within five feet of the attacking enemy. This movement does not provoke an opportunity attack."
+            ]
+        },
+        {
+            "name": "Lies",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "When you attack with a two-handed melee weapon, you can use your Charisma modifier, instead of your Strength modifier, for both the attack and damage rolls."
+            ]
+        },
+        {
+            "name": "Baleful Interdict",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "When you reach 2nd level, you learn to use the power of Hell to censure other creatures. As a bonus action, you can place a seal on a target you can see within 30 feet. You can do this a number of times equal to your Charisma modifier. When you finish a short or long rest, you regain all your seals.",
+                "When you or an ally hits a target you can see with any seals on it, as free action, you can consume the seals to make the attack deal an extra {@dice 2d6} necrotic damage to the target per seal consumed. If you are within 30 feet of the target, you regain 2 hit points for each die of damage your seals deals.",
+                "A creature with a seal on them is an {@b interdicted creature.}",
+                "Seals evaporate if not used after 1 minute. Only the illrigger who placed the seal knows it's there; it appears to the illrigger as a glowing glyph on the creature's forehead. If a creature with any of your seals on it dies, you can move all of its seals to another creature within range."
+            ]
+        },
+        {
+            "name": "Hellsight",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 3,
+            "entries": [
+                "When you reach 3rd level, your mastery of deception makes it easy for you to recognize the use of concealing sorcery. As an action, you extend your awareness out from you. Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.",
+                "You can use this feature a number of times equal to your Charisma modifier. When you finish a long rest, you regain your expended uses."
+            ]
+        },
+        {
+            "name": "Diabolic Contract",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 3,
+            "entries": [
+                "When you reach 3rd level, you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. You gain the Invoke Authority ability and choose either Painkiller, Shadowmaster, or Architect of Ruin as your archdevil.",
+                "Furthermore, you are a noble knight in the lists of Hell and will be accorded fine treatment and hospitality anywhere in Hell you travel, even to cities ruled by enemy archdevils. More cosmopolitan cities in the timescapeâ€”like Alloy, the City of Brassâ€”will also respect your noble rank.",
+                {
+                    "type": "refClassFeature",
+                    "classFeature": "Invoke Authority|Illrigger|WOR|3"
+                }
+            ]
+        },
+        {
+            "name": "Invoke Authority",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 3,
+            "entries": [
+                "You invoke the authority granted you by your archdevil, channelling baleful energy to fuel magical effects. Each Invoke Authority option provided by your archdevil explains how to use it",
+                "When you use your Invoke Authority, you choose which option to use. Once you use this feature, you must finish a long rest to use it again."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn"
+            ]
+        },
+        {
+            "name": "Baleful Interdict Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 6,
+            "entries": [
+                "At 6th level, due to your Contract, your interdiction carries more power."
+            ]
+        },
+        {
+            "name": "Diabolic Contract Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 7,
+            "entries": [
+                "At 7th level, you gain additional power from your Diabolic Contract."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Diabolic Contract Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 9,
+            "entries": [
+                "At 9th level, you gain additional power from your Diabolic Contract."
+            ]
+        },
+        {
+            "name": "Baleful Interdict Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 10,
+            "entries": [
+                "When you reach 10th level, you feel your connection to your archdevil increase. Your seals deal an extra {@dice 1d6} damage.",
+                "Your Contract also provides you interdiction with additional power."
+            ]
+        },
+        {
+            "name": "Improved Infernal Conduit",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 11,
+            "entries": [
+                "Beginning at 11th level, in addition to draining the life force of an enemy, you can also inflict one level of exhaustion on them. They may recover this exhaustion normally. This ability does not work if the target already has three or more levels of exhaustion, or if you have no dice left in your pool, and you cannot choose to inflict exhaustion {@i instead} of draining life."
+            ]
+        },
+        {
+            "name": "Improved Infernal Conduit",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 11,
+            "entries": [
+                "Beginning at 11th level, in addition to draining the life force of an enemy, you can also inflict one level of exhaustion on them. They may recover this exhaustion normally. This ability does not work if the target already has three or more levels of exhaustion, or if you have no dice left in your pool, and you cannot choose to inflict exhaustion {@i instead} of draining life."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Diabolic Contract Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 13,
+            "entries": [
+                "At 13th level, you gain additional power from your Diabolic Contract."
+            ]
+        },
+        {
+            "name": "Aura of Despair",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 14,
+            "entries": [
+                "Beginning at 14th level, you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a {@dice 1d4} and subtract the number rolled from the result."
+            ]
+        },
+        {
+            "name": "Summon Hell",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 15,
+            "entries": [
+                "Beginning at 15th level, as an action, you can summon a bone devil to serve you for 1 minute. The devil appears in an unoccupied space within 30 feet. It is bound to you and must obey your commands to the best of its ability. It acts on the same initiative that you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell. Once you use this feature, you must wait 1 week before you can use it again."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Diabolic Contract Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 17,
+            "entries": [
+                "At 17th level, you gain additional power from your Diabolic Contract."
+            ]
+        },
+        {
+            "name": "Baleful Interdict Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 18,
+            "entries": [
+                "At 18th level, due to your Contract, your interdiction carries more power."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Diabolic Contract Improvement",
+            "source": "WOR",
+            "className": "Illrigger",
+            "classSource": "WOR",
+            "level": 20,
+            "entries": [
+                "At 20th level, you gain ultimate power from your Diabolic Contract."
+            ]
+        }
+    ]
+}
