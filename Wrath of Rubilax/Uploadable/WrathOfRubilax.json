@@ -8,7 +8,7 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.1",
+                "version": "1.0.2",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
@@ -554,13 +554,6 @@
                         "_": []
                     }
                 ]
-            },
-            "classSpells": {
-                "description": "Homebrew use only",
-                "type": "array",
-                "items": {
-                    "$ref": "#/definitions/spellRef"
-                }
             },
             "multiclassing": {
                 "requirements": {
@@ -1748,10 +1741,10 @@
                 "Detect Magic",
                 "Disguise Self",
                 "Hellish Rebuke",
-                "hell's lash|ill",
+                "hell's lash|WOR",
                 "Shield of Faith",
-                "silent image|ill",
-                "single combat|ill",
+                "silent image|WOR",
+                "single combat|WOR",
                 "Augury",
                 "Blur",
                 "Darkness",
@@ -1768,7 +1761,7 @@
                 "Phantom Steed",
                 "Remove Curse",
                 "Revivify",
-                "mote of hell|ill",
+                "mote of hell|WOR",
                 "Tongues",
                 "Vampiric Touch",
                 "Banishment",
@@ -1779,13 +1772,13 @@
                 "Greater Invisibility",
                 "Hallucinatory Terrain",
                 "Phantasmal Killer",
-                "aura of desecration|ill",
+                "aura of desecration|WOR",
                 "Contact Other Plane",
                 "Dispel Evil and Good",
                 "Dream",
                 "Hold Monster",
                 "Mislead",
-                "wall of death|ill",
+                "wall of death|WOR",
                 "Circle of Death",
                 "Mass Suggestion",
                 "Planar Ally",
@@ -2689,6 +2682,22 @@
             ]
         }
     ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
     "spell": [
         {
             "name": "Aura of Desecration",
@@ -2959,22 +2968,6 @@
                     }
                 ]
             }
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
         }
     ],
     "optionalfeature": [
