@@ -80,7 +80,7 @@
             {
                 "name": "Rampage",
                 "entries": [
-                    "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@ib bite} attack."
+                    "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
                 ],
                 "type": "entries"
             },
@@ -91,8 +91,6 @@
                 ],
                 "type": "entries"
             }
-        ],
-        "hasFluff": true,
-        "hasFluffImages": true
+        ]
     }]
 }
