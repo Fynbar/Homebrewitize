@@ -1,0 +1,14 @@
+{
+    "sources": [{
+        "json": "MPSource",
+        "abbreviation": "MPE",
+        "full": "Merged Planes Enchiridion",
+        "authors": [
+            "Me"
+        ],
+        "version": "1.0.0",
+        "color": "c2b280"
+    }],
+    "dateAdded": 1620498967,
+    "dateLastModified": 1620498967
+}
