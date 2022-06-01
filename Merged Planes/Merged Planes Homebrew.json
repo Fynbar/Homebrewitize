@@ -18,7 +18,7 @@
         "source": "MPSource",
         "hd": {
             "number": 1,
-            "faces": 10
+            "faces": 12
         },
         "proficiency": [
             "con",
