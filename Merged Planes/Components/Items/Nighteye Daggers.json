@@ -1,0 +1,115 @@
+{
+    "_meta": {
+        "tested": "",
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "DGE",
+            "full": "DaggersTest",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.1",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967
+    },
+
+    "items": [{
+            "name": "Nighteye Dagger (I)",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Nighteye Dagger (II)",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Nighteye Dagger (III)",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "very rare",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 274,
+            "rarity": "varies",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat."
+            ],
+            "items": [
+                "Nighteye Dagger (I)|MPSource",
+                "Nighteye Dagger (II)|MPSource",
+                "Nighteye Dagger (III)|MPSource"
+            ],
+            "hasFluffImages": false
+        }
+    ]
+}
