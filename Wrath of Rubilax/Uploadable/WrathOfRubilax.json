@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.1",
+                "version": "1.0.0",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1658536589.0
+        "dateLastModified": 1620498967
     },
     "class": [
         {
@@ -30,6 +30,109 @@
                 "cha"
             ],
             "spellcastingAbility": "cha",
+            "classSpells": [
+                "Animal Friendship",
+                "Animal Messenger",
+                "Animate Objects",
+                "Awaken",
+                "Bane",
+                "Bestow Curse",
+                "Blindness/Deafness",
+                "Borrowed Knowledge|SCC",
+                "Calm Emotions",
+                "Catnap|XGE",
+                "Charm Monster|XGE",
+                "Charm Person",
+                "Clairvoyance",
+                "Cloud of Daggers",
+                "Comprehend Languages",
+                "Compulsion",
+                "Confusion",
+                "Crown of Madness",
+                "Cure Wounds",
+                "Detect Magic",
+                "Detect Thoughts",
+                "Dimension Door",
+                "Disguise Self",
+                "Dispel Magic",
+                "Dissonant Whispers",
+                "Distort Value|hAI",
+                "Dominate Person",
+                "Dream",
+                "Earth Tremor|XGE",
+                "Enemies Abound|XGE",
+                "Enhance Ability",
+                "Enthrall",
+                "Faerie Fire",
+                "Fast Friends|tAI",
+                "Fear",
+                "Feather Fall",
+                "Feign Death",
+                "Freedom of Movement",
+                "Geas",
+                "Gift of Gab|fAI",
+                "Glyph of Warding",
+                "Greater Invisibility",
+                "Greater Restoration",
+                "Hallucinatory Terrain",
+                "Healing Word",
+                "Heat Metal",
+                "Heroism",
+                "Hold Monster",
+                "Hold Person",
+                "Hypnotic Pattern",
+                "Identify",
+                "Illusory Script",
+                "Invisibility",
+                "Kinetic Jaunt|SCC",
+                "Knock",
+                "Legend Lore",
+                "Leomund's Tiny Hut",
+                "Lesser Restoration",
+                "Locate Animals or Plants",
+                "Locate Creature",
+                "Locate Object",
+                "Longstrider",
+                "Magic Mouth",
+                "Major Image",
+                "Mass Cure Wounds",
+                "Mislead",
+                "Modify Memory",
+                "Motivational Speech|tAI",
+                "Nathair's Mischief|FTD",
+                "Nondetection",
+                "Phantasmal Force",
+                "Planar Binding",
+                "Plant Growth",
+                "Polymorph",
+                "Pyrotechnics|XGE",
+                "Raise Dead",
+                "Raulothim's Psychic Lance|FTD",
+                "Scrying",
+                "See Invisibility",
+                "Seeming",
+                "Sending",
+                "Shatter",
+                "Silence",
+                "Silent Image",
+                "Silvery Barbs|SCC",
+                "Skill Empowerment|XGE",
+                "Skywrite|XGE",
+                "Sleep",
+                "Speak with Animals",
+                "Speak with Dead",
+                "Speak with Plants",
+                "Stinking Cloud",
+                "Suggestion",
+                "Synaptic Static|XGE",
+                "Tasha's Hideous Laughter",
+                "Teleportation Circle",
+                "Thunderwave",
+                "Tongues",
+                "Unseen Servant",
+                "Warding Wind|XGE",
+                "Zone of Truth"
+            ],
             "casterProgression": "1/2",
             "spellsKnownProgression": [
                 0,
@@ -162,17 +265,11 @@
                     ]
                 }
             },
-            "classSpells": [
-                {
-                    "className": "Bard",
-                    "classSource": "PHB"
-                }
-            ],
             "classTableGroups": [
                 {
                     "colLabels": [
                         "{@filter Dances|optionalfeatures|Feature Type=Dance}",
-                        "{@filter Spells Known|spells|class=bard}"
+                        "{@filter Spells Known|spells|class=Dancer (WOR)}"
                     ],
                     "rows": [
                         [
@@ -260,11 +357,11 @@
                 {
                     "title": "Spell Slots per Spell Level",
                     "colLabels": [
-                        "{@filter 1st|spells|level=1|class=bard}",
-                        "{@filter 2nd|spells|level=2|class=bard}",
-                        "{@filter 3rd|spells|level=3|class=bard}",
-                        "{@filter 4th|spells|level=4|class=bard}",
-                        "{@filter 5th|spells|level=5|class=bard}"
+                        "{@filter 1st|spells|level=1|class=Dancer (WOR)}",
+                        "{@filter 2nd|spells|level=2|class=Dancer (WOR)}",
+                        "{@filter 3rd|spells|level=3|class=Dancer (WOR)}",
+                        "{@filter 4th|spells|level=4|class=Dancer (WOR)}",
+                        "{@filter 5th|spells|level=5|class=Dancer (WOR)}"
                     ],
                     "rowsSpellProgression": [
                         [
@@ -772,7 +869,7 @@
                     "type": "entries",
                     "name": "Spell Slots",
                     "entries": [
-                        "The Dancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spellÃ¢â‚¬â„¢s level or higher. You regain all expended spell slots when you finish a long rest."
+                        "The Dancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest."
                     ]
                 },
                 {
@@ -1508,12 +1605,12 @@
                 {
                     "title": "Spell Slots per Spell Level",
                     "colLabels": [
-                        "{@filter 1st|spells|level=1|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 2nd|spells|level=2|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 3rd|spells|level=3|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 4th|spells|level=4|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 5th|spells|level=5|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 6th|spells|level=6|subclass=Illrigger: Architect of Ruin (WOR)}"
+                        "{@filter 1st|spells|level=1|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 2nd|spells|level=2|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 3rd|spells|level=3|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 4th|spells|level=4|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 5th|spells|level=5|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 6th|spells|level=6|subclass=Illrigger: Architect (WOR)}"
                     ],
                     "rows": [
                         [
@@ -2954,6 +3051,22 @@
             }
         }
     ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
     "monster": [
         {
             "name": "Stalfos",
@@ -3425,22 +3538,6 @@
             ]
         }
     ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
     "optionalfeature": [
         {
             "name": "Dance of the Dragon",
@@ -3487,7 +3584,7 @@
                     "type": "entries",
                     "name": "Active",
                     "entries": [
-                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weaponÃ¢â‚¬â„¢s damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
                     ]
                 },
                 {

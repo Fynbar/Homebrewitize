@@ -1500,12 +1500,12 @@
                 {
                     "title": "Spell Slots per Spell Level",
                     "colLabels": [
-                        "{@filter 1st|spells|level=1|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 2nd|spells|level=2|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 3rd|spells|level=3|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 4th|spells|level=4|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 5th|spells|level=5|subclass=Illrigger: Architect of Ruin (WOR)}",
-                        "{@filter 6th|spells|level=6|subclass=Illrigger: Architect of Ruin (WOR)}"
+                        "{@filter 1st|spells|level=1|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 2nd|spells|level=2|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 3rd|spells|level=3|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 4th|spells|level=4|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 5th|spells|level=5|subclass=Illrigger: Architect (WOR)}",
+                        "{@filter 6th|spells|level=6|subclass=Illrigger: Architect (WOR)}"
                     ],
                     "rows": [
                         [
