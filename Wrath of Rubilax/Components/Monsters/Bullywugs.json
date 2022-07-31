@@ -83,7 +83,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 },
                 {
@@ -193,7 +193,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],
@@ -308,7 +308,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],
@@ -434,7 +434,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],

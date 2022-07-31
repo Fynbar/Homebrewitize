@@ -2512,7 +2512,7 @@
             "subclassSource": "WOR",
             "level": 9,
             "entries": [
-                "Your mastery of shadow grants you advantage on Dexterity (Stealth) checks when taking the Hide action, and Hide becomes a bonus action for you.."
+                "Your mastery of shadow grants you advantage on Dexterity ({@skill Stealth}) checks when taking the Hide action, and Hide becomes a bonus action for you.."
             ]
         },
         {
@@ -4065,7 +4065,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 },
                 {
@@ -4175,7 +4175,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],
@@ -4290,7 +4290,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],
@@ -4416,7 +4416,7 @@
                 {
                     "name": "Swamp Camouflage",
                     "entries": [
-                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
                     ]
                 }
             ],
