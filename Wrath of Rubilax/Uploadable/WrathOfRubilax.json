@@ -2779,765 +2779,6 @@
             ]
         }
     ],
-    "spell": [
-        {
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    }
-                }
-            ],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "monster": [
-        {
-            "name": "Stalfos",
-            "source": "WOR",
-            "page": 272,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "armor scraps"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 25,
-                "formula": "3d8 + 12"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 18,
-            "dex": 14,
-            "con": 14,
-            "int": 8,
-            "wis": 8,
-            "cha": 8,
-            "skill": {
-                "athletics": "+6"
-            },
-            "senses": [
-                "darkvision 120 ft."
-            ],
-            "passive": 9,
-            "immune": [
-                "piercing",
-                "poison"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "languages": [
-                "understands Common"
-            ],
-            "cr": "2",
-            "trait": [
-                {
-                    "name": "Charge",
-                    "entries": [
-                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Stalfos Longsword.",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Charge"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "C",
-                "CS"
-            ],
-            "damageTags": [
-                "S"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        },
-        {
-            "name": "Stalkin",
-            "source": "WOR",
-            "page": 341,
-            "size": [
-                "T"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 7,
-                    "from": [
-                        "brittle bones"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 1,
-                "formula": "1d4 - 1"
-            },
-            "speed": {
-                "walk": 15
-            },
-            "str": 12,
-            "dex": 5,
-            "con": 8,
-            "int": 2,
-            "wis": 3,
-            "cha": 2,
-            "passive": 6,
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "immune": [
-                "poison"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "cr": "0",
-            "trait": [
-                {
-                    "name": "Pack Tactics",
-                    "entries": [
-                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Pin Prick",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Pack Tactics"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "conditionInflict": [
-                "prone"
-            ]
-        },
-        {
-            "name": "Stalhound",
-            "source": "WOR",
-            "page": 341,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 12,
-                    "from": [
-                        "bones"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 10,
-                "formula": "1d8 + 5"
-            },
-            "speed": {
-                "walk": 40
-            },
-            "str": 13,
-            "dex": 14,
-            "con": 20,
-            "int": 5,
-            "wis": 6,
-            "cha": 5,
-            "senses": [
-                "darkvision 120 ft."
-            ],
-            "passive": 8,
-            "immune": [
-                "poison"
-            ],
-            "resist": [
-                "piercing"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "poisoned"
-            ],
-            "cr": "1/4",
-            "trait": [
-                {
-                    "name": "Pack Tactics",
-                    "entries": [
-                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Pack Tactics"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "conditionInflict": [
-                "prone"
-            ]
-        },
-        {
-            "name": "Re-Dead",
-            "source": "WOR",
-            "page": 316,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N",
-                "E"
-            ],
-            "ac": [
-                8
-            ],
-            "hp": {
-                "average": 22,
-                "formula": "3d8 + 9"
-            },
-            "speed": {
-                "walk": 20
-            },
-            "str": 13,
-            "dex": 7,
-            "con": 16,
-            "int": 3,
-            "wis": 6,
-            "cha": 5,
-            "save": {
-                "wis": "+0"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 8,
-            "resist": [
-                "necrotic"
-            ],
-            "immune": [
-                "poison"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "languages": [
-                "understands all languages it spoke in life but can't speak"
-            ],
-            "cr": "1/2",
-            "trait": [
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
-                    ]
-                },
-                {
-                    "name": "Petrifying Gaze",
-                    "entries": [
-                        "Once per turn, the Re-Dead targets one creature it can see within 60 feet of it. If the target can see the Re-Dead, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Re-Dead's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Petrifying Gaze of all Re-Deads for the next 2 hours."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Undead Fortitude"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "CS",
-                "LF"
-            ],
-            "damageTags": [
-                "P",
-                "N"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        },
-        {
-            "name": "Gibdo",
-            "source": "WOR",
-            "page": 316,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "armor scraps"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 63,
-                "formula": "10d8 + 18"
-            },
-            "speed": {
-                "walk": 20
-            },
-            "str": 16,
-            "dex": 8,
-            "con": 15,
-            "int": 6,
-            "wis": 10,
-            "cha": 10,
-            "save": {
-                "wis": "+2"
-            },
-            "skill": {
-                "intimidation": "+3"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 10,
-            "vulnerable": [
-                "fire"
-            ],
-            "resist": [
-                {
-                    "resist": [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks",
-                    "cond": true
-                }
-            ],
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "frightened",
-                "paralyzed",
-                "poisoned"
-            ],
-            "languages": [
-                "understands all languages it spoke in life but can't speak"
-            ],
-            "cr": "3",
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
-                    ]
-                },
-                {
-                    "name": "Rotting Fist",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by {@h}4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
-                    ]
-                },
-                {
-                    "name": "Greatsword",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d12 + 3}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Dreadful Glare",
-                    "entries": [
-                        "The Gibdo targets one creature it can see within 60 feet of it. If the target can see the Gibdo, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Gibdo's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all Gibdos for the next 2 hours."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "C",
-                "UC"
-            ],
-            "damageTags": [
-                "P",
-                "N"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        }
-    ],
     "optionalfeature": [
         {
             "name": "Dance of the Dragon",
@@ -4122,6 +3363,1275 @@
             "featureType": [
                 "Dance"
             ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        }
+    ],
+    "monster": [
+        {
+            "name": "Stalfos",
+            "source": "WOR",
+            "page": 272,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 25,
+                "formula": "3d8 + 12"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 14,
+            "int": 8,
+            "wis": 8,
+            "cha": 8,
+            "skill": {
+                "athletics": "+6"
+            },
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 9,
+            "immune": [
+                "piercing",
+                "poison"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands Common"
+            ],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Stalfos Longsword.",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Charge"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "C",
+                "CS"
+            ],
+            "damageTags": [
+                "S"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Stalkin",
+            "source": "WOR",
+            "page": 341,
+            "size": [
+                "T"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 7,
+                    "from": [
+                        "brittle bones"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed": {
+                "walk": 15
+            },
+            "str": 12,
+            "dex": 5,
+            "con": 8,
+            "int": 2,
+            "wis": 3,
+            "cha": 2,
+            "passive": 6,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "immune": [
+                "poison"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "0",
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Pin Prick",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Pack Tactics"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Stalhound",
+            "source": "WOR",
+            "page": 341,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "bones"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 10,
+                "formula": "1d8 + 5"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 13,
+            "dex": 14,
+            "con": 20,
+            "int": 5,
+            "wis": 6,
+            "cha": 5,
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 8,
+            "immune": [
+                "poison"
+            ],
+            "resist": [
+                "piercing"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "poisoned"
+            ],
+            "cr": "1/4",
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Pack Tactics"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Re-Dead",
+            "source": "WOR",
+            "page": 316,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                8
+            ],
+            "hp": {
+                "average": 22,
+                "formula": "3d8 + 9"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 13,
+            "dex": 7,
+            "con": 16,
+            "int": 3,
+            "wis": 6,
+            "cha": 5,
+            "save": {
+                "wis": "+0"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist": [
+                "necrotic"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands all languages it spoke in life but can't speak"
+            ],
+            "cr": "1/2",
+            "trait": [
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
+                    ]
+                },
+                {
+                    "name": "Petrifying Gaze",
+                    "entries": [
+                        "Once per turn, the Re-Dead targets one creature it can see within 60 feet of it. If the target can see the Re-Dead, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Re-Dead's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Petrifying Gaze of all Re-Deads for the next 2 hours."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Undead Fortitude"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "CS",
+                "LF"
+            ],
+            "damageTags": [
+                "P",
+                "N"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Gibdo",
+            "source": "WOR",
+            "page": 316,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 63,
+                "formula": "10d8 + 18"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 16,
+            "dex": 8,
+            "con": 15,
+            "int": 6,
+            "wis": 10,
+            "cha": 10,
+            "save": {
+                "wis": "+2"
+            },
+            "skill": {
+                "intimidation": "+3"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "vulnerable": [
+                "fire"
+            ],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "languages": [
+                "understands all languages it spoke in life but can't speak"
+            ],
+            "cr": "3",
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
+                    ]
+                },
+                {
+                    "name": "Rotting Fist",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by {@h}4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d12 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Dreadful Glare",
+                    "entries": [
+                        "The Gibdo targets one creature it can see within 60 feet of it. If the target can see the Gibdo, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Gibdo's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all Gibdos for the next 2 hours."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "C",
+                "UC"
+            ],
+            "damageTags": [
+                "P",
+                "N"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Advanced Bullywug",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "c",
+                "n"
+            ],
+            "size": "M",
+            "hp": {
+                "formula": "4d8+6",
+                "average": 26
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item chain shirt|phb}",
+                        "{@item shield|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "cha": "10",
+            "wis": "11",
+            "int": "10",
+            "con": "14",
+            "str": "14",
+            "dex": "14",
+            "cr": "2",
+            "save": {
+                "dex": "+4"
+            },
+            "skill": {
+                "stealth": "+4",
+                "survival": "+2"
+            },
+            "passive": 10,
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The bullywug has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks: one with its bite and one with its shortsword."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Magic Resistance"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Boss",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "c",
+                "e"
+            ],
+            "size": "M",
+            "hp": {
+                "formula": "7d8+12",
+                "average": 47
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 40
+            },
+            "cha": "10",
+            "wis": "12",
+            "int": "10",
+            "con": "15",
+            "str": "16",
+            "dex": "14",
+            "cr": "3",
+            "save": {
+                "con": "+4"
+            },
+            "skill": {
+                "intimidation": "+2",
+                "stealth": "+4",
+                "survival": "+3"
+            },
+            "passive": 11,
+            "resist": [
+                "acid"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks with its pike or bite."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 14}). And if the target is Small or smaller, it is pulled up to 10 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled and in range, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug King/Queen",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "c",
+                "e"
+            ],
+            "size": "L",
+            "hp": {
+                "formula": "13d10+48",
+                "average": 126
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 60
+            },
+            "cha": "12",
+            "wis": "13",
+            "int": "12",
+            "con": "19",
+            "str": "18",
+            "dex": "14",
+            "cr": "5",
+            "save": {
+                "con": "+7",
+                "wis": "+4"
+            },
+            "skill": {
+                "intimidation": "+4",
+                "persuasion": "+4",
+                "stealth": "+5",
+                "survival": "+4"
+            },
+            "passive": 11,
+            "resist": [
+                "acid",
+                "poison"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two attacks with its battleaxe."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Battleaxe",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, range 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 15 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 15 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                },
+                {
+                    "name": "Stoke Fear (2/day)",
+                    "entries": [
+                        "Each creature of the bullywugÃ¢â‚¬â„¢s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queenÃ¢â‚¬â„¢s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Shaman",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "c",
+                "e"
+            ],
+            "size": "M",
+            "hp": {
+                "formula": "6d8+10",
+                "average": 40
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "cha": "9",
+            "wis": "16",
+            "int": "10",
+            "con": "14",
+            "str": "12",
+            "dex": "15",
+            "cr": "2",
+            "save": {
+                "int": "+2",
+                "wis": "+5"
+            },
+            "skill": {
+                "medicine": "+5",
+                "nature": "+2",
+                "stealth": "+4",
+                "survival": "+5"
+            },
+            "passive": 13,
+            "resist": [
+                "acid"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Perpetually Intoxicated",
+                    "entries": [
+                        "The bullywug has disadvantage on nonmagical attack rolls and ability checks. In addition, when the bullywug rolls damage for a spell it can reroll up to two damage dice. It must use the new rolls."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
+                    ],
+                    "ability": "wis",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell produce flame}"
+                            ]
+                        },
+                        "1": {
+                            "slots": 4,
+                            "spells": [
+                                "{@spell fog cloud}",
+                                "{@spell goodberry}",
+                                "{@spell thunderwave}"
+                            ]
+                        },
+                        "2": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell barkskin}",
+                                "{@spell spike growth}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell conjure animals} (amphibians only)"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "spellcastingTags": [
+                "CD"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bully makes two attacks, one with its bite and one with its quarterstaff."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Staff",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if wielded with two hands."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "WOR",
+            "page": 1
         }
     ]
 }

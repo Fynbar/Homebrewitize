@@ -28,7 +28,7 @@
                 "sword": true
             }],
             "inherits": {
-                "namePrefix": "Flame Tongue ",
+                "namePrefix": "Frost Tongue",
                 "source": "DMG",
                 "page": 170,
                 "srd": true,
@@ -36,10 +36,10 @@
                 "rarity": "rare",
                 "reqAttune": true,
                 "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 2d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
                 ]
             },
-            "hasFluffImages": true
+            "hasFluffImages": false
         }
     ],
     "items": [{
@@ -57,7 +57,7 @@
         "bonusSpellAttack": "+3",
         "bonusSpellSaveDc": "+3",
         "entries": [
-            "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+            "While holding this rod, you gain a {=bonusSpellAttack} bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
             "In addition, being attuned to this rod grants the following abilities. ",
             {
                 "type": "entries",
