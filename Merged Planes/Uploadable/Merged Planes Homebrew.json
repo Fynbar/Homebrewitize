@@ -1,129 +1,115 @@
 {
     "_meta": {
-        "sources": [
-            {
-                "json": "MPSource",
-                "abbreviation": "MPE",
-                "full": "Merged Planes Enchiridion",
-                "authors": [
-                    "Me"
-                ],
-                "version": "1.0.0",
-                "color": "c2b280"
-            }
-        ],
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "MPE",
+            "full": "Merged Planes Enchiridion",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "color": "c2b280"
+        }],
         "dateAdded": 1620498967,
         "dateLastModified": 1620498967
     },
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
+    "race": [{
+        "name": "Gnoll",
+        "source": "MPSource",
+        "page": 20,
+        "size": [
+            "M"
+        ],
+        "speed": 30,
+        "ability": [{
+            "str": 2,
+            "con": 1
+        }],
+        "heightAndWeight": {
+            "baseHeight": 66,
+            "heightMod": "2d10",
+            "baseWeight": 180,
+            "weightMod": "2d6"
+        },
+        "age": {
+            "mature": 20,
+            "max": 100
+        },
+        "darkvision": 60,
+        "traitTags": [
+            "Natural Weapon"
+        ],
+        "skillProficiencies": [{
+            "choose": {
+                "from": [
+                    "athletics",
+                    "intimidation",
+                    "perception",
+                    "survival"
+                ]
+            }
+        }],
+        "languageProficiencies": [{
+            "common": true,
+            "other": true
+        }],
+        "entries": [{
+                "name": "Age",
+                "type": "entries",
+                "entries": [
+                    "Gnoll mature and age at about the same rate as humans."
+                ]
             },
-            "age": {
-                "mature": 20,
-                "max": 100
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                ]
             },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
-    "variant": [
-        {
+            {
+                "name": "Darkvision",
+                "entries": [
+                    "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Bite",
+                "entries": [
+                    "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Hunter's Instincts",
+                "entries": [
+                    "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Rampage",
+                "entries": [
+                    "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read, and write Common and Gnoll."
+                ],
+                "type": "entries"
+            }
+        ]
+    }],
+    "variant": [{
             "name": "Glamoured Armor",
             "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
+            "requires": [{
+                "armor": true
+            }],
             "inherits": {
                 "namePrefix": "Glamoured ",
                 "source": "MPSource",
@@ -140,11 +126,9 @@
         {
             "name": "Flame Tongue",
             "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
+            "requires": [{
+                "sword": true
+            }],
             "inherits": {
                 "namePrefix": "Flame Tongue ",
                 "source": "DMG",
@@ -160,144 +144,44 @@
             "hasFluffImages": true
         }
     ],
-    "items": [
-        {
-            "name": "Veldrin's Pact Baton",
-            "source": "MPSource",
-            "page": 1,
-            "type": "RD",
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldrin",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, being attuned to this rod grants the following abilities. ",
-                {
-                    "type": "entries",
-                    "name": "Veldrin's Favor",
-                    "entries": [
-                        "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Veldrin's Protection",
-                    "entries": [
-                        "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened|PHB}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Veldrin's Arcana",
-                    "entries": [
-                        "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger (I)",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "uncommon",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Nighteye Dagger (II)",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Nighteye Dagger (III)",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "very rare",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 274,
-            "rarity": "varies",
-            "reqAttune": true,
-            "wondrous": true,
-            "entries": [
-                "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat."
-            ],
-            "items": [
-                "Nighteye Dagger (I)|MPSource",
-                "Nighteye Dagger (II)|MPSource",
-                "Nighteye Dagger (III)|MPSource"
-            ],
-            "hasFluffImages": false
-        }
-    ]
+    "items": [{
+        "name": "Veldrin's Pact Baton",
+        "source": "MPSource",
+        "page": 1,
+        "type": "RD",
+        "tier": "major",
+        "rarity": "legendary",
+        "reqAttune": "by a warlock of Veldrin",
+        "reqAttuneTags": [{
+            "class": "warlock"
+        }],
+        "weight": 2,
+        "bonusSpellAttack": "+3",
+        "bonusSpellSaveDc": "+3",
+        "entries": [
+            "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+            "In addition, being attuned to this rod grants the following abilities. ",
+            {
+                "type": "entries",
+                "name": "Veldrin's Favor",
+                "entries": [
+                    "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Veldrin's Protection",
+                "entries": [
+                    "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened|PHB}."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Veldrin's Arcana",
+                "entries": [
+                    "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                ]
+            }
+        ]
+    }]
 }
