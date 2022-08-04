@@ -12,7 +12,7 @@
             "color": "c2b280"
         }],
         "dateAdded": 1620498967,
-        "dateLastModified": 1659310354.0
+        "dateLastModified": 1659310355.0
     },
     "class": [{
             "name": "Dancer",
@@ -4321,7 +4321,7 @@
                 {
                     "name": "Stoke Fear (2/day)",
                     "entries": [
-                        "Each creature of the bullywugÃ¢â‚¬â„¢s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queenÃ¢â‚¬â„¢s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
                     ]
                 }
             ],
