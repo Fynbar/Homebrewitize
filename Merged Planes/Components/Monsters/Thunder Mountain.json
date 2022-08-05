@@ -15,7 +15,7 @@
         "dateLastModified": 1620498967,
         "tested": true
     },
-    "monsters": [{
+    "monster": [{
             "name": "Ilala Thunderscaler Lakumakanu",
             "type": {
                 "type": "Humanoid",
