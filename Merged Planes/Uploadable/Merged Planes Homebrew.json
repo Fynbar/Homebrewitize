@@ -13,7 +13,7 @@
         "dateAdded": 1620498967,
         "dateLastModified": 1659677222.0
     },
-    "monsters": [{
+    "monster": [{
             "name": "Veldarin, Archmage of Alyentlea",
             "type": {
                 "type": "Celestial",
