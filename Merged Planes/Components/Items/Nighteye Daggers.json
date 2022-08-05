@@ -1,20 +1,18 @@
 {
     "_meta": {
-        "tested": "",
         "sources": [{
             "json": "MPSource",
-            "abbreviation": "DGE",
-            "full": "DaggersTest",
+            "abbreviation": "MPE",
+            "full": "Merged Planes Enchiridion",
             "authors": [
                 "Me"
             ],
-            "version": "1.0.1",
+            "version": "1.0.0",
             "color": "c2b280"
         }],
         "dateAdded": 1620498967,
         "dateLastModified": 1620498967
     },
-
     "items": [{
             "name": "Nighteye Dagger (I)",
             "source": "MPSource",
@@ -38,8 +36,7 @@
             "entries": [
                 "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
                 "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
-            ],
-            "hasFluffImages": false
+            ]
         },
         {
             "name": "Nighteye Dagger (II)",
@@ -65,8 +62,7 @@
                 "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
                 "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
                 "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
-            ],
-            "hasFluffImages": false
+            ]
         },
         {
             "name": "Nighteye Dagger (III)",
@@ -91,16 +87,132 @@
             "entries": [
                 "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
                 "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
-            ],
-            "hasFluffImages": false
+            ]
         },
         {
+            "name": "Whisper (Dormant)",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "Forged with a mercurial metal accidentally drawn from the Realms Beyond, this dagger shimmers with an unsettling sourceless light. It was once wielded by {@creature Champion of Ravens|MPSource|Vax'ildan, a legendary champion of the Matron of Ravens}. Two raven feathers are linked to its pommel as a memento of its former bearer.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "While Whisper is in a dormant state, you gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                        "Additionally, when you score a critical hit with this dagger, the target must succeed on a {@dc 13} Wisdom {@quickref saving throws|PHB|2|1|saving throw} or become {@condition frightened} of you for 1 minute. On a success, the target is immune to this effect for 24 hours."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Whisper (Awakened)",
+            "source": "MPSource",
+            "bonusWeapon": "+2",
+            "_copy": {
+                "name": "Whisper (Dormant)",
+                "source": "MPSource",
+                "_preserve": {
+                    "page": true,
+                    "fluff": true
+                },
+                "_mod": {
+                    "entries": [{
+                        "mode": "appendArr",
+                        "items": {
+                            "entries": [{
+                                "type": "entries",
+                                "name": "Awakened",
+                                "entries": [
+                                    "When Whisper reaches an awakened state, you gain the following benefits:",
+                                    {
+                                        "type": "list",
+                                        "items": [
+                                            "The weapon's bonus to attack and damage rolls increases to +2. Additionally, when you hit with an attack using this dagger, the target takes an extra {@damage 1d6} psychic damage.",
+                                            "The DC to resist being {@condition frightened} from a critical hit increases to 15."
+                                        ]
+                                    }
+                                ]
+                            }]
+                        }
+                    }]
+                }
+            }
+        },
+        {
+            "name": "Whisper (Exalted)",
+            "source": "MPSource",
+            "bonusWeapon": "+3",
+            "_copy": {
+                "name": "Whisper (Awakened)",
+                "source": "MPSource",
+                "_preserve": {
+                    "page": true,
+                    "fluff": true
+                },
+                "_mod": {
+                    "entries": [{
+                        "mode": "appendArr",
+                        "items": {
+                            "entries": [{
+                                "type": "entries",
+                                "name": "Exalted",
+                                "entries": [
+                                    "When Whisper reaches an exalted state, you gain the following benefits:",
+                                    {
+                                        "type": "list",
+                                        "items": [
+                                            "The weapon's bonus to attack and damage rolls increases to +3, and the extra psychic damage it deals increases to {@dice 1d8}.",
+                                            "The DC to resist being {@condition frightened} from a critical hit increases to 17.",
+                                            "When this dagger is used to make a ranged attack, you can choose to transform into shadow and merge with the blade as part of the action used to attack, teleporting to another location. If the attack hits, you appear in an unoccupied space of your choice within 5 feet of the target. If the attack misses, you appear where the GM determines the dagger lands (typically within {@dice 1d6 × 5} feet of the target). In either case, you appear with the dagger in your hand."
+                                        ]
+                                    }
+                                ]
+                            }]
+                        }
+                    }]
+                }
+            }
+        }
+    ],
+    "itemGroup": [{
             "name": "Nighteye Dagger",
             "source": "MPSource",
-            "page": 274,
-            "rarity": "varies",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
             "reqAttune": true,
-            "wondrous": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
             "entries": [
                 "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat."
             ],
@@ -108,8 +220,37 @@
                 "Nighteye Dagger (I)|MPSource",
                 "Nighteye Dagger (II)|MPSource",
                 "Nighteye Dagger (III)|MPSource"
+            ]
+        },
+        {
+            "name": "Whisper",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
             ],
-            "hasFluffImages": false
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "Forged with a mercurial metal accidentally drawn from the Realms Beyond, this dagger shimmers with an unsettling sourceless light. It was once wielded by {@creature Champion of Ravens|MPSource|Vax'ildan, a legendary champion of the Matron of Ravens}. Two raven feathers are linked to its pommel as a memento of its former bearer."
+            ],
+            "items": [
+                "Whisper (Dormant)|MPSource",
+                "Whisper (Awakened)|MPSource",
+                "Whisper (Exalted)|MPSource"
+            ]
         }
     ]
 }
