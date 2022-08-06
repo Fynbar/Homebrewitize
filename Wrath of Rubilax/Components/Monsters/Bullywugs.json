@@ -3,7 +3,7 @@
         "sources": [{
             "json": "WOR",
             "abbreviation": "WOR",
-            "full": "Test Auto Souce",
+            "full": "Test Auto Souce - Bullywugs",
             "authors": [
                 "Me"
             ],
@@ -28,27 +28,27 @@
                 "n"
             ],
             "size": "M",
-            "hp": {
-                "formula": "4d8+6",
-                "average": 26
-            },
-            "ac": [{
-                "ac": 17,
-                "from": [
-                    "{@item chain shirt|phb}",
-                    "{@item shield|phb}"
-                ]
-            }],
-            "speed": {
-                "walk": 30,
-                "swim": 40
-            },
             "cha": "10",
             "wis": "11",
             "int": "10",
             "con": "14",
             "str": "14",
             "dex": "14",
+            "hp": {
+                "formula": "4d8 + 6",
+                "average": 26
+            },
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "{@item shield|phb}",
+                    "{@item chain shirt|phb}"
+                ]
+            }],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
             "cr": "2",
             "save": {
                 "dex": "+4"
@@ -135,8 +135,14 @@
                 "e"
             ],
             "size": "M",
+            "cha": "10",
+            "wis": "12",
+            "int": "10",
+            "con": "15",
+            "str": "16",
+            "dex": "14",
             "hp": {
-                "formula": "7d8+12",
+                "formula": "7d8 + 12",
                 "average": 47
             },
             "ac": [{
@@ -149,12 +155,6 @@
                 "walk": 25,
                 "swim": 40
             },
-            "cha": "10",
-            "wis": "12",
-            "int": "10",
-            "con": "15",
-            "str": "16",
-            "dex": "14",
             "cr": "3",
             "save": {
                 "con": "+4"
@@ -244,8 +244,14 @@
                 "e"
             ],
             "size": "L",
+            "cha": "12",
+            "wis": "13",
+            "int": "12",
+            "con": "19",
+            "str": "18",
+            "dex": "14",
             "hp": {
-                "formula": "13d10+48",
+                "formula": "13d10 + 48",
                 "average": 126
             },
             "ac": [{
@@ -258,12 +264,6 @@
                 "walk": 30,
                 "swim": 60
             },
-            "cha": "12",
-            "wis": "13",
-            "int": "12",
-            "con": "19",
-            "str": "18",
-            "dex": "14",
             "cr": "5",
             "save": {
                 "con": "+7",
@@ -339,7 +339,7 @@
                 {
                     "name": "Stoke Fear (2/day)",
                     "entries": [
-                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                        "Each creature of the bullywug’s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen’s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
                     ]
                 }
             ],
@@ -365,8 +365,14 @@
                 "e"
             ],
             "size": "M",
+            "cha": "9",
+            "wis": "16",
+            "int": "10",
+            "con": "14",
+            "str": "12",
+            "dex": "15",
             "hp": {
-                "formula": "6d8+10",
+                "formula": "6d8 + 10",
                 "average": 40
             },
             "ac": [{
@@ -379,12 +385,6 @@
                 "walk": 20,
                 "swim": 40
             },
-            "cha": "9",
-            "wis": "16",
-            "int": "10",
-            "con": "14",
-            "str": "12",
-            "dex": "15",
             "cr": "2",
             "save": {
                 "int": "+2",
@@ -440,10 +440,6 @@
             ],
             "spellcasting": [{
                 "name": "Spellcasting",
-                "headerEntries": [
-                    "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
-                ],
-                "ability": "wis",
                 "spells": {
                     "0": {
                         "spells": [
@@ -453,28 +449,31 @@
                         ]
                     },
                     "1": {
-                        "slots": 4,
                         "spells": [
                             "{@spell fog cloud}",
                             "{@spell goodberry}",
                             "{@spell thunderwave}"
-                        ]
+                        ],
+                        "slots": 4
                     },
                     "2": {
-                        "slots": 3,
                         "spells": [
                             "{@spell barkskin}",
                             "{@spell spike growth}"
-                        ]
+                        ],
+                        "slots": 3
                     },
                     "3": {
-                        "slots": 2,
                         "spells": [
                             "{@spell call lightning}",
                             "{@spell conjure animals} (amphibians only)"
-                        ]
+                        ],
+                        "slots": 2
                     }
-                }
+                },
+                "headerEntries": [
+                    "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
+                ]
             }],
             "spellcastingTags": [
                 "CD"
@@ -494,7 +493,7 @@
                 {
                     "name": "Staff",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if wielded with two hands."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 (1d6 + 2) bludgeoning damage, or 5 (1d8 + 2) bludgeoning damage if wielded with two hands."
                     ]
                 }
             ],
@@ -507,5 +506,6 @@
             "source": "WOR",
             "page": 1
         }
-    ]
+    ],
+    "legendaryGroup": []
 }
