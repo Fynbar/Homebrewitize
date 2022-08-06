@@ -1,5 +1,17 @@
 {
     "_meta": {
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "MPE",
+            "full": "Merged Planes Enchiridion",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
         "tested": true
     },
     "variant": [{
@@ -22,14 +34,14 @@
             }
         },
         {
-            "name": "Flame Tongue",
+            "name": "Frost Tongue",
             "type": "GV",
             "requires": [{
                 "sword": true
             }],
             "inherits": {
-                "namePrefix": "Frost Tongue",
-                "source": "DMG",
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
                 "page": 170,
                 "srd": true,
                 "tier": "major",
@@ -42,7 +54,7 @@
             "hasFluffImages": false
         }
     ],
-    "items": [{
+    "item": [{
         "name": "Veldrin's Pact Baton",
         "source": "MPSource",
         "page": 1,
@@ -57,27 +69,30 @@
         "bonusSpellAttack": "+3",
         "bonusSpellSaveDc": "+3",
         "entries": [
-            "While holding this rod, you gain a {=bonusSpellAttack} bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-            "In addition, being attuned to this rod grants the following abilities. ",
+            "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+            "In addition, being attuned to this rod grants the following abilities.",
             {
-                "type": "entries",
-                "name": "Veldrin's Favor",
-                "entries": [
-                    "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Veldrin's Protection",
-                "entries": [
-                    "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened|PHB}."
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Veldrin's Arcana",
-                "entries": [
-                    "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                "type": "list",
+                "items": [{
+                        "name": "Veldrin's Favor",
+                        "entries": [
+                            "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Veldrin's Protection",
+                        "entries": [
+                            "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Veldrin's Arcana",
+                        "entries": [
+                            "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                        ]
+                    }
                 ]
             }
         ]
