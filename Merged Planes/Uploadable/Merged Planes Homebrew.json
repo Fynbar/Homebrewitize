@@ -8,163 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.8",
+                "version": "1.0.9",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1659766146.0
+        "dateLastModified": 1659767023.0
     },
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
     "item": [
         {
             "name": "Veldrin's Pact Baton",
@@ -767,51 +617,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
         }
     ],
     "monster": [
@@ -3698,7 +3503,11 @@
                                     "name": "{@b Ice Breath}",
                                     "entry": ": As an action the Tyrant exhales in a 15 ft. cone. Each creature in range must make a 17 {@dc Constitution} saving throw, taking 17 ({@damage 5d6}) cold damage on a failed save, or half as much damage on a successful one."
                                 },
-                                "{@b Dragon Roar}: The Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute repeating the saving throw if it takes any damage."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Dragon Roar}",
+                                    "entry": ": The Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute repeating the saving throw if it takes any damage."
+                                }
                             ]
                         }
                     ]
@@ -3715,7 +3524,11 @@
                                     "name": "{@b Conquering Presence}",
                                     "entry": ": As an action, the Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or becomes {@condition frightened} of the Tyrant for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
                                 },
-                                "{@b Guided Strike}: When the Tyrant makes an attack roll they can gain a +10 bonus to the roll."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Guided Strike}",
+                                    "entry": ": When the Tyrant makes an attack roll they can gain a +10 bonus to the roll."
+                                }
                             ]
                         }
                     ]
@@ -4531,7 +4344,11 @@
                                     "name": "{@b Order's Demand}",
                                     "entry": ": Each creature of choice within 30 feet of the Ice Queen must succeed a {@dc 18} Wisdom saving throw or be {@condition charmed} until the end of their next turn or until the charmed creature takes any damage. The Ice Queen can also cause any of the charmed creatures to drop what they are holding."
                                 },
-                                "{@b Turn Undead}: Each undead within 30 feet of the Ice Queen must make a {@dc 18} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Ice Queen as it can, can’t willingly move to a space within 30 feet of the Ice Queen, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move. When an undead of CR {@b 3} or lower fails its saving throw, the creature is instantly destroyed."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": ": Each undead within 30 feet of the Ice Queen must make a {@dc 18} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Ice Queen as it can, can’t willingly move to a space within 30 feet of the Ice Queen, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move. When an undead of CR {@b 3} or lower fails its saving throw, the creature is instantly destroyed."
+                                }
                             ]
                         }
                     ]
@@ -6509,8 +6326,16 @@
                                     "name": "{@b 1-2}",
                                     "entry": ": The creature's walking speed decreases by 10ft. Any additional movement speeds the creature has are halved."
                                 },
-                                "{@b 3-4}: The creature takes an additional 7 ({@damage 2d6}) piercing damage each turn and it's hit point maximum decreases by that value. The reduction lasts until the disease ends.",
-                                "{@b 5-6}: The creature has a -2 penalty to ability checks and attack rolls."
+                                {
+                                    "type": "item",
+                                    "name": "{@b 3-4}",
+                                    "entry": ": The creature takes an additional 7 ({@damage 2d6}) piercing damage each turn and it's hit point maximum decreases by that value. The reduction lasts until the disease ends."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b 5-6}",
+                                    "entry": ": The creature has a -2 penalty to ability checks and attack rolls."
+                                }
                             ]
                         },
                         ">The disease lasts until the scarabs are removed from the creature."
@@ -6584,9 +6409,21 @@
                                     "name": "{@i Forbiddance}",
                                     "entry": ": The vampire can't enter a residence without an invitation from one of the occupants."
                                 },
-                                "{@i Harmed by Running Water}:   The vampire takes 20 acid damage when it ends its turn in running water.",
-                                "{@i Stake to the Heart}:   The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
-                                "{@i Sunlight Hypersensitivity}:   The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                                {
+                                    "type": "item",
+                                    "name": "{@i Harmed by Running Water}",
+                                    "entry": ": The vampire takes 20 acid damage when it ends its turn in running water."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Stake to the Heart}",
+                                    "entry": ": The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Sunlight Hypersensitivity}",
+                                    "entry": ": The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                                }
                             ]
                         }
                     ]
@@ -6677,9 +6514,21 @@
                                     "name": "{@i Forbiddance}",
                                     "entry": ":  The vampire can't enter a residence without an invitation from one of the occupants."
                                 },
-                                "{@i Harmed by Running Water}:  The vampire takes 20 acid damage when it ends its turn in running water.",
-                                "{@i Stake to the Heart}:  The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
-                                "{@i Sunlight Hypersensitivity}:  The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                                {
+                                    "type": "item",
+                                    "name": "{@i Harmed by Running Water}",
+                                    "entry": ":  The vampire takes 20 acid damage when it ends its turn in running water."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Stake to the Heart}",
+                                    "entry": ":  The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Sunlight Hypersensitivity}",
+                                    "entry": ":  The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                                }
                             ]
                         }
                     ]
@@ -7460,7 +7309,11 @@
                                     "name": "{@b Preserve Life}",
                                     "entry": ": The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
                                 },
-                                "{@b Turn Undead}: Each undead within 30 feet of the S.C.A.L.P.E.L. Unit must make a {@dc 17} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the S.C.A.L.P.E.L. Unit as it can, can’t willingly move to a space within 30 feet of the S.C.A.L.P.E.L. Unit, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": ": Each undead within 30 feet of the S.C.A.L.P.E.L. Unit must make a {@dc 17} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the S.C.A.L.P.E.L. Unit as it can, can’t willingly move to a space within 30 feet of the S.C.A.L.P.E.L. Unit, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                }
                             ]
                         }
                     ]
@@ -7622,7 +7475,11 @@
                                     "name": "{@b Preserve Life}",
                                     "entry": ": The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
                                 },
-                                "{@b Turn Undead}: Each undead within 30 feet of the S.C.A.L.P.E.L. Unit must make a {@dc 14} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the S.C.A.L.P.E.L. Unit as it can, can’t willingly move to a space within 30 feet of the S.C.A.L.P.E.L. Unit, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": ": Each undead within 30 feet of the S.C.A.L.P.E.L. Unit must make a {@dc 14} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the S.C.A.L.P.E.L. Unit as it can, can’t willingly move to a space within 30 feet of the S.C.A.L.P.E.L. Unit, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                }
                             ]
                         }
                     ]
@@ -7843,7 +7700,11 @@
                                     "name": "{@b Preserve Life}",
                                     "entry": ": The D.E.A.C.O.N. restores 85 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
                                 },
-                                "{@b Turn Undead}: Each undead within 30 feet of the D.E.A.C.O.N. must make a {@dc 19} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the D.E.A.C.O.N. as it can, can’t willingly move to a space within 30 feet of D.E.A.C.O.N., take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move. When an undead of CR {@b 4} or lower fails its saving throw, the creature is instantly destroyed."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": ": Each undead within 30 feet of the D.E.A.C.O.N. must make a {@dc 19} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the D.E.A.C.O.N. as it can, can’t willingly move to a space within 30 feet of D.E.A.C.O.N., take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move. When an undead of CR {@b 4} or lower fails its saving throw, the creature is instantly destroyed."
+                                }
                             ]
                         }
                     ]
@@ -8767,7 +8628,11 @@
                                     "name": "{@b Destructive Wrath}",
                                     "entry": ": When the Lightning Scribe rolls lightning or thunder damage, they can use their Channel Divinity to deal maximum damage, instead of rolling."
                                 },
-                                "{@b Turn Undead}: Each undead within 30 feet of the Lightning Scribe must make a {@dc 13} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Lightning Scribe as it can, can’t willingly move to a space within 30 feet of the Lightning Scribe, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": ": Each undead within 30 feet of the Lightning Scribe must make a {@dc 13} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Lightning Scribe as it can, can’t willingly move to a space within 30 feet of the Lightning Scribe, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                }
                             ]
                         }
                     ]
@@ -8791,6 +8656,44 @@
             "actionTags": [],
             "source": "MPSource",
             "page": 1
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
         }
     ],
     "race": [
@@ -8889,6 +8792,163 @@
                         "You can speak, read, and write Common and Gnoll."
                     ],
                     "type": "entries"
+                }
+            ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
                 }
             ]
         }
