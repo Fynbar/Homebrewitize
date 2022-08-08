@@ -8,13 +8,158 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.12",
+                "version": "1.0.13",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1659767713.0
+        "dateLastModified": 1659933115.0
     },
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ],
     "itemGroup": [
         {
             "name": "Nighteye Dagger",
@@ -53,6 +198,118 @@
             ]
         }
     ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
     "monster": [
         {
             "name": "Veldarin, Archmage of Alyentlea",
@@ -63,8 +320,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "M",
             "cha": "27",
@@ -230,6 +487,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Veldarin's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
                     ],
@@ -249,6 +507,7 @@
                 },
                 {
                     "name": "Spell Mastery",
+                    "ritLine": "",
                     "headerEntries": [
                         "Veldarin's innate spellcasting ability is Intelligence (spell save {@dc 27}, {@hit 19} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -266,6 +525,7 @@
                 },
                 {
                     "name": "Ritual Casting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Veldarin's innate spellcasting ability is Intelligence (spell save {@dc 27}, {@hit 19} to hit with spell attacks). It can innately cast the following spells at will, taking 10 minutes longer to cast than normal:"
                     ],
@@ -281,6 +541,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -496,10 +757,521 @@
             }
         },
         {
+            "name": "Advanced Bullywug",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": "10",
+            "wis": "11",
+            "int": "10",
+            "con": "14",
+            "str": "14",
+            "dex": "14",
+            "hp": {
+                "formula": "4d8 + 6",
+                "average": 26
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "cr": "2",
+            "save": {
+                "dex": "+4"
+            },
+            "skill": {
+                "stealth": "+4",
+                "survival": "+2"
+            },
+            "passive": 10,
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The bullywug has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks: one with its bite and one with its shortsword."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Magic Resistance"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Boss",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "M",
+            "cha": "10",
+            "wis": "12",
+            "int": "10",
+            "con": "15",
+            "str": "16",
+            "dex": "14",
+            "hp": {
+                "formula": "7d8 + 12",
+                "average": 47
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 40
+            },
+            "cr": "3",
+            "save": {
+                "con": "+4"
+            },
+            "skill": {
+                "intimidation": "+2",
+                "stealth": "+4",
+                "survival": "+3"
+            },
+            "passive": 11,
+            "resist": [
+                "acid"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks with its pike or bite."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 14}). And if the target is Small or smaller, it is pulled up to 10 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled and in range, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
+            "name": "Bullywug King/Queen",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "L",
+            "cha": "12",
+            "wis": "13",
+            "int": "12",
+            "con": "19",
+            "str": "18",
+            "dex": "14",
+            "hp": {
+                "formula": "13d10 + 48",
+                "average": 126
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 60
+            },
+            "cr": "5",
+            "save": {
+                "con": "+7",
+                "wis": "+4"
+            },
+            "skill": {
+                "intimidation": "+4",
+                "persuasion": "+4",
+                "stealth": "+5",
+                "survival": "+4"
+            },
+            "passive": 11,
+            "resist": [
+                "acid",
+                "poison"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two attacks with its battleaxe."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Battleaxe",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, range 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 15 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 15 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                },
+                {
+                    "name": "Stoke Fear (2/day)",
+                    "entries": [
+                        "Each creature of the bullywug’s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen’s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Shaman",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "M",
+            "cha": "9",
+            "wis": "16",
+            "int": "10",
+            "con": "14",
+            "str": "12",
+            "dex": "15",
+            "hp": {
+                "formula": "6d8 + 10",
+                "average": 40
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "cr": "2",
+            "save": {
+                "int": "+2",
+                "wis": "+5"
+            },
+            "skill": {
+                "medicine": "+5",
+                "nature": "+2",
+                "stealth": "+4",
+                "survival": "+5"
+            },
+            "passive": 13,
+            "resist": [
+                "acid"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Perpetually Intoxicated",
+                    "entries": [
+                        "The bullywug has disadvantage on nonmagical attack rolls and ability checks. In addition, when the bullywug rolls damage for a spell it can reroll up to two damage dice. It must use the new rolls."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "ritLine": "",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell produce flame}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell fog cloud}",
+                                "{@spell goodberry}",
+                                "{@spell thunderwave}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell barkskin}",
+                                "{@spell spike growth}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell conjure animals} (amphibians only)"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CD"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bully makes two attacks, one with its bite and one with its quarterstaff."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Staff",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 (1d6 + 2) bludgeoning damage, or 5 (1d8 + 2) bludgeoning damage if wielded with two hands."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
             "name": "Ancient Gold Shadow Dragon",
             "type": "Dragon",
             "alignment": [
-                "e"
+                "N",
+                "E"
             ],
             "size": "G",
             "cha": "28",
@@ -585,6 +1357,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Ancient Gold Shadow Dragon's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -695,14 +1468,14 @@
         {
             "name": "Le Capitaine",
             "type": {
-                "type": "Humanoid",
+                "type": "Fey",
                 "tags": [
                     "changeling"
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "19",
@@ -793,6 +1566,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Le Capitaine's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -806,6 +1580,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -917,14 +1692,14 @@
         {
             "name": "Syl, Usurper of Gods",
             "type": {
-                "type": "Humanoid",
+                "type": "Fey",
                 "tags": [
                     "changeling"
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "22",
@@ -1060,7 +1835,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Arcana",
+                    "name": "Velradin's Arcana",
                     "entries": [
                         "All cantrips Syl casts act as if they are cast one tier higher than they are; either using an additional damage dice or targeting an additional creature."
                     ]
@@ -1081,6 +1856,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Syl's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
                     ],
@@ -1104,6 +1880,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): find familiar",
                     "spells": {
                         "0": {
                             "spells": [
@@ -1137,6 +1914,17 @@
                     },
                     "headerEntries": [
                         "Syl is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Syl has the following warlock spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "Syl's ritual spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell find familiar}"
                     ]
                 }
             ],
@@ -1195,7 +1983,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Favor (2/Long Rest)",
+                    "name": "Velradin's Favor (2/Long Rest)",
                     "entries": [
                         "Syl regains one warlock spell slot."
                     ]
@@ -1284,16 +2072,16 @@
             }
         },
         {
-            "name": "Sylvester, Avatar of Veldrin",
+            "name": "Sylvester, Avatar of Velradin",
             "type": {
-                "type": "Humanoid",
+                "type": "Fey",
                 "tags": [
                     "changeling"
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "22",
@@ -1429,7 +2217,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Arcana",
+                    "name": "Velradin's Arcana",
                     "entries": [
                         "All cantrips Sylvester casts act as if they are cast one tier higher than they are; either using an additional damage dice or targeting an additional creature."
                     ]
@@ -1444,6 +2232,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
                     ],
@@ -1460,6 +2249,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): find familiar",
                     "spells": {
                         "0": {
                             "spells": [
@@ -1493,6 +2283,17 @@
                     },
                     "headerEntries": [
                         "Sylvester is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Sylvester has the following warlock spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "Sylvester's ritual spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell find familiar}"
                     ]
                 }
             ],
@@ -1545,7 +2346,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Favor (2/Long Rest)",
+                    "name": "Velradin's Favor (2/Long Rest)",
                     "entries": [
                         "Sylvester regains one warlock spell slot."
                     ]
@@ -1572,7 +2373,7 @@
                 }
             ],
             "legendaryHeader": [
-                "The Avatar of Veldrin can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Avatar regains spent legendary actions at the start of its turn."
+                "The Avatar of Velradin can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Avatar regains spent legendary actions at the start of its turn."
             ],
             "legendary": [
                 {
@@ -1632,14 +2433,14 @@
         {
             "name": "Sylvester",
             "type": {
-                "type": "Humanoid",
+                "type": "Fey",
                 "tags": [
                     "changeling"
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "22",
@@ -1743,7 +2544,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Arcana",
+                    "name": "Velradin's Arcana",
                     "entries": [
                         "All cantrips Sylvester casts act as if they are cast one tier higher than they are; either using an additional damage dice or targeting an additional creature."
                     ]
@@ -1764,6 +2565,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
                     ],
@@ -1780,6 +2582,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): find familiar",
                     "spells": {
                         "0": {
                             "spells": [
@@ -1813,6 +2616,17 @@
                     },
                     "headerEntries": [
                         "Sylvester is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Sylvester has the following warlock spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "Sylvester's ritual spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell find familiar}"
                     ]
                 }
             ],
@@ -1865,7 +2679,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Favor (Recharges after a Long Rest)",
+                    "name": "Velradin's Favor (Recharges after a Long Rest)",
                     "entries": [
                         "The Scholar regains one warlock spell slot."
                     ]
@@ -1904,14 +2718,14 @@
         {
             "name": "Sylvester",
             "type": {
-                "type": "Humanoid",
+                "type": "Fey",
                 "tags": [
                     "changeling"
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "22",
@@ -2015,7 +2829,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Arcana",
+                    "name": "Velradin's Arcana",
                     "entries": [
                         "All cantrips Sylvester casts act as if they are cast one tier higher than they are; either using an additional damage dice or targeting an additional creature."
                     ]
@@ -2036,6 +2850,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
                     ],
@@ -2052,6 +2867,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): find familiar",
                     "spells": {
                         "0": {
                             "spells": [
@@ -2085,6 +2901,17 @@
                     },
                     "headerEntries": [
                         "Sylvester is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Sylvester has the following warlock spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "Sylvester's ritual spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell find familiar}"
                     ]
                 }
             ],
@@ -2137,7 +2964,7 @@
                     ]
                 },
                 {
-                    "name": "Veldrin's Favor (2/Long Rest)",
+                    "name": "Velradin's Favor (2/Long Rest)",
                     "entries": [
                         "The Scholar regains one warlock spell slot."
                     ]
@@ -2182,8 +3009,8 @@
                 ]
             },
             "alignment": [
-                "l",
-                "g"
+                "L",
+                "G"
             ],
             "size": "M",
             "cha": "18",
@@ -2281,6 +3108,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Osxian's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -2291,6 +3119,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -2365,8 +3194,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "g"
+                "C",
+                "G"
             ],
             "size": "M",
             "cha": "18",
@@ -2448,6 +3277,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -2529,8 +3359,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "M",
             "cha": "20",
@@ -2647,6 +3477,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "Carrion's innate spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
                     ],
@@ -2666,6 +3497,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): alarm, find familiar, forbiddance, identify, leomund's tiny hut",
                     "spells": {
                         "0": {
                             "spells": [
@@ -2701,6 +3533,21 @@
                     },
                     "headerEntries": [
                         "Carrion is a 16th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Carrion has the following warlock spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "Carrion's ritual spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell alarm}",
+                        "{@spell find familiar}",
+                        "{@spell forbiddance}",
+                        "{@spell identify}",
+                        "{@spell leomund's tiny hut}"
                     ]
                 }
             ],
@@ -2756,8 +3603,8 @@
                 ]
             },
             "alignment": [
-                "l",
-                "e"
+                "L",
+                "E"
             ],
             "size": "M",
             "cha": "20",
@@ -2855,6 +3702,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "1": {
                             "spells": [
@@ -3029,8 +3877,8 @@
                 ]
             },
             "alignment": [
-                "n",
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "18",
@@ -3116,6 +3964,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Scholar's innate spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -3132,6 +3981,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -3274,8 +4124,8 @@
                 ]
             },
             "alignment": [
-                "l",
-                "e"
+                "L",
+                "E"
             ],
             "size": "M",
             "cha": "8",
@@ -3403,6 +4253,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Nomad's innate spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -3419,6 +4270,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "1": {
                             "spells": [
@@ -3556,8 +4408,8 @@
                 ]
             },
             "alignment": [
-                "l",
-                "n"
+                "L",
+                "N"
             ],
             "size": "M",
             "cha": "10",
@@ -3644,6 +4496,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Ice Queen can cast the following spells innately (spell save {@dc 13}). She can innately cast the following spells, requiring no material components:"
                     ],
@@ -3655,6 +4508,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -3833,8 +4687,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "M",
             "cha": "12",
@@ -3940,6 +4794,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual Spells (at will): comprehend languages, find familiar, identify, leomund's tiny hut, rary's telepathic bond, unseen servant",
                     "spells": {
                         "0": {
                             "spells": [
@@ -4022,7 +4877,24 @@
                     ]
                 },
                 {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "The Stranger's ritual spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell comprehend languages}",
+                        "{@spell find familiar}",
+                        "{@spell identify}",
+                        "{@spell leomund's tiny hut}",
+                        "{@spell rary's telepathic bond}",
+                        "{@spell unseen servant}"
+                    ]
+                },
+                {
                     "name": "Spell Mastery",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Stranger's innate spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -4142,7 +5014,8 @@
                 ]
             },
             "alignment": [
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "16",
@@ -4254,22 +5127,20 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
-                        "Zhihlah, The Widow's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
+                        "The Zhihlah, The Widow's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
                     "ability": "cha",
                     "will": [
                         "{@spell poison spray}",
-                        "{@spell animal friendship}*"
+                        "{@spell animal friendship} (On snakes only)"
                     ],
                     "daily": {
                         "1e": [
                             "{@spell suggestion}"
                         ]
-                    },
-                    "footerEntries": [
-                        "*On snakes only"
-                    ]
+                    }
                 }
             ],
             "spellcastingTags": [
@@ -4313,7 +5184,8 @@
                 ]
             },
             "alignment": [
-                "e"
+                "N",
+                "E"
             ],
             "size": "M",
             "cha": "16",
@@ -4439,6 +5311,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Thief's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -4530,8 +5403,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "n"
+                "C",
+                "N"
             ],
             "size": "M",
             "cha": "12",
@@ -4633,6 +5506,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -4757,7 +5631,7 @@
             "name": "Armed Animated Armor",
             "type": "Construct",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "M",
             "cha": "1",
@@ -4850,8 +5724,8 @@
             "name": "Daz'vol",
             "type": "Humanoid and undead",
             "alignment": [
-                "c",
-                "n"
+                "C",
+                "N"
             ],
             "size": "M",
             "cha": "10",
@@ -4941,6 +5815,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -4997,6 +5872,7 @@
                 },
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The Daz'vol's innate spellcasting ability is Wisdom (spell save {@dc 17}). The Daz'vol can innately cast the following spells, requiring no material components:"
                     ],
@@ -5068,8 +5944,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "n"
+                "C",
+                "N"
             ],
             "size": "M",
             "cha": "16",
@@ -5173,7 +6049,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "9",
@@ -5227,6 +6103,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -5300,7 +6177,7 @@
             "name": "Hurricane",
             "type": "Elemental",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "G",
             "cha": "5",
@@ -5409,7 +6286,7 @@
             "name": "Rampaging Mob",
             "type": "Hoard of Medium Humanoids",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "L",
             "cha": "5",
@@ -5497,7 +6374,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -5574,6 +6451,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -5668,7 +6546,7 @@
             "name": "Swarm of Fey-mad Scarabs",
             "type": "Swarm of Tiny insects",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "L",
             "cha": "1",
@@ -5787,7 +6665,7 @@
             "name": "Vampire Bat",
             "type": "Undead",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "S",
             "cha": "10",
@@ -5886,7 +6764,7 @@
             "name": "Vampire Rat",
             "type": "Undead",
             "alignment": [
-                "u"
+                "U"
             ],
             "size": "S",
             "cha": "2",
@@ -5988,8 +6866,8 @@
             "name": "Witherling Horde",
             "type": "Swarm of medium undead",
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "H",
             "cha": "5",
@@ -6110,8 +6988,8 @@
             "name": "Zombie Drider",
             "type": "Undead",
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "L",
             "cha": "12",
@@ -6187,6 +7065,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The zrider's innate spellcasting ability is Wisdom (spell save {@dc 14}). The zrider can innately cast the following spells, requiring no material components:"
                     ],
@@ -6203,6 +7082,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -6289,6 +7169,158 @@
             "page": 1
         },
         {
+            "name": "C.U.D.G.E.L. - XII",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warforged"
+                ]
+            },
+            "alignment": [
+                "N"
+            ],
+            "size": "M",
+            "cha": "13",
+            "wis": "10",
+            "int": "12",
+            "con": "16",
+            "str": "20",
+            "dex": "8",
+            "hp": {
+                "formula": "11d10 + 46",
+                "average": 112
+            },
+            "ac": [
+                {
+                    "ac": 22,
+                    "from": [
+                        "plate armor",
+                        "{@item shield|phb}",
+                        "integrated protection"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40,
+                "swim": 40,
+                "climb": 40
+            },
+            "cr": "12",
+            "save": {
+                "str": "+9",
+                "con": "+7"
+            },
+            "skill": {
+                "acrobatics": "+3",
+                "athletics": "+9",
+                "history": "+5",
+                "intimidation": "+5",
+                "persuasion": "+5"
+            },
+            "passive": 10,
+            "resist": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "exhaustion"
+            ],
+            "languages": [
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Constructed Resilience",
+                    "entries": [
+                        "The C.U.D.G.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
+                    ]
+                },
+                {
+                    "name": "Slasher",
+                    "entries": [
+                        "Once per turn, when the C.U.D.G.E.L. Unit deals slashing damage, they can reduce the target's speed by 10 feet until the start of the C.U.D.G.E.L. Unit's next turn.",
+                        "When the C.U.D.G.E.L. Unit scores a critical hit that deals slashing damage to a creature, the target has disadvantage on all attack rolls until the start of the C.U.D.G.E.L. Unit's next turn."
+                    ]
+                },
+                {
+                    "name": "Remarkable Athlete",
+                    "entries": [
+                        "The C.U.D.G.E.L. Unit can add {@b +2} to any Strength, Dexterity, or Constitution check that doesn't already use their proficiency bonus.",
+                        "They can cover an additional {@b +5} feet when making a running long jump."
+                    ]
+                },
+                {
+                    "name": "Sentinel",
+                    "entries": [
+                        "Creatures provoke opportunity attacks from the C.U.D.G.E.L. Unit even if they take the Disengage action before leaving their reach. When the C.U.D.G.E.L. Unit hits a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn."
+                    ]
+                },
+                {
+                    "name": "Improved Critical",
+                    "entries": [
+                        "The C.U.D.G.E.L. Unit's weapon attacks score a critical hit on a roll of 19-20."
+                    ]
+                },
+                {
+                    "name": "Action Surge (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The {@i Combat Unit Designated as Guardian and Emperor's Legionary} can take one additional action on their turn."
+                    ]
+                },
+                {
+                    "name": "Indomitable (Recharges after a Long Rest)",
+                    "entries": [
+                        "C.U.D.G.E.L. Unit can reroll a saving throw that they fail but must use the new roll."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "C.U.D.G.E.L. Unit makes three attacks."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 9 ({@damage 1d4 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Light Crossbow",
+                    "entries": [
+                        "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}3 (1d8 - 1) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Second Wind (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The C.U.D.G.E.L. Unit can use a bonus action to regain 23 ({@damage 1d10 + 18}) HP."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel",
+                    "entries": [
+                        "When a creature within 5 feet of the C.U.D.G.E.L. Unit makes an attack against another target (without the {@i Sentinel} feat), the C.U.D.G.E.L. Unit can make a melee weapon attack against the attacking creature."
+                    ]
+                }
+            ],
+            "traitTags": [],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
             "name": "C.O.M.P.A.S.S. - IV",
             "type": {
                 "type": "Humanoid",
@@ -6297,7 +7329,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -6381,6 +7413,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The C.O.M.P.A.S.S. Unit's innate spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -6393,6 +7426,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "1": {
                             "spells": [
@@ -6448,7 +7482,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "13",
@@ -6551,6 +7585,205 @@
             "page": 1
         },
         {
+            "name": "S.C.A.L.P.E.L. - XII",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warforged"
+                ]
+            },
+            "alignment": [
+                "N"
+            ],
+            "size": "M",
+            "cha": "8",
+            "wis": "18",
+            "int": "12",
+            "con": "16",
+            "str": "16",
+            "dex": "10",
+            "hp": {
+                "formula": "11d8 + 44",
+                "average": 101
+            },
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "splint armor",
+                        "{@item shield|phb}",
+                        "integrated protection"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "12",
+            "save": {
+                "wis": "+8",
+                "cha": "+3"
+            },
+            "skill": {
+                "athletics": "+7",
+                "insight": "+8",
+                "intimidation": "+3",
+                "medicine": "+8",
+                "religion": "+5"
+            },
+            "passive": 14,
+            "resist": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "exhaustion"
+            ],
+            "languages": [
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Blessed Healer",
+                    "entries": [
+                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liason} casts a healing another creature, they regain HP equal to 2 + the spell’s level."
+                    ]
+                },
+                {
+                    "name": "Constructed Resilience",
+                    "entries": [
+                        "The S.C.A.L.P.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
+                    ]
+                },
+                {
+                    "name": "Disciple of Life",
+                    "entries": [
+                        "Whenever S.C.A.L.P.E.L. Unit uses a healing spell, the creature regains additional HP equal to 2 + the spell’s level."
+                    ]
+                },
+                {
+                    "name": "Divine Strike (1/Turn)",
+                    "entries": [
+                        "When S.C.A.L.P.E.L. Unit hits a creature with a weapon attack, it can deal an extra 4 ({@damage 1d8}) radiant damage."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "ritLine": "",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell guidance}",
+                                "{@spell light}",
+                                "{@spell mending}",
+                                "{@spell sacred flame}",
+                                "{@spell spare the dying}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell bless}",
+                                "{@spell cure wounds}*",
+                                "{@spell guiding bolt}",
+                                "{@spell healing word}*",
+                                "{@spell sanctuary}",
+                                "{@spell shield of faith}"
+                            ]
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell aid}*",
+                                "{@spell lesser restoration}",
+                                "{@spell prayer of healing}*",
+                                "{@spell protection from poison}",
+                                "{@spell spiritual weapon}",
+                                "{@spell warding bond}"
+                            ]
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell beacon of hope}",
+                                "{@spell mass healing word}*",
+                                "{@spell revivify}*",
+                                "{@spell spirit guardians}"
+                            ]
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell banishment}",
+                                "{@spell death ward}",
+                                "{@spell guardian of faith}",
+                                "{@spell locate creature}"
+                            ]
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell dispel evil and good}",
+                                "{@spell greater restoration}",
+                                "{@spell mass cure wounds}*",
+                                "{@spell raise dead}"
+                            ]
+                        },
+                        "6": {
+                            "spells": [
+                                "{@spell harm}",
+                                "{@spell heal}*"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "The S.C.A.L.P.E.L. Unit is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
+                    ],
+                    "footerEntries": [
+                        "*Healing spell of 1st level or higher"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CC"
+            ],
+            "action": [
+                {
+                    "name": "Mace, +1",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Light Crossbow",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (2/Short Rest))",
+                    "entries": [
+                        "The S.C.A.L.P.E.L. Unit uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Preserve Life}",
+                                    "entry": "The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": " Each undead within 30 feet of the S.C.A.L.P.E.L. Unit must make a {@dc 16} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the S.C.A.L.P.E.L. Unit as it can, can’t willingly move to a space within 30 feet of the S.C.A.L.P.E.L. Unit, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "traitTags": [],
+            "actionTags": [],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
             "name": "S.C.A.L.P.E.L. - XIII",
             "type": {
                 "type": "Humanoid",
@@ -6559,7 +7792,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -6636,6 +7869,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -6767,7 +8001,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -6841,6 +8075,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -6933,7 +8168,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -7019,6 +8254,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -7158,7 +8394,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "13",
@@ -7276,7 +8512,7 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "L.E.G.A.T.E. makes theee attacks."
+                        "L.E.G.A.T.E. makes three attacks."
                     ]
                 },
                 {
@@ -7334,7 +8570,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "13",
@@ -7479,7 +8715,7 @@
                 ]
             },
             "alignment": [
-                "n"
+                "N"
             ],
             "size": "M",
             "cha": "8",
@@ -7597,6 +8833,7 @@
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
+                    "ritLine": "",
                     "headerEntries": [
                         "The S.C.O.U.T.'s innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
                     ],
@@ -7612,6 +8849,7 @@
                 },
                 {
                     "name": "Spellcasting",
+                    "ritLine": "",
                     "spells": {
                         "1": {
                             "spells": [
@@ -7715,8 +8953,8 @@
                 ]
             },
             "alignment": [
-                "l",
-                "g"
+                "L",
+                "G"
             ],
             "size": "M",
             "cha": "12",
@@ -7873,8 +9111,8 @@
                 ]
             },
             "alignment": [
-                "c",
-                "n"
+                "C",
+                "N"
             ],
             "size": "M",
             "cha": "10",
@@ -7958,6 +9196,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): augury, detect magic, identify",
                     "spells": {
                         "0": {
                             "spells": [
@@ -8014,7 +9253,21 @@
                     ]
                 },
                 {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "The Lightning Scribe's ritual spellcasting ability for wizard spells is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell augury}",
+                        "{@spell detect magic}",
+                        "{@spell identify}"
+                    ]
+                },
+                {
                     "name": "Spellcasting (Cleric)",
+                    "ritLine": "",
                     "spells": {
                         "0": {
                             "spells": [
@@ -8090,174 +9343,303 @@
             "actionTags": [],
             "source": "MPSource",
             "page": 1
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
         },
         {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+            "name": "Leon, The Boltscrawler",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "Goliath"
                 ]
             },
-            "hasFluffImages": false
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": "10",
+            "wis": "13",
+            "int": "20",
+            "con": "20",
+            "str": "29",
+            "dex": "8",
+            "hp": {
+                "formula": "13d6 + 2d8 + 61",
+                "average": 180
+            },
+            "ac": [
+                {
+                    "ac": 22,
+                    "from": [
+                        "{@item +1 plate|DMG|plate +1}",
+                        "{@item +1 shield|DMG|shield +1}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "cr": "13",
+            "save": {
+                "int": "+10",
+                "wis": "+6"
+            },
+            "skill": {
+                "arcana": "+10",
+                "athletics": "+14",
+                "insight": "+6",
+                "intimidation": "+5",
+                "religion": "+10"
+            },
+            "passive": 11,
+            "resist": [
+                "cold",
+                "lightning",
+                "thunder"
+            ],
+            "languages": [
+                "Common",
+                "Primordial"
+            ],
+            "trait": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "As a bonus action a Tiny spectral tome hovers in an unoccupied space within 60 feet of the Boltscrawler. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Boltscrawler what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - Cast Spell (4/Long Rest)",
+                    "entries": [
+                        "When casting a wizard spell, the Boltscrawler can cast it from the spectral tome's space."
+                    ]
+                },
+                {
+                    "name": "Arcane Recovery (Recharges after a Long Rest)",
+                    "entries": [
+                        "When finishing a short rest, the Boltscrawler can recover expended spell slots - up to a combined level of {@b 5}, and none of the slots can be 6th level or higher."
+                    ]
+                },
+                {
+                    "name": "Awakened Spellbook",
+                    "entries": [
+                        "When casting a wizard spell of 7th level or lower, the Boltscrawler can replace its damage type lightning damage."
+                    ]
+                },
+                {
+                    "name": "Elemental Adept",
+                    "entries": [
+                        "Spells cast by the Boltscrawler ignore resistance to lightning damage and, when rolling lightning damage for a spell they cast, any 1 on a damage die is treated as a 2."
+                    ]
+                },
+                {
+                    "name": "Storm Queen's Prowess",
+                    "entries": [
+                        "The Boltscrawler has advantage on Constitution saving throws made to maintain concentration."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - One with the Word",
+                    "entries": [
+                        "The Boltscrawler has advantage on all Intelligence ({@skill Arcana}) checks."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "ritLine": "Ritual (at will): augury, detect magic, identify",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell booming blade|TCE}",
+                                "{@spell lightning lure|TCE}",
+                                "{@spell message}",
+                                "{@spell shocking grasp}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell burning hands}",
+                                "{@spell chromatic orb}",
+                                "{@spell shield}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell misty step}",
+                                "{@spell scorching ray}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell counterspell}",
+                                "{@spell haste}",
+                                "{@spell lightning bolt}",
+                                "{@spell thunder step|XGE}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell blight}",
+                                "{@spell sickening radiance|XGE}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell conjure elemental}",
+                                "{@spell steel wind strike|XGE}"
+                            ],
+                            "slots": 2
+                        },
+                        "6": {
+                            "spells": [
+                                "{@spell chain lightning}",
+                                "{@spell disintegrate}"
+                            ],
+                            "slots": 2
+                        },
+                        "7": {
+                            "spells": [
+                                "{@spell prismatic spray}"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "The Boltscrawler is a 16th-level spellcaster. Their spellcasting ability for wizard spells is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The Boltscrawler has the following wizard spells prepared:"
+                    ],
+                    "footerEntries": [
+                        "8th (1 slot)"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "ritLine": "",
+                    "headerEntries": [
+                        "The Boltscrawler's ritual spellcasting ability for wizard spells is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell augury}",
+                        "{@spell detect magic}",
+                        "{@spell identify}"
+                    ]
+                },
+                {
+                    "name": "Spellcasting (Cleric)",
+                    "ritLine": "",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell guidance}",
+                                "{@spell light}",
+                                "{@spell mending}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell bless}",
+                                "{@spell fog cloud}",
+                                "{@spell healing word}",
+                                "{@spell shield of faith}",
+                                "{@spell thunderwave}"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "The Boltscrawler's spellcasting ability for cleric spells is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The Boltscrawler has the following cleric spells prepared:"
+                    ],
+                    "ability": "wis"
+                }
+            ],
+            "spellcastingTags": [
+                "CW",
+                ""
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Boltscrawler makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Lightning Sword",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}40 ({@damage 9d6 + 9}) lightning damage."
+                    ]
+                },
+                {
+                    "name": "Wind Javelin",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 14} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 30 ({@damage 6d6 + 9}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Boltscrawler uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Destructive Wrath}",
+                                    "entry": "When the Boltscrawler rolls lightning or thunder damage, they can use their Channel Divinity to deal maximum damage, instead of rolling."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": " Each undead within 30 feet of the Boltscrawler must make a {@dc 14} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Boltscrawler as it can, can’t willingly move to a space within 30 feet of the Boltscrawler, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there’s nowhere to move."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Stone’s Endurance (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Boltscrawler can reduce damage dealt to them by 11 ({@damage 1d12 + 5})"
+                    ]
+                },
+                {
+                    "name": "Wrath of the Storm (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "When a creature hits the Boltscrawler with an attack, the creature to make a {@dc 14} Dexterity saving throw, takes 9 ({@damage 2d8}) lightning or thunder damage on a failed saving throw, and half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - One with the Word (Recharges after a Long Rest)",
+                    "entries": [
+                        "When the Boltscrawler takes damage while {@b {@i Manifest Mind}} is active, they can dismiss it to prevent all the damage. Then roll 10 ({@damage 3d6}). The spellbook temporarily loses spells that have a combined spell level equal to that roll or higher. The spells cannot be recast for 3 ({@damage 1d6}) days."
+                    ]
+                }
+            ],
+            "traitTags": [],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "source": "MPSource",
+            "page": 1
         }
     ],
     "item": [
         {
-            "name": "Veldrin's Pact Baton",
+            "name": "Veldarin's Pact Baton",
             "source": "MPSource",
             "page": 1,
             "type": "RD",
             "tier": "major",
             "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldrin",
+            "reqAttune": "by a warlock of Veldarin",
             "reqAttuneTags": [
                 {
                     "class": "warlock"
@@ -8273,21 +9655,21 @@
                     "type": "list",
                     "items": [
                         {
-                            "name": "Veldrin's Favor",
+                            "name": "Veldarin's Favor",
                             "entries": [
                                 "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "Veldrin's Protection",
+                            "name": "Veldarin's Protection",
                             "entries": [
                                 "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "Veldrin's Arcana",
+                            "name": "Veldarin's Arcana",
                             "entries": [
                                 "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
                             ]
@@ -8849,106 +10231,6 @@
                             ]
                         }
                     ]
-                }
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
                 }
             ]
         }

@@ -55,13 +55,13 @@
         }
     ],
     "item": [{
-        "name": "Veldrin's Pact Baton",
+        "name": "Veldarin's Pact Baton",
         "source": "MPSource",
         "page": 1,
         "type": "RD",
         "tier": "major",
         "rarity": "legendary",
-        "reqAttune": "by a warlock of Veldrin",
+        "reqAttune": "by a warlock of Veldarin",
         "reqAttuneTags": [{
             "class": "warlock"
         }],
@@ -74,21 +74,21 @@
             {
                 "type": "list",
                 "items": [{
-                        "name": "Veldrin's Favor",
+                        "name": "Veldarin's Favor",
                         "entries": [
                             "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
                         ]
                     },
                     {
                         "type": "entries",
-                        "name": "Veldrin's Protection",
+                        "name": "Veldarin's Protection",
                         "entries": [
                             "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
                         ]
                     },
                     {
                         "type": "entries",
-                        "name": "Veldrin's Arcana",
+                        "name": "Veldarin's Arcana",
                         "entries": [
                             "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
                         ]
