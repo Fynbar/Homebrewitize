@@ -8,292 +8,405 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.21",
+                "version": "1.0.22",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660267500.0
+        "dateLastModified": 1660268513.0
     },
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
+        }
+    ],
     "monster": [
         {
-            "name": "Agduraash Caigwyn",
+            "name": "Caliope Saltwing",
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "dragonborn"
+                    "owlin"
                 ]
             },
             "alignment": [
-                "L",
-                "E"
+                "N",
+                "G"
             ],
             "size": "M",
-            "cha": "20",
-            "wis": "10",
-            "int": "8",
-            "con": "19",
-            "str": "27",
-            "dex": "12",
+            "cha": "8",
+            "wis": "14",
+            "int": "13",
+            "con": "14",
+            "str": "10",
+            "dex": "18",
             "hp": {
-                "formula": "15d10 + 74",
-                "average": 164
+                "formula": "7d10 + 24",
+                "average": 68
             },
             "ac": [
                 {
-                    "ac": 21,
+                    "ac": 17,
                     "from": [
-                        "dwarven plate"
+                        "studded leather armor"
                     ]
                 }
             ],
             "speed": {
-                "walk": 30
+                "walk": 35,
+                "fly": 35,
+                "swim": 35,
+                "climb": 35
             },
-            "cr": {
-                "cr": "19",
-                "lair": "20"
-            },
+            "cr": "5",
             "save": {
-                "wis": "+5",
-                "cha": "+10"
+                "str": "+3",
+                "dex": "+7"
             },
             "skill": {
-                "acrobatics": "+6",
-                "athletics": "+13",
-                "intimidation": "+10",
-                "persuasion": "+10"
+                "animal Handling": "+5",
+                "investigation": "+4",
+                "nature": "+4",
+                "perception": "+5",
+                "stealth": "+10",
+                "survival": "+5"
             },
-            "passive": 10,
-            "resist": [
-                "cold"
-            ],
-            "conditionImmune": [
-                "frightened"
-            ],
+            "passive": 17,
             "languages": [
                 "Common",
                 "Draconic",
-                "Elvish"
+                "Dwarvish",
+                "Goblin",
+                "Halfling",
+                "Sylvan"
+            ],
+            "senses": [
+                "darkvision 120ft."
             ],
             "trait": [
                 {
-                    "name": "Aura of Conquest",
+                    "name": "Land's Stride",
                     "entries": [
-                        "A creature that is {@condition frightened} of the Tyrant within 10 ft. of them has its speed is reduced to 0 and it takes 8 psychic damage if it starts its turn there."
+                        "Moving through nonmagical difficult terrain costs Caliope no extra movement. They can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+                        "",
+                        "In addition Caliope has advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@i entangle} spell."
                     ]
                 },
                 {
-                    "name": "Aura of Courage",
+                    "name": "Hoard Breaker (1/Turn)",
                     "entries": [
-                        "The Tyrant and friendly creatures within 10 ft. can’t be {@condition frightened}."
+                        "When Caliope makes a weapon attack, they can make another attack with the same weapon against another creature within 5 feet of the original target."
                     ]
                 },
                 {
-                    "name": "Aura of Protection",
+                    "name": "Favored Enemy",
                     "entries": [
-                        "The Tyrant grant all friendly creatures within 10 ft. a +5 bonus to all saving throws."
+                        "Caliope ha advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track Fey, Goblinoids, and Humanoids."
                     ]
                 },
                 {
-                    "name": "Divine Health",
+                    "name": "Twin Weapon Fighting",
                     "entries": [
-                        "The Tyrant is immune to disease."
-                    ]
-                },
-                {
-                    "name": "Divine Smite",
-                    "entries": [
-                        "When the Tyrant hits with a melee weapon attack, they can expend one spell slot to deal 9 ({@damage 2d8}) extra radiant damage to the target plus 4 ({@damage 1d8}) for each spell level higher than 1st and and additional 4 ({@damage 1d8}) against undead or fiends."
-                    ]
-                },
-                {
-                    "name": "Great Weapon Master",
-                    "entries": [
-                        "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack as a bonus action. ",
-                        "When the Tyrant makes a melee attack with a heavy weapon, they can take a -5 penalty to the attack roll to add +10 to the attack’s damage."
-                    ]
-                },
-                {
-                    "name": "Scornful Rebuke",
-                    "entries": [
-                        "Whenever a creature hits the Tyrant with an attack, that creature takes +5 psychic damage."
+                        "When holding 2 weapons, Caliope can make a weapon attack as a bonus action."
                     ]
                 }
             ],
             "spellcasting": [
                 {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Caliope's innate spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "wis",
+                    "daily": {
+                        "1e": [
+                            "{@spell beast sense}",
+                            "{@spell speak with animals}"
+                        ]
+                    }
+                },
+                {
                     "name": "Spellcasting",
                     "spells": {
                         "1": {
                             "spells": [
-                                "{@spell armor of agathys}",
-                                "{@spell bless}",
-                                "{@spell command}",
-                                "{@spell cure wounds}",
-                                "{@spell shield of faith}",
-                                "{@spell wrathful smite}"
+                                "{@spell hunter's mark}",
+                                "{@spell longstrider}",
+                                "{@spell speak with animals}",
+                                "{@spell zephyr strike|XGE}"
                             ],
                             "slots": 4
                         },
                         "2": {
                             "spells": [
-                                "{@spell aid}",
-                                "{@spell hold person}",
-                                "{@spell lesser restoration}",
-                                "{@spell spiritual weapon}",
-                                "{@spell staggering smite}",
-                                "{@spell zone of truth}"
+                                "{@spell beast sense}",
+                                "{@spell {@spell cordon of arrow}}",
+                                "{@spell pass without trace}"
                             ],
                             "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell aura of vitality}",
-                                "{@spell bestow curse}",
-                                "{@spell fear}",
-                                "{@spell remove curse}",
-                                "{@spell revivify}"
-                            ],
-                            "slots": 3
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell banishment}",
-                                "{@spell death ward}",
-                                "{@spell dominate beast}",
-                                "{@spell stoneskin}"
-                            ],
-                            "slots": 2
                         }
                     },
                     "headerEntries": [
-                        "The Tyrant is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The Tyrant has the following paladin spells prepared:"
+                        "Caliope is a 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Caliope has the following ranger spells prepared:"
                     ]
                 }
             ],
             "spellcastingTags": [
-                "CP"
+                "I",
+                "CR"
             ],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Tyrant makes two attacks."
+                        "Caliope makes two attacks."
                     ]
                 },
                 {
-                    "name": "Frost Tongue Greatsword",
+                    "name": "Rapier, +1",
                     "entries": [
-                        "{@atk mw} {@hit 13} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 15 ({@damage 2d6 + 8}) slashing damage plus 4 ({@damage 1d8}) radiant damage. On a hit the attack does an additional 10 ({@damage 3d6}) cold damage and the targets speed is reduced by 10ft."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
                     ]
                 },
                 {
-                    "name": "Javelin of Lightning (1/Day)",
+                    "name": "Slumbering Dragon's Wrath Rapier",
                     "entries": [
-                        "{@atk mw, rw} {@hit 13} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 11 ({@damage 1d6 + 8}) piercing damage plus 4 ({@damage 1d8}) radiant damage. Once per day, on a hit, the target takes an extra 14 ({@damage 4d6}) lightning damage. Each other creature in the line must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) lightning damage on a failed save, and half as much damage on a successful one."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. On a 20 on an attack roll with this weapon, each creature the Caliope chooses within 5 feet of the target takes 5 ice damage."
                     ]
                 },
                 {
-                    "name": "Breath Weapon (Recharges after a Short or Long Rest)",
+                    "name": "Longbow",
                     "entries": [
-                        "The Tyrant uses one of the following abilities.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "item",
-                                    "name": "{@b Ice Breath}",
-                                    "entry": "As an action the Tyrant exhales in a 15 ft. cone. Each creature in range must make a 17 {@dc Constitution} saving throw, taking 17 ({@damage 5d6}) cold damage on a failed save, or half as much damage on a successful one."
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "{@b Dragon Roar}",
-                                    "entry": " The Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute repeating the saving throw if it takes any damage."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Channel Divinity (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The Tyrant uses their Channel Divinity in one of the following ways.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "item",
-                                    "name": "{@b Conquering Presence}",
-                                    "entry": "As an action, the Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or becomes {@condition frightened} of the Tyrant for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "{@b Guided Strike}",
-                                    "entry": " When the Tyrant makes an attack roll they can gain a +10 bonus to the roll."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Lay on Hands Pool (Recharges after a Long Rest)",
-                    "entries": [
-                        "The Tyrant have a pool of healing power that can restore 80 HP. The Tyrant can touch a creature to restore any number of HP remaining in the pool, or 5 HP to either cure a disease or neutralize a poison affecting the creature."
-                    ]
-                },
-                {
-                    "name": "Cleansing Touch (5/Long Rest)",
-                    "entries": [
-                        "The Tyrant ends one spell on themself or on a willing creature that they touch."
-                    ]
-                },
-                {
-                    "name": "Divine Sense (6/Long Rest)",
-                    "entries": [
-                        "Until the end of The Tyrant's next turn, they can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead within 60 ft. that is not behind total cover."
-                    ]
-                }
-            ],
-            "legendaryHeader": [
-                "The Tyrant can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Tyrant regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": [
-                {
-                    "name": "Move",
-                    "entries": [
-                        "The Tyrant moves up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Attack",
-                    "entries": [
-                        "The Tyrant makes a melee or ranged weapon attack."
-                    ]
-                },
-                {
-                    "name": "Intimidate (Costs 2 Actions)",
-                    "entries": [
-                        "The Tyrant chooses a creature within 30 ft. and makes a Charisma ({@skill Intimidation}) check contested by the targets Wisdom ({@skill Insight}) check. On failure the target is {@condition frightened} until the end o it's next turn."
+                        "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
                     ]
                 }
             ],
             "traitTags": [],
             "actionTags": [
-                "Multiattack",
-                "Breath Weapon"
+                "Multiattack"
             ],
             "languageTags": [
                 "C",
                 "DR",
-                "E"
+                "D",
+                "GO",
+                "S"
             ],
             "source": "MPSource",
-            "page": 1,
-            "legendaryGroup": {
-                "name": "Tyrant",
-                "source": "MPSource"
-            }
+            "page": 1
         },
         {
             "name": "Regina Caigwyn",
@@ -3620,6 +3733,285 @@
             ],
             "source": "MPSource",
             "page": 1
+        },
+        {
+            "name": "Agduraash Caigwyn",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "dragonborn"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "size": "M",
+            "cha": "20",
+            "wis": "10",
+            "int": "8",
+            "con": "19",
+            "str": "27",
+            "dex": "12",
+            "hp": {
+                "formula": "15d10 + 74",
+                "average": 164
+            },
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "dwarven plate"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": {
+                "cr": "19",
+                "lair": "20"
+            },
+            "save": {
+                "wis": "+5",
+                "cha": "+10"
+            },
+            "skill": {
+                "acrobatics": "+6",
+                "athletics": "+13",
+                "intimidation": "+10",
+                "persuasion": "+10"
+            },
+            "passive": 10,
+            "resist": [
+                "cold"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Common",
+                "Draconic",
+                "Elvish"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Conquest",
+                    "entries": [
+                        "A creature that is {@condition frightened} of the Tyrant within 10 ft. of them has its speed is reduced to 0 and it takes 8 psychic damage if it starts its turn there."
+                    ]
+                },
+                {
+                    "name": "Aura of Courage",
+                    "entries": [
+                        "The Tyrant and friendly creatures within 10 ft. can’t be {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Aura of Protection",
+                    "entries": [
+                        "The Tyrant grant all friendly creatures within 10 ft. a +5 bonus to all saving throws."
+                    ]
+                },
+                {
+                    "name": "Divine Health",
+                    "entries": [
+                        "The Tyrant is immune to disease."
+                    ]
+                },
+                {
+                    "name": "Divine Smite",
+                    "entries": [
+                        "When the Tyrant hits with a melee weapon attack, they can expend one spell slot to deal 9 ({@damage 2d8}) extra radiant damage to the target plus 4 ({@damage 1d8}) for each spell level higher than 1st and and additional 4 ({@damage 1d8}) against undead or fiends."
+                    ]
+                },
+                {
+                    "name": "Great Weapon Master",
+                    "entries": [
+                        "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack as a bonus action. ",
+                        "When the Tyrant makes a melee attack with a heavy weapon, they can take a -5 penalty to the attack roll to add +10 to the attack’s damage."
+                    ]
+                },
+                {
+                    "name": "Scornful Rebuke",
+                    "entries": [
+                        "Whenever a creature hits the Tyrant with an attack, that creature takes +5 psychic damage."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "1": {
+                            "spells": [
+                                "{@spell armor of agathys}",
+                                "{@spell bless}",
+                                "{@spell command}",
+                                "{@spell cure wounds}",
+                                "{@spell shield of faith}",
+                                "{@spell wrathful smite}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell aid}",
+                                "{@spell hold person}",
+                                "{@spell lesser restoration}",
+                                "{@spell spiritual weapon}",
+                                "{@spell staggering smite}",
+                                "{@spell zone of truth}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell aura of vitality}",
+                                "{@spell bestow curse}",
+                                "{@spell fear}",
+                                "{@spell remove curse}",
+                                "{@spell revivify}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell banishment}",
+                                "{@spell death ward}",
+                                "{@spell dominate beast}",
+                                "{@spell stoneskin}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "The Tyrant is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The Tyrant has the following paladin spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CP"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Tyrant makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Frost Tongue Greatsword",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 15 ({@damage 2d6 + 8}) slashing damage plus 4 ({@damage 1d8}) radiant damage. On a hit the attack does an additional 10 ({@damage 3d6}) cold damage and the targets speed is reduced by 10ft."
+                    ]
+                },
+                {
+                    "name": "Javelin of Lightning (1/Day)",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 13} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 11 ({@damage 1d6 + 8}) piercing damage plus 4 ({@damage 1d8}) radiant damage. Once per day, on a hit, the target takes an extra 14 ({@damage 4d6}) lightning damage. Each other creature in the line must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) lightning damage on a failed save, and half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Tyrant uses one of the following abilities.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Ice Breath}",
+                                    "entry": "As an action the Tyrant exhales in a 15 ft. cone. Each creature in range must make a 17 {@dc Constitution} saving throw, taking 17 ({@damage 5d6}) cold damage on a failed save, or half as much damage on a successful one."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Dragon Roar}",
+                                    "entry": " The Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute repeating the saving throw if it takes any damage."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Tyrant uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Conquering Presence}",
+                                    "entry": "As an action, the Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or becomes {@condition frightened} of the Tyrant for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Guided Strike}",
+                                    "entry": " When the Tyrant makes an attack roll they can gain a +10 bonus to the roll."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lay on Hands Pool (Recharges after a Long Rest)",
+                    "entries": [
+                        "The Tyrant have a pool of healing power that can restore 80 HP. The Tyrant can touch a creature to restore any number of HP remaining in the pool, or 5 HP to either cure a disease or neutralize a poison affecting the creature."
+                    ]
+                },
+                {
+                    "name": "Cleansing Touch (5/Long Rest)",
+                    "entries": [
+                        "The Tyrant ends one spell on themself or on a willing creature that they touch."
+                    ]
+                },
+                {
+                    "name": "Divine Sense (6/Long Rest)",
+                    "entries": [
+                        "Until the end of The Tyrant's next turn, they can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead within 60 ft. that is not behind total cover."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "The Tyrant can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Tyrant regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Move",
+                    "entries": [
+                        "The Tyrant moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Attack",
+                    "entries": [
+                        "The Tyrant makes a melee or ranged weapon attack."
+                    ]
+                },
+                {
+                    "name": "Intimidate (Costs 2 Actions)",
+                    "entries": [
+                        "The Tyrant chooses a creature within 30 ft. and makes a Charisma ({@skill Intimidation}) check contested by the targets Wisdom ({@skill Insight}) check. On failure the target is {@condition frightened} until the end o it's next turn."
+                    ]
+                }
+            ],
+            "traitTags": [],
+            "actionTags": [
+                "Multiattack",
+                "Breath Weapon"
+            ],
+            "languageTags": [
+                "C",
+                "DR",
+                "E"
+            ],
+            "source": "MPSource",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Tyrant",
+                "source": "MPSource"
+            }
         },
         {
             "name": "Arthur Desmoreaux",
@@ -9461,156 +9853,6 @@
             "page": 1
         }
     ],
-    "legendaryGroup": [
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
     "race": [
         {
             "name": "Gnoll",
@@ -10313,74 +10555,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
         }
     ]
 }
