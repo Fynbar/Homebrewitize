@@ -8,12 +8,12 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.22",
+                "version": "1.0.23",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660268513.0
+        "dateLastModified": 1660277594.0
     },
     "legendaryGroup": [
         {
@@ -233,6 +233,106 @@
             ]
         }
     ],
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ],
     "monster": [
         {
             "name": "Caliope Saltwing",
@@ -267,9 +367,9 @@
             ],
             "speed": {
                 "walk": 35,
+                "climb": 35,
                 "fly": 35,
-                "swim": 35,
-                "climb": 35
+                "swim": 35
             },
             "cr": "5",
             "save": {
@@ -284,7 +384,7 @@
                 "stealth": "+10",
                 "survival": "+5"
             },
-            "passive": 17,
+            "passive": 15,
             "languages": [
                 "Common",
                 "Draconic",
@@ -459,7 +559,7 @@
                 "persuasion": "+5",
                 "religion": "+6"
             },
-            "passive": 25,
+            "passive": 20,
             "resist": [
                 "poison"
             ],
@@ -749,7 +849,7 @@
                 "sleight of Hand": "+12",
                 "stealth": "+12"
             },
-            "passive": 16,
+            "passive": 15,
             "resist": [
                 "fire"
             ],
@@ -983,7 +1083,7 @@
                 "perception": "+18",
                 "religion": "+19"
             },
-            "passive": 37,
+            "passive": 28,
             "immune": [
                 "bludgeoning, piercing, and slashing from nonmagical attacks"
             ],
@@ -1419,7 +1519,7 @@
                 "persuasion": "+17",
                 "stealth": "+18"
             },
-            "passive": 32,
+            "passive": 29,
             "resist": [
                 "necrotic"
             ],
@@ -4293,7 +4393,14 @@
                     ]
                 }
             ],
-            "speed": {},
+            "speed": {
+                "walk": 30,
+                "climb": 20,
+                "fly": {
+                    "number": 40,
+                    "condition": "(in dim light or darkness)"
+                }
+            },
             "cr": {
                 "cr": "17",
                 "xp": "18,000"
@@ -4312,7 +4419,7 @@
                 "stealth": "+10",
                 "survival": "+9"
             },
-            "passive": 23,
+            "passive": 19,
             "languages": [
                 "Abyssal",
                 "Deep Speech",
@@ -5317,7 +5424,12 @@
                     ]
                 }
             ],
-            "speed": {},
+            "speed": {
+                "walk": {
+                    "number": 30,
+                    "condition": "(40 ft. with {@i bladesong})"
+                }
+            },
             "cr": {
                 "cr": "12",
                 "xp": "8,400"
@@ -5673,7 +5785,7 @@
                 "religion": "+9",
                 "stealth": "+7"
             },
-            "passive": 17,
+            "passive": 16,
             "languages": [
                 "Common",
                 "Elvish",
@@ -5967,7 +6079,7 @@
                 "sleight of Hand": "+8",
                 "stealth": "+5"
             },
-            "passive": 19,
+            "passive": 16,
             "resist": [
                 "poison"
             ],
@@ -6560,9 +6672,9 @@
             ],
             "speed": {
                 "walk": 35,
-                "fly": 20,
+                "burrow": 30,
                 "climb": 20,
-                "burrow": 30
+                "fly": 20
             },
             "cr": "10",
             "save": {
@@ -7008,7 +7120,7 @@
                 "perception": "+6",
                 "stealth": "+9"
             },
-            "passive": 19,
+            "passive": 16,
             "conditionImmune": [
                 "poisoned"
             ],
@@ -7209,7 +7321,7 @@
                 "stealth": "+6",
                 "survival": "+3"
             },
-            "passive": 14,
+            "passive": 13,
             "resist": [
                 "poison"
             ],
@@ -7368,7 +7480,7 @@
                 "stealth": "+13",
                 "survival": "+6"
             },
-            "passive": 22,
+            "passive": 20,
             "resist": [
                 "poison"
             ],
@@ -7569,8 +7681,8 @@
             ],
             "speed": {
                 "walk": 40,
-                "swim": 40,
-                "climb": 40
+                "climb": 40,
+                "swim": 40
             },
             "cr": "12",
             "save": {
@@ -8626,8 +8738,8 @@
             ],
             "speed": {
                 "walk": 40,
-                "swim": 40,
-                "climb": 40
+                "climb": 40,
+                "swim": 40
             },
             "cr": "19",
             "save": {
@@ -8952,8 +9064,8 @@
             ],
             "speed": {
                 "walk": 35,
-                "swim": 35,
-                "climb": 35
+                "climb": 35,
+                "swim": 35
             },
             "cr": "14",
             "save": {
@@ -8970,7 +9082,7 @@
                 "stealth": "+15",
                 "survival": "+7"
             },
-            "passive": 24,
+            "passive": 22,
             "resist": [
                 "poison"
             ],
@@ -9851,106 +9963,6 @@
             ],
             "source": "MPSource",
             "page": 1
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
         }
     ],
     "item": [
