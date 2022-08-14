@@ -1,0 +1,209 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "MPSource",
+            "full": "Test Auto Souce - Tools Monsters",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "monster": [{
+        "name": "Captain Thalfurzine Arconbeam",
+        "source": "MPSource",
+        "size": [
+            "M"
+        ],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "halfling"
+            ]
+        },
+        "alignment": [
+            "L",
+            "E"
+        ],
+        "ac": [
+            18
+        ],
+        "hp": {
+            "average": 85,
+            "formula": "13d8 + 26"
+        },
+        "speed": {
+            "walk": 40
+        },
+        "str": 12,
+        "dex": 18,
+        "con": 14,
+        "int": 12,
+        "wis": 18,
+        "cha": 12,
+        "save": {
+            "str": "+5",
+            "dex": "+8",
+            "con": "+6",
+            "wis": "+7"
+        },
+        "skill": {
+            "perception": "+7",
+            "stealth": "+12"
+        },
+        "passive": 19,
+        "languages": [
+            "common",
+            "deep speech",
+            "halfling"
+        ],
+        "cr": "12",
+        "spellcasting": [{
+            "name": "Innate Spellcasting",
+            "headerEntries": [
+                "The Captain's innate spellcasting ability is Wisdom. The Captain can innately cast the following spells, without providing material components:"
+            ],
+            "daily": {
+                "1e": [
+                    "{@spell darkness}",
+                    "{@spell darkvision}",
+                    "{@spell pass without trace}",
+                    "{@spell silence}"
+                ]
+            },
+            "ability": "wis"
+        }],
+        "trait": [{
+                "name": "Assassinate",
+                "entries": [
+                    "During its first turn, the Captain has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Captain scores against a surprised creature is a critical hit."
+                ]
+            },
+            {
+                "name": "Cunning Action",
+                "entries": [
+                    "The Captain can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action on each of its turns."
+                ]
+            },
+            {
+                "name": "Evasion",
+                "entries": [
+                    "If the Captain is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Captain instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                ]
+            },
+            {
+                "name": "Shadow Step",
+                "entries": [
+                    "While in dim light or darkness, the Captain can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+                ]
+            },
+            {
+                "name": "Unarmored Defense",
+                "entries": [
+                    "While the Captain is wearing no armor and wielding no shield, its AC includes its Wisdom modifer."
+                ]
+            },
+            {
+                "name": "Sneak Attack (1/Turn)",
+                "entries": [
+                    "The Captain deals an extra 17 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Captain that isn't {@condition incapacitated} and the Captain doesn't have disadvantage on the attack roll."
+                ]
+            },
+            {
+                "name": "Stunning Strike (4/Day)",
+                "entries": [
+                    "Once per turn, when the Captain hits a creature with a melee weapon attack, it can force the creature to make a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of the creature's next turn."
+                ]
+            },
+            {
+                "name": "Lucky",
+                "entries": [
+                    "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                ]
+            },
+            {
+                "name": "Brave",
+                "entries": [
+                    "You have advantage on saving throws against being {@condition frightened}."
+                ]
+            },
+            {
+                "name": "Halfling Nimbleness",
+                "entries": [
+                    "You can move through the space of any creature that is of a size larger than yours."
+                ]
+            },
+            {
+                "name": "Naturally Stealthy",
+                "entries": [
+                    "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                ]
+            }
+        ],
+        "action": [{
+                "name": "Multiattack",
+                "entries": [
+                    "The Captain makes three attacks: one with its dagger and two of which can be an unarmed strike or a dart attack."
+                ]
+            },
+            {
+                "name": "Nighteye Dagger - II",
+                "entries": [
+                    "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d4 + 9}) piercing damage, and the target must succeed on a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+                ]
+            },
+            {
+                "name": "Unarmed Strike",
+                "entries": [
+                    "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8 + 4}) bludgeoning damage."
+                ]
+            },
+            {
+                "name": "Dart",
+                "entries": [
+                    "{@atk rw} {@hit 8} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+                ]
+            },
+            {
+                "name": "Cloak of Shadows",
+                "entries": [
+                    "While in dim light or darkness, the Captain becomes {@condition invisible} until it makes an attack. cast a spell, or is in an area of bright light."
+                ]
+            }
+        ],
+        "reaction": [{
+            "name": "Uncanny Dodge",
+            "entries": [
+                "The Captain halves the damage that it takes from an attack that hits it. The Captain must be able to see the attacker."
+            ]
+        }],
+        "traitTags": [
+            "Sneak Attack"
+        ],
+        "actionTags": [
+            "Multiattack"
+        ],
+        "languageTags": [
+            "X"
+        ],
+        "damageTags": [
+            "P",
+            "I",
+            "B"
+        ],
+        "spellcastingTags": [
+            "I"
+        ],
+        "miscTags": [
+            "MW",
+            "RW",
+            "THW"
+        ]
+    }]
+}

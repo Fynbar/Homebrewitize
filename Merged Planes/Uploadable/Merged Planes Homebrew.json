@@ -8,331 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.23",
+                "version": "1.0.25",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660277594.0
+        "dateLastModified": 1660482894.0
     },
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
     "monster": [
         {
             "name": "Caliope Saltwing",
@@ -9963,6 +9645,525 @@
             ],
             "source": "MPSource",
             "page": 1
+        },
+        {
+            "name": "Captain Thalfurzine Arconbeam",
+            "source": "MPSource",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "halfling"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                18
+            ],
+            "hp": {
+                "average": 85,
+                "formula": "13d8 + 26"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 12,
+            "wis": 18,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+8",
+                "con": "+6",
+                "wis": "+7"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+12"
+            },
+            "passive": 19,
+            "languages": [
+                "common",
+                "deep speech",
+                "halfling"
+            ],
+            "cr": "12",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Captain's innate spellcasting ability is Wisdom. The Captain can innately cast the following spells, without providing material components:"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "{@spell darkness}",
+                            "{@spell darkvision}",
+                            "{@spell pass without trace}",
+                            "{@spell silence}"
+                        ]
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Assassinate",
+                    "entries": [
+                        "During its first turn, the Captain has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Captain scores against a surprised creature is a critical hit."
+                    ]
+                },
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The Captain can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Evasion",
+                    "entries": [
+                        "If the Captain is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Captain instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Shadow Step",
+                    "entries": [
+                        "While in dim light or darkness, the Captain can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+                    ]
+                },
+                {
+                    "name": "Unarmored Defense",
+                    "entries": [
+                        "While the Captain is wearing no armor and wielding no shield, its AC includes its Wisdom modifer."
+                    ]
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "entries": [
+                        "The Captain deals an extra 17 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Captain that isn't {@condition incapacitated} and the Captain doesn't have disadvantage on the attack roll."
+                    ]
+                },
+                {
+                    "name": "Stunning Strike (4/Day)",
+                    "entries": [
+                        "Once per turn, when the Captain hits a creature with a melee weapon attack, it can force the creature to make a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of the creature's next turn."
+                    ]
+                },
+                {
+                    "name": "Lucky",
+                    "entries": [
+                        "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                    ]
+                },
+                {
+                    "name": "Brave",
+                    "entries": [
+                        "You have advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "You can move through the space of any creature that is of a size larger than yours."
+                    ]
+                },
+                {
+                    "name": "Naturally Stealthy",
+                    "entries": [
+                        "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Captain makes three attacks: one with its dagger and two of which can be an unarmed strike or a dart attack."
+                    ]
+                },
+                {
+                    "name": "Nighteye Dagger - II",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d4 + 9}) piercing damage, and the target must succeed on a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dart",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Cloak of Shadows",
+                    "entries": [
+                        "While in dim light or darkness, the Captain becomes {@condition invisible} until it makes an attack. cast a spell, or is in an area of bright light."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Uncanny Dodge",
+                    "entries": [
+                        "The Captain halves the damage that it takes from an attack that hits it. The Captain must be able to see the attacker."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Sneak Attack"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "P",
+                "I",
+                "B"
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "miscTags": [
+                "MW",
+                "RW",
+                "THW"
+            ]
+        },
+        {
+            "name": "Rothcester",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "harengon"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "size": "M",
+            "cha": "10",
+            "wis": "12",
+            "int": "14",
+            "con": "14",
+            "str": "8",
+            "dex": "18",
+            "hp": {
+                "formula": "4d10 + 22",
+                "average": 42
+            },
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": {
+                "cr": "5",
+                "xp": "2,300"
+            },
+            "save": {
+                "str": "+2",
+                "con": "+5"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "deception": "+3",
+                "insight": "+4",
+                "intimidation": "+3",
+                "nature": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "Common",
+                "Goblin",
+                "Sylvan"
+            ],
+            "trait": [
+                {
+                    "name": "Lucky Footwork",
+                    "entries": [
+                        "Ches can add 2 ({@damage 1d4}) when making a Dexterity saving throw."
+                    ]
+                },
+                {
+                    "name": "Hare Trigger",
+                    "entries": [
+                        "Ches gains a {@b +3} bonus to initiative."
+                    ]
+                },
+                {
+                    "name": "Action Surge (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Ches can take one additional action on their turn."
+                    ]
+                },
+                {
+                    "name": "Second Wind (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Ches can use a bonus action to regain 10 ({@damage 1d10 + 5}) HP."
+                    ]
+                },
+                {
+                    "name": "Arcane Shot (2/Short Rest)",
+                    "entries": [
+                        "Ches can apply an Arcane Shot Option to an arrow when they make a ranged weapon attack",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Piercing Arrow}",
+                                    "entry": "The shot goes passes through a 30 foot long line and creatures in it must make a {@dc 13} Dexterity saving throw or take an extra 3 ({@damage 1d6}) piercing damage or half as much on a successful save."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Shadow Arrow}",
+                                    "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches'S next turn."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rabbit Hop (3/Long Rest)",
+                    "entries": [
+                        "As a bonus action, Ches can jump 15 ft. without provoking opportunity attacks."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Ches makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Pistol",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "traitTags": [],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "GO",
+                "S"
+            ],
+            "source": "MPSource",
+            "page": 1
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
         }
     ],
     "item": [
@@ -10566,6 +10767,144 @@
                         }
                     ]
                 }
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
             ]
         }
     ]
