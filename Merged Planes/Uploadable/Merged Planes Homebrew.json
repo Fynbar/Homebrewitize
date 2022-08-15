@@ -8,151 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.26",
+                "version": "1.0.28",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660527568.0
+        "dateLastModified": 1660529247.0
     },
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
     "item": [
         {
             "name": "Veldarin's Pact Baton",
@@ -757,74 +619,6 @@
             ]
         }
     ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
     "legendaryGroup": [
         {
             "name": "Veldarin",
@@ -935,6 +729,174 @@
                     ]
                 }
             ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
         }
     ],
     "monster": [
@@ -6065,7 +6027,7 @@
                             "type": "list",
                             "items": [
                                 "The Accursed gains a {@b +5} bonus to their AC.",
-                                "The Accursed’s walking speed increases by 10 feet.",
+                                "The Accursed's walking speed increases by 10 feet.",
                                 "The Accursed has advantage on Dexterity ({@skill Acrobatics}) checks.",
                                 "The Accursed gains a {@b +5} bonus to any concentration checks."
                             ]
@@ -6198,13 +6160,13 @@
                 {
                     "name": "Song of Defense",
                     "entries": [
-                        "When the Accursed takes damage while their {@b {@i bladesong}} is active, they can expend one spell slot the reduce that damage they take by 5 * the spell slot’s level."
+                        "When the Accursed takes damage while their {@b {@i bladesong}} is active, they can expend one spell slot the reduce that damage they take by 5 * the spell slot's level."
                     ]
                 },
                 {
                     "name": "War Caster",
                     "entries": [
-                        "When a hostile creature’s movement provokes an opportunity attack from the Accursed, they can use cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+                        "When a hostile creature's movement provokes an opportunity attack from the Accursed, they can use cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
                     ]
                 }
             ],
@@ -7946,7 +7908,7 @@
                 {
                     "name": "Favored Enemy",
                     "entries": [
-                        "You have advantage on Wisdom ({@skill Survival}) and Intelligence checks to track and recall information about elves and humans."
+                        "The C.O.M.P.A.S.S. Unit have advantage on Wisdom ({@skill Survival}) and Intelligence checks to track and recall information about elves and humans."
                     ]
                 },
                 {
@@ -8112,7 +8074,7 @@
                 {
                     "name": "Favored Enemy",
                     "entries": [
-                        "You have advantage on Wisdom ({@skill Survival}) and Intelligence checks to track and recall information about elves, humans and one creature type of your choice."
+                        "The C.O.M.P.A.S.S. Unit have advantage on Wisdom ({@skill Survival}) and Intelligence checks to track and recall information about elves, humans and one creature type of your choice."
                     ]
                 },
                 {
@@ -10665,25 +10627,25 @@
                 {
                     "name": "Lucky",
                     "entries": [
-                        "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                        "When the Captain roll a 1 on an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll."
                     ]
                 },
                 {
                     "name": "Brave",
                     "entries": [
-                        "You have advantage on saving throws against being {@condition frightened}."
+                        "The Captain has advantage on saving throws against being {@condition frightened}."
                     ]
                 },
                 {
                     "name": "Halfling Nimbleness",
                     "entries": [
-                        "You can move through the space of any creature that is of a size larger than yours."
+                        "The Captain can move through the space of any creature that is medium or larger."
                     ]
                 },
                 {
                     "name": "Naturally Stealthy",
                     "entries": [
-                        "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                        "The Captain can attempt to hide even when they are obscured only by a creature that is medium or larger."
                     ]
                 }
             ],
@@ -10829,7 +10791,7 @@
                 {
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The Ches can use a bonus action to regain 10 ({@damage 1d10 + 5}) HP."
+                        "Ches can use a bonus action to regain 10 ({@damage 1d10 + 5}) HP."
                     ]
                 },
                 {
@@ -10847,7 +10809,7 @@
                                 {
                                     "type": "item",
                                     "name": "{@b Shadow Arrow}",
-                                    "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches’S next turn."
+                                    "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches's next turn."
                                 }
                             ]
                         }
@@ -10891,6 +10853,44 @@
             ],
             "source": "MPSource",
             "page": 1
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
         }
     ]
 }

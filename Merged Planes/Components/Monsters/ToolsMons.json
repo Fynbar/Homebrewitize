@@ -124,25 +124,25 @@
             {
                 "name": "Lucky",
                 "entries": [
-                    "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                    "When the Captain roll a 1 on an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll."
                 ]
             },
             {
                 "name": "Brave",
                 "entries": [
-                    "You have advantage on saving throws against being {@condition frightened}."
+                    "The Captain has advantage on saving throws against being {@condition frightened}."
                 ]
             },
             {
                 "name": "Halfling Nimbleness",
                 "entries": [
-                    "You can move through the space of any creature that is of a size larger than yours."
+                    "The Captain can move through the space of any creature that is medium or larger."
                 ]
             },
             {
                 "name": "Naturally Stealthy",
                 "entries": [
-                    "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                    "The Captain can attempt to hide even when they are obscured only by a creature that is medium or larger."
                 ]
             }
         ],
