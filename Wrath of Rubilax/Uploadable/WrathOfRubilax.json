@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.2",
+                "version": "1.0.3",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660527571.0
+        "dateLastModified": 1660529904.0
     },
     "class": [
         {
@@ -2614,12 +2614,12 @@
             "entries": [
                 "The heavily armored death troopers of Hell, the Painkillers lead from the front of every major infernal battle.",
                 "When Hell invades another world or is invaded, the Painkillers do much of the fighting and the dying. Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personal appearance.",
-                "The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning. In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon The Nine Hells. Seeing the opportunity to sew strife and discord, an archdevil might send a Painkiller to lead the desperate lord’s armies... for a price.",
+                "The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning. In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon The Nine Hells. Seeing the opportunity to sew strife and discord, an archdevil might send a Painkiller to lead the desperate lord's armies... for a price.",
                 {
                     "type": "entries",
                     "name": "Tenets of Pain",
                     "entries": [
-                        "The Painkillers swear an oath to an archdevil (often Dispater) when they join the Order of Desolation. The oath commits them to lead Hell’s armies and wage war against Good across the timescape.",
+                        "The Painkillers swear an oath to an archdevil (often Dispater) when they join the Order of Desolation. The oath commits them to lead Hell's armies and wage war against Good across the timescape.",
                         {
                             "type": "entries",
                             "name": "Lead from the Front.",
@@ -2777,6 +2777,294 @@
                 "You emanate an aura of pain that forces every enemy starting their turn within 20 feet of you to make a DC 16 Constitution saving throw or suffer {@dice 4d12} force damage on a failed save (half that on a successful saving throw) as wounds in their flesh spontaneously open. Once a creature saves, they are immune to this ability for 24 hours.",
                 "While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest."
             ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
         }
     ],
     "optionalfeature": [
@@ -3900,7 +4188,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4017,7 +4305,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4139,7 +4427,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug’s long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4177,7 +4465,7 @@
                 {
                     "name": "Stoke Fear (2/day)",
                     "entries": [
-                        "Each creature of the bullywug’s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen’s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
                     ]
                 }
             ],
@@ -4272,7 +4560,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4355,294 +4643,6 @@
             ],
             "source": "WOR",
             "page": 1
-        }
-    ],
-    "spell": [
-        {
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    }
-                }
-            ],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
         }
     ]
 }
