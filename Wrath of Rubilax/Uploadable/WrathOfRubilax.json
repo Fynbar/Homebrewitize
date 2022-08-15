@@ -1,20 +1,23 @@
 {
     "_meta": {
-        "sources": [{
-            "json": "WOR",
-            "abbreviation": "WOR",
-            "full": "Wrath of Rubilax - Online",
-            "authors": [
-                "The prettiest girl at the party AKA Connor"
-            ],
-            "version": "1.0.1",
-            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
-            "color": "c2b280"
-        }],
+        "sources": [
+            {
+                "json": "WOR",
+                "abbreviation": "WOR",
+                "full": "Wrath of Rubilax - Online",
+                "authors": [
+                    "The prettiest girl at the party AKA Connor"
+                ],
+                "version": "1.0.2",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "color": "c2b280"
+            }
+        ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1659310355.0
+        "dateLastModified": 1660527571.0
     },
-    "class": [{
+    "class": [
+        {
             "name": "Dancer",
             "source": "WOR",
             "page": 51,
@@ -164,23 +167,25 @@
                     "{@item scimitar|phb|scimitars}",
                     "{@item whip|phb|whips}"
                 ],
-                "skills": [{
-                    "choose": {
-                        "from": [
-                            "acrobatics",
-                            "arcana",
-                            "deception",
-                            "insight",
-                            "intimidation",
-                            "perception",
-                            "performance",
-                            "persuasion",
-                            "sleight of hand",
-                            "stealth"
-                        ],
-                        "count": 3
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "arcana",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "perception",
+                                "performance",
+                                "persuasion",
+                                "sleight of hand",
+                                "stealth"
+                            ],
+                            "count": 3
+                        }
                     }
-                }]
+                ]
             },
             "startingEquipment": {
                 "additionalFromBackground": true,
@@ -191,16 +196,19 @@
                     "(a) a {@item costume clothes|phb|dancer's costume} or (b) an {@item arcane focus|phb}",
                     "{@item Leather armor|phb}, and a {@item dagger|phb}"
                 ],
-                "defaultData": [{
+                "defaultData": [
+                    {
                         "a": [
                             "rapier|phb"
                         ],
                         "b": [
                             "scimitar|phb"
                         ],
-                        "c": [{
-                            "equipmentType": "weaponSimple"
-                        }]
+                        "c": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
                     },
                     {
                         "a": [
@@ -236,26 +244,29 @@
                     "armor": [
                         "light"
                     ],
-                    "skills": [{
-                        "choose": {
-                            "from": [
-                                "acrobatics",
-                                "arcana",
-                                "deception",
-                                "insight",
-                                "intimidation",
-                                "perception",
-                                "performance",
-                                "persuasion",
-                                "sleight of hand",
-                                "stealth"
-                            ],
-                            "count": 1
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "acrobatics",
+                                    "arcana",
+                                    "deception",
+                                    "insight",
+                                    "intimidation",
+                                    "perception",
+                                    "performance",
+                                    "persuasion",
+                                    "sleight of hand",
+                                    "stealth"
+                                ],
+                                "count": 1
+                            }
                         }
-                    }]
+                    ]
                 }
             },
-            "classTableGroups": [{
+            "classTableGroups": [
+                {
                     "colLabels": [
                         "{@filter Dances|optionalfeatures|Feature Type=Dance}",
                         "{@filter Spells Known|spells|class=Dancer (WOR)}"
@@ -533,46 +544,48 @@
                 "Godlike Beauty|Dancer|WOR|20"
             ],
             "subclassTitle": "Dancing College",
-            "fluff": [{
-                "name": "The Dancer",
-                "type": "section",
-                "entries": [
-                    "A youthful elf twirls in circles, watching with delight as the leaves on the ground follow her movements. Faced by two brigands, the would-be victim's bursts of motion turn into a flurry that leaves their attackers slack-jawed.",
-                    "The light of the room dims, and the spotlights focus on the lightly dressed woman who makes her way across the stage. With a large smile, she moves effortless along with the music, filling everyone's hearts with joy and pushing them to stay determined in whatever challenges they have.",
-                    "Dancers are masters of their own body. Through careful motion they may inflict dazzling attacks, or even manipulate the energy around them. The very environment is a weapon in a Dancer's hands. Sultry swayers of the night who are refined in the day, only in a tavern brawl would you ever see these graceful devil's show their true colors with a blade.",
-                    {
-                        "type": "entries",
-                        "name": "Of Silk and Steel",
-                        "entries": [
-                            "Dancers draw from many different sources and backgrounds, combining them into a single package which covers a wide variety of situations. Using small weapons to pick away at their unwitting foes as their dances debilitate their marks. Though a rarity on the battlefield, few forget the sight of a skilled dancer at work."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "The Power of Rhythm",
-                        "entries": [
-                            "Dancers perform their magical feats not through a stave or rod, but rather through the rhythm and movement of their bodies. As they dance around the battlefield they move their bodies in specific patterns to manipulate the latent magical power within and to gather residual magic in the environment. Once they've gathered the required magic, they must keep moving to keep their spell active, channeling the magic further."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Creating a Dancer",
-                        "entries": [
-                            "Dancers are passionate people dedicated to their craft. Spending years practicing has gifted them with the ability to weave spells and their passions together into a gorgeous display of skill. When creating a Dancer, you must consider where they have honed their craft.",
-                            "Did they pick up the profession naturally, teaching themselves over long hours, or did they study beneath some kind of mentor? One must consider their motivations, does your Dancer seek fame and fortune, or do they want to bring the gifts of joy to the masses. Perhaps they are going on their journey in an attempt to hone their craft even further. What drives your character to go beyond a normal dancer, and actually fight? Talk to your DM about the role dancers might have in your campaign's societies.",
-                            {
-                                "type": "entries",
-                                "name": "Quick Build",
-                                "entries": [
-                                    "You can make a dancer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the {@background entertainer} background. Finally, choose a {@item rapier|phb}, 2 {@item daggers|phb|dagger}, an {@item entertainer's pack|phb}, and a {@item dancer's costume|phb|costume clothes}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "source": "WOR",
-                "page": 51
-            }]
+            "fluff": [
+                {
+                    "name": "The Dancer",
+                    "type": "section",
+                    "entries": [
+                        "A youthful elf twirls in circles, watching with delight as the leaves on the ground follow her movements. Faced by two brigands, the would-be victim's bursts of motion turn into a flurry that leaves their attackers slack-jawed.",
+                        "The light of the room dims, and the spotlights focus on the lightly dressed woman who makes her way across the stage. With a large smile, she moves effortless along with the music, filling everyone's hearts with joy and pushing them to stay determined in whatever challenges they have.",
+                        "Dancers are masters of their own body. Through careful motion they may inflict dazzling attacks, or even manipulate the energy around them. The very environment is a weapon in a Dancer's hands. Sultry swayers of the night who are refined in the day, only in a tavern brawl would you ever see these graceful devil's show their true colors with a blade.",
+                        {
+                            "type": "entries",
+                            "name": "Of Silk and Steel",
+                            "entries": [
+                                "Dancers draw from many different sources and backgrounds, combining them into a single package which covers a wide variety of situations. Using small weapons to pick away at their unwitting foes as their dances debilitate their marks. Though a rarity on the battlefield, few forget the sight of a skilled dancer at work."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Power of Rhythm",
+                            "entries": [
+                                "Dancers perform their magical feats not through a stave or rod, but rather through the rhythm and movement of their bodies. As they dance around the battlefield they move their bodies in specific patterns to manipulate the latent magical power within and to gather residual magic in the environment. Once they've gathered the required magic, they must keep moving to keep their spell active, channeling the magic further."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Dancer",
+                            "entries": [
+                                "Dancers are passionate people dedicated to their craft. Spending years practicing has gifted them with the ability to weave spells and their passions together into a gorgeous display of skill. When creating a Dancer, you must consider where they have honed their craft.",
+                                "Did they pick up the profession naturally, teaching themselves over long hours, or did they study beneath some kind of mentor? One must consider their motivations, does your Dancer seek fame and fortune, or do they want to bring the gifts of joy to the masses. Perhaps they are going on their journey in an attempt to hone their craft even further. What drives your character to go beyond a normal dancer, and actually fight? Talk to your DM about the role dancers might have in your campaign's societies.",
+                                {
+                                    "type": "entries",
+                                    "name": "Quick Build",
+                                    "entries": [
+                                        "You can make a dancer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the {@background entertainer} background. Finally, choose a {@item rapier|phb}, 2 {@item daggers|phb|dagger}, an {@item entertainer's pack|phb}, and a {@item dancer's costume|phb|costume clothes}."
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "source": "WOR",
+                    "page": 51
+                }
+            ]
         },
         {
             "name": "Illrigger",
@@ -595,21 +608,23 @@
                     "simple",
                     "martial"
                 ],
-                "skills": [{
-                    "choose": {
-                        "from": [
-                            "arcana",
-                            "athletics",
-                            "deception",
-                            "insight",
-                            "intimidation",
-                            "investigation",
-                            "persuasion",
-                            "religion"
-                        ],
-                        "count": 2
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "athletics",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "investigation",
+                                "persuasion",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
                     }
-                }]
+                ]
             },
             "startingEquipment": {
                 "default": [
@@ -619,7 +634,8 @@
                     "A holy symbol, two daggers, and five javelins"
                 ],
                 "additionalFromBackground": true,
-                "defaultData": [{
+                "defaultData": [
+                    {
                         "a": [],
                         "b": []
                     },
@@ -639,10 +655,12 @@
             "multiclassing": {
                 "requirements": {
                     "cha": 13,
-                    "or": [{
-                        "str": 13,
-                        "dex": 13
-                    }]
+                    "or": [
+                        {
+                            "str": 13,
+                            "dex": 13
+                        }
+                    ]
                 },
                 "proficienciesGained": {
                     "armor": [
@@ -659,73 +677,75 @@
                     "Multiclass characters divide their illrigger levels by three for the purposes of determining how many spell slots they get. This may result in an Architect of Ruin losing a spell level, but Asmodeus takes a dim view of Illriggers who stray from strict commitment to the path of Hell."
                 ]
             },
-            "classTableGroups": [{
-                "colLabels": [
-                    "Infernal Conduit Dice"
-                ],
-                "rows": [
-                    [
-                        1
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Infernal Conduit Dice"
                     ],
-                    [
-                        1
-                    ],
-                    [
-                        2
-                    ],
-                    [
-                        2
-                    ],
-                    [
-                        3
-                    ],
-                    [
-                        3
-                    ],
-                    [
-                        4
-                    ],
-                    [
-                        4
-                    ],
-                    [
-                        5
-                    ],
-                    [
-                        5
-                    ],
-                    [
-                        6
-                    ],
-                    [
-                        6
-                    ],
-                    [
-                        7
-                    ],
-                    [
-                        7
-                    ],
-                    [
-                        8
-                    ],
-                    [
-                        8
-                    ],
-                    [
-                        9
-                    ],
-                    [
-                        9
-                    ],
-                    [
-                        10
-                    ],
-                    [
-                        10
+                    "rows": [
+                        [
+                            1
+                        ],
+                        [
+                            1
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ]
                     ]
-                ]
-            }],
+                }
+            ],
             "classFeatures": [
                 "Forked Tongue|Illrigger|WOR|1",
                 "Infernal Conduit|Illrigger|WOR|1",
@@ -779,28 +799,31 @@
                 }
             ],
             "subclassTitle": "Diabolic Contracts",
-            "fluff": [{
-                "name": "The Illrigger",
-                "source": "WOR",
-                "type": "section",
-                "entries": [
-                    "The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.",
-                    "Their elite shock troops, the terror-commandos of Hell, are the {@i illriggers}. Knights of Hell, they are charismatic counter-paladins who master devils, disrupt enemy organizations, and command Hell's armies.",
-                    {
-                        "type": "entries",
-                        "name": "The Order of Desolation",
-                        "entries": [
-                            "Millennia ago, the Lords of Hell did something remarkable: they cooperated. They came together to create the Order of Desolation, knights sworn to serve Hell first, their patron archdevil second.",
-                            "Acceptance into the Order of Desolation makes you a comrade with every other illrigger, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But this association of illriggers consider themselves above the petty political squabbles that divide the seven cities.",
-                            "Members of the Order of Desolation, also known as the Desolate, are expected to be intelligent, resourceful, tactical, manipulative. A temple or cult might conclude that the presence of an illrigger in their midst is a sign that their archdevil approves of their actions, but the illriggers are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron's trust. Left to their own devices, the illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.",
-                            "It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from illriggers who serve other archdevils, before going to any church, cult, or temple devoted to their own archdevil."
-                        ]
-                    }
-                ]
-            }]
+            "fluff": [
+                {
+                    "name": "The Illrigger",
+                    "source": "WOR",
+                    "type": "section",
+                    "entries": [
+                        "The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.",
+                        "Their elite shock troops, the terror-commandos of Hell, are the {@i illriggers}. Knights of Hell, they are charismatic counter-paladins who master devils, disrupt enemy organizations, and command Hell's armies.",
+                        {
+                            "type": "entries",
+                            "name": "The Order of Desolation",
+                            "entries": [
+                                "Millennia ago, the Lords of Hell did something remarkable: they cooperated. They came together to create the Order of Desolation, knights sworn to serve Hell first, their patron archdevil second.",
+                                "Acceptance into the Order of Desolation makes you a comrade with every other illrigger, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But this association of illriggers consider themselves above the petty political squabbles that divide the seven cities.",
+                                "Members of the Order of Desolation, also known as the Desolate, are expected to be intelligent, resourceful, tactical, manipulative. A temple or cult might conclude that the presence of an illrigger in their midst is a sign that their archdevil approves of their actions, but the illriggers are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron's trust. Left to their own devices, the illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.",
+                                "It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from illriggers who serve other archdevils, before going to any church, cult, or temple devoted to their own archdevil."
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
-    "classFeature": [{
+    "classFeature": [
+        {
             "name": "Unarmored Defense",
             "source": "WOR",
             "page": 51,
@@ -910,7 +933,7 @@
                     "type": "entries",
                     "name": "Dances",
                     "entries": [
-                        "Dances have two parts: An active effect, and a passive effect. The passive effect stays in effect until the dance ends, which is when you use another dance, become incapacitated, grappled, paralyzed, petrified, or restrained, you take a short or long rest, or after a certain amount of time has passed, unless stated otherwise. Each active effect costs a spell slot of 1st level or higher to use. The amount of time that a dance lasts for is determined by the level of spell slot expended: 1st level -1 minute; 2nd level Ã¢â‚¬â€œ 10 minutes; 3rd level Ã¢â‚¬â€œ 1 hour; 4th level Ã¢â‚¬â€œ 8 hours; 5th level Ã¢â‚¬â€œ Until the dance ends by any of the qualifying conditions or triggers.",
+                        "Dances have two parts: An active effect, and a passive effect. The passive effect stays in effect until the dance ends, which is when you use another dance, become incapacitated, grappled, paralyzed, petrified, or restrained, you take a short or long rest, or after a certain amount of time has passed, unless stated otherwise. Each active effect costs a spell slot of 1st level or higher to use. The amount of time that a dance lasts for is determined by the level of spell slot expended: 1st level -1 minute; 2nd level â€“ 10 minutes; 3rd level â€“ 1 hour; 4th level â€“ 8 hours; 5th level â€“ Until the dance ends by any of the qualifying conditions or triggers.",
                         "Some dances are complex enough to require a level of concentration to be maintained. This concentration functions the same as that of a spell, and as such, you must make concentration checks when injured and may not concentrate on both a dance and a spell that require concentration."
                     ]
                 }
@@ -1143,7 +1166,8 @@
                 {
                     "type": "options",
                     "count": 1,
-                    "entries": [{
+                    "entries": [
+                        {
                             "type": "refClassFeature",
                             "classFeature": "Treachery|Illrigger|WOR|2"
                         },
@@ -1235,7 +1259,7 @@
             "level": 3,
             "entries": [
                 "When you reach 3rd level, you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. You gain the Invoke Authority ability and choose either Painkiller, Shadowmaster, or Architect of Ruin as your archdevil.",
-                "Furthermore, you are a noble knight in the lists of Hell and will be accorded fine treatment and hospitality anywhere in Hell you travel, even to cities ruled by enemy archdevils. More cosmopolitan cities in the timescapeâ€”like Alloy, the City of Brassâ€”will also respect your noble rank.",
+                "Furthermore, you are a noble knight in the lists of Hell and will be accorded fine treatment and hospitality anywhere in Hell you travel, even to cities ruled by enemy archdevils. More cosmopolitan cities in the timescape—like Alloy, the City of Brass—will also respect your noble rank.",
                 {
                     "type": "refClassFeature",
                     "classFeature": "Invoke Authority|Illrigger|WOR|3"
@@ -1440,7 +1464,8 @@
             ]
         }
     ],
-    "subclass": [{
+    "subclass": [
+        {
             "name": "Dance College of the Twirling Blade",
             "shortName": "Blade",
             "source": "WOR",
@@ -1509,7 +1534,8 @@
             "name": "Architect of Ruin",
             "source": "WOR",
             "shortName": "Architect",
-            "subclassTableGroups": [{
+            "subclassTableGroups": [
+                {
                     "colLabels": [
                         "{@filter Cantrips Known|spells|level=0|subclass=Illrigger: Architect of Ruin (WOR)}"
                     ],
@@ -1870,7 +1896,8 @@
             "classSource": "WOR"
         }
     ],
-    "subclassFeature": [{
+    "subclassFeature": [
+        {
             "name": "Dance College of the Twirling Blade",
             "source": "WOR",
             "page": 54,
@@ -1920,7 +1947,8 @@
                 {
                     "type": "options",
                     "count": 1,
-                    "entries": [{
+                    "entries": [
+                        {
                             "type": "refSubclassFeature",
                             "subclassFeature": "Archery|Dancer|WOR|Blade|WOR|3"
                         },
@@ -2512,7 +2540,7 @@
             "subclassSource": "WOR",
             "level": 9,
             "entries": [
-                "Your mastery of shadow grants you advantage on Dexterity ({@skill Stealth}) checks when taking the Hide action, and Hide becomes a bonus action for you.."
+                "Your mastery of shadow grants you advantage on Dexterity (Stealth) checks when taking the Hide action, and Hide becomes a bonus action for you.."
             ]
         },
         {
@@ -2586,12 +2614,12 @@
             "entries": [
                 "The heavily armored death troopers of Hell, the Painkillers lead from the front of every major infernal battle.",
                 "When Hell invades another world or is invaded, the Painkillers do much of the fighting and the dying. Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personal appearance.",
-                "The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning. In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon The Nine Hells. Seeing the opportunity to sew strife and discord, an archdevil might send a Painkiller to lead the desperate lord's armies... for a price.",
+                "The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning. In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon The Nine Hells. Seeing the opportunity to sew strife and discord, an archdevil might send a Painkiller to lead the desperate lord’s armies... for a price.",
                 {
                     "type": "entries",
                     "name": "Tenets of Pain",
                     "entries": [
-                        "The Painkillers swear an oath to an archdevil (often Dispater) when they join the Order of Desolation. The oath commits them to lead Hell's armies and wage war against Good across the timescape.",
+                        "The Painkillers swear an oath to an archdevil (often Dispater) when they join the Order of Desolation. The oath commits them to lead Hell’s armies and wage war against Good across the timescape.",
                         {
                             "type": "entries",
                             "name": "Lead from the Front.",
@@ -2751,10 +2779,12 @@
             ]
         }
     ],
-    "optionalfeature": [{
+    "optionalfeature": [
+        {
             "name": "Dance of the Dragon",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2783,7 +2813,8 @@
         {
             "name": "Dance with Death",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2812,7 +2843,8 @@
         {
             "name": "Shifting Sand Salsa",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2841,7 +2873,8 @@
         {
             "name": "Tango of the Troll",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2870,7 +2903,8 @@
         {
             "name": "Waltz of the Pouncing Feline",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2899,7 +2933,8 @@
         {
             "name": "Dance of the Avian",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2928,7 +2963,8 @@
         {
             "name": "Mountain Goat Mambo",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2957,7 +2993,8 @@
         {
             "name": "Elevated Quickstep",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -2986,7 +3023,8 @@
         {
             "name": "Blessed Ballroom Dance",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3015,7 +3053,8 @@
         {
             "name": "Dance of the Elements",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3044,7 +3083,8 @@
         {
             "name": "Barbarian Bolero",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3073,7 +3113,8 @@
         {
             "name": "Dance of Avoidance",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3102,7 +3143,8 @@
         {
             "name": "Peace Polka",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3131,7 +3173,8 @@
         {
             "name": "Stage Fright Foxtrot",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3160,7 +3203,8 @@
         {
             "name": "Dance of the Acrobat",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3189,7 +3233,8 @@
         {
             "name": "Lightning Bolt Ballet",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3218,7 +3263,8 @@
         {
             "name": "Fiery Flamenco",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3247,7 +3293,8 @@
         {
             "name": "Snowflake Samba",
             "source": "WOR",
-            "entries": [{
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3276,19 +3323,22 @@
         {
             "name": "Dance of Entrainment",
             "source": "WOR",
-            "prerequisite": [{
-                "level": {
-                    "level": 15,
-                    "class": {
-                        "name": "Dancer"
-                    },
-                    "subclass": {
-                        "name": "Dance College of the Twirling Blade",
-                        "visible": false
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Dancer"
+                        },
+                        "subclass": {
+                            "name": "Dance College of the Twirling Blade",
+                            "visible": false
+                        }
                     }
                 }
-            }],
-            "entries": [{
+            ],
+            "entries": [
+                {
                     "type": "entries",
                     "name": "Concentration",
                     "entries": [
@@ -3315,246 +3365,8 @@
             ]
         }
     ],
-    "spell": [{
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [{
-                "number": 1,
-                "unit": "action"
-            }],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [{
-                "type": "timed",
-                "duration": {
-                    "type": "minute",
-                    "amount": 10,
-                    "upTo": true
-                },
-                "concentration": true
-            }],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [{
-                    "name": "Illrigger",
-                    "source": "WOR"
-                }]
-            }
-        },
+    "monster": [
         {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [{
-                "number": 1,
-                "unit": "action"
-            }],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [{
-                "type": "timed",
-                "duration": {
-                    "type": "minute",
-                    "amount": 1,
-                    "upTo": true
-                },
-                "concentration": true
-            }],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [{
-                "type": "entries",
-                "name": "At Higher Levels",
-                "entries": [
-                    "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
-                ]
-            }],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [{
-                    "name": "Illrigger",
-                    "source": "WOR"
-                }]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [{
-                "number": 1,
-                "unit": "action"
-            }],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [{
-                "type": "timed",
-                "duration": {
-                    "type": "minute",
-                    "amount": 1,
-                    "upTo": true
-                },
-                "concentration": true
-            }],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [{
-                    "name": "Illrigger",
-                    "source": "WOR"
-                }]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [{
-                "number": 1,
-                "unit": "action"
-            }],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [{
-                "type": "timed",
-                "duration": {
-                    "type": "minute",
-                    "amount": 1,
-                    "upTo": true
-                }
-            }],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [{
-                    "name": "Illrigger",
-                    "source": "WOR"
-                }]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [{
-                "number": 1,
-                "unit": "action"
-            }],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [{
-                "type": "timed",
-                "duration": {
-                    "type": "minute",
-                    "amount": 1,
-                    "upTo": true
-                },
-                "concentration": true
-            }],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [{
-                    "name": "Illrigger",
-                    "source": "WOR"
-                }]
-            }
-        }
-    ],
-    "monster": [{
             "name": "Stalfos",
             "source": "WOR",
             "page": 272,
@@ -3566,12 +3378,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 15,
-                "from": [
-                    "armor scraps"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 25,
                 "formula": "3d8 + 12"
@@ -3608,18 +3422,22 @@
                 "understands Common"
             ],
             "cr": "2",
-            "trait": [{
-                "name": "Charge",
-                "entries": [
-                    "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
-                ]
-            }],
-            "action": [{
-                "name": "Stalfos Longsword.",
-                "entries": [
-                    "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Stalfos Longsword.",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -3652,12 +3470,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 7,
-                "from": [
-                    "brittle bones"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 7,
+                    "from": [
+                        "brittle bones"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 1,
                 "formula": "1d4 - 1"
@@ -3687,18 +3507,22 @@
                 "poisoned"
             ],
             "cr": "0",
-            "trait": [{
-                "name": "Pack Tactics",
-                "entries": [
-                    "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                ]
-            }],
-            "action": [{
-                "name": "Pin Prick",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Pin Prick",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -3727,12 +3551,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 12,
-                "from": [
-                    "bones"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "bones"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 10,
                 "formula": "1d8 + 5"
@@ -3764,18 +3590,22 @@
                 "poisoned"
             ],
             "cr": "1/4",
-            "trait": [{
-                "name": "Pack Tactics",
-                "entries": [
-                    "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                ]
-            }],
-            "action": [{
-                "name": "Bite",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -3843,7 +3673,8 @@
                 "understands all languages it spoke in life but can't speak"
             ],
             "cr": "1/2",
-            "trait": [{
+            "trait": [
+                {
                     "name": "Undead Fortitude",
                     "entries": [
                         "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
@@ -3856,12 +3687,14 @@
                     ]
                 }
             ],
-            "action": [{
-                "name": "Bite",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
-                ]
-            }],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -3895,12 +3728,14 @@
                 "N",
                 "E"
             ],
-            "ac": [{
-                "ac": 14,
-                "from": [
-                    "armor scraps"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 63,
                 "formula": "10d8 + 18"
@@ -3927,15 +3762,17 @@
             "vulnerable": [
                 "fire"
             ],
-            "resist": [{
-                "resist": [
-                    "bludgeoning",
-                    "piercing",
-                    "slashing"
-                ],
-                "note": "from nonmagical attacks",
-                "cond": true
-            }],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
             "immune": [
                 "poison",
                 "necrotic"
@@ -3951,7 +3788,8 @@
                 "understands all languages it spoke in life but can't speak"
             ],
             "cr": "3",
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
@@ -4006,31 +3844,33 @@
                 ]
             },
             "alignment": [
-                "c",
-                "n"
+                "C",
+                "N"
             ],
             "size": "M",
-            "hp": {
-                "formula": "4d8+6",
-                "average": 26
-            },
-            "ac": [{
-                "ac": 17,
-                "from": [
-                    "{@item chain shirt|phb}",
-                    "{@item shield|phb}"
-                ]
-            }],
-            "speed": {
-                "walk": 30,
-                "swim": 40
-            },
             "cha": "10",
             "wis": "11",
             "int": "10",
             "con": "14",
             "str": "14",
             "dex": "14",
+            "hp": {
+                "formula": "4d8 + 6",
+                "average": 26
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
             "cr": "2",
             "save": {
                 "dex": "+4"
@@ -4044,7 +3884,8 @@
                 "Bullywug",
                 "Common"
             ],
-            "trait": [{
+            "trait": [
+                {
                     "name": "Amphibious",
                     "entries": [
                         "The bullywug can breathe air and water."
@@ -4059,7 +3900,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4075,7 +3916,8 @@
                     ]
                 }
             ],
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The bullywug makes two melee attacks: one with its bite and one with its shortsword."
@@ -4101,6 +3943,9 @@
             "actionTags": [
                 "Multiattack"
             ],
+            "languageTags": [
+                "C"
+            ],
             "source": "WOR",
             "page": 1
         },
@@ -4113,30 +3958,32 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "M",
-            "hp": {
-                "formula": "7d8+12",
-                "average": 47
-            },
-            "ac": [{
-                "ac": 15,
-                "from": [
-                    "{@item chain shirt|phb}"
-                ]
-            }],
-            "speed": {
-                "walk": 25,
-                "swim": 40
-            },
             "cha": "10",
             "wis": "12",
             "int": "10",
             "con": "15",
             "str": "16",
             "dex": "14",
+            "hp": {
+                "formula": "7d8 + 12",
+                "average": 47
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 40
+            },
             "cr": "3",
             "save": {
                 "con": "+4"
@@ -4154,7 +4001,8 @@
                 "Bullywug",
                 "Common"
             ],
-            "trait": [{
+            "trait": [
+                {
                     "name": "Amphibious",
                     "entries": [
                         "The bullywug can breathe air and water."
@@ -4169,7 +4017,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4179,7 +4027,8 @@
                     ]
                 }
             ],
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The bullywug makes two melee attacks with its pike or bite."
@@ -4210,6 +4059,9 @@
             "actionTags": [
                 "Multiattack"
             ],
+            "languageTags": [
+                "C"
+            ],
             "source": "WOR",
             "page": 1
         },
@@ -4222,30 +4074,32 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "L",
-            "hp": {
-                "formula": "13d10+48",
-                "average": 126
-            },
-            "ac": [{
-                "ac": 16,
-                "from": [
-                    "{@item breastplate|phb}"
-                ]
-            }],
-            "speed": {
-                "walk": 30,
-                "swim": 60
-            },
             "cha": "12",
             "wis": "13",
             "int": "12",
             "con": "19",
             "str": "18",
             "dex": "14",
+            "hp": {
+                "formula": "13d10 + 48",
+                "average": 126
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 60
+            },
             "cr": "5",
             "save": {
                 "con": "+7",
@@ -4269,7 +4123,8 @@
                 "Bullywug",
                 "Common"
             ],
-            "trait": [{
+            "trait": [
+                {
                     "name": "Amphibious",
                     "entries": [
                         "The bullywug can breathe air and water."
@@ -4284,7 +4139,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                        "The bullywug’s long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4294,7 +4149,8 @@
                     ]
                 }
             ],
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The bullywug makes two attacks with its battleaxe."
@@ -4321,7 +4177,7 @@
                 {
                     "name": "Stoke Fear (2/day)",
                     "entries": [
-                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                        "Each creature of the bullywug’s choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen’s next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
                     ]
                 }
             ],
@@ -4330,6 +4186,9 @@
             ],
             "actionTags": [
                 "Multiattack"
+            ],
+            "languageTags": [
+                "C"
             ],
             "source": "WOR",
             "page": 1
@@ -4343,30 +4202,32 @@
                 ]
             },
             "alignment": [
-                "c",
-                "e"
+                "C",
+                "E"
             ],
             "size": "M",
-            "hp": {
-                "formula": "6d8+10",
-                "average": 40
-            },
-            "ac": [{
-                "ac": 16,
-                "from": [
-                    "{@item breastplate|phb}"
-                ]
-            }],
-            "speed": {
-                "walk": 20,
-                "swim": 40
-            },
             "cha": "9",
             "wis": "16",
             "int": "10",
             "con": "14",
             "str": "12",
             "dex": "15",
+            "hp": {
+                "formula": "6d8 + 10",
+                "average": 40
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
             "cr": "2",
             "save": {
                 "int": "+2",
@@ -4389,7 +4250,8 @@
                 "Bullywug",
                 "Common"
             ],
-            "trait": [{
+            "trait": [
+                {
                     "name": "Amphibious",
                     "entries": [
                         "The bullywug can breathe air and water."
@@ -4410,7 +4272,7 @@
                 {
                     "name": "Standing Leap",
                     "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                        "The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
                     ]
                 },
                 {
@@ -4420,48 +4282,50 @@
                     ]
                 }
             ],
-            "spellcasting": [{
-                "name": "Spellcasting",
-                "headerEntries": [
-                    "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
-                ],
-                "ability": "wis",
-                "spells": {
-                    "0": {
-                        "spells": [
-                            "{@spell druidcraft}",
-                            "{@spell poison spray}",
-                            "{@spell produce flame}"
-                        ]
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell produce flame}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell fog cloud}",
+                                "{@spell goodberry}",
+                                "{@spell thunderwave}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell barkskin}",
+                                "{@spell spike growth}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell conjure animals} (amphibians only)"
+                            ],
+                            "slots": 2
+                        }
                     },
-                    "1": {
-                        "slots": 4,
-                        "spells": [
-                            "{@spell fog cloud}",
-                            "{@spell goodberry}",
-                            "{@spell thunderwave}"
-                        ]
-                    },
-                    "2": {
-                        "slots": 3,
-                        "spells": [
-                            "{@spell barkskin}",
-                            "{@spell spike growth}"
-                        ]
-                    },
-                    "3": {
-                        "slots": 2,
-                        "spells": [
-                            "{@spell call lightning}",
-                            "{@spell conjure animals} (amphibians only)"
-                        ]
-                    }
+                    "headerEntries": [
+                        "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
+                    ]
                 }
-            }],
+            ],
             "spellcastingTags": [
                 "CD"
             ],
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The bully makes two attacks, one with its bite and one with its quarterstaff."
@@ -4476,7 +4340,7 @@
                 {
                     "name": "Staff",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if wielded with two hands."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 (1d6 + 2) bludgeoning damage, or 5 (1d8 + 2) bludgeoning damage if wielded with two hands."
                     ]
                 }
             ],
@@ -4486,20 +4350,299 @@
             "actionTags": [
                 "Multiattack"
             ],
+            "languageTags": [
+                "C"
+            ],
             "source": "WOR",
             "page": 1
         }
     ],
-    "condition": [{
-        "name": "Interdicted",
-        "source": "WOR",
-        "page": 1,
-        "entries": [{
-            "type": "list",
-            "items": [
-                "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-            ]
-        }],
-        "hasFluffImages": false
-    }]
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ]
 }
