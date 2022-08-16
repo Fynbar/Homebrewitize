@@ -8,231 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.29",
+                "version": "1.0.30",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660529900.0
+        "dateLastModified": 1660618194.0
     },
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
     "item": [
         {
             "name": "Veldarin's Pact Baton",
@@ -947,7 +729,7 @@
                     "spells": {
                         "1": {
                             "spells": [
-                                "{@spell {@spell hunter's mark}}",
+                                "{@spell hunter's mark}",
                                 "{@spell longstrider}",
                                 "{@spell speak with animals}",
                                 "{@spell zephyr strike|XGE}"
@@ -1039,8 +821,8 @@
                     "ac": 20,
                     "from": [
                         "glamoured studded leather armor",
-                        "{@item +1 shield|DMG|shield +1}",
-                        "ring of protection"
+                        "shield +1",
+                        "{@item ring of protection|DMG}"
                     ]
                 }
             ],
@@ -1188,7 +970,7 @@
                         },
                         "6": {
                             "spells": [
-                                "{@spell {@spell heroes' feast}}",
+                                "{@spell heroes' feast}",
                                 "{@spell word of recall}"
                             ],
                             "slots": 1
@@ -1530,7 +1312,8 @@
             ],
             "languageTags": [
                 "C",
-                "GO"
+                "GO",
+                "TC"
             ],
             "source": "MPSource",
             "page": 1
@@ -1680,7 +1463,7 @@
                 {
                     "name": "Illusory Trickery (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The Archmage of Alyentlea is permanently affected by {@i nystul's magic aura}, gaining both its effects. As a bonus action, they can invoke an illusory duplicate of themself as if they had cast the {@spell mirror image} spell."
+                        "The Archmage of Alyentlea is permanently affected by {@spell nystul's magic aura}, gaining both its effects. As a bonus action, they can invoke an illusory duplicate of themself as if they had cast the {@spell mirror image} spell."
                     ]
                 },
                 {
@@ -1755,8 +1538,8 @@
                         "{@spell comprehend languages}",
                         "{@spell find familiar}",
                         "{@spell identify}",
-                        "{@spell {@spell leomund's tiny hut}}",
-                        "{@spell {@spell rary's telepathic bond}}",
+                        "{@spell leomund's tiny hut}",
+                        "{@spell rary's telepathic bond}",
                         "{@spell unseen servant}"
                     ]
                 },
@@ -1818,7 +1601,7 @@
                         },
                         "5": {
                             "spells": [
-                                "{@spell {@spell bigby's hand}}",
+                                "{@spell bigby's hand}",
                                 "{@spell mislead}",
                                 "{@spell modify memory}",
                                 "{@spell scrying}"
@@ -1830,7 +1613,7 @@
                                 "{@spell disintegrate}",
                                 "{@spell globe of invulnerability}",
                                 "{@spell mental prison|XGE}",
-                                "{@spell {@spell tasha's otherworldly guise}}"
+                                "{@spell tasha's otherworldly guise|TCE}"
                             ],
                             "slots": 2
                         },
@@ -2074,7 +1857,7 @@
                     "ability": "cha",
                     "daily": {
                         "1e": [
-                            "{@spell {@spell abi-dalzim's horrid wilting}}",
+                            "{@spell abi-dalzim's horrid wilting|XGE}",
                             "{@spell bestow curse}",
                             "{@spell danse macabre|XGE}",
                             "{@spell eyebite}",
@@ -2124,9 +1907,22 @@
                 {
                     "name": "Breath Weapons {@recharge 5}",
                     "entries": [
-                        "The dragon uses one of the following breath weapons.",
-                        "{@b Shadow Breath.} The dragon exhales shadowy mist in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 71 ({@damage 13d10}) necrotic damage on a failed save, or half as much damage on a successful one.",
-                        "{@b Weakening Breath.} The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a DC25 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "The dragon uses one of the following breath weapons:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Shadow Breath}",
+                                    "entry": "The dragon exhales shadowy mist in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 71 ({@damage 13d10}) necrotic damage on a failed save, or half as much damage on a successful one."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Weakening Breath}",
+                                    "entry": " The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 25} Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -2394,6 +2190,9 @@
                     ]
                 }
             ],
+            "traitTags": [
+                "Devil's Sight"
+            ],
             "languageTags": [
                 "C",
                 "E",
@@ -2582,7 +2381,7 @@
                     ],
                     "daily": {
                         "2e": [
-                            "{@spell {@spell bigby's hand}}"
+                            "{@spell bigby's hand}"
                         ],
                         "1e": [
                             "{@spell glibness}",
@@ -2769,6 +2568,7 @@
                 }
             ],
             "traitTags": [
+                "Devil's Sight",
                 "Magic Resistance",
                 "Magic Weapons"
             ],
@@ -3135,6 +2935,7 @@
                 }
             ],
             "traitTags": [
+                "Devil's Sight",
                 "Magic Resistance",
                 "Magic Weapons"
             ],
@@ -3178,7 +2979,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "barrier tattoo"
+                        "{@itemGroup barrier tattoo|TCE}"
                     ]
                 }
             ],
@@ -3424,6 +3225,7 @@
                 }
             ],
             "traitTags": [
+                "Devil's Sight",
                 "Magic Weapons"
             ],
             "actionTags": [
@@ -3466,7 +3268,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "barrier tattoo"
+                        "{@itemGroup barrier tattoo|TCE}"
                     ]
                 }
             ],
@@ -3712,6 +3514,7 @@
                 }
             ],
             "traitTags": [
+                "Devil's Sight",
                 "Magic Weapons"
             ],
             "actionTags": [
@@ -3810,13 +3613,13 @@
                 {
                     "name": "Pact of the Talisman (3/Long Rest)",
                     "entries": [
-                        "When the wearer of Osxian's talisman fails a ability check, they can add a d4 to the roll, potentially turning the save into a success."
+                        "When the wearer of Osxian's talisman fails a ability check, they can add 2 ({@damage 1d4}) to the roll, potentially turning the save into a success."
                     ]
                 },
                 {
                     "name": "Protection of the Talisman (3/Long Rest)",
                     "entries": [
-                        "When the wearer of Osxian's talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success."
+                        "When the wearer of Osxian's talisman fails a saving throw, they can add 2 ({@damage 1d4}) to the roll, potentially turning the save into a success."
                     ]
                 },
                 {
@@ -3903,6 +3706,7 @@
                 }
             ],
             "traitTags": [
+                "Devil's Sight",
                 "Fey Ancestry"
             ],
             "languageTags": [
@@ -4276,7 +4080,7 @@
                         "{@spell find familiar}",
                         "{@spell forbiddance}",
                         "{@spell identify}",
-                        "{@spell {@spell leomund's tiny hut}}"
+                        "{@spell leomund's tiny hut}"
                     ]
                 }
             ],
@@ -4316,6 +4120,9 @@
                     ]
                 }
             ],
+            "traitTags": [
+                "Devil's Sight"
+            ],
             "languageTags": [
                 "AB",
                 "C",
@@ -4352,7 +4159,7 @@
                 {
                     "ac": 21,
                     "from": [
-                        "dwarven plate"
+                        "{@item dwarven plate|DMG}"
                     ]
                 }
             ],
@@ -4631,7 +4438,7 @@
                     "ac": 20,
                     "from": [
                         "glamoured breastplate",
-                        "{@item +1 shield|DMG|shield +1}"
+                        "shield +1"
                     ]
                 }
             ],
@@ -4839,6 +4646,9 @@
                     ]
                 }
             ],
+            "traitTags": [
+                "Devil's Sight"
+            ],
             "actionTags": [
                 "Multiattack"
             ],
@@ -4876,7 +4686,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "glamoured studded leather"
+                        "{@item glamoured studded leather|DMG}"
                     ]
                 }
             ],
@@ -5016,7 +4826,7 @@
                                 "{@spell cure wounds}",
                                 "{@spell disguise self}",
                                 "{@spell ensnaring strike}",
-                                "{@spell {@spell hunter's mark}}",
+                                "{@spell hunter's mark}",
                                 "{@spell speak with animals}",
                                 "{@spell zephyr strike|XGE}"
                             ],
@@ -5171,7 +4981,7 @@
                 {
                     "ac": 23,
                     "from": [
-                        "cloak of the stranger"
+                        "{@item cloak of the stranger|MPSOURCE}"
                     ]
                 }
             ],
@@ -5281,7 +5091,7 @@
                         },
                         "2": {
                             "spells": [
-                                "{@spell {@spell fortune's favor}}",
+                                "{@spell fortune's favor|EGW}",
                                 "{@spell mirror image}",
                                 "{@spell misty step}",
                                 "{@spell scorching ray}"
@@ -5306,7 +5116,7 @@
                         },
                         "5": {
                             "spells": [
-                                "{@spell {@spell bigby's hand}}",
+                                "{@spell bigby's hand}",
                                 "{@spell modify memory}",
                                 "{@spell temporal shunt|EGW}"
                             ],
@@ -5355,8 +5165,8 @@
                         "{@spell comprehend languages}",
                         "{@spell find familiar}",
                         "{@spell identify}",
-                        "{@spell {@spell leomund's tiny hut}}",
-                        "{@spell {@spell rary's telepathic bond}}",
+                        "{@spell leomund's tiny hut}",
+                        "{@spell rary's telepathic bond}",
                         "{@spell unseen servant}"
                     ]
                 },
@@ -5502,7 +5312,7 @@
                 {
                     "ac": 17,
                     "from": [
-                        "glamoured studded leather"
+                        "{@item glamoured studded leather|DMG}"
                     ]
                 }
             ],
@@ -5644,7 +5454,8 @@
             "languageTags": [
                 "AB",
                 "C",
-                "DR"
+                "DR",
+                "TC"
             ],
             "source": "MPSource",
             "page": 1
@@ -5676,7 +5487,7 @@
                 {
                     "ac": 19,
                     "from": [
-                        "glamoured studded leather"
+                        "{@item glamoured studded leather|DMG}"
                     ]
                 }
             ],
@@ -5867,7 +5678,8 @@
             "languageTags": [
                 "AB",
                 "C",
-                "DR"
+                "DR",
+                "TC"
             ],
             "source": "MPSource",
             "page": 1
@@ -5899,7 +5711,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "barrier tattoo"
+                        "{@itemGroup barrier tattoo|TCE}"
                     ]
                 },
                 {
@@ -6245,7 +6057,7 @@
                 {
                     "ac": 19,
                     "from": [
-                        "{@item +2 breastplate|DMG|breastplate+2}",
+                        "breastplate+2",
                         "potion of resilience"
                     ]
                 }
@@ -6283,7 +6095,7 @@
                 {
                     "name": "Alchemical Savant",
                     "entries": [
-                        "Whenever Daz'vol casts a spell using their {@i alchemist's supplies} as the spellcasting focus, that restores hit points or deals acid, fire, necrotic, or poison damage, they gain a {@b +4} bonus."
+                        "Whenever Daz'vol casts a spell using their {@item alchemist's supplies} as the spellcasting focus, that restores hit points or deals acid, fire, necrotic, or poison damage, they gain a {@b +4} bonus."
                     ]
                 },
                 {
@@ -6332,7 +6144,7 @@
                                 "{@spell charm person}",
                                 "{@spell faerie fire}",
                                 "{@spell healing word}*",
-                                "{@spell {@spell tasha's caustic brew}*}*"
+                                "{@spell tasha's caustic brew|TCE}*"
                             ],
                             "slots": 4
                         },
@@ -6544,7 +6356,7 @@
                 {
                     "ac": 15,
                     "from": [
-                        "glamoured studded leather"
+                        "{@item glamoured studded leather|DMG}"
                     ]
                 }
             ],
@@ -6624,7 +6436,8 @@
                 "CE",
                 "C",
                 "E",
-                "GO"
+                "GO",
+                "TC"
             ],
             "source": "MPSource",
             "page": 1
@@ -6634,7 +6447,7 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "any race"
+                    "human"
                 ]
             },
             "alignment": [
@@ -7868,7 +7681,7 @@
                             "spells": [
                                 "{@spell disguise self}",
                                 "{@spell goodberry}",
-                                "{@spell {@spell hunter's mark}}",
+                                "{@spell hunter's mark}",
                                 "{@spell longstrider}",
                                 "{@spell speak with animals}"
                             ],
@@ -7937,7 +7750,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@item +1 studded leather armor|DMG|studded leather armor +1}",
+                        "studded leather armor +1",
                         "integrated protection"
                     ]
                 }
@@ -8055,7 +7868,7 @@
                             "spells": [
                                 "{@spell disguise self}",
                                 "{@spell goodberry}",
-                                "{@spell {@spell hunter's mark}}",
+                                "{@spell hunter's mark}",
                                 "{@spell longstrider}",
                                 "{@spell speak with animals}"
                             ],
@@ -8984,7 +8797,7 @@
                     "ac": 22,
                     "from": [
                         "plate armor",
-                        "{@item +1 shield|DMG|shield +1}",
+                        "shield +1",
                         "integrated protection"
                     ]
                 }
@@ -9204,7 +9017,7 @@
                     "ac": 24,
                     "from": [
                         "sigil of gelezis",
-                        "{@item +1 shield|DMG|shield +1}",
+                        "shield +1",
                         "integrated protection"
                     ]
                 }
@@ -9381,7 +9194,7 @@
                 {
                     "ac": 21,
                     "from": [
-                        "{@item +1 plate armor|DMG|plate armor +1}",
+                        "plate armor +1",
                         "integrated protection"
                     ]
                 }
@@ -9528,7 +9341,7 @@
                 {
                     "ac": 20,
                     "from": [
-                        "{@item +2 studded leather armor|DMG|studded leather armor +2}",
+                        "studded leather armor +2",
                         "integrated protection"
                     ]
                 }
@@ -10172,8 +9985,8 @@
                 {
                     "ac": 22,
                     "from": [
-                        "{@item +1 plate|DMG|plate +1}",
-                        "{@item +1 shield|DMG|shield +1}"
+                        "plate +1",
+                        "shield +1"
                     ]
                 }
             ],
@@ -10630,7 +10443,7 @@
             ]
         },
         {
-            "name": "Rothcester",
+            "name": "Rothchester",
             "type": {
                 "type": "Humanoid",
                 "tags": [
@@ -10771,6 +10584,156 @@
             "page": 1
         }
     ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
     "race": [
         {
             "name": "Gnoll",
@@ -10869,6 +10832,74 @@
                     "type": "entries"
                 }
             ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
         }
     ]
 }
