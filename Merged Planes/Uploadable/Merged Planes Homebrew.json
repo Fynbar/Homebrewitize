@@ -8,12 +8,12 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.32",
+                "version": "1.0.33",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1662316692.0
+        "dateLastModified": 1662318407.0
     },
     "race": [
         {
@@ -115,133 +115,6 @@
             ]
         }
     ],
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Captain Tefor",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
     "variant": [
         {
             "name": "Glamoured Armor",
@@ -308,610 +181,6 @@
                 ]
             },
             "hasFluffImages": false
-        }
-    ],
-    "item": [
-        {
-            "name": "Veldarin's Pact Baton",
-            "source": "MPSource",
-            "page": 1,
-            "type": "RD",
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldarin",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, being attuned to this rod grants the following abilities.",
-                {
-                    "type": "list",
-                    "items": [
-                        {
-                            "name": "Veldarin's Favor",
-                            "entries": [
-                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Protection",
-                            "entries": [
-                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Arcana",
-                            "entries": [
-                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Cloak of the Stranger",
-            "source": "MPSource",
-            "page": 195,
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "requires attunement by an evil wizard of level 17 or higher",
-            "reqAttuneTags": [
-                {
-                    "alignment": [
-                        "E"
-                    ]
-                },
-                {
-                    "class": "wizard"
-                }
-            ],
-            "wondrous": true,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "A deep black fabric with silver and violet accents and runes flecked with bright dots remeniscent if a clear night's sky. The elegance of the cloak is juxtaposed by the scorched hem that hangs just above the ground. Through years of experimentation {@creature The Stranger|MPSource} was able to improve upon the already magically potent {@item Robe of the Archmagi|DMG} she procured from a Warlock of old.",
-                "Six stars, dotted across the cloak, are particularly large. As an action you can extinguish a star to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@damage 1d6} extinguished stars reignite on the robe.",
-                "While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.",
-                "You gain these benefits while wearing the robe:",
-                {
-                    "type": "list",
-                    "items": [
-                        "If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier + your Intelligence modifier.",
-                        "Your spell save DC and spell attack bonus each increase by 3.",
-                        "You have advantage on saving throws against spells and other magical effects.",
-                        "You gain a +1 bonus to saving throws while you wear it."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Chained Eye of Tharizdun",
-            "source": "MPSource",
-            "page": 195,
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "entries": [
-                "A fragment of a dagger infused with the power of {@b Tharizdun the Chained God}. This object has been manipulated and worked to heighten it's power to levels before thought impossible.",
-                {
-                    "type": "entries",
-                    "name": "Tharizdun the Chained God",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Asylum",
-                                    "entries": [
-                                        "The wearer has immunity to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks and resistance to all Bludgeoning, Piercing and Slashing Damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Immortality",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 8 for each level they have and and increases by 8 again whenever they gain a level.",
-                                        "The wielder's Constitution score is 21. This has no effect on if their Constitution is already 21 or higher without them."
-                                    ]
-                                },
-                                {
-                                    "name": "Mental Barrier",
-                                    "entries": [
-                                        "The wearer has resistance to all Psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Stanger's Mask",
-                                    "entries": [
-                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already and gains expertise with those skills. The wearer has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 19 Wisdom saving throw or forget the interaction over the next day. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds."
-                                    ]
-                                },
-                                {
-                                    "name": "Wreathed in the Unknowable",
-                                    "entries": [
-                                        "The wearer is hidden from divination magic and can't be perceived through magical scrying sensors. When a creature targets the wearer using the {@spell scrying} spell or similar spell, it must make a Wisdom saving throw against it's own save DC or take 13 ({@damage 3d8}) psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Blessing of Tharizdun.",
-                                    "entries": [
-                                        "When the wielder takes damage, it can use its reaction to force each hostile creature within 10 feet of it to make a DC 15 Intelligence saving throw. On a failed save, a creature takes half the damage the cultist took as psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Tharizdun's Bolt ({@recharge 6})",
-                                    "entries": [
-                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
-                                        "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - I",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "uncommon",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - II",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - III",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "very rare",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Borem",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Borem of the Lake of Boiling Mud",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Nomad} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Nomad's Boon",
-                                    "entries": [
-                                        "The wielder gain proficiency in {@item Vehicles (Land)}, {@item Vehicles (Water)}, and Wisdom ({@skill Animal Handling}) checks if they did not have it already. The wielder has advantage on all Wisdom ({@skill Animal Handling}), Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks. In addition your Wisdom score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Borem's Embrace (1/Day)",
-                                    "entries": [
-                                        "The wielder touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the wielder is incapacitated or dies, or until the target is immersed in water.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they must maintain concentration or a creature is released from the mud. They also take 4 ({@damage 1d6}) fire damage each round a creature is coated in mud."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Haask",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Haask the Voice of Hargut",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Tyrant} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Tyrant's subjugation",
-                                    "entries": [
-                                        "The wielder gain proficiency in Charisma ({@skill Intimidation}) checks if they did not have it already. Creatures have disadvantage on saving throws and ability checks made to avoid being charmed or frightened by the wielder. In addition your Charisma score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Haask's Presence (1/Day)",
-                                    "entries": [
-                                        "The wielder transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid must succeed on a DC 15 Charisma saving throw or be charmed by the wielder. While the target is charmed, the wielder has control of it on the target's next turn. At the end of that turn, the wielder teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The wielder can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 7 ({@damage 3d10}) psychic damage each when they transform into the leech."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Tharizdun",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Tharizdun the Chained God",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Stanger's Mask",
-                                    "entries": [
-                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already. The wielder has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 15 Wisdom saving throw or forget the interaction over the next few days. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds. "
-                                    ]
-                                },
-                                {
-                                    "name": "Tharizdun's Spark ({@recharge 6})",
-                                    "entries": [
-                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
-                                        "When a non-evil creature uses this ability they take 6 ({@damage 1d10}) psychic damage each when another creature is inflicted with madness this way."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Tyranthraxus",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Tyranthraxus the Flamed One",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Scholar} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Scholar's Grasp",
-                                    "entries": [
-                                        "The wielder gain proficiency in Intelligence saving throws if they did not have it already. The wielder has advantage on all Intelligence Checks made to recall information. In addition the wielder Intelligence score increases by 2, as does their maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Radiant Flames (1/Day)",
-                                    "entries": [
-                                        "Multi-hued flame surrounds the wielder for 1 minute, until the wielder is incapacitated or dies, or until the wielder extinguishes the flame (no action required). While inflamed, the wielder has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the wielder must make a DC 15 Dexterity saving throw, taking 16 ({@damage 3d10}) radiant damage on a failed save, or half as much damage on a successful one.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the DC 15 Dexterity saving throw.",
-                                        "When a non-evil creature uses this ability they take 7 ({@damage 1d12}) fire damage each round they are inflamed."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Atropus",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Atropus the World Born Dead",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Thieve's Clutch",
-                                    "entries": [
-                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Gaze of Corruption ({@recharge 6}).",
-                                    "entries": [
-                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 4 ({@damage 1d6}) poison damage and can only poison one creature at a time."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Toxic Nighteye Dagger",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "artifact",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Atropus the World Born Dead",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Thieve's Clutch",
-                                    "entries": [
-                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Leer of Corruption ({@recharge 6}).",
-                                    "entries": [
-                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
-                                        "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 17 (5d6) poison damage and can only poison one creature at a time."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "monster": [
@@ -5285,7 +4554,7 @@
             "page": 1
         },
         {
-            "name": "Arthur The Split Servant",
+            "name": "Arthur, The Split Servant",
             "type": {
                 "type": "Humanoid",
                 "tags": [
@@ -5355,16 +4624,6 @@
             ],
             "trait": [
                 {
-                    "name": "Innate Spellcasting (Psionic)",
-                    "entries": [
-                        "The Split Servant's innate spellcasting ability is Charisma (spell save {@dc 19}, 11 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
-                        "",
-                        "At will: {@i jump, mage hand (the hand is {@condition invisible})}",
-                        "2/day each: {@i command, misty step}",
-                        "1/day each: {@i haste (self only), telekinesis}"
-                    ]
-                },
-                {
                     "name": "Martial Prowess",
                     "entries": [
                         "When using {@i {@b Two-Weapon Fighting}}, the Split Servant can make an additional 2 weapon attacks with and can add +6 to the damage rolls."
@@ -5430,6 +4689,27 @@
                     }
                 },
                 {
+                    "name": "Innate Spellcasting (Psionics)",
+                    "headerEntries": [
+                        "The Split Servant's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell jump}",
+                        "{@spell mage hand} (the hand is invisible)"
+                    ],
+                    "daily": {
+                        "2e": [
+                            "{@spell command}",
+                            "{@spell misty step}"
+                        ],
+                        "1e": [
+                            "{@spell haste} (self only)",
+                            "{@spell telekinesis}"
+                        ]
+                    }
+                },
+                {
                     "name": "Spellcasting",
                     "spells": {
                         "0": {
@@ -5467,6 +4747,7 @@
             ],
             "spellcastingTags": [
                 "I",
+                "P",
                 "CL"
             ],
             "action": [
@@ -5552,7 +4833,7 @@
                 {
                     "name": "Psionic Spell (Costs 2 Actions)",
                     "entries": [
-                        "The Split Servant casts a spell from their psionic spell list."
+                        "The Split Servant casts a spell from their psionics spell list."
                     ]
                 }
             ],
@@ -11545,6 +10826,737 @@
                 "Nighteye Dagger - Tyranthraxus|MPSource",
                 "Nighteye Dagger - Atropus|MPSource",
                 "Toxic Nighteye Dagger|MPSource"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Captain Tefor",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Veldarin's Pact Baton",
+            "source": "MPSource",
+            "page": 1,
+            "type": "RD",
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": "by a warlock of Veldarin",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+3",
+            "bonusSpellSaveDc": "+3",
+            "entries": [
+                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, being attuned to this rod grants the following abilities.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "name": "Veldarin's Favor",
+                            "entries": [
+                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Protection",
+                            "entries": [
+                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Arcana",
+                            "entries": [
+                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cloak of the Stranger",
+            "source": "MPSource",
+            "page": 195,
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": "requires attunement by an evil wizard of level 17 or higher",
+            "reqAttuneTags": [
+                {
+                    "alignment": [
+                        "E"
+                    ]
+                },
+                {
+                    "class": "wizard"
+                }
+            ],
+            "wondrous": true,
+            "bonusSpellAttack": "+3",
+            "bonusSpellSaveDc": "+3",
+            "entries": [
+                "A deep black fabric with silver and violet accents and runes flecked with bright dots remeniscent if a clear night's sky. The elegance of the cloak is juxtaposed by the scorched hem that hangs just above the ground. Through years of experimentation {@creature The Stranger|MPSource} was able to improve upon the already magically potent {@item Robe of the Archmagi|DMG} she procured from a Warlock of old.",
+                "Six stars, dotted across the cloak, are particularly large. As an action you can extinguish a star to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@damage 1d6} extinguished stars reignite on the robe.",
+                "While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.",
+                "You gain these benefits while wearing the robe:",
+                {
+                    "type": "list",
+                    "items": [
+                        "If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier + your Intelligence modifier.",
+                        "Your spell save DC and spell attack bonus each increase by 3.",
+                        "You have advantage on saving throws against spells and other magical effects.",
+                        "You gain a +1 bonus to saving throws while you wear it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chained Eye of Tharizdun",
+            "source": "MPSource",
+            "page": 195,
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "entries": [
+                "A fragment of a dagger infused with the power of {@b Tharizdun the Chained God}. This object has been manipulated and worked to heighten it's power to levels before thought impossible.",
+                {
+                    "type": "entries",
+                    "name": "Tharizdun the Chained God",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Asylum",
+                                    "entries": [
+                                        "The wearer has immunity to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks and resistance to all Bludgeoning, Piercing and Slashing Damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Immortality",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 8 for each level they have and and increases by 8 again whenever they gain a level.",
+                                        "The wielder's Constitution score is 21. This has no effect on if their Constitution is already 21 or higher without them."
+                                    ]
+                                },
+                                {
+                                    "name": "Mental Barrier",
+                                    "entries": [
+                                        "The wearer has resistance to all Psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Stanger's Mask",
+                                    "entries": [
+                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already and gains expertise with those skills. The wearer has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 19 Wisdom saving throw or forget the interaction over the next day. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds."
+                                    ]
+                                },
+                                {
+                                    "name": "Wreathed in the Unknowable",
+                                    "entries": [
+                                        "The wearer is hidden from divination magic and can't be perceived through magical scrying sensors. When a creature targets the wearer using the {@spell scrying} spell or similar spell, it must make a Wisdom saving throw against it's own save DC or take 13 ({@damage 3d8}) psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Blessing of Tharizdun.",
+                                    "entries": [
+                                        "When the wielder takes damage, it can use its reaction to force each hostile creature within 10 feet of it to make a DC 15 Intelligence saving throw. On a failed save, a creature takes half the damage the cultist took as psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Tharizdun's Bolt ({@recharge 6})",
+                                    "entries": [
+                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
+                                        "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - I",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - II",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - III",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "very rare",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Borem",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Borem of the Lake of Boiling Mud",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Nomad} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Nomad's Boon",
+                                    "entries": [
+                                        "The wielder gain proficiency in {@item Vehicles (Land)}, {@item Vehicles (Water)}, and Wisdom ({@skill Animal Handling}) checks if they did not have it already. The wielder has advantage on all Wisdom ({@skill Animal Handling}), Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks. In addition your Wisdom score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Borem's Embrace (1/Day)",
+                                    "entries": [
+                                        "The wielder touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the wielder is incapacitated or dies, or until the target is immersed in water.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they must maintain concentration or a creature is released from the mud. They also take 4 ({@damage 1d6}) fire damage each round a creature is coated in mud."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Haask",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Haask the Voice of Hargut",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Tyrant} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Tyrant's subjugation",
+                                    "entries": [
+                                        "The wielder gain proficiency in Charisma ({@skill Intimidation}) checks if they did not have it already. Creatures have disadvantage on saving throws and ability checks made to avoid being charmed or frightened by the wielder. In addition your Charisma score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Haask's Presence (1/Day)",
+                                    "entries": [
+                                        "The wielder transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid must succeed on a DC 15 Charisma saving throw or be charmed by the wielder. While the target is charmed, the wielder has control of it on the target's next turn. At the end of that turn, the wielder teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The wielder can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 7 ({@damage 3d10}) psychic damage each when they transform into the leech."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Tharizdun",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Tharizdun the Chained God",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Stanger's Mask",
+                                    "entries": [
+                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already. The wielder has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 15 Wisdom saving throw or forget the interaction over the next few days. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds. "
+                                    ]
+                                },
+                                {
+                                    "name": "Tharizdun's Spark ({@recharge 6})",
+                                    "entries": [
+                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
+                                        "When a non-evil creature uses this ability they take 6 ({@damage 1d10}) psychic damage each when another creature is inflicted with madness this way."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Tyranthraxus",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Tyranthraxus the Flamed One",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Scholar} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Scholar's Grasp",
+                                    "entries": [
+                                        "The wielder gain proficiency in Intelligence saving throws if they did not have it already. The wielder has advantage on all Intelligence Checks made to recall information. In addition the wielder Intelligence score increases by 2, as does their maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Radiant Flames (1/Day)",
+                                    "entries": [
+                                        "Multi-hued flame surrounds the wielder for 1 minute, until the wielder is incapacitated or dies, or until the wielder extinguishes the flame (no action required). While inflamed, the wielder has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the wielder must make a DC 15 Dexterity saving throw, taking 16 ({@damage 3d10}) radiant damage on a failed save, or half as much damage on a successful one.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the DC 15 Dexterity saving throw.",
+                                        "When a non-evil creature uses this ability they take 7 ({@damage 1d12}) fire damage each round they are inflamed."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Atropus",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Atropus the World Born Dead",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Thieve's Clutch",
+                                    "entries": [
+                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Gaze of Corruption ({@recharge 6}).",
+                                    "entries": [
+                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 4 ({@damage 1d6}) poison damage and can only poison one creature at a time."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Toxic Nighteye Dagger",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "artifact",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Atropus the World Born Dead",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Thieve's Clutch",
+                                    "entries": [
+                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Leer of Corruption ({@recharge 6}).",
+                                    "entries": [
+                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
+                                        "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 17 (5d6) poison damage and can only poison one creature at a time."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     ]
