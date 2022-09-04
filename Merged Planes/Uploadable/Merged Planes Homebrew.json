@@ -8,13 +8,308 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.30",
+                "version": "1.0.32",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660618194.0
+        "dateLastModified": 1662316692.0
     },
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Captain Tefor",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
+                    ]
+                }
+            ]
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
     "item": [
         {
             "name": "Veldarin's Pact Baton",
@@ -625,7 +920,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "owlin"
+                    "owlin",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -798,7 +1094,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "wood elf"
+                    "wood elf",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -1086,7 +1383,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "bugbear"
+                    "bugbear",
+                    "bard"
                 ]
             },
             "alignment": [
@@ -1187,7 +1485,7 @@
                 {
                     "name": "Evasion",
                     "entries": [
-                        "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If Richter is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
                     ]
                 },
                 {
@@ -1323,7 +1621,8 @@
             "type": {
                 "type": "Celestial",
                 "tags": [
-                    "night elf"
+                    "night elf",
+                    "wizard"
                 ]
             },
             "alignment": [
@@ -1739,7 +2038,7 @@
                 {
                     "name": "Summon Night Elf Matron (Costs 4 Actions)",
                     "entries": [
-                        "Veldarin magically summons a {@i Matron Mother}. The elf appears in an unoccupied space within 60 feet of Veldarin, acts as Veldarin's ally, and can summon other elves if it has such power. The elf remains until Veldarin dies or until he dismisses it as an action."
+                        "Veldarin magically summons a {@creature Drow Matron Mother|MTF}. The elf appears in an unoccupied space within 60 feet of Veldarin, acts as Veldarin's ally, and can summon other elves if it has such power. The elf remains until Veldarin dies or until he dismisses it as an action."
                     ]
                 }
             ],
@@ -1759,6 +2058,322 @@
                 "name": "Veldarin",
                 "source": "MPSource"
             }
+        },
+        {
+            "name": "Captain Awl Tefor",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "locathath",
+                    "paladin"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": "16",
+            "wis": "12",
+            "int": "10",
+            "con": "18",
+            "str": "19",
+            "dex": "9",
+            "hp": {
+                "formula": "14d10 + 70",
+                "average": 154
+            },
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "mithral plate",
+                        "{@item shield|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 20,
+                "swim": 30
+            },
+            "cr": "14",
+            "save": {
+                "wis": "+6",
+                "cha": "+8"
+            },
+            "skill": {
+                "animal Handling": "+6",
+                "athletics": "+9",
+                "deception": "+8",
+                "intimidation": "+8",
+                "perception": "+6",
+                "persuasion": "+8"
+            },
+            "passive": 16,
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Aquan",
+                "Common"
+            ],
+            "senses": [
+                "blindsight 10ft."
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Courage",
+                    "entries": [
+                        "Captain Tefor and friendly creatures within 10 ft. can’t be {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Aura of Liberation",
+                    "entries": [
+                        "While not {@condition incapacitated}, Captain Tefor and creatures of the choose within 10 ft. cannot be {@condition grappled} or {@condition restrained}, and ignore penalties on movement and attacks while underwater. Creatures that were already grappled or restrained when entering the aura can spend 5 ft. of movement to automatically escape nonmagical restraints."
+                    ]
+                },
+                {
+                    "name": "Aura of Protection",
+                    "entries": [
+                        "Captain Tefor grants all friendly creatures within 10 ft. a +3 bonus to all saving throws."
+                    ]
+                },
+                {
+                    "name": "Divine Smite",
+                    "entries": [
+                        "When Captain Tefor hits with a melee weapon attack, they can expend one spell slot to deal 9 ({@damage 2d8}) extra radiant damage to the target plus 4 ({@damage 1d8}) for each spell level higher than 1st and and additional 4 ({@damage 1d8}) against undead or fiends."
+                    ]
+                },
+                {
+                    "name": "Divine Health",
+                    "entries": [
+                        "Captain Tefor is immune to disease."
+                    ]
+                },
+                {
+                    "name": "Leviathan Will",
+                    "entries": [
+                        "The Captain Tefor has advantage on saving throws against being {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition stunned}, or put to sleep."
+                    ]
+                },
+                {
+                    "name": "Limited Amphibiousness",
+                    "entries": [
+                        "Captain Tefor can breathe air and water, but must be submerged at least once every 4 hours to avoid suffocating."
+                    ]
+                },
+                {
+                    "name": "Trident of Fish Command (3/Day)",
+                    "entries": [
+                        "Captain Tefor can innately cast {@spell dominate beast} (spell save {@dc 15}), requiring no material components."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "1": {
+                            "spells": [
+                                "{@spell bless}",
+                                "{@spell create or destroy water}",
+                                "{@spell expeditious retreat}",
+                                "{@spell heroism}",
+                                "{@spell thunderous smite}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell aid}",
+                                "{@spell {@spell agury}}",
+                                "{@spell lesser restoration}",
+                                "{@spell misty step}",
+                                "{@spell prayer of healing}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell crusader's mantle}",
+                                "{@spell dispel magic}",
+                                "{@spell freedom of the waves|CSR}",
+                                "{@spell remove curse}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell control water}",
+                                "{@spell find greater steed|XGE}",
+                                "{@spell freedom of movement}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Captain Tefor is a 15th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Captain Tefor has the following paladin spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CP"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Captain Tefor makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Trident of Fish Control",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 7 ({@damage 1d6 + 4}) piercing damage plus 4 ({@damage 1d8}) radiant damage, or 8 ({@damage 1d8 + 4}) piercing damage plus 4 ({@damage 1d8}) radiant damage if used with two hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Javelin",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 9} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 7 ({@damage 1d6 + 4}) piercing damage plus 4 ({@damage 1d8}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (2/Short Rest)",
+                    "entries": [
+                        "The Captain Tefor uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Marine Layer}",
+                                    "entry": "Captain Tefor creates a thick cloud of fog that surrounds them and heavily obscures the area for 20 ft. in all directions, following as they move. Captain Tefor and all creatures within 5 ft. of them treats this fog as lightly obscured. This fog lasts 10 minutes, spreads around corners, and cannot be dispersed unless they choose to end it."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Fury of the Tides}",
+                                    "entry": " As a bonus action, Captain Tefor channels the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when they hit a creature with a weapon attack, they can push the target 10 ft. away. If pushed into an obstacle or another creature, the target takes +3 bludgeoning damage."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleansing Touch (5/Long Rest)",
+                    "entries": [
+                        "The Captain Tefor ends one spell on themself or on a willing creature that they touch."
+                    ]
+                },
+                {
+                    "name": "Divine Sense (6/Long Rest)",
+                    "entries": [
+                        "Until the end of The Captain Tefor's next turn, they can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead within 60 ft. that is not behind total cover."
+                    ]
+                },
+                {
+                    "name": "Lay on Hands Pool (Recharges after a Long Rest)",
+                    "entries": [
+                        "The Captain Tefor have a pool of healing power that can restore 75 HP. The Captain Tefor can touch a creature to restore any number of HP remaining in the pool, or 5 HP to either cure a disease or neutralize a poison affecting the creature."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Stormy Waters",
+                    "entries": [
+                        "When a creature that enters or exits Captain Tefor's melee range, it takes 6 ({@damage 1d12}) bludgeoning damage and must succeed on a STR saving throw ({@dc 16}) or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "AQ",
+                "C"
+            ],
+            "source": "MPSource",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Captain Tefor",
+                "source": "MPSource"
+            }
+        },
+        {
+            "name": "Lion of Tefor",
+            "type": "Beast",
+            "alignment": [
+                "U"
+            ],
+            "size": "H",
+            "cha": "5",
+            "wis": "10",
+            "int": "4",
+            "con": "18",
+            "str": "19",
+            "dex": "15",
+            "hp": {
+                "formula": "11d12 + 44",
+                "average": 110.0
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 15,
+                "swim": 50
+            },
+            "cr": "6",
+            "skill": {
+                "perception": "+3"
+            },
+            "passive": 13,
+            "languages": [],
+            "senses": [
+                "darkvision 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The Lion of Tefor can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Blood Frenzy",
+                    "entries": [
+                        "The Lion of Tefor has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the Lion of Tefor moves at least 25 ft. straight toward a target and then hits it with a headbash attack on the same turn, the target takes an extra 9 ({@damage 2d8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or lose any breathe it was holding. The Lion of Tefor can attempt to grapple the target as a bonus action."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Headbash",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Charge"
+            ],
+            "source": "MPSource",
+            "page": 1
         },
         {
             "name": "Ancient Gold Shadow Dragon",
@@ -1980,7 +2595,8 @@
             "type": {
                 "type": "Fey",
                 "tags": [
-                    "changeling"
+                    "changeling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -2123,7 +2739,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -2208,7 +2824,8 @@
             "type": {
                 "type": "Fey",
                 "tags": [
-                    "changeling"
+                    "changeling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -2441,7 +3058,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -2594,7 +3211,8 @@
             "type": {
                 "type": "Fey",
                 "tags": [
-                    "changeling"
+                    "changeling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -2814,7 +3432,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -2957,7 +3575,8 @@
             "type": {
                 "type": "Fey",
                 "tags": [
-                    "changeling"
+                    "changeling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -2979,7 +3598,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@itemGroup barrier tattoo|TCE}"
+                        "barrier tattoo"
                     ]
                 }
             ],
@@ -3151,7 +3770,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -3246,7 +3865,8 @@
             "type": {
                 "type": "Fey",
                 "tags": [
-                    "changeling"
+                    "changeling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -3268,7 +3888,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@itemGroup barrier tattoo|TCE}"
+                        "barrier tattoo"
                     ]
                 }
             ],
@@ -3440,7 +4060,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -3535,7 +4155,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "half-elf"
+                    "half-elf",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -3683,7 +4304,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -3724,7 +4345,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "half-elf"
+                    "half-elf",
+                    "sorcerer"
                 ]
             },
             "alignment": [
@@ -3891,7 +4513,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "tiefling"
+                    "tiefling",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -4086,7 +4709,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -4137,7 +4760,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "dragonborn"
+                    "dragonborn",
+                    "paladin"
                 ]
             },
             "alignment": [
@@ -4415,7 +5039,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "human"
+                    "human",
+                    "warlock"
                 ]
             },
             "alignment": [
@@ -4557,7 +5182,7 @@
             ],
             "spellcastingTags": [
                 "I",
-                "CW"
+                "CL"
             ],
             "action": [
                 {
@@ -4660,11 +5285,296 @@
             "page": 1
         },
         {
+            "name": "Arthur The Split Servant",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "human",
+                    "warlock"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": "22",
+            "wis": "12",
+            "int": "20",
+            "con": "12",
+            "str": "8",
+            "dex": "14",
+            "hp": {
+                "formula": "15d8 + 72",
+                "average": 155
+            },
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "cr": {
+                "cr": "19",
+                "xp": "22,000"
+            },
+            "save": {
+                "dex": "+7",
+                "int": "+10",
+                "wis": "+6",
+                "cha": "+11"
+            },
+            "skill": {
+                "arcana": "+10",
+                "deception": "+11",
+                "investigation": "+15",
+                "persuasion": "+11",
+                "sleight of Hand": "+7",
+                "stealth": "+7"
+            },
+            "passive": 11,
+            "immune": [
+                "bludgeoning, piercing, and slashing from nonmagical attacks"
+            ],
+            "resist": [
+                "bludgeoning",
+                "piercing",
+                "slashing"
+            ],
+            "languages": [
+                "All"
+            ],
+            "senses": [
+                "darkvision 120ft.",
+                "truesight 30ft."
+            ],
+            "trait": [
+                {
+                    "name": "Innate Spellcasting (Psionic)",
+                    "entries": [
+                        "The Split Servant's innate spellcasting ability is Charisma (spell save {@dc 19}, 11 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                        "",
+                        "At will: {@i jump, mage hand (the hand is {@condition invisible})}",
+                        "2/day each: {@i command, misty step}",
+                        "1/day each: {@i haste (self only), telekinesis}"
+                    ]
+                },
+                {
+                    "name": "Martial Prowess",
+                    "entries": [
+                        "When using {@i {@b Two-Weapon Fighting}}, the Split Servant can make an additional 2 weapon attacks with and can add +6 to the damage rolls."
+                    ]
+                },
+                {
+                    "name": "Devil's Sight",
+                    "entries": [
+                        "Magical darkness doesn't impede the Split Servant's darkvision."
+                    ]
+                },
+                {
+                    "name": "Mobile",
+                    "entries": [
+                        "When the Split Servant makes a melee attack against a creature, they don't provoke opportunity attacks from that creature for the rest of the turn, whether the Split Servant hits or not."
+                    ]
+                },
+                {
+                    "name": "Scholar's Omniscience",
+                    "entries": [
+                        "The Split Servant has triple advantage on all Intelligence Checks made to recall information."
+                    ]
+                },
+                {
+                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "As a bonus action, one creature visible within 30 feet of the Split Servant is cursed for 1 minute unless the target dies, the Split Servant dies, or is {@condition incapacitated}. Until then, they gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The Split Servant gains a {@b +5} bonus to damage rolls against the cursed target.",
+                                "Any attack roll the Split Servant make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+                                "If the cursed target dies, the Split Servant regains {@b +22} hit points"
+                            ]
+                        },
+                        "If the target dies, the Split Servant curses another target to within 30, but doesn't regain hit points."
+                    ]
+                },
+                {
+                    "name": "Stained Psyche",
+                    "entries": [
+                        "The Split Servant is immune to any spell or effect that would read thier thoughts, determine if they are lying, charm or frighten it, or magically influence its thoughts or behavior, unless the spell or effect comes from {@b {@i Pandorym}}."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Split Servant's innate spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell detect magic}",
+                        "{@spell invisibility}"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "{@spell etherealness}",
+                            "{@spell feeblemind}",
+                            "{@spell true seeing}"
+                        ]
+                    }
+                },
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell eldritch blast}",
+                                "{@spell encode thoughts|GGR}",
+                                "{@spell minor illusion}",
+                                "{@spell prestidigitation}"
+                            ]
+                        },
+                        "5": {
+                            "lower": "1",
+                            "slots": 3,
+                            "spells": [
+                                "{@spell armor of agathys}",
+                                "{@spell banishing smite}",
+                                "{@spell blink}",
+                                "{@spell blur}",
+                                "{@spell cone of cold}",
+                                "{@spell counterspell}",
+                                "{@spell darkness}",
+                                "{@spell dimension door}",
+                                "{@spell far step|XGE}",
+                                "{@spell fly}",
+                                "{@spell misty step}",
+                                "{@spell phantasmal killer}",
+                                "{@spell shield}"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "The Split Servant is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). The Split Servant has the following warlock spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "I",
+                "CL"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Split Servant makes two attacks with their pact weapons."
+                    ]
+                },
+                {
+                    "name": "Split Soul Nighteye Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 12} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 14 ({@damage 1d4 + 12}) piercing damage. On a hit the attack does an additional 9 ({@damage 2d8}) cold damage and 9 ({@damage 2d8}) psychic damage and the targets speed is reduced by 10ft."
+                    ]
+                },
+                {
+                    "name": "Pactbow",
+                    "entries": [
+                        "{@atk rw} {@hit 12} to hit, range 150/600 ft., one target. {@h}11 ({@damage 1d8 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Create Pact Weapon",
+                    "entries": [
+                        "As an action, the Split Servant can create a pact weapon in their hand (the Split Servant chooses the form, and is proficient with it, and it counts as magical). The Split Servant can also transform a magic weapon into their pact weapon by performing a special ritual."
+                    ]
+                },
+                {
+                    "name": "Blaze of Forbidden Knowledge (1/Turn)",
+                    "entries": [
+                        "As a bonus action, the Split Servant can teleport up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the Split Servant must make a {@dc 19} Intelligence saving throw, taking 19 ({@damage 3d12}) radiant damage and 19 ({@damage 3d12}) psychic damage on a failed save, or half as much damage on a successful one. This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the {@dc 19} Intelligence saving throw."
+                    ]
+                },
+                {
+                    "name": "Accursed Specter (Recharges after a Long Rest)",
+                    "entries": [
+                        "When the Split Servant slay a humanoid, they can cause its spirit to rise from its corpse as a {@creature Specter|MM}. It gains 6 temporary hit points. It obeys the Split Servant's verbal commands, and it gains a +6 bonus to its attack rolls. The {@creature Specter|MM} remains until the end of their next long rest."
+                    ]
+                },
+                {
+                    "name": "Ghostly Gaze (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Split Servant can see through solid objects within 30 ft. for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, they perceive objects as ghostly, transparent images."
+                    ]
+                },
+                {
+                    "name": "Rod of the Pact Keeper (Recharges after a Long Rest)",
+                    "entries": [
+                        "The Split Servant regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Armor of Hexes",
+                    "entries": [
+                        "If the target cursed by the Split Servant's Hexblade's Curse hits them with an attack roll, roll a d6. On a 4 or higher, the attack instead misses, regardless of its roll."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "The Split Servant can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Scholar regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Move",
+                    "entries": [
+                        "The Split Servant moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Pact Weapon",
+                    "entries": [
+                        "The Split Servant summons a weapon and attacks with it."
+                    ]
+                },
+                {
+                    "name": "Rod of the Pact Keeper",
+                    "entries": [
+                        "The Split Servant uses the {@i {@b Rod of the Pact Keeper}}."
+                    ]
+                },
+                {
+                    "name": "Psionic Spell (Costs 2 Actions)",
+                    "entries": [
+                        "The Split Servant casts a spell from their psionic spell list."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Devil's Sight"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "XX"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
             "name": "Cachette",
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "tabaxi"
+                    "tabaxi",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -4959,7 +5869,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "human"
+                    "human",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -5689,7 +6600,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "half-elf"
+                    "half-elf",
+                    "wizard"
                 ]
             },
             "alignment": [
@@ -5711,7 +6623,7 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@itemGroup barrier tattoo|TCE}"
+                        "barrier tattoo"
                     ]
                 },
                 {
@@ -6037,7 +6949,12 @@
         },
         {
             "name": "Daz'vol",
-            "type": "Humanoid and undead",
+            "type": {
+                "type": "Humanoid and undead",
+                "tags": [
+                    "artificer"
+                ]
+            },
             "alignment": [
                 "C",
                 "N"
@@ -6120,10 +7037,31 @@
                     "name": "Vampire Weaknesses",
                     "entries": [
                         "Daz'vol has the following flaws:",
-                        "{@i Forbiddance.} Daz'vol can't enter a residence without an invitation from one of the occupants.",
-                        "{@i Harmed by Running Water.} Daz'vol takes 20 acid damage when it ends its turn in running water.",
-                        "{@i Stake to the Heart.} Daz'vol is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
-                        "{@i Sunlight Hypersensitivity.} Daz'vol takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@spell Forbiddance}",
+                                    "entry": "Daz'vol can't enter a residence without an invitation from one of the occupants."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Harmed by Running Water}",
+                                    "entry": "  Daz'vol takes 20 acid damage when it ends its turn in running water."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Stake to the Heart}",
+                                    "entry": "  Daz'vol is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@i Sunlight Hypersensitivity}",
+                                    "entry": "  Daz'vol takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                                }
+                            ]
+                        }
                     ]
                 }
             ],
@@ -6447,7 +7385,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "human"
+                    "human",
+                    "wizard"
                 ]
             },
             "alignment": [
@@ -6773,7 +7712,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -6833,15 +7773,9 @@
                     ]
                 },
                 {
-                    "name": "Blessed Healer",
+                    "name": "Blessed Disciples",
                     "entries": [
-                        "When the S.C.A.L.P.E.L. Unit casts a healing another creature, they regain HP equal to 2 + the spell's level."
-                    ]
-                },
-                {
-                    "name": "Disciple of Life",
-                    "entries": [
-                        "Whenever the S.C.A.L.P.E.L. Unit uses a healing spell, the creature regains additional HP equal to 2 + the spell's level."
+                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liasonn} casts a healing spell on another creature, they both regain HP equal to 2 + the spell's level."
                     ]
                 }
             ],
@@ -7381,7 +8315,12 @@
         },
         {
             "name": "Zombie Drider",
-            "type": "Undead",
+            "type": {
+                "type": "Undead",
+                "tags": [
+                    "cleric"
+                ]
+            },
             "alignment": [
                 "C",
                 "E"
@@ -7570,7 +8509,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -7729,7 +8669,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -8210,7 +9151,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -8264,21 +9206,15 @@
             ],
             "trait": [
                 {
-                    "name": "Blessed Healer",
+                    "name": "Blessed Disciple",
                     "entries": [
-                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liason} casts a healing another creature, they regain HP equal to 2 + the spell's level."
+                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liason} casts a healing spell on another creature, they both regain HP equal to 2 + the spell's level."
                     ]
                 },
                 {
                     "name": "Constructed Resilience",
                     "entries": [
                         "The S.C.A.L.P.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
-                    ]
-                },
-                {
-                    "name": "Disciple of Life",
-                    "entries": [
-                        "Whenever S.C.A.L.P.E.L. Unit uses a healing spell, the creature regains additional HP equal to 2 + the spell's level."
                     ]
                 }
             ],
@@ -8403,7 +9339,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -8463,15 +9400,9 @@
                     ]
                 },
                 {
-                    "name": "Blessed Healer",
+                    "name": "Blessed Disciple",
                     "entries": [
-                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liasonn} casts a healing another creature, they regain HP equal to 2 + the spell's level."
-                    ]
-                },
-                {
-                    "name": "Disciple of Life",
-                    "entries": [
-                        "Whenever S.C.A.L.P.E.L. Unit uses a healing spell, the creature regains additional HP equal to 2 + the spell's level."
+                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liasonn} casts a healing spell on another creature, they both regain HP equal to 2 + the spell's level."
                     ]
                 }
             ],
@@ -8608,7 +9539,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -8671,15 +9603,9 @@
                     ]
                 },
                 {
-                    "name": "Blessed Healer",
-                    "entries": [
-                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liasonn} casts a healing another creature, they regain HP equal to 2 + the spell's level."
-                    ]
-                },
-                {
                     "name": "Disciple of Life",
                     "entries": [
-                        "Whenever the S.C.A.L.P.E.L. Unit uses a healing spell, the creature regains additional HP equal to 2 + the spell's level."
+                        "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liasonn} casts a healing spell on another creature, they regain HP equal to 2 + the spell's level."
                     ]
                 }
             ],
@@ -8775,7 +9701,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -8838,15 +9765,9 @@
                     ]
                 },
                 {
-                    "name": "Blessed Healer",
+                    "name": "Blessed Disciple",
                     "entries": [
-                        "When the {@i Designated Emissary of Alkor Chosen to Orate and Nurse} casts a healing another creature, they regain HP equal to 2 + the spell's level."
-                    ]
-                },
-                {
-                    "name": "Disciple of Life",
-                    "entries": [
-                        "Whenever the D.E.A.C.O.N. uses a healing spell, the creature regains additional HP equal to 2 + the spell's level."
+                        "When the {@i Designated Emissary of Alkor Chosen to Orate and Nurse} casts a healing spell on another creature, they both regain HP equal to 2 + the spell's level."
                     ]
                 },
                 {
@@ -9320,7 +10241,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "warforged"
+                    "warforged",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -9722,7 +10644,9 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "goliath"
+                    "goliath",
+                    "wizard",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -9963,7 +10887,9 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "goliath"
+                    "goliath",
+                    "wizard",
+                    "cleric"
                 ]
             },
             "alignment": [
@@ -10538,7 +11464,7 @@
                                 },
                                 {
                                     "type": "item",
-                                    "name": "{@b Shadow Arrow}",
+                                    "name": "{@b Blinding Shot}",
                                     "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches's next turn."
                                 }
                             ]
@@ -10620,286 +11546,6 @@
                 "Nighteye Dagger - Atropus|MPSource",
                 "Toxic Nighteye Dagger|MPSource"
             ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
-                    ]
-                }
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
         }
     ]
 }
