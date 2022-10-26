@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.4",
+                "version": "1.0.5",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1660618197.0
+        "dateLastModified": 1666803959.0
     },
     "class": [
         {
@@ -3051,22 +3051,6 @@
             }
         }
     ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
     "monster": [
         {
             "name": "Stalfos",
@@ -3900,7 +3884,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "bullywug"
+                    "bullywug",
+                    "druid"
                 ]
             },
             "alignment": [
@@ -4063,7 +4048,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "elf"
+                    "elf",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -4144,12 +4130,6 @@
                                 "During the first round of combat Dennis has advantage on attack rolls against creatures that have yet to act."
                             ]
                         }
-                    ]
-                },
-                {
-                    "name": "Cleats",
-                    "entries": [
-                        "The Dennis can use a bonus action to take the Dash action."
                     ]
                 },
                 {
@@ -4276,6 +4256,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Cleats",
+                    "entries": [
+                        "The Dennis can take the Dash action."
+                    ]
+                }
+            ],
             "actionTags": [
                 "Multiattack"
             ],
@@ -4294,7 +4282,8 @@
             "type": {
                 "type": "Humanoid",
                 "tags": [
-                    "human"
+                    "human",
+                    "ranger"
                 ]
             },
             "alignment": [
@@ -4387,12 +4376,6 @@
                                 "It can't take reactions until the end of Stevinius's next turn."
                             ]
                         }
-                    ]
-                },
-                {
-                    "name": "Monk Arts",
-                    "entries": [
-                        "When Stevinius makes a {@i {@b wombat wack}} or {@i {@b headbutt}} attack, they can make one unarmed strike as a bonus action."
                     ]
                 },
                 {
@@ -4529,6 +4512,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Monk Arts",
+                    "entries": [
+                        "When Stevinius makes a {@i {@b wombat wack}} or {@i {@b headbutt}} attack, they can make one unarmed strike."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Deflect Missiles",
@@ -4551,6 +4542,22 @@
             ],
             "source": "WOR",
             "page": 1
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
         }
     ],
     "optionalfeature": [

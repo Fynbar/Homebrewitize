@@ -8,113 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.33",
+                "version": "1.0.34",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1662318407.0
+        "dateLastModified": 1666803951.0
     },
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
     "variant": [
         {
             "name": "Glamoured Armor",
@@ -267,12 +167,6 @@
                     "entries": [
                         "Caliope ha advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track Fey, Goblinoids, and Humanoids."
                     ]
-                },
-                {
-                    "name": "Twin Weapon Fighting",
-                    "entries": [
-                        "When holding 2 weapons, Caliope can make a weapon attack as a bonus action."
-                    ]
                 }
             ],
             "spellcasting": [
@@ -342,6 +236,14 @@
                     "name": "Longbow",
                     "entries": [
                         "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Twin Weapon Fighting",
+                    "entries": [
+                        "When holding 2 weapons, Caliope can make a weapon attack."
                     ]
                 }
             ],
@@ -438,12 +340,6 @@
                     "name": "War Caster",
                     "entries": [
                         "The Ice Queen has advantage on Constitution saving throws made to maintain concentration on a spell."
-                    ]
-                },
-                {
-                    "name": "Embodiment of the Law (5/Long Rest)",
-                    "entries": [
-                        "If the Ice Queen casts an enchantment spell of of 1st level or higher with the casting time of 1 action, the spell's casting time to 1 bonus action for this casting."
                     ]
                 },
                 {
@@ -609,6 +505,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Embodiment of the Law (5/Long Rest)",
+                    "entries": [
+                        "The Ice Queen casts an enchantment spell of of 1st level or higher with the casting time of 1 action."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "War Caster",
@@ -720,12 +624,6 @@
                     ]
                 },
                 {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "On each of its turns, Richter can use a bonus action to take the Dash, Disengage, or Hide action."
-                    ]
-                },
-                {
                     "name": "Surprise Attack",
                     "entries": [
                         "If Richter surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
@@ -770,21 +668,9 @@
                     ]
                 },
                 {
-                    "name": "Bardic Inspiration (3/Long Rest)",
-                    "entries": [
-                        "As a bonus action, another creature within 60 ft. of Richter gains an inspiration die 3 ({@damage 1d6}), and can add it to one ability check, attack roll, or saving throw after seeing the roll, but before knowing the outcome."
-                    ]
-                },
-                {
                     "name": "Silver Tongue",
                     "entries": [
                         "When making a Charisma ({@skill Persuasion}) or Charisma ({@skill Deception}) checks, Richter treats a d20 roll of 9 or lower as a 10."
-                    ]
-                },
-                {
-                    "name": "Unsettling Words",
-                    "entries": [
-                        "Richter can expend one use of their Bardic Inspiration as a bonus action and choose one creature within 60 ft. must subtract 3 ({@damage 1d6}) from its next saving throw it makes before the start of Richter's next turn."
                     ]
                 }
             ],
@@ -862,6 +748,26 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "On each of its turns, Richter can take the Dash, Disengage, or Hide action."
+                    ]
+                },
+                {
+                    "name": "Bardic Inspiration (3/Long Rest)",
+                    "entries": [
+                        "Another creature within 60 ft. of Richter gains an inspiration die 3 ({@damage 1d6}), and can add it to one ability check, attack roll, or saving throw after seeing the roll, but before knowing the outcome."
+                    ]
+                },
+                {
+                    "name": "Unsettling Words",
+                    "entries": [
+                        "Richter can expend one use of their Bardic Inspiration and choose one creature within 60 ft. must subtract 3 ({@damage 1d6}) from its next saving throw it makes before the start of Richter's next turn."
                     ]
                 }
             ],
@@ -1031,31 +937,13 @@
                 {
                     "name": "Illusory Trickery (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The Archmage of Alyentlea is permanently affected by {@spell nystul's magic aura}, gaining both its effects. As a bonus action, they can invoke an illusory duplicate of themself as if they had cast the {@spell mirror image} spell."
-                    ]
-                },
-                {
-                    "name": "Deep Memory (2/Long Rest)",
-                    "entries": [
-                        "Veldarin can exchange one memorized spell for any other spell as a bonus action."
+                        "The Archmage of Alyentlea is permanently affected by {@spell nystul's magic aura}, gaining both its effects."
                     ]
                 },
                 {
                     "name": "Prismatic Juggle",
                     "entries": [
                         "When Veldarin casts a spell with a spell slot, that isn't of the same school as the previous spell they cast, within a minute of the last casting, the new spell is cast as if it is one level higher."
-                    ]
-                },
-                {
-                    "name": "Archmage",
-                    "entries": [
-                        "Veldarin uses a meta physical spellbook that only they can open and read. They can conjure the book as a bonus action. The book contains all wizard spells and has an infinite number of pages."
-                    ]
-                },
-                {
-                    "name": "Swift Caster",
-                    "entries": [
-                        "While wielding the {@b {@i Shadow Gauntlets}}, Veldarin can use a bonus action to cast a spell that has a casting time of one action."
                     ]
                 }
             ],
@@ -1253,6 +1141,32 @@
                     "name": "Mental Stunting",
                     "entries": [
                         "Veldarin uses illusions to physically overwhelm one creature he can see within 120 feet of it. The target must succeed on a {@dc 24} Constitution saving throw. On a failed save, the creature takes 31 ({@damage 6d6 + 10}) cold damage, can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. On a successful save, the target takes half as much damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Illusory Trickery (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Archmage of Alyentlea can invoke an illusory duplicate of themself as if they had cast the {@spell mirror image} spell."
+                    ]
+                },
+                {
+                    "name": "Deep Memory (2/Long Rest)",
+                    "entries": [
+                        "Veldarin can exchange one memorized spell for any other spell."
+                    ]
+                },
+                {
+                    "name": "Archmage",
+                    "entries": [
+                        "Veldarin conjures a meta physical spellbook that only they can open and read. The book contains all wizard spells and has an infinite number of pages."
+                    ]
+                },
+                {
+                    "name": "Swift Caster",
+                    "entries": [
+                        "While wielding the {@b {@i Shadow Gauntlets}}, Veldarin can cast a spell that has a casting time of one action."
                     ]
                 }
             ],
@@ -1645,6 +1559,191 @@
             "page": 1
         },
         {
+            "name": "RAAAGCH",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "aarakockra"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": "10",
+            "wis": "14",
+            "int": "8",
+            "con": "16",
+            "str": "18",
+            "dex": "14",
+            "hp": {
+                "formula": "14d12 + 57",
+                "average": 155
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "barrier tattoo"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40,
+                "fly": 40,
+                "swim": 40
+            },
+            "cr": "2",
+            "save": {
+                "str": "+6",
+                "con": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "deception": "+2",
+                "intimidation": "+2",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "Auran",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Relentless Rage",
+                    "entries": [
+                        "If RAAAGCH drops to 0 hit points while raging and doesn’t die, they can make a {@dc 10} CON saving throw and instead drop to 1 hit point on a success.",
+                        "The {@dc increase} by 5 each time this feature is used, resetting after a short rest."
+                    ]
+                },
+                {
+                    "name": "Gift of the Drowned Ones",
+                    "entries": [
+                        "RAAAGCH can breathe underwater."
+                    ]
+                },
+                {
+                    "name": "Danger Sense",
+                    "entries": [
+                        "RAAAGCH has advantage on DEX saving throws against effects they can see while not {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Feral Instinct",
+                    "entries": [
+                        "RAAAGCH has advantage on initiative rolls. If RAAAGCH is surprised at the beginning of combat, they can act normally on their first turn if they enter a {@i {@b rage}} before anything else."
+                    ]
+                },
+                {
+                    "name": "Manifestations of the Deep",
+                    "entries": [
+                        "RAAAGCH gains one of the following benefits.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Eyes of the Deep. Once per short rest, RAAAGCH casts the {@spell true seeing} spell, without using a spell slot or material components.",
+                                {
+                                    "type": "item",
+                                    "name": "Soul of the Deep",
+                                    "entry": " RAAAGCH is immune to being {@i {@condition charmed}} or {@i {@condition frightened}}."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Armor of the Deep",
+                                    "entry": " RAAAGCH's skin hardens, increasing their Armor Class by 1."
+                                }
+                            ]
+                        },
+                        "During a long rest they may replace the chosen manifestation."
+                    ]
+                },
+                {
+                    "name": "Reckless",
+                    "entries": [
+                        "At the start of its turn, RAAAGCH can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Eldritch Claw Tattoo",
+                    "entries": [
+                        "RAAAGCH's {@b {@i Talons}} attacks are magical for the purposes of damage resistances and immunities."
+                    ]
+                },
+                {
+                    "name": "Brutal Critical (2 Die)",
+                    "entries": [
+                        "RAAAGCH can roll two additional weapon damage dice for a critical hit with a melee attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "RAAAGCH makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Talons",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 8 ({@damage 1d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Javelin",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 7 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Ghostwater Dive",
+                    "entries": [
+                        "RAAAGCH magically teleports up to 30 feet, making one attack before or after teleporting. After teleporting all creatures within 10 feet of you must make a DC [STR DC] Strength saving throw. On a failed save a creature takes 10 ({@damage 3d6}) force damage and is knocked {@condition prone}. On a successful save, a creature takes half damage and is not knocked prone."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Dredge Line",
+                    "entries": [
+                        "While {@i *raging}*, RAAAGCH can target one creature within 15 feet. The target must succeed on a [STR DC] STR saving throw or be pulled up to 10 feet in a straight line towards RAAAGCH."
+                    ]
+                },
+                {
+                    "name": "Eldritch Maul (1/day)",
+                    "entries": [
+                        "RAAAGCH empower their strikes. For 1 minute, the range of all melee attacks becomes 15 feet, and their melee attacks deal an extra 1d6 force damage on a hit."
+                    ]
+                },
+                {
+                    "name": "Rage (5/Long Rest)",
+                    "entries": [
+                        "For up to 1 minute RAAAGCH gains advantage on STR checks and saving throws, {@b +3} melee damage with STR weapons, and resistance to bludgeoning, piercing, slashing damage. This ends if RAAAGCH falls {@condition unconscious} or chooses to end it as a bonus action."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Reckless"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "AU",
+                "C"
+            ],
+            "source": "MPSource",
+            "page": 1
+        },
+        {
             "name": "Ancient Gold Shadow Dragon",
             "type": "Dragon",
             "alignment": [
@@ -1717,12 +1816,6 @@
                     "name": "Living Shadow",
                     "entries": [
                         "While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant."
-                    ]
-                },
-                {
-                    "name": "Shadow Stealth",
-                    "entries": [
-                        "While in dim light or darkness, the dragon can take the Hide action as a bonus action."
                     ]
                 },
                 {
@@ -1814,6 +1907,14 @@
                     "entries": [
                         "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
                         "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Shadow Stealth",
+                    "entries": [
+                        "While in dim light or darkness, the dragon can take the Hide action."
                     ]
                 }
             ],
@@ -1946,12 +2047,6 @@
                     ]
                 },
                 {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "As a bonus action, Le Capitaine can command his familiar to take the Attack action."
-                    ]
-                },
-                {
                     "name": "Repelling Blast",
                     "entries": [
                         "When Le Capitaine hits a creature with eldritch blast, he can push the creature up to 10 feet away from him in a straight line"
@@ -2046,6 +2141,14 @@
                     "name": "Rod of the Pact Keeper (Recharges after a Long Rest)",
                     "entries": [
                         "Le Capitaine regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Investment of the Chain Master",
+                    "entries": [
+                        "Le Capitaine can command his familiar to take the Attack action."
                     ]
                 }
             ],
@@ -2208,12 +2311,6 @@
                     "name": "Eldritch Mind",
                     "entries": [
                         "Syl has advantage on Constitution saving throws that made to maintain concentration on a spell."
-                    ]
-                },
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "As a bonus action, Syl can command his familiar to take the Attack action."
                     ]
                 },
                 {
@@ -2383,6 +2480,14 @@
                     "name": "Velradin's Favor (2/Long Rest)",
                     "entries": [
                         "Syl regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Investment of the Chain Master",
+                    "entries": [
+                        "Syl can command his familiar to take the Attack action."
                     ]
                 }
             ],
@@ -2598,12 +2703,6 @@
                     ]
                 },
                 {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "As a bonus action, Sylvester can command his familiar to take the Attack action."
-                    ]
-                },
-                {
                     "name": "Legendary Resistance (3/day)",
                     "entries": [
                         "If Sylvester fails a saving throw, they can choose to succeed instead."
@@ -2751,6 +2850,14 @@
                     "name": "Velradin's Favor (2/Long Rest)",
                     "entries": [
                         "Sylvester regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Investment of the Chain Master",
+                    "entries": [
+                        "Sylvester can command his familiar to take the Attack action."
                     ]
                 }
             ],
@@ -2964,12 +3071,6 @@
                     "entries": [
                         "Sylvester has advantage on Constitution saving throws that made to maintain concentration on a spell."
                     ]
-                },
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "As a bonus action, Sylvester can command his familiar to take the Attack action."
-                    ]
                 }
             ],
             "spellcasting": [
@@ -3089,6 +3190,14 @@
                     "name": "Velradin's Favor (Recharges after a Long Rest)",
                     "entries": [
                         "The Scholar regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Investment of the Chain Master",
+                    "entries": [
+                        "Sylvester can command his familiar to take the Attack action."
                     ]
                 }
             ],
@@ -3254,12 +3363,6 @@
                     "entries": [
                         "Sylvester has advantage on Constitution saving throws that made to maintain concentration on a spell."
                     ]
-                },
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "As a bonus action, Sylvester can command his familiar to take the Attack action."
-                    ]
                 }
             ],
             "spellcasting": [
@@ -3382,6 +3485,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Investment of the Chain Master",
+                    "entries": [
+                        "Sylvester can command his familiar to take the Attack action."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Beguiling Defenses",
@@ -3495,12 +3606,6 @@
                     ]
                 },
                 {
-                    "name": "Healing Light (Recharges after a Long Rest)",
-                    "entries": [
-                        "Osxian has a pool of 8d6's. As a bonus action, they can heal one creature within 60 feet, by spending up to 4 dice from the pool."
-                    ]
-                },
-                {
                     "name": "Pact of the Talisman (3/Long Rest)",
                     "entries": [
                         "When the wearer of Osxian's talisman fails a ability check, they can add 2 ({@damage 1d4}) to the roll, potentially turning the save into a success."
@@ -3592,6 +3697,14 @@
                     "name": "Light Crossbow",
                     "entries": [
                         "{@atk rw} {@hit 5} to hit, range 80/120 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Healing Light (Recharges after a Long Rest)",
+                    "entries": [
+                        "Osxian has a pool of 8d6's. They can heal one creature within 60 feet, by spending up to 4 dice from the pool."
                     ]
                 }
             ],
@@ -4119,7 +4232,6 @@
                 {
                     "name": "Great Weapon Master",
                     "entries": [
-                        "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack as a bonus action. ",
                         "When the Tyrant makes a melee attack with a heavy weapon, they can take a -5 penalty to the attack roll to add +10 to the attack's damage."
                     ]
                 },
@@ -4264,6 +4376,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Great Weapon Master",
+                    "entries": [
+                        "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack."
+                    ]
+                }
+            ],
             "legendaryHeader": [
                 "The Tyrant can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Tyrant regains spent legendary actions at the start of its turn."
             ],
@@ -4380,21 +4500,6 @@
                     "entries": [
                         "The Scholar has advantage on all Intelligence Checks made to recall information."
                     ]
-                },
-                {
-                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "As a bonus action, one creature visible within 30 feet of the Scholar is cursed for 1 minute unless the target dies, the Scholar dies, or is {@condition incapacitated}. ",
-                        "Until then, they gain the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The Scholar gains a 5 bonus to damage rolls against the cursed target.",
-                                "Any attack roll the Scholar make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-                                "If the cursed target dies, the Scholar regains +17 hit points"
-                            ]
-                        }
-                    ]
                 }
             ],
             "spellcasting": [
@@ -4503,6 +4608,23 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "One creature visible within 30 feet of the Scholar is cursed for 1 minute unless the target dies, the Scholar dies, or is {@condition incapacitated}. ",
+                        "Until then, they gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The Scholar gains a 5 bonus to damage rolls against the cursed target.",
+                                "Any attack roll the Scholar make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+                                "If the cursed target dies, the Scholar regains +17 hit points"
+                            ]
+                        }
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Armor of Hexes",
@@ -4589,8 +4711,8 @@
                 "walk": 40
             },
             "cr": {
-                "cr": "19",
-                "xp": "22,000"
+                "cr": "20",
+                "xp": "25,000"
             },
             "save": {
                 "dex": "+7",
@@ -4645,21 +4767,6 @@
                     "name": "Scholar's Omniscience",
                     "entries": [
                         "The Split Servant has triple advantage on all Intelligence Checks made to recall information."
-                    ]
-                },
-                {
-                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "As a bonus action, one creature visible within 30 feet of the Split Servant is cursed for 1 minute unless the target dies, the Split Servant dies, or is {@condition incapacitated}. Until then, they gain the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The Split Servant gains a {@b +5} bonus to damage rolls against the cursed target.",
-                                "Any attack roll the Split Servant make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-                                "If the cursed target dies, the Split Servant regains {@b +22} hit points"
-                            ]
-                        },
-                        "If the target dies, the Split Servant curses another target to within 30, but doesn't regain hit points."
                     ]
                 },
                 {
@@ -4776,27 +4883,38 @@
                     ]
                 },
                 {
-                    "name": "Blaze of Forbidden Knowledge (1/Turn)",
-                    "entries": [
-                        "As a bonus action, the Split Servant can teleport up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the Split Servant must make a {@dc 19} Intelligence saving throw, taking 19 ({@damage 3d12}) radiant damage and 19 ({@damage 3d12}) psychic damage on a failed save, or half as much damage on a successful one. This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the {@dc 19} Intelligence saving throw."
-                    ]
-                },
-                {
                     "name": "Accursed Specter (Recharges after a Long Rest)",
                     "entries": [
                         "When the Split Servant slay a humanoid, they can cause its spirit to rise from its corpse as a {@creature Specter|MM}. It gains 6 temporary hit points. It obeys the Split Servant's verbal commands, and it gains a +6 bonus to its attack rolls. The {@creature Specter|MM} remains until the end of their next long rest."
                     ]
                 },
                 {
-                    "name": "Ghostly Gaze (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The Split Servant can see through solid objects within 30 ft. for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, they perceive objects as ghostly, transparent images."
-                    ]
-                },
-                {
                     "name": "Rod of the Pact Keeper (Recharges after a Long Rest)",
                     "entries": [
                         "The Split Servant regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "One creature visible within 30 feet of the Split Servant is cursed for 1 minute unless the target dies, the Split Servant dies, or is {@condition incapacitated}. ",
+                        "Until then, they gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The Split Servant gains a 6 bonus to damage rolls against the cursed target.",
+                                "Any attack roll the Split Servant make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+                                "If the cursed target dies, the Split Servant regains +17 hit points"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blaze of Forbidden Knowledge",
+                    "entries": [
+                        "The Split Servant can teleport up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the Split Servant must make a {@dc 19} Intelligence saving throw, taking 19 ({@damage 3d12}) radiant damage and 19 ({@damage 3d12}) psychic damage on a failed save, or half as much damage on a successful one. This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the {@dc 19} Intelligence saving throw."
                     ]
                 }
             ],
@@ -4984,12 +5102,6 @@
                     "entries": [
                         "The Nomad has advantage on Dexterity ({@skill Stealth}) checks."
                     ]
-                },
-                {
-                    "name": "Vanish",
-                    "entries": [
-                        "The Nomad can use the Hide action as a bonus action cannot be tracked by nonmagical means, unless they choose to leave a trail."
-                    ]
                 }
             ],
             "spellcasting": [
@@ -5093,11 +5205,19 @@
                     "entries": [
                         "The Nomad touches one creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the Nomad is {@condition incapacitated} or dies, or until the target is immersed in water. This ability can be used as a bonus action after the wielder makes a successful weapon attack with the {@i {@b Nighteye Dagger (Borem of the Lake of Boiling Mud)}}, forcing the target of the attack to make the saving throw."
                     ]
-                },
+                }
+            ],
+            "bonus": [
                 {
                     "name": "Nature's Veil (5/Long Rest)",
                     "entries": [
-                        "The Nomad can magically become {@condition invisible} as a bonus action until the start of their next turn."
+                        "The Nomad can magically become {@condition invisible} as until the start of their next turn."
+                    ]
+                },
+                {
+                    "name": "Vanish",
+                    "entries": [
+                        "The Nomad can use the Hide action and cannot be tracked by nonmagical means, unless they choose to leave a trail."
                     ]
                 }
             ],
@@ -5548,12 +5668,6 @@
                     ]
                 },
                 {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "Zhihlah can take the following as a a bonus action: Dash, Disengage, or Hide actions."
-                    ]
-                },
-                {
                     "name": "Gunner",
                     "entries": [
                         "Being within 5 feet of a hostile creature doesn't impose disadvantage on the Zhihlah's ranged attack rolls."
@@ -5587,12 +5701,6 @@
                     "name": "Sneak Attack (1/Turn)",
                     "entries": [
                         "Zhihlah deals an extra 21 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't {@condition incapacitated} and Zhihlah doesn't have disadvantage on the attack roll."
-                    ]
-                },
-                {
-                    "name": "Poisoner (4/Long Rest)",
-                    "entries": [
-                        "Zhihlah can apply injury poison to a weapon as a bonus action. The poison lasts for 1 minute and the target must make a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one"
                     ]
                 }
             ],
@@ -5628,6 +5736,20 @@
                     "name": "Shortbow + 1",
                     "entries": [
                         "{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Zhihlah can take the following as actions: Dash, Disengage, or Hide."
+                    ]
+                },
+                {
+                    "name": "Poisoner (4/Long Rest)",
+                    "entries": [
+                        "Zhihlah can apply injury poison to a weapon. The poison lasts for 1 minute and the target must make a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one"
                     ]
                 }
             ],
@@ -5722,12 +5844,6 @@
                     "name": "Assassinate",
                     "entries": [
                         "During its first turn, the Thief has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Thief scores against a surprised creature is a critical hit."
-                    ]
-                },
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The Thief can take the following as a a bonus action: Dash, Disengage, or Hide actions."
                     ]
                 },
                 {
@@ -5829,6 +5945,20 @@
                     "name": "Leer of Corruption {@recharge 6}",
                     "entries": [
                         "The Thief hits one creature with a weapon attack. The target must succeed on a {@dc 18} Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success. This ability can be used as a free action after the wielder makes a successful weapon attack with the {@i {@b Toxic Nighteye Dagger}}, forcing the target of the attack to make the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Thief can take the following as actions: Dash, Disengage, or Hide."
+                    ]
+                },
+                {
+                    "name": "Poisoner (6/Long Rest)",
+                    "entries": [
+                        "Thief can apply injury poison to a weapon. The poison lasts for 1 minute and the target must make a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one"
                     ]
                 }
             ],
@@ -5958,21 +6088,6 @@
                     ]
                 },
                 {
-                    "name": "Bladesong (5/Long Rest)",
-                    "entries": [
-                        "The Accursed can use a bonus action to start the Bladesong, which gives them the following benefits for 1 minute:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The Accursed gains a {@b +5} bonus to their AC.",
-                                "The Accursed's walking speed increases by 10 feet.",
-                                "The Accursed has advantage on Dexterity ({@skill Acrobatics}) checks.",
-                                "The Accursed gains a {@b +5} bonus to any concentration checks."
-                            ]
-                        }
-                    ]
-                },
-                {
                     "name": "Song of Victory",
                     "entries": [
                         "While {@b {@i Bladesong}} is active, the Accursed adds {@b +5} to the damage of melee weapon attacks."
@@ -6091,6 +6206,23 @@
                     "name": "Dagger",
                     "entries": [
                         "{@atk mw, rw} {@hit 11} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 8 ({@damage 1d4 + 6}) piercing damage  {@i {13 ({@damage 1d4 + 11}) with {@b bladesong}}}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bladesong (5/Long Rest)",
+                    "entries": [
+                        "The Accursed can to start the Bladesong, which gives them the following benefits for 1 minute:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The Accursed gains a {@b +5} bonus to their AC.",
+                                "The Accursed's walking speed increases by 10 feet.",
+                                "The Accursed has advantage on Dexterity ({@skill Acrobatics}) checks.",
+                                "The Accursed gains a {@b +5} bonus to any concentration checks."
+                            ]
+                        }
                     ]
                 }
             ],
@@ -6614,12 +6746,6 @@
                     ]
                 },
                 {
-                    "name": "Master of Tactics",
-                    "entries": [
-                        "Gil can use the Help action as a bonus action. When using the Help action to aid an ally in attacking a creature, the target of that attack can be within 30"
-                    ]
-                },
-                {
                     "name": "Sneak Attack (1/Turn)",
                     "entries": [
                         "Gil deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
@@ -6637,6 +6763,20 @@
                     "name": "Shortbow",
                     "entries": [
                         "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "Gil can take the following as actions: Dash, Disengage, or Hide."
+                    ]
+                },
+                {
+                    "name": "Master of Tactics",
+                    "entries": [
+                        "Gil can use the Help action. When using the Help action to aid an ally in attacking a creature, the target of that attack can be within 30"
                     ]
                 }
             ],
@@ -6710,12 +6850,6 @@
             ],
             "trait": [
                 {
-                    "name": "Benign Transportation (Recharges after a Conjuration Spell of 1st Level or Higher is cast)",
-                    "entries": [
-                        "As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
-                    ]
-                },
-                {
                     "name": "Keen Mind",
                     "entries": [
                         "Hana always knows which way is north, how many hours left before the next sunrise or sunset, and can accurately recall anything they have seen or heard within the past month."
@@ -6786,6 +6920,14 @@
                     "name": "Minor Conjuration",
                     "entries": [
                         "Hana conjures an inanimate object smaller than 3 feet on a side that weighs less than 10 pounds. The object radiates dim light out to 5 feet and disappears after 1 hour, when they use this feature again, or if it takes any damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Benign Transportation (Recharges after a Conjuration Spell of 1st Level or Higher is cast)",
+                    "entries": [
+                        "Hana teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
                     ]
                 }
             ],
@@ -7545,12 +7687,6 @@
                     ]
                 },
                 {
-                    "name": "Rampage",
-                    "entries": [
-                        "When the Horde reduces a creature to 0 hit points with a melee attack on its turn, the Horde can take a bonus action to move up to half its speed and make a bites attack."
-                    ]
-                },
-                {
                     "name": "Unmanageable Size",
                     "entries": [
                         "If the Horde has more than half of its hit points, it has advantage on Strength saving throws, and disadvantage on Dexterity saving throws"
@@ -7577,6 +7713,14 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When the Horde reduces a creature to 0 hit points with a melee attack on its turn, the Horde can move up to half its speed and make a bites attack."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Vengeful Strike",
@@ -7584,9 +7728,6 @@
                         "In response to a gnoll being reduced to 0 hit points within 30 feet of the Horde, it makes a melee attack. If the gnoll was within the Horde, it makes 2 attacks."
                     ]
                 }
-            ],
-            "traitTags": [
-                "Rampage"
             ],
             "actionTags": [
                 "Multiattack"
@@ -8056,12 +8197,6 @@
                     ]
                 },
                 {
-                    "name": "Nature's Veil (4/Long Rest)",
-                    "entries": [
-                        "The C.O.M.P.A.S.S. Unit can magically become {@condition invisible}, as a bonus action, until the start of theirr next turn."
-                    ]
-                },
-                {
                     "name": "Stalker's Flurry",
                     "entries": [
                         "Once per turns, when the C.O.M.P.A.S.S. Unit misses a weapon attack, they can make another weapon attack as part of the same action."
@@ -8147,6 +8282,14 @@
                     "name": "Shortsword",
                     "entries": [
                         "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nature's Veil (4/Long Rest)",
+                    "entries": [
+                        "The C.O.M.P.A.S.S. Unit can magically become {@condition invisible} as until the start of their next turn."
                     ]
                 }
             ],
@@ -8290,11 +8433,13 @@
                     "entries": [
                         "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}3 ({@damage 1d8 - 1}) piercing damage."
                     ]
-                },
+                }
+            ],
+            "bonus": [
                 {
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The C.U.D.G.E.L. Unit can use a bonus action to regain 23 ({@damage 1d10 + 18}) HP."
+                        "The C.U.D.G.E.L. Unit can to regain 23 ({@damage 1d10 + 18}) HP."
                     ]
                 }
             ],
@@ -8393,12 +8538,6 @@
                     "entries": [
                         "The {@i Combat Unit Designated as Guardian and Emperor's Legionary} can take one additional action on their turn."
                     ]
-                },
-                {
-                    "name": "Second Wind (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The C.U.D.G.E.L. Unit can use a bonus action to regain 9 ({@damage 1d10 + 4}) HP."
-                    ]
                 }
             ],
             "action": [
@@ -8418,6 +8557,14 @@
                     "name": "Light Crossbow",
                     "entries": [
                         "{@atk rw} {@hit 1} to hit, range 80/320 ft., one target. {@h}3 ({@damage 1d8 - 1}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Second Wind (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The C.U.D.G.E.L. Unit can to regain 9 ({@damage 1d10 + 4}) HP."
                     ]
                 }
             ],
@@ -9297,12 +9444,6 @@
                     ]
                 },
                 {
-                    "name": "Nimbleness of the Empire",
-                    "entries": [
-                        "On each of its turns, the L.E.G.A.T.E. can use a bonus action to take the Dash action."
-                    ]
-                },
-                {
                     "name": "Action Surge (2/Short Rest)",
                     "entries": [
                         "The {@i Leadership Exclusive Guard Automaton and Tactical Expert} can take one additional action on their turn."
@@ -9339,11 +9480,19 @@
                     "entries": [
                         "{@atk rw} {@hit 11} to hit, range 80/320 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
                     ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimbleness of the Empire",
+                    "entries": [
+                        "The L.E.G.A.T.E. can to take the Dash action."
+                    ]
                 },
                 {
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The L.E.G.A.T.E. can use a bonus action to regain 23 ({@damage 1d10 + 18}) HP."
+                        "The L.E.G.A.T.E. can to regain 23 ({@damage 1d10 + 18}) HP."
                     ]
                 }
             ],
@@ -9446,7 +9595,6 @@
                 {
                     "name": "Great Weapon Master",
                     "entries": [
-                        "When the R.E.G.E.N.T. scores a critical hit with a melee weapon or reduces a creature to 0 hit points on their turn, they can make one melee weapon attack as a bonus action.",
                         "Before making a melee attack with a heavy weapon, the R.E.G.E.N.T. can choose to take a {@b -5} penalty to the attack roll to add {@b +10} to the attack's damage."
                     ]
                 },
@@ -9500,11 +9648,13 @@
                     "entries": [
                         "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}3 ({@damage 1d8 - 1}) piercing damage."
                     ]
-                },
+                }
+            ],
+            "bonus": [
                 {
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The R.E.G.E.N.T. can use a bonus action to regain 20 ({@damage 1d10 + 15}) HP."
+                        "The R.E.G.E.N.T. can to regain 20 ({@damage 1d10 + 15}) HP."
                     ]
                 }
             ],
@@ -9624,18 +9774,6 @@
                     ]
                 },
                 {
-                    "name": "Nature's Veil (5/Long Rest)",
-                    "entries": [
-                        "The S.C.O.U.T. can magically become {@condition invisible}, as a bonus action, until the start of theirr next turn."
-                    ]
-                },
-                {
-                    "name": "Vanish",
-                    "entries": [
-                        "On each of its turns, the S.C.O.U.T. can take the Hide action. The S.C.O.U.T. can also not be tracked by non magical means."
-                    ]
-                },
-                {
                     "name": "Stalker's Flurry",
                     "entries": [
                         "Once per turns, when the S.C.O.U.T. misses a weapon attack, they can make another weapon attack as part of the same action."
@@ -9740,6 +9878,20 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Nature's Veil (5/Long Rest)",
+                    "entries": [
+                        "The S.C.O.U.T. can magically become {@condition invisible}, until the start of theirr next turn."
+                    ]
+                },
+                {
+                    "name": "Vanish",
+                    "entries": [
+                        "On each of its turns, the S.C.O.U.T. can take the Hide action. The S.C.O.U.T. can also not be tracked by non magical means."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Shadowy Dodge",
@@ -9831,12 +9983,6 @@
                     ]
                 },
                 {
-                    "name": "Rage (4/Long Rest)",
-                    "entries": [
-                        "As a bonus action enter a rage for up to 1 minute (10 rounds). The Arc Fighter gains advantage on STR checks and saving throws (not attacks), {@b +3} melee damage with STR weapons, resistance to bludgeoning, piercing, slashing damage. The rage ends early if they are knocked {@condition unconscious} or if their turn ends and they haven't attacked a hostile creature since their last turn or taken damage since then. The Arc Fighter can also end the rage as a bonus action."
-                    ]
-                },
-                {
                     "name": "Relentless Rage",
                     "entries": [
                         "If the Arc Fighter drops to 0 hit points while raging and they don't die, they can make a DC {@b 10} CON saving throw. If they succeed, they drop to 1 hit point instead. The {@dc increase} by 5 each time the Arc Fighter uses this after the first, resetting to {@b 10} after a short or long rest."
@@ -9846,12 +9992,6 @@
                     "name": "Reckless",
                     "entries": [
                         "At the start of their turn, the Arc Fighter can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against they have advantage until the start of its next turn."
-                    ]
-                },
-                {
-                    "name": "Strom Aura",
-                    "entries": [
-                        "This can be activated as a part of a rage, or as a bonus action while raging. When this effect is activated, the Arc Fighter can choose one other creature they can see in their aura to make a {@dc 16} DEX save taking 7 ({@damage 2d6}) lightning damage and taking half damage on a successful save."
                     ]
                 },
                 {
@@ -9897,6 +10037,20 @@
                     "name": "Javelin",
                     "entries": [
                         "{@atk mw, rw} {@hit 8} to hit, reach 5 ft. or range 30/120 ft., one target. {@i Hit:} 7 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Rage (4/Long Rest)",
+                    "entries": [
+                        "Enter a rage for up to 1 minute (10 rounds). The Arc Fighter gains advantage on STR checks and saving throws (not attacks), {@b +3} melee damage with STR weapons, resistance to bludgeoning, piercing, slashing damage. The rage ends early if they are knocked {@condition unconscious} or if their turn ends and they haven't attacked a hostile creature since their last turn or taken damage since then. The Arc Fighter can also end the rage as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Strom Aura",
+                    "entries": [
+                        "This can be activated as a part of a rage, or while raging. When this effect is activated, the Arc Fighter can choose one other creature they can see in their aura to make a {@dc 16} DEX save taking 7 ({@damage 2d6}) lightning damage and taking half damage on a successful save."
                     ]
                 }
             ],
@@ -9981,13 +10135,6 @@
                 "Primordial"
             ],
             "trait": [
-                {
-                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
-                    "entries": [
-                        "As a bonus action a Tiny spectral tome hovers in an unoccupied space within 60 feet of the Lightning Scribe. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Lightning Scribe what it sees and hears (no action required).",
-                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
-                    ]
-                },
                 {
                     "name": "Manifest Mind - Cast Spell (4/Long Rest)",
                     "entries": [
@@ -10142,6 +10289,15 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Lightning Scribe. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Lightning Scribe what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                    ]
+                }
+            ],
             "reaction": [
                 {
                     "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
@@ -10224,13 +10380,6 @@
                 "Primordial"
             ],
             "trait": [
-                {
-                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
-                    "entries": [
-                        "As a bonus action a Tiny spectral tome hovers in an unoccupied space within 60 feet of the Boltscrawler. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Boltscrawler what it sees and hears (no action required).",
-                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
-                    ]
-                },
                 {
                     "name": "Manifest Mind - Cast Spell (4/Long Rest)",
                     "entries": [
@@ -10419,6 +10568,15 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Boltscrawler. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Boltscrawler what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
                     ]
                 }
             ],
@@ -10726,12 +10884,6 @@
                     ]
                 },
                 {
-                    "name": "Second Wind (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "Ches can use a bonus action to regain 10 ({@damage 1d10 + 5}) HP."
-                    ]
-                },
-                {
                     "name": "Arcane Shot (2/Short Rest)",
                     "entries": [
                         "Ches can apply an Arcane Shot Option to an arrow when they make a ranged weapon attack",
@@ -10750,12 +10902,6 @@
                                 }
                             ]
                         }
-                    ]
-                },
-                {
-                    "name": "Rabbit Hop (3/Long Rest)",
-                    "entries": [
-                        "As a bonus action, Ches can jump 15 ft. without provoking opportunity attacks."
                     ]
                 }
             ],
@@ -10779,6 +10925,20 @@
                     ]
                 }
             ],
+            "bonus": [
+                {
+                    "name": "Second Wind (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Ches can regain 10 ({@damage 1d10 + 5}) HP."
+                    ]
+                },
+                {
+                    "name": "Rabbit Hop (3/Long Rest)",
+                    "entries": [
+                        "Ches can jump 15 ft. without provoking opportunity attacks."
+                    ]
+                }
+            ],
             "actionTags": [
                 "Multiattack"
             ],
@@ -10791,41 +10951,103 @@
             "page": 1
         }
     ],
-    "itemGroup": [
+    "race": [
         {
-            "name": "Nighteye Dagger",
+            "name": "Gnoll",
             "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
+            "page": 20,
+            "size": [
+                "M"
             ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
             "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
             ]
         }
     ],
@@ -10953,6 +11175,44 @@
                         "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears."
                     ]
                 }
+            ]
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
             ]
         }
     ],
