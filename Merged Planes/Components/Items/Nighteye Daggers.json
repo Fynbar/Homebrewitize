@@ -103,7 +103,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "Tharizdun's Bolt ({@recharge 6})",
+                                    "name": "Tharizdun's Bolt {@recharge 6}",
                                     "entries": [
                                         "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
                                         "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
@@ -364,7 +364,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "Tharizdun's Spark ({@recharge 6})",
+                                    "name": "Tharizdun's Spark {@recharge 6}",
                                     "entries": [
                                         "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
                                         "When a non-evil creature uses this ability they take 6 ({@damage 1d10}) psychic damage each when another creature is inflicted with madness this way."
@@ -487,7 +487,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "Gaze of Corruption ({@recharge 6}).",
+                                    "name": "Gaze of Corruption {@recharge 6}.",
                                     "entries": [
                                         "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                                         "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
@@ -549,7 +549,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "Leer of Corruption ({@recharge 6}).",
+                                    "name": "Leer of Corruption {@recharge 6}.",
                                     "entries": [
                                         "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
                                         "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
