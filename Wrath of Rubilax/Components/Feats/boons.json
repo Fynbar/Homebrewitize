@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "WOR-Test",
+            "abbreviation": "WOR-",
+            "full": "Test Auto Souce - Boon",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "boon": [{
+        "name": "Eurasia’s Blessing",
+        "source": "WOR",
+        "page": 79,
+        "type": "Elven",
+        "entries": [
+            "The blessing of First Princess of Thran, Eurasia Mazino, grants you the following benefits:",
+            {
+                "type": "list",
+                "items": [
+                    "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                ]
+            }
+        ]
+    }]
+}
