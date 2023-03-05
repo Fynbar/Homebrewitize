@@ -1,1 +1,156 @@
-{"_meta": {"sources": [{"json": "MPSource", "abbreviation": "MPSource", "full": "Test Auto Souce - Villians", "authors": ["Me"], "version": "1.0.0", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley", "color": "c2b280"}], "dateAdded": 1620498967, "dateLastModified": 1620498967, "tested": true}, "monster": [{"name": "Rothchester", "type": {"type": "Humanoid", "tags": ["harengon"]}, "alignment": ["L", "E"], "size": "M", "cha": "10", "wis": "12", "int": "14", "con": "14", "str": "8", "dex": "18", "hp": {"formula": "4d10 + 22", "average": 42}, "ac": [{"ac": 18, "from": ["{@item shield|phb}", "{@item studded leather armor|phb}"]}], "speed": {"walk": 30}, "cr": {"cr": "5", "xp": "2,300"}, "save": {"str": "+2", "con": "+5"}, "skill": {"acrobatics": "+7", "deception": "+3", "insight": "+4", "intimidation": "+3", "nature": "+5", "perception": "+4"}, "passive": 14, "languages": ["Common", "Goblin", "Sylvan"], "trait": [{"name": "Lucky Footwork", "entries": ["Ches can add 2 ({@damage 1d4}) when making a Dexterity saving throw."]}, {"name": "Hare Trigger", "entries": ["Ches gains a {@b +3} bonus to initiative."]}, {"name": "Action Surge (Recharges after a Short or Long Rest)", "entries": ["Ches can take one additional action on their turn."]}, {"name": "Arcane Shot (2/Short Rest)", "entries": ["Ches can apply an Arcane Shot Option to an arrow when they make a ranged weapon attack", {"type": "list", "items": [{"type": "item", "name": "{@b Piercing Arrow}", "entry": "The shot goes passes through a 30 foot long line and creatures in it must make a {@dc 13} Dexterity saving throw or take an extra 3 ({@damage 1d6}) piercing damage or half as much on a successful save."}, {"type": "item", "name": "{@b Blinding Shot}", "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches's next turn."}]}]}], "action": [{"name": "Multiattack", "entries": ["Ches makes two attacks."]}, {"name": "Pistol", "entries": ["{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."]}, {"name": "Dagger", "entries": ["{@atk mw, rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) piercing damage."]}], "bonus": [{"name": "Second Wind (Recharges after a Short or Long Rest)", "entries": ["Ches can regain 10 ({@damage 1d10 + 5}) HP."]}, {"name": "Rabbit Hop (3/Long Rest)", "entries": ["Ches can jump 15 ft. without provoking opportunity attacks."]}], "actionTags": ["Multiattack"], "languageTags": ["C", "GO", "S"], "source": "MPSource", "page": 1}], "legendaryGroup": []}
+{
+    "_meta": {
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "MPSource",
+            "full": "Test Auto Souce - Villians",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "monster": [{
+        "name": "Rothchester",
+        "type": {
+            "type": "Humanoid",
+            "tags": [
+                "harengon"
+            ]
+        },
+        "alignment": [
+            "L",
+            "E"
+        ],
+        "size": "M",
+        "cha": "10",
+        "wis": "12",
+        "int": "14",
+        "con": "14",
+        "str": "8",
+        "dex": "18",
+        "hp": {
+            "formula": "4d10 + 22",
+            "average": 42
+        },
+        "ac": [{
+            "ac": 18,
+            "from": [
+                "{@item shield|phb}",
+                "{@item studded leather armor|phb}"
+            ]
+        }],
+        "speed": {
+            "walk": 30
+        },
+        "cr": {
+            "cr": "5",
+            "xp": "2,300"
+        },
+        "save": {
+            "str": "+2",
+            "con": "+5"
+        },
+        "skill": {
+            "acrobatics": "+7",
+            "deception": "+3",
+            "insight": "+4",
+            "intimidation": "+3",
+            "nature": "+5",
+            "perception": "+4"
+        },
+        "passive": 14,
+        "languages": [
+            "Common",
+            "Goblin",
+            "Sylvan"
+        ],
+        "trait": [{
+                "name": "Lucky Footwork",
+                "entries": [
+                    "Ches can add 2 ({@damage 1d4}) when making a Dexterity saving throw."
+                ]
+            },
+            {
+                "name": "Hare Trigger",
+                "entries": [
+                    "Ches gains a {@b +3} bonus to initiative."
+                ]
+            },
+            {
+                "name": "Action Surge (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "Ches can take one additional action on their turn."
+                ]
+            },
+            {
+                "name": "Arcane Shot (2/Short Rest)",
+                "entries": [
+                    "Ches can apply an Arcane Shot Option to an arrow when they make a ranged weapon attack",
+                    {
+                        "type": "list",
+                        "items": [{
+                                "type": "item",
+                                "name": "{@b Piercing Arrow}",
+                                "entry": "The shot goes passes through a 30 foot long line and creatures in it must make a {@dc 13} Dexterity saving throw or take an extra 3 ({@damage 1d6}) piercing damage or half as much on a successful save."
+                            },
+                            {
+                                "type": "item",
+                                "name": "{@b Blinding Shot}",
+                                "entry": " The shot does an extra 7 ({@damage 2d6}) psychic damage. The target must succeed on a 13 Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of Ches's next turn."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "action": [{
+                "name": "Multiattack",
+                "entries": [
+                    "Ches makes two attacks."
+                ]
+            },
+            {
+                "name": "Pistol",
+                "entries": [
+                    "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+                ]
+            },
+            {
+                "name": "Dagger",
+                "entries": [
+                    "{@atk mw, rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) piercing damage."
+                ]
+            }
+        ],
+        "bonus": [{
+                "name": "Second Wind (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "Ches can regain 10 ({@damage 1d10 + 5}) HP."
+                ]
+            },
+            {
+                "name": "Rabbit Hop (3/Long Rest)",
+                "entries": [
+                    "Ches can jump 15 ft. without provoking opportunity attacks."
+                ]
+            }
+        ],
+        "actionTags": [
+            "Multiattack"
+        ],
+        "languageTags": [
+            "C",
+            "GO",
+            "S"
+        ],
+        "source": "MPSource",
+        "page": 1
+    }],
+    "legendaryGroup": []
+}
