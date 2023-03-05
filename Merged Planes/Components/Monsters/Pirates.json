@@ -1,0 +1,693 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "MPPirate",
+            "abbreviation": "MPPirate",
+            "full": "Test Auto Souce - Pirates",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.0",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "monster": [{
+            "name": "Mart (First Mate)",
+            "source": "MPPirate",
+            "page": 247,
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "goblin"
+                ]
+
+            },
+            "senses": ["darkvision 60ft."],
+            "alignment": [
+                "A"
+            ],
+            "ac": [{
+                "ac": 14,
+                "from": [
+                    "{@item studded leather armor|phb|studded leather}"
+                ]
+            }],
+            "hp": {
+                "average": 45,
+                "formula": "7d8 + 14"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 11,
+            "wis": 10,
+            "cha": 14,
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+4"
+            },
+            "passive": 10,
+            "languages": [
+                "Common",
+                "Goblin"
+            ],
+            "cr": "2",
+            "trait": [{
+                    "name": "Flourish",
+                    "entries": [
+                        "Mart adds his Charisma modifier to the damage roll for its longsword attacks (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Sea Legs",
+                    "entries": [
+                        "Mart has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [{
+                    "name": "Multiattack",
+                    "entries": [
+                        "Mart makes two attacks: one with his hand crossbow and one with his longsword."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands."
+                    ]
+                }
+            ],
+            "bonus": [{
+                "name": "Nimble Escape",
+                "entries": [
+                    "Mart can take the Disengage or Hide action as a bonus action on each of his turns."
+                ]
+            }],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RNG",
+                "RW"
+            ]
+        },
+        {
+            "name": "Gunther (Deck Wizard)",
+            "source": "MPPirate",
+            "page": 248,
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                12,
+                {
+                    "ac": 15,
+                    "condition": "with {@spell mage armor}",
+                    "braces": true
+                }
+            ],
+            "hp": {
+                "average": 32,
+                "formula": "5d8 + 10"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 14,
+            "con": 14,
+            "int": 16,
+            "wis": 13,
+            "cha": 11,
+            "skill": {
+                "arcana": "+5",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "1",
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "headerEntries": [
+                    "Gunther is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+                ],
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell friends}",
+                            "{@spell mage hand}",
+                            "{@spell prestidigitation}",
+                            "{@spell ray of frost}"
+                        ]
+                    },
+                    "1": {
+                        "slots": 4,
+                        "spells": [
+                            "{@spell disguise self}",
+                            "{@spell fog cloud}",
+                            "{@spell mage armor}",
+                            "{@spell witch bolt}"
+                        ]
+                    },
+                    "2": {
+                        "slots": 3,
+                        "spells": [
+                            "{@spell gust of wind}",
+                            "{@spell Melf's acid arrow}",
+                            "{@spell misty step}"
+                        ]
+                    }
+                },
+                "ability": "int"
+            }],
+            "trait": [{
+                "name": "Sea Legs",
+                "entries": [
+                    "Gunther has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                ]
+            }],
+            "action": [{
+                "name": "Quarterstaff",
+                "entries": [
+                    "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+                ]
+            }],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "B"
+            ],
+            "damageTagsSpell": [
+                "A",
+                "C",
+                "L"
+            ],
+            "spellcastingTags": [
+                "CW"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Davos (Quartermaster)",
+            "source": "MPPirate",
+            "page": 248,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "half-orc"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [{
+                "ac": 16,
+                "from": [
+                    "{@item chain mail|phb}"
+                ]
+            }],
+            "hp": {
+                "average": 26,
+                "formula": "4d8 + 8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "senses": ["darkvision 60ft."],
+            "str": 15,
+            "dex": 11,
+            "con": 14,
+            "int": 11,
+            "wis": 10,
+            "cha": 13,
+            "skill": {
+                "athletics": "+4",
+                "intimidation": "+3"
+            },
+            "passive": 10,
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "1",
+            "trait": [{
+                    "name": "Sea Legs",
+                    "entries": [
+                        "Davos has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Relentless Endurance (Recharges on a Long Rest)",
+                    "entries": [
+                        "When Davos is reduced to 0 hit points he can drop to 1 hit point instead."
+                    ]
+                }
+            ],
+            "action": [{
+                    "name": "Multiattack",
+                    "entries": [
+                        "Davos makes two attacks with his longsword."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands. If the target is a creature, the first mate can choose to deal no damage with the attack to disarm the target. The target must succeed on a {@dc 14} Strength saving throw or drop one item it is holding on the ground."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "S"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Alok (Sahuagin Deep Diver)",
+            "source": "MPPirate",
+            "page": 250,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "sahuagin"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [{
+                "ac": 15,
+                "from": [
+                    "natural armor"
+                ]
+            }],
+            "hp": {
+                "average": 91,
+                "formula": "14d8 + 28"
+            },
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 15,
+            "int": 12,
+            "wis": 13,
+            "cha": 9,
+            "save": {
+                "con": "+4",
+                "wis": "+3"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+5"
+            },
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "Sahuagin",
+                "Common"
+            ],
+            "cr": "4",
+            "trait": [{
+                    "name": "Blood Frenzy",
+                    "entries": [
+                        "The deep diver has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                },
+                {
+                    "name": "Brine Lurker",
+                    "entries": [
+                        "Alok has advantage on Dexterity (Stealth) checks made while submerged in water."
+                    ]
+                },
+                {
+                    "name": "Limited Amphibiousness",
+                    "entries": [
+                        "Alok can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+                    ]
+                },
+                {
+                    "name": "Lure",
+                    "entries": [
+                        "Alok can cause his lure to light up or darken at will. While the lure is lit, he sheds bright light in a 30-foot radius centered on itself and dim light for an additional 20 feet."
+                    ]
+                },
+                {
+                    "name": "Shark Telepathy",
+                    "entries": [
+                        "Alok can magically command any shark within 120 feet, using a limited telepathy."
+                    ]
+                }
+            ],
+            "action": [{
+                    "name": "Multiattack",
+                    "entries": [
+                        "Alok makes two attacks with his glaive, or one attack with his bite and two with his claws."
+                    ]
+                },
+                {
+                    "name": "Glaive",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Light of Sekolah",
+                    "entries": [
+                        "The deep diver pulses magical light from its lure. Any creature within 30 feet of the deep diver that can see the light must succeed on a {@dc 11} Wisdom saving throw or be {@condition charmed} until the end of its next turn. A creature {@condition charmed} in this way is {@condition incapacitated} as it stares at the light."
+                    ]
+                }
+            ],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "OTH"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW",
+                "RCH"
+            ],
+            "conditionInflict": [
+                "charmed"
+            ]
+        },
+        {
+            "name": "Valus (Conjurer)",
+            "source": "MPPirate",
+            "page": 260,
+            "otherSources": [{
+                "source": "VGM",
+                "page": 212
+            }],
+            "size": [
+                "M"
+            ],
+            "senses": ["darkvision 60ft."],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "tiefling"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                12,
+                {
+                    "ac": 15,
+                    "condition": "with {@spell mage armor}",
+                    "braces": true
+                }
+            ],
+            "hp": {
+                "average": 58,
+                "formula": "13d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 9,
+            "dex": 14,
+            "con": 11,
+            "int": 17,
+            "wis": 12,
+            "cha": 12,
+            "save": {
+                "int": "+6",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+6",
+                "history": "+6"
+            },
+            "passive": 11,
+            "languages": [
+                "Common",
+                "Infernal",
+                "Primordial",
+                "Elvish"
+            ],
+            "cr": "6",
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "headerEntries": [
+                    "The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+                ],
+                "will": [
+                    "{@spell dancing lights}",
+                    "{@spell mage hand}",
+                    "{@spell prestidigitation}"
+                ],
+                "daily": {
+                    "2e": [
+                        "{@spell fireball}",
+                        "{@spell mage armor}",
+                        "{@spell unseen servant}"
+                    ],
+                    "1e": [
+                        "{@spell fly}",
+                        "{@spell stinking cloud}",
+                        "{@spell web}"
+                    ]
+                },
+                "ability": "int",
+                "displayAs": "action"
+            }],
+            "action": [{
+                    "name": "Multiattack",
+                    "entries": [
+                        "The conjurer makes three Arcane Burst attacks."
+                    ]
+                },
+                {
+                    "name": "Arcane Burst",
+                    "entries": [
+                        "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}14 ({@damage 2d10 + 3}) force damage."
+                    ]
+                }
+            ],
+            "bonus": [{
+                "name": "Benign Transportation {@recharge 4}",
+                "entries": [
+                    "The conjurer teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
+                ]
+            }],
+            "environment": [
+                "urban"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "O"
+            ],
+            "damageTagsSpell": [
+                "F"
+            ],
+            "spellcastingTags": [
+                "O"
+            ],
+            "conditionInflictSpell": [
+                "restrained"
+            ]
+        },
+        {
+            "name": "Gulliver (Thief)",
+            "source": "MPPirate",
+            "page": 174,
+            "otherSources": [{
+                "source": "VGM",
+                "page": 216
+            }],
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [{
+                "ac": 16,
+                "from": [
+                    "{@item studded leather armor|PHB|studded leather}"
+                ]
+            }],
+            "hp": {
+                "average": 84,
+                "formula": "13d8 + 26"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 18,
+            "con": 14,
+            "int": 11,
+            "wis": 11,
+            "cha": 12,
+            "save": {
+                "dex": "+7",
+                "int": "+3"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "athletics": "+3",
+                "perception": "+3",
+                "sleight of hand": "+7",
+                "stealth": "+7"
+            },
+            "passive": 13,
+            "languages": [
+                "Common",
+                "Thieves' Cant"
+            ],
+            "cr": "5",
+            "trait": [{
+                "name": "Evasion",
+                "entries": [
+                    "If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided the thief isn't {@condition incapacitated}."
+                ]
+            }],
+            "action": [{
+                    "name": "Multiattack",
+                    "entries": [
+                        "The thief makes three Shortsword or Shortbow attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Shortbow",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                }
+            ],
+            "bonus": [{
+                "name": "Cunning Action",
+                "entries": [
+                    "The thief takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+                ]
+            }],
+            "reaction": [{
+                "name": "Uncanny Dodge",
+                "entries": [
+                    "The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+                ]
+            }],
+            "environment": [
+                "urban"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "TC",
+                "X"
+            ],
+            "damageTags": [
+                "I",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RNG",
+                "RW"
+            ]
+        }
+    ],
+    "legendaryGroup": []
+}
