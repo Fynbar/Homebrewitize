@@ -8,81 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.38",
+                "version": "1.0.40",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1678029462.0
+        "dateLastModified": 1678029639.0
     },
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
     "monster": [
         {
             "name": "Caliope Saltwing",
@@ -8191,7 +8123,7 @@
         },
         {
             "name": "Mart (First Mate)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 247,
             "size": [
                 "S"
@@ -8300,7 +8232,7 @@
         },
         {
             "name": "Gunther (Deck Wizard)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 248,
             "size": [
                 "S"
@@ -8417,7 +8349,7 @@
         },
         {
             "name": "Davos (Quartermaster)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 248,
             "size": [
                 "M"
@@ -8508,7 +8440,7 @@
         },
         {
             "name": "Alok (Sahuagin Deep Diver)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 250,
             "size": [
                 "M"
@@ -8650,7 +8582,7 @@
         },
         {
             "name": "Valus (Conjurer)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 260,
             "otherSources": [
                 {
@@ -8783,7 +8715,7 @@
         },
         {
             "name": "Gulliver (Thief)",
-            "source": "MPPirate",
+            "source": "MPSource",
             "page": 174,
             "otherSources": [
                 {
@@ -12031,6 +11963,112 @@
             ]
         }
     ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
+        }
+    ],
     "legendaryGroup": [
         {
             "name": "Veldarin",
@@ -12760,44 +12798,6 @@
                         }
                     ]
                 }
-            ]
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
             ]
         }
     ]
