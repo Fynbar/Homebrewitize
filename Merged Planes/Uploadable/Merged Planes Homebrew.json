@@ -8,22 +8,22 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.43",
+                "version": "1.0.44",
                 "color": "5c28a1"
             },
             {
                 "json": "MPPirate",
                 "abbreviation": "MPPirate",
-                "full": "Merged Planes Enchiridion",
+                "full": "Merged Planes Pirates",
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.1",
-                "color": "2B65EC"
+                "version": "1.0.2",
+                "color": "2b65ec"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1678843870.0
+        "dateLastModified": 1678844745.0
     },
     "race": [
         {
@@ -121,6 +121,425 @@
                         "You can speak, read, and write Common and Gnoll."
                     ],
                     "type": "entries"
+                }
+            ]
+        }
+    ],
+    "vehicle": [
+        {
+            "name": "The Howling Knave",
+            "source": "MPPirates",
+            "page": 192,
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "100 ft.",
+                "20 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 30,
+            "capPassenger": 20,
+            "capCargo": 100,
+            "pace": 5,
+            "str": 20,
+            "dex": 7,
+            "con": 17,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "trait": [
+                {
+                    "name": "Defiant Sails",
+                    "entries": [
+                        "These sails glitter with a fine coat of mithral treated with abjuration magic. While the sails are unfurled, ranged weapon attacks made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
+                    ]
+                }
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 300,
+                "dt": 15
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 18,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Defiant Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "weapon": [
+                {
+                    "name": "Ballista",
+                    "ac": 15,
+                    "hp": 50,
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Mangonel",
+                    "ac": 15,
+                    "hp": 100,
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 3,
+                "2": 10,
+                "3": 20
+            },
+            "action": [
+                "On its turn, the Howling Knave can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Fire Ballista",
+                            "entry": "The Howling Knave can fire its {@object ballista} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fire Mangonel",
+                            "entry": "The Howling Knave can fire its {@object mangonel} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Move",
+                            "entry": "The Howling Knave can use its helm to move with its sails."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Abyssal Pillager",
+            "source": "MPPirates",
+            "page": 194,
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "100 ft.",
+                "20 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 40,
+            "capPassenger": 60,
+            "capCargo": 200,
+            "pace": 4,
+            "str": 20,
+            "dex": 4,
+            "con": 20,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "trait": [
+                {
+                    "name": "Death Vessel",
+                    "entries": [
+                        "Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
+                    ]
+                },
+                {
+                    "name": "Bones of Endless Toil",
+                    "entries": [
+                        "The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
+                    ]
+                }
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 500,
+                "dt": 20
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 18,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Abyssal Pillager can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 20 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-10 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "weapon": [
+                {
+                    "name": "Ballistas",
+                    "count": 2,
+                    "ac": 15,
+                    "hp": 50,
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Mangonels",
+                    "count": 2,
+                    "ac": 15,
+                    "hp": 100,
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Naval Ram",
+                    "ac": 20,
+                    "hp": 100,
+                    "dt": 10,
+                    "entries": [
+                        "The Abyssal Pillager has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the Abyssal Pillager."
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 3,
+                "2": 10,
+                "3": 20
+            },
+            "action": [
+                "On its turn, the Abyssal Pillager can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Fire Ballistas",
+                            "entry": "The Abyssal Pillager can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fire Mangonels",
+                            "entry": "The Abyssal Pillager can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Move",
+                            "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Veldarin",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
+                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Captain Tefor",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Gold Shadow Dragon",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
+                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
+                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
+                    ]
+                },
+                "If the dragon dies, these effects end immediately."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
+                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syl",
+            "source": "MPSource",
+            "regionalEffects": [
+                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
+                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
+                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
+                    ]
+                },
+                "If Syl dies, the first two effects fade over the course of 2d10 days."
+            ],
+            "lairActions": [
+                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
+                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
+                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
+                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stranger",
+            "source": "MPSource",
+            "lairActions": [
+                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
+                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
+                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears.",
+                        "{@b Available after using {@i Abandon Corporal Form}} The Stranger creates a chronurgic ward around itself that remains until initiative count 20 on the next round or until the Stranger is no longer in the their lair. While the ward is active, whenever the Stranger takes damage, they instead take half the damage (rounded down). The ward erupts in a 15 sphere centered on the Stranger and each creature must make e a {@dc 18} Constitution saving throw or take the remaining damage on a failed save."
+                    ]
                 }
             ]
         }
@@ -12079,134 +12498,6 @@
             ]
         }
     ],
-    "legendaryGroup": [
-        {
-            "name": "Veldarin",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing Veldarin's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Shadows come to life within 6 miles of the Archmage of Alyentlea's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of Veldarin, the shadows can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "Veldarin can cast their senses to any area containing darkness, dim light, or shadows within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Veldarin dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Veldarin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Veldarin can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Veldarin wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Veldarin dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Veldarin. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Veldarin uses this lair action again, or until she dies.",
-                        "Veldarin targets one creature within 60 feet of her and assails its mind with visions of hopelessness and despair. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until initiative count 20 on the next round."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Captain Tefor",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ancient Gold Shadow Dragon",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature must make a {@dc 15} Charisma saving throw or remembers its conversation with the dragon and be be {@condition frightened} upon waking for 2 ({@damage 1d4}) days.",
-                        "Banks of sickly, shadowy mist manifest within 6 miles of the dragon's lair. The mist lightly obscures the area. It assumes haunting forms when good creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.",
-                        "Gems and pearls within 1 mile of the dragon's lair lose color and start to give off a wispy, shadowy smoke."
-                    ]
-                },
-                "If the dragon dies, these effects end immediately."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.",
-                        "One creature the dragon can see within 120 feet of it must succeed on a {@dc 15} Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Syl",
-            "source": "MPSource",
-            "regionalEffects": [
-                "The region containing the Usurper's lair is warped by her magic, which creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.",
-                        "The warforged army thoroughly patrols within 6 miles of the Syl's lair. Most of the time these soldiers are intimidating and nothing more, but when a creature acts against the interests of the Syl, the warforged can interfere and cause any relevant die roll to be made with disadvantage.",
-                        "Syl can cast access the senses of any soldier within 6 miles of their lair, similar to a clairvoyance spell."
-                    ]
-                },
-                "If Syl dies, the first two effects fade over the course of 2d10 days."
-            ],
-            "lairActions": [
-                "When fighting inside its lair, Syl caFn invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Syl can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Syl wills darkness to overpower the light. All bright light sources in the lair shed only dim light to their normal bright light radius, and dim light sources are extinguished. This lasts until Syl dismisses the effect or dies.",
-                        "An opaque wall of writhing shadows springs up from a solid surface within 120 feet of Syl. The wall is up to 60 feet long, 10 feet high, and 5 feet thick. Each creature in the area must make a successful {@dc 15} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. Creatures in the wall's space are pushed 5 feet out of the wall's space, appearing on whichever side of the wall they choose. A creature can move through the wall, but the semimaterial shadow resists intrusion. For every foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, any creature that, during its own turn, occupies any part of the wall's space takes 18 ({@damage 4d8}) necrotic damage, or half damage with a successful {@dc 15} Constitution saving throw. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to radiant damage, resistance to bludgeoning and piercing damage, and immunity to cold, poison, and psychic damage. The wall lasts until Syl uses this lair action again, or until they die.",
-                        "The Syl summons a warforged soldier to act as a companion in battle (your choice of unit). Roll 1d6. On a roll of 1-3, the soldier has a level of 4. On a roll of 4 or 5, the soldier has a level of 8. On a roll of 6, 2 level 8 soldiers appear."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tyrant",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside their Castle, the Tyrant and Ice Queen can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the monster can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Caigwyn's summon one of the royal guard to assist in the battle. Guards summoned this way act at a group initiative that is rolled when the first one is summoned. When a guard is close to death, they flee, but if they are killed before fleeing, the guards make a {@dc 15} group Wisdom saving throw or all flee on their turn.",
-                        "The Caigwyn's targets one creature either can see within 60 feet of it and challenge its force of will. The target must succeed on a {@dc 16} Wisdom saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                        "An icicle falls from the ceiling which lands on a square area of ground within the lair, covering it with ice. The area can be up to 10 feet on a side. The ice lasts for 1 hour or until it is melted away with fire. When the ice appears, each creature on it must succeed on a {@dc 18} Dexterity saving throw or takes 16 ({@damage 3d10}) cold damage, fall {@condition prone} and slide 10 feet in a random direction determined by a d8 roll. A creature that succeeds the saving takes half as much damage and is not knocked prone. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save, taking no damage on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Stranger",
-            "source": "MPSource",
-            "lairActions": [
-                "When fighting inside its lair, the Stranger can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the Stranger can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The Stranger rolls a d8 and regains a spell slot of that level or lower. If they have no spent spell slots of that level or lower, nothing happens.",
-                        "The Stranger targets one 30 ft circle within 60. Blinky is forced to project its eye in that direction and that area is under the effect of the {@i anti-magic field} spell until the next turn.",
-                        "The Stranger exacerbates a temporal anomaly in its lair. This abnormality materializes around one creatures they can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) force or psychic damage (your choice) on a failed save, or half as much damage on a success. The anomaly then disappears.",
-                        "{@b Available after using {@i Abandon Corporal Form}} The Stranger creates a chronurgic ward around itself that remains until initiative count 20 on the next round or until the Stranger is no longer in the their lair. While the ward is active, whenever the Stranger takes damage, they instead take half the damage (rounded down). The ward erupts in a 15 sphere centered on the Stranger and each creature must make e a {@dc 18} Constitution saving throw or take the remaining damage on a failed save."
-                    ]
-                }
-            ]
-        }
-    ],
     "item": [
         {
             "name": "Veldarin's Pact Baton",
@@ -12805,297 +13096,6 @@
                                     ]
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "vehicle": [
-        {
-            "name": "The Howling Knave",
-            "source": "MPPirates",
-            "page": 192,
-            "vehicleType": "SHIP",
-            "size": "G",
-            "dimensions": [
-                "100 ft.",
-                "20 ft."
-            ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 30,
-            "capPassenger": 20,
-            "capCargo": 100,
-            "pace": 5,
-            "str": 20,
-            "dex": 7,
-            "con": 17,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "trait": [
-                {
-                    "name": "Defiant Sails",
-                    "entries": [
-                        "These sails glitter with a fine coat of mithral treated with abjuration magic. While the sails are unfurled, ranged weapon attacks made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
-                    ]
-                }
-            ],
-            "hull": {
-                "ac": 15,
-                "hp": 300,
-                "dt": 15
-            },
-            "control": [
-                {
-                    "name": "Helm",
-                    "ac": 18,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-                    ]
-                }
-            ],
-            "movement": [
-                {
-                    "name": "Defiant Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "weapon": [
-                {
-                    "name": "Ballista",
-                    "ac": 15,
-                    "hp": 50,
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Mangonel",
-                    "ac": 15,
-                    "hp": 100,
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 3,
-                "2": 10,
-                "3": 20
-            },
-            "action": [
-                "On its turn, the Howling Knave can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Fire Ballista",
-                            "entry": "The Howling Knave can fire its {@object ballista} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonel",
-                            "entry": "The Howling Knave can fire its {@object mangonel} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Move",
-                            "entry": "The Howling Knave can use its helm to move with its sails."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "The Abyssal Pillager",
-            "source": "MPPirates",
-            "page": 194,
-            "vehicleType": "SHIP",
-            "size": "G",
-            "dimensions": [
-                "100 ft.",
-                "20 ft."
-            ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 40,
-            "capPassenger": 60,
-            "capCargo": 200,
-            "pace": 4,
-            "str": 20,
-            "dex": 4,
-            "con": 20,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "trait": [
-                {
-                    "name": "Death Vessel",
-                    "entries": [
-                        "Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
-                    ]
-                },
-                {
-                    "name": "Bones of Endless Toil",
-                    "entries": [
-                        "The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
-                    ]
-                }
-            ],
-            "hull": {
-                "ac": 15,
-                "hp": 500,
-                "dt": 20
-            },
-            "control": [
-                {
-                    "name": "Helm",
-                    "ac": 18,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Abyssal Pillager can't turn."
-                    ]
-                }
-            ],
-            "movement": [
-                {
-                    "name": "Oars",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "20 ft. (requires at least 20 crew)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-10 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "weapon": [
-                {
-                    "name": "Ballistas",
-                    "count": 2,
-                    "ac": 15,
-                    "hp": 50,
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Mangonels",
-                    "count": 2,
-                    "ac": 15,
-                    "hp": 100,
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Naval Ram",
-                    "ac": 20,
-                    "hp": 100,
-                    "dt": 10,
-                    "entries": [
-                        "The Abyssal Pillager has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the Abyssal Pillager."
-                    ]
-                }
-            ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 3,
-                "2": 10,
-                "3": 20
-            },
-            "action": [
-                "On its turn, the Abyssal Pillager can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Fire Ballistas",
-                            "entry": "The Abyssal Pillager can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonels",
-                            "entry": "The Abyssal Pillager can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Move",
-                            "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
                         }
                     ]
                 }

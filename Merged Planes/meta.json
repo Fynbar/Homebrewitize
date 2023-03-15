@@ -12,12 +12,12 @@
         {
             "json": "MPPirate",
             "abbreviation": "MPPirate",
-            "full": "Merged Planes Enchiridion",
+            "full": "Merged Planes Pirates",
             "authors": [
                 "Me"
             ],
             "version": "1.0.0",
-            "color": "2B65EC"
+            "color": "2b65ec"
         }
     ],
     "dateAdded": 1620498967,
