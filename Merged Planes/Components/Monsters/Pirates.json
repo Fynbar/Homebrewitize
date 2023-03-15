@@ -1,8 +1,8 @@
 {
     "_meta": {
         "sources": [{
-            "json": "MPSource",
-            "abbreviation": "MPSource",
+            "json": "MPPirates",
+            "abbreviation": "MPPirates",
             "full": "Test Auto Souce - Pirates",
             "authors": [
                 "Me"
@@ -16,7 +16,7 @@
     },
     "monster": [{
             "name": "Mart (First Mate)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 247,
             "size": [
                 "S"
@@ -118,7 +118,7 @@
         },
         {
             "name": "Gunther (Deck Wizard)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 248,
             "size": [
                 "S"
@@ -229,7 +229,7 @@
         },
         {
             "name": "Davos (Quartermaster)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 248,
             "size": [
                 "M"
@@ -314,7 +314,7 @@
         },
         {
             "name": "Alok (Sahuagin Deep Diver)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 250,
             "size": [
                 "M"
@@ -452,7 +452,7 @@
         },
         {
             "name": "Valus (Conjurer)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 260,
             "otherSources": [{
                 "source": "VGM",
@@ -576,7 +576,7 @@
         },
         {
             "name": "Gulliver (Thief)",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 174,
             "otherSources": [{
                 "source": "VGM",

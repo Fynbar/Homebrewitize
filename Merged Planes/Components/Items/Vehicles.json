@@ -1,8 +1,8 @@
 {
     "_meta": {
         "sources": [{
-            "json": "MPSource",
-            "abbreviation": "MPSource",
+            "json": "MPPirates",
+            "abbreviation": "MPPirates",
             "full": "Test Auto Souce - Pirates",
             "authors": [
                 "Me"
@@ -16,7 +16,7 @@
     },
     "vehicle": [{
             "name": "The Howling Knave",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 192,
             "vehicleType": "SHIP",
             "size": "G",
@@ -135,7 +135,7 @@
         },
         {
             "name": "The Abyssal Pillager",
-            "source": "MPSource",
+            "source": "MPPirates",
             "page": 194,
             "vehicleType": "SHIP",
             "size": "G",
