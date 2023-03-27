@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.7",
+                "version": "1.0.8",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1679013703.0
+        "dateLastModified": 1679882379.0
     },
     "class": [
         {
@@ -2779,6 +2779,54 @@
             ]
         }
     ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
+        }
+    ],
     "optionalfeature": [
         {
             "name": "Dance of the Dragon",
@@ -3363,39 +3411,6 @@
             "featureType": [
                 "Dance"
             ]
-        }
-    ],
-    "boon": [
-        {
-            "name": "Eurasia’s Blessing",
-            "source": "WOR",
-            "page": 79,
-            "type": "Elven",
-            "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
-                    ]
-                }
-            ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
         }
     ],
     "spell": [
@@ -4153,12 +4168,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "11",
-            "int": "10",
-            "con": "14",
-            "str": "14",
-            "dex": "14",
+            "cha": 10,
+            "wis": 11,
+            "int": 10,
+            "con": 14,
+            "str": 14,
+            "dex": 14,
             "hp": {
                 "formula": "4d8 + 6",
                 "average": 26
@@ -4267,12 +4282,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "12",
-            "int": "10",
-            "con": "15",
-            "str": "16",
-            "dex": "14",
+            "cha": 10,
+            "wis": 12,
+            "int": 10,
+            "con": 15,
+            "str": 16,
+            "dex": 14,
             "hp": {
                 "formula": "7d8 + 12",
                 "average": 47
@@ -4383,12 +4398,12 @@
                 "E"
             ],
             "size": "L",
-            "cha": "12",
-            "wis": "13",
-            "int": "12",
-            "con": "19",
-            "str": "18",
-            "dex": "14",
+            "cha": 12,
+            "wis": 13,
+            "int": 12,
+            "con": 19,
+            "str": 18,
+            "dex": 14,
             "hp": {
                 "formula": "13d10 + 48",
                 "average": 126
@@ -4512,12 +4527,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "9",
-            "wis": "16",
-            "int": "10",
-            "con": "14",
-            "str": "12",
-            "dex": "15",
+            "cha": 9,
+            "wis": 16,
+            "int": 10,
+            "con": 14,
+            "str": 12,
+            "dex": 15,
             "hp": {
                 "formula": "6d8 + 10",
                 "average": 40
@@ -4669,12 +4684,12 @@
                 "U"
             ],
             "size": "L",
-            "cha": "4",
-            "wis": "12",
-            "int": "4",
-            "con": "14",
-            "str": "20",
-            "dex": "17",
+            "cha": 4,
+            "wis": 12,
+            "int": 4,
+            "con": 14,
+            "str": 20,
+            "dex": 17,
             "hp": {
                 "formula": "14d10 + 28",
                 "average": 98.0
@@ -4776,12 +4791,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "14",
-            "wis": "16",
-            "int": "12",
-            "con": "16",
-            "str": "14",
-            "dex": "18",
+            "cha": 14,
+            "wis": 16,
+            "int": 12,
+            "con": 16,
+            "str": 14,
+            "dex": 18,
             "hp": {
                 "formula": "18d10 + 54",
                 "average": 152
@@ -5010,12 +5025,12 @@
                 "G"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "16",
-            "int": "10",
-            "con": "16",
-            "str": "18",
-            "dex": "16",
+            "cha": 16,
+            "wis": 16,
+            "int": 10,
+            "con": 16,
+            "str": 18,
+            "dex": 16,
             "hp": {
                 "formula": "15d8 + 45",
                 "average": 105.0
@@ -5258,6 +5273,232 @@
             ],
             "languageTags": [
                 "C"
+            ],
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Vine Lord",
+            "type": "Plant",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "size": "M",
+            "cha": 18,
+            "wis": 16,
+            "int": 14,
+            "con": 16,
+            "str": 12,
+            "dex": 20,
+            "hp": {
+                "formula": "14d8 + 42",
+                "average": 98.0
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "7",
+            "save": {
+                "con": "+6",
+                "wis": "+6",
+                "cha": "+7"
+            },
+            "passive": 13,
+            "conditionImmune": [
+                "blinded",
+                "deafened"
+            ],
+            "languages": [
+                "Common"
+            ],
+            "senses": [
+                "blindsight 30ft. (blind beyond this radius)"
+            ],
+            "trait": [
+                {
+                    "name": "Green Strider",
+                    "entries": [
+                        "The vine lord ignores movement restrictions and damage caused by natural undergrowth."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The vine lord has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The vine lord regains 10 hit points at the start of its turn if it has at least 1 hit point and is within its home forest or jungle."
+                    ]
+                },
+                {
+                    "name": "Root Mind",
+                    "entries": [
+                        "Within its home forest or jungle, the vine lord's blindsight extends to 60 ft., it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The vine lord makes two claw attacks and four tendril attacks."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Spore Sacs (1/week)",
+                    "entries": [
+                        "The vine lord can release seeds from specialized sacs on its tendrils. These seeds sprout into 1d4 green spore pods that reach maturity in 3 days. The pods contain noxious spores that are released when the pod is stepped on, picked, or otherwise tampered with. A humanoid or beast that inhales these spores must succeed on a {@dc 14} Constitution saving throw against disease or tendrils start growing inside the creature's body. If the disease is not cured within 3 months, the tendrils take over the creature's nervous system and the victim becomes a tendril puppet."
+                    ]
+                },
+                {
+                    "name": "Tendril",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Awaken the Green (1/Day)",
+                    "entries": [
+                        "The vine lord magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the vine lord. The tree remains animate for 1 day or until it dies; until the vine lord dies or is more than 120 feet from the tree; or until the vine lord takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                ""
+            ],
+            "legendary": [],
+            "traitTags": [
+                "Magic Resistance",
+                "Regeneration"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "source": "WOR",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Vine Lord",
+                "source": "WOR"
+            }
+        },
+        {
+            "name": "Vine Lord's Tendril Puppet",
+            "type": "Plant",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "size": "M",
+            "cha": 8,
+            "wis": 6,
+            "int": 6,
+            "con": 18,
+            "str": 16,
+            "dex": 12,
+            "hp": {
+                "formula": "4d8 + 16",
+                "average": 32.0
+            },
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "studded leather armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0
+            },
+            "cr": "2",
+            "passive": 8,
+            "conditionImmune": [
+                "blinded",
+                "deafened"
+            ],
+            "languages": [
+                "-"
+            ],
+            "senses": [
+                "darkvision 0ft.",
+                "blindsight 30ft. (blind beyond this radius)",
+                "tremorsense 0ft.",
+                "truesight 0ft."
+            ],
+            "trait": [
+                {
+                    "name": "Poor Vision",
+                    "entries": [
+                        "Tendril puppets see almost nothing beyond 30 feet away."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The tendril puppet regains 5 hit points at the start of its turn if it has at least 1 hit point and is in jungle terrain."
+                    ]
+                },
+                {
+                    "name": "Root Mind",
+                    "entries": [
+                        "Within a vine lord's forest or jungle, the tendril puppet's blindsight extends to 60 feet, it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
+                    ]
+                },
+                {
+                    "name": "Green Strider",
+                    "entries": [
+                        "The tendril puppet ignores movement restrictions and damage caused by natural undergrowth."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The tendril puppet has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Assegai",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Hurl Thorns",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the thorn explodes in a 10-foot-radius sphere centered on the target. Every creature in the affected area other than the original target takes 4 ({@damage 1d8}) piercing damage, or half damage with a successful {@dc 13} Dexterity saving throw."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Regeneration",
+                "Magic Resistance"
             ],
             "source": "WOR",
             "page": 1

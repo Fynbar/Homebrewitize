@@ -8,7 +8,7 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.47",
+                "version": "1.0.48",
                 "color": "5c28a1"
             },
             {
@@ -18,13 +18,81 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.5",
+                "version": "1.0.6",
                 "color": "2b65ec"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1679013701.0
+        "dateLastModified": 1679882376.0
     },
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
     "legendaryGroup": [
         {
             "name": "Veldarin",
@@ -164,74 +232,6 @@
             ]
         }
     ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
     "itemGroup": [
         {
             "name": "Nighteye Dagger",
@@ -267,710 +267,6 @@
                 "Nighteye Dagger - Tyranthraxus|MPSource",
                 "Nighteye Dagger - Atropus|MPSource",
                 "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
-            },
-            "age": {
-                "mature": 20,
-                "max": 100
-            },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
-    "item": [
-        {
-            "name": "Veldarin's Pact Baton",
-            "source": "MPSource",
-            "page": 1,
-            "type": "RD",
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldarin",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, being attuned to this rod grants the following abilities.",
-                {
-                    "type": "list",
-                    "items": [
-                        {
-                            "name": "Veldarin's Favor",
-                            "entries": [
-                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Protection",
-                            "entries": [
-                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Arcana",
-                            "entries": [
-                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Cloak of the Stranger",
-            "source": "MPSource",
-            "page": 195,
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "requires attunement by an evil wizard of level 17 or higher",
-            "reqAttuneTags": [
-                {
-                    "alignment": [
-                        "E"
-                    ]
-                },
-                {
-                    "class": "wizard"
-                }
-            ],
-            "wondrous": true,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "A deep black fabric with silver and violet accents and runes flecked with bright dots remeniscent if a clear night's sky. The elegance of the cloak is juxtaposed by the scorched hem that hangs just above the ground. Through years of experimentation {@creature The Stranger|MPSource} was able to improve upon the already magically potent {@item Robe of the Archmagi|DMG} she procured from a Warlock of old.",
-                "Six stars, dotted across the cloak, are particularly large. As an action you can extinguish a star to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@damage 1d6} extinguished stars reignite on the robe.",
-                "While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.",
-                "You gain these benefits while wearing the robe:",
-                {
-                    "type": "list",
-                    "items": [
-                        "If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier + your Intelligence modifier.",
-                        "Your spell save DC and spell attack bonus each increase by 3.",
-                        "You have advantage on saving throws against spells and other magical effects.",
-                        "You gain a +1 bonus to saving throws while you wear it."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Chained Eye of Tharizdun",
-            "source": "MPSource",
-            "page": 195,
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "entries": [
-                "A fragment of a dagger infused with the power of {@b Tharizdun the Chained God}. This object has been manipulated and worked to heighten it's power to levels before thought impossible.",
-                {
-                    "type": "entries",
-                    "name": "Tharizdun the Chained God",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Asylum",
-                                    "entries": [
-                                        "The wearer has immunity to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks and resistance to all Bludgeoning, Piercing and Slashing Damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Immortality",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 8 for each level they have and and increases by 8 again whenever they gain a level.",
-                                        "The wielder's Constitution score is 21. This has no effect on if their Constitution is already 21 or higher without them."
-                                    ]
-                                },
-                                {
-                                    "name": "Mental Barrier",
-                                    "entries": [
-                                        "The wearer has resistance to all Psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Stanger's Mask",
-                                    "entries": [
-                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already and gains expertise with those skills. The wearer has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 19 Wisdom saving throw or forget the interaction over the next day. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds."
-                                    ]
-                                },
-                                {
-                                    "name": "Wreathed in the Unknowable",
-                                    "entries": [
-                                        "The wearer is hidden from divination magic and can't be perceived through magical scrying sensors. When a creature targets the wearer using the {@spell scrying} spell or similar spell, it must make a Wisdom saving throw against it's own save DC or take 13 ({@damage 3d8}) psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Blessing of Tharizdun.",
-                                    "entries": [
-                                        "When the wielder takes damage, it can use its reaction to force each hostile creature within 10 feet of it to make a DC 15 Intelligence saving throw. On a failed save, a creature takes half the damage the cultist took as psychic damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Tharizdun's Bolt {@recharge 6}",
-                                    "entries": [
-                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
-                                        "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - I",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "uncommon",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - II",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - III",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "very rare",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Borem",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Borem of the Lake of Boiling Mud",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Nomad} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Nomad's Boon",
-                                    "entries": [
-                                        "The wielder gain proficiency in {@item Vehicles (Land)}, {@item Vehicles (Water)}, and Wisdom ({@skill Animal Handling}) checks if they did not have it already. The wielder has advantage on all Wisdom ({@skill Animal Handling}), Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks. In addition your Wisdom score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Borem's Embrace (1/Day)",
-                                    "entries": [
-                                        "The wielder touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the wielder is incapacitated or dies, or until the target is immersed in water.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they must maintain concentration or a creature is released from the mud. They also take 4 ({@damage 1d6}) fire damage each round a creature is coated in mud."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Haask",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Haask the Voice of Hargut",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Tyrant} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Tyrant's subjugation",
-                                    "entries": [
-                                        "The wielder gain proficiency in Charisma ({@skill Intimidation}) checks if they did not have it already. Creatures have disadvantage on saving throws and ability checks made to avoid being charmed or frightened by the wielder. In addition your Charisma score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Haask's Presence (1/Day)",
-                                    "entries": [
-                                        "The wielder transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid must succeed on a DC 15 Charisma saving throw or be charmed by the wielder. While the target is charmed, the wielder has control of it on the target's next turn. At the end of that turn, the wielder teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The wielder can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 7 ({@damage 3d10}) psychic damage each when they transform into the leech."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Tharizdun",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Tharizdun the Chained God",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Stanger's Mask",
-                                    "entries": [
-                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already. The wielder has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 15 Wisdom saving throw or forget the interaction over the next few days. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds. "
-                                    ]
-                                },
-                                {
-                                    "name": "Tharizdun's Spark {@recharge 6}",
-                                    "entries": [
-                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
-                                        "When a non-evil creature uses this ability they take 6 ({@damage 1d10}) psychic damage each when another creature is inflicted with madness this way."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Tyranthraxus",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Tyranthraxus the Flamed One",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Scholar} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Scholar's Grasp",
-                                    "entries": [
-                                        "The wielder gain proficiency in Intelligence saving throws if they did not have it already. The wielder has advantage on all Intelligence Checks made to recall information. In addition the wielder Intelligence score increases by 2, as does their maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Radiant Flames (1/Day)",
-                                    "entries": [
-                                        "Multi-hued flame surrounds the wielder for 1 minute, until the wielder is incapacitated or dies, or until the wielder extinguishes the flame (no action required). While inflamed, the wielder has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the wielder must make a DC 15 Dexterity saving throw, taking 16 ({@damage 3d10}) radiant damage on a failed save, or half as much damage on a successful one.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the DC 15 Dexterity saving throw.",
-                                        "When a non-evil creature uses this ability they take 7 ({@damage 1d12}) fire damage each round they are inflamed."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Nighteye Dagger - Atropus",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "legendary",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Atropus the World Born Dead",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Thieve's Clutch",
-                                    "entries": [
-                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Gaze of Corruption {@recharge 6}.",
-                                    "entries": [
-                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 4 ({@damage 1d6}) poison damage and can only poison one creature at a time."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Toxic Nighteye Dagger",
-            "source": "MPSource",
-            "page": 1,
-            "baseItem": "dagger|phb",
-            "type": "M",
-            "tier": "major",
-            "reqAttune": true,
-            "rarity": "artifact",
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
-                {
-                    "type": "entries",
-                    "name": "Atropus the World Born Dead",
-                    "entries": [
-                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Elder Evil's Protection",
-                                    "entries": [
-                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
-                                    ]
-                                },
-                                {
-                                    "name": "Eldritch Resilience",
-                                    "entries": [
-                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
-                                    ]
-                                },
-                                {
-                                    "name": "Thieve's Clutch",
-                                    "entries": [
-                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
-                                    ]
-                                },
-                                {
-                                    "name": "Leer of Corruption {@recharge 6}.",
-                                    "entries": [
-                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
-                                        "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
-                                        "When a non-evil creature uses this ability they take 17 (5d6) poison damage and can only poison one creature at a time."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
             ]
         }
     ],
@@ -1280,12 +576,12 @@
                 "G"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "14",
-            "int": "13",
-            "con": "14",
-            "str": "10",
-            "dex": "18",
+            "cha": 8,
+            "wis": 14,
+            "int": 13,
+            "con": 14,
+            "str": 10,
+            "dex": 18,
             "hp": {
                 "formula": "7d10 + 24",
                 "average": 68
@@ -1456,12 +752,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "20",
-            "int": "12",
-            "con": "14",
-            "str": "10",
-            "dex": "16",
+            "cha": 10,
+            "wis": 20,
+            "int": 12,
+            "con": 14,
+            "str": 10,
+            "dex": 16,
             "hp": {
                 "formula": "15d8 + 70",
                 "average": 147
@@ -1747,12 +1043,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "13",
-            "int": "10",
-            "con": "12",
-            "str": "10",
-            "dex": "18",
+            "cha": 16,
+            "wis": 13,
+            "int": 10,
+            "con": 12,
+            "str": 10,
+            "dex": 18,
             "hp": {
                 "formula": "11d8 + 20",
                 "average": 75
@@ -1986,12 +1282,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "18",
-            "wis": "10",
-            "int": "13",
-            "con": "16",
-            "str": "18",
-            "dex": "8",
+            "cha": 18,
+            "wis": 10,
+            "int": 13,
+            "con": 16,
+            "str": 18,
+            "dex": 8,
             "hp": {
                 "formula": "7d10 + 4d8 + 34",
                 "average": 108
@@ -2212,12 +1508,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "27",
-            "wis": "29",
-            "int": "30",
-            "con": "30",
-            "str": "25",
-            "dex": "21",
+            "cha": 27,
+            "wis": 29,
+            "int": 30,
+            "con": 30,
+            "str": 25,
+            "dex": 21,
             "hp": {
                 "formula": "30d6 + 300",
                 "average": 422
@@ -2663,12 +1959,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "12",
-            "int": "10",
-            "con": "18",
-            "str": "19",
-            "dex": "9",
+            "cha": 16,
+            "wis": 12,
+            "int": 10,
+            "con": 18,
+            "str": 19,
+            "dex": 9,
             "hp": {
                 "formula": "14d10 + 70",
                 "average": 154
@@ -2899,12 +2195,12 @@
                 "U"
             ],
             "size": "H",
-            "cha": "5",
-            "wis": "10",
-            "int": "4",
-            "con": "18",
-            "str": "19",
-            "dex": "15",
+            "cha": 5,
+            "wis": 10,
+            "int": 4,
+            "con": 18,
+            "str": 19,
+            "dex": 15,
             "hp": {
                 "formula": "11d12 + 44",
                 "average": 110.0
@@ -2978,12 +2274,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "14",
-            "int": "8",
-            "con": "16",
-            "str": "18",
-            "dex": "14",
+            "cha": 10,
+            "wis": 14,
+            "int": 8,
+            "con": 16,
+            "str": 18,
+            "dex": 14,
             "hp": {
                 "formula": "14d12 + 57",
                 "average": 155
@@ -3158,12 +2454,12 @@
                 "E"
             ],
             "size": "G",
-            "cha": "28",
-            "wis": "17",
-            "int": "18",
-            "con": "29",
-            "str": "30",
-            "dex": "14",
+            "cha": 28,
+            "wis": 17,
+            "int": 18,
+            "con": 29,
+            "str": 30,
+            "dex": 14,
             "hp": {
                 "formula": "27d20 + 243",
                 "average": 513.0
@@ -3381,12 +2677,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "22",
-            "wis": "10",
-            "int": "14",
-            "con": "22",
-            "str": "25",
-            "dex": "21",
+            "cha": 22,
+            "wis": 10,
+            "int": 14,
+            "con": 22,
+            "str": 25,
+            "dex": 21,
             "hp": {
                 "formula": "19d8 + 328",
                 "average": 423
@@ -3770,12 +3066,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "22",
-            "wis": "10",
-            "int": "14",
-            "con": "22",
-            "str": "14",
-            "dex": "18",
+            "cha": 22,
+            "wis": 10,
+            "int": 14,
+            "con": 22,
+            "str": 14,
+            "dex": 18,
             "hp": {
                 "formula": "19d8 + 328",
                 "average": 423
@@ -4136,12 +3432,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "22",
-            "wis": "10",
-            "int": "14",
-            "con": "16",
-            "str": "8",
-            "dex": "12",
+            "cha": 22,
+            "wis": 10,
+            "int": 14,
+            "con": 16,
+            "str": 8,
+            "dex": 12,
             "hp": {
                 "formula": "19d8 + 68",
                 "average": 163
@@ -4428,12 +3724,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "22",
-            "wis": "10",
-            "int": "14",
-            "con": "16",
-            "str": "8",
-            "dex": "12",
+            "cha": 22,
+            "wis": 10,
+            "int": 14,
+            "con": 16,
+            "str": 8,
+            "dex": 12,
             "hp": {
                 "formula": "19d8 + 68",
                 "average": 163
@@ -4713,12 +4009,12 @@
                 "U"
             ],
             "size": "M",
-            "cha": "1",
-            "wis": "3",
-            "int": "1",
-            "con": "16",
-            "str": "14",
-            "dex": "16",
+            "cha": 1,
+            "wis": 3,
+            "int": 1,
+            "con": 16,
+            "str": 14,
+            "dex": 16,
             "hp": {
                 "formula": "10d8 + 30",
                 "average": 70.0
@@ -4824,12 +4120,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "12",
-            "int": "19",
-            "con": "16",
-            "str": "10",
-            "dex": "14",
+            "cha": 10,
+            "wis": 12,
+            "int": 19,
+            "con": 16,
+            "str": 10,
+            "dex": 14,
             "hp": {
                 "formula": "13d8 + 52",
                 "average": 114
@@ -5062,12 +4358,12 @@
                 "U"
             ],
             "size": "S",
-            "cha": "1",
-            "wis": "5",
-            "int": "1",
-            "con": "15",
-            "str": "11",
-            "dex": "12",
+            "cha": 1,
+            "wis": 5,
+            "int": 1,
+            "con": 15,
+            "str": 11,
+            "dex": 12,
             "hp": {
                 "formula": "5d6 + 10",
                 "average": 25.0
@@ -5138,12 +4434,12 @@
                 "U"
             ],
             "size": "S",
-            "cha": "10",
-            "wis": "12",
-            "int": "8",
-            "con": "11",
-            "str": "6",
-            "dex": "16",
+            "cha": 10,
+            "wis": 12,
+            "int": 8,
+            "con": 11,
+            "str": 6,
+            "dex": 16,
             "hp": {
                 "formula": "4d6  0",
                 "average": 12.0
@@ -5235,12 +4531,12 @@
                 "U"
             ],
             "size": "S",
-            "cha": "2",
-            "wis": "8",
-            "int": "1",
-            "con": "14",
-            "str": "8",
-            "dex": "13",
+            "cha": 2,
+            "wis": 8,
+            "int": 1,
+            "con": 14,
+            "str": 8,
+            "dex": 13,
             "hp": {
                 "formula": "3d6 + 6",
                 "average": 15.0
@@ -5342,12 +4638,12 @@
                 "E"
             ],
             "size": "L",
-            "cha": "12",
-            "wis": "16",
-            "int": "13",
-            "con": "18",
-            "str": "16",
-            "dex": "16",
+            "cha": 12,
+            "wis": 16,
+            "int": 13,
+            "con": 18,
+            "str": 16,
+            "dex": 16,
             "hp": {
                 "formula": "13d10 + 52",
                 "average": 117.0
@@ -5534,12 +4830,12 @@
                 "G"
             ],
             "size": "M",
-            "cha": "18",
-            "wis": "10",
-            "int": "12",
-            "con": "16",
-            "str": "8",
-            "dex": "14",
+            "cha": 18,
+            "wis": 10,
+            "int": 12,
+            "con": 16,
+            "str": 8,
+            "dex": 14,
             "hp": {
                 "formula": "6d8 + 29",
                 "average": 59
@@ -5726,12 +5022,12 @@
                 "G"
             ],
             "size": "M",
-            "cha": "18",
-            "wis": "10",
-            "int": "8",
-            "con": "16",
-            "str": "12",
-            "dex": "14",
+            "cha": 18,
+            "wis": 10,
+            "int": 8,
+            "con": 16,
+            "str": 12,
+            "dex": 14,
             "hp": {
                 "formula": "6d6 + 27",
                 "average": 51
@@ -5894,12 +5190,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "20",
-            "wis": "10",
-            "int": "12",
-            "con": "19",
-            "str": "8",
-            "dex": "16",
+            "cha": 20,
+            "wis": 10,
+            "int": 12,
+            "con": 19,
+            "str": 8,
+            "dex": 16,
             "hp": {
                 "formula": "15d8 + 72",
                 "average": 147
@@ -6134,12 +5430,12 @@
                 "U"
             ],
             "size": "L",
-            "cha": "5",
-            "wis": "12",
-            "int": "10",
-            "con": "16",
-            "str": "16",
-            "dex": "9",
+            "cha": 5,
+            "wis": 12,
+            "int": 10,
+            "con": 16,
+            "str": 16,
+            "dex": 9,
             "hp": {
                 "formula": "17d10 + 51",
                 "average": 136.0
@@ -6217,12 +5513,12 @@
                 "E"
             ],
             "size": "H",
-            "cha": "5",
-            "wis": "5",
-            "int": "5",
-            "con": "19",
-            "str": "21",
-            "dex": "8",
+            "cha": 5,
+            "wis": 5,
+            "int": 5,
+            "con": 19,
+            "str": 21,
+            "dex": 8,
             "hp": {
                 "formula": "13d12 + 52",
                 "average": 130.0
@@ -6343,12 +5639,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "16",
-            "int": "11",
-            "con": "14",
-            "str": "9",
-            "dex": "14",
+            "cha": 16,
+            "wis": 16,
+            "int": 11,
+            "con": 14,
+            "str": 9,
+            "dex": 14,
             "hp": {
                 "formula": "6d8 + 22",
                 "average": 52
@@ -6464,12 +5760,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "9",
-            "wis": "13",
-            "int": "16",
-            "con": "16",
-            "str": "11",
-            "dex": "14",
+            "cha": 9,
+            "wis": 13,
+            "int": 16,
+            "con": 16,
+            "str": 11,
+            "dex": 14,
             "hp": {
                 "formula": "5d6 + 21",
                 "average": 44
@@ -6603,12 +5899,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "18",
-            "int": "12",
-            "con": "16",
-            "str": "16",
-            "dex": "10",
+            "cha": 8,
+            "wis": 18,
+            "int": 12,
+            "con": 16,
+            "str": 16,
+            "dex": 10,
             "hp": {
                 "formula": "12d8 + 44",
                 "average": 107
@@ -6765,12 +6061,12 @@
                 "U"
             ],
             "size": "L",
-            "cha": "1",
-            "wis": "10",
-            "int": "1",
-            "con": "14",
-            "str": "8",
-            "dex": "16",
+            "cha": 1,
+            "wis": 10,
+            "int": 1,
+            "con": 14,
+            "str": 8,
+            "dex": 16,
             "hp": {
                 "formula": "23d10 + 46",
                 "average": 161.0
@@ -6890,12 +6186,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "20",
-            "wis": "10",
-            "int": "8",
-            "con": "19",
-            "str": "27",
-            "dex": "12",
+            "cha": 20,
+            "wis": 10,
+            "int": 8,
+            "con": 19,
+            "str": 27,
+            "dex": 12,
             "hp": {
                 "formula": "15d10 + 74",
                 "average": 164
@@ -7176,12 +6472,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "18",
-            "wis": "10",
-            "int": "18",
-            "con": "12",
-            "str": "8",
-            "dex": "14",
+            "cha": 18,
+            "wis": 10,
+            "int": 18,
+            "con": 12,
+            "str": 8,
+            "dex": 14,
             "hp": {
                 "formula": "12d8 + 47",
                 "average": 107
@@ -7428,12 +6724,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "22",
-            "wis": "12",
-            "int": "20",
-            "con": "12",
-            "str": "8",
-            "dex": "14",
+            "cha": 22,
+            "wis": 12,
+            "int": 20,
+            "con": 12,
+            "str": 8,
+            "dex": 14,
             "hp": {
                 "formula": "15d8 + 72",
                 "average": 155
@@ -7720,12 +7016,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "18",
-            "int": "12",
-            "con": "14",
-            "str": "10",
-            "dex": "20",
+            "cha": 8,
+            "wis": 18,
+            "int": 12,
+            "con": 14,
+            "str": 10,
+            "dex": 20,
             "hp": {
                 "formula": "15d10 + 74",
                 "average": 164
@@ -8018,12 +7314,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "12",
-            "wis": "10",
-            "int": "22",
-            "con": "21",
-            "str": "8",
-            "dex": "14",
+            "cha": 12,
+            "wis": 10,
+            "int": 22,
+            "con": 21,
+            "str": 8,
+            "dex": 14,
             "hp": {
                 "formula": "19d6 + 247",
                 "average": 325
@@ -8387,12 +7683,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "10",
-            "int": "14",
-            "con": "12",
-            "str": "8",
-            "dex": "18",
+            "cha": 16,
+            "wis": 10,
+            "int": 14,
+            "con": 12,
+            "str": 8,
+            "dex": 18,
             "hp": {
                 "formula": "10d8 + 18",
                 "average": 63
@@ -8564,12 +7860,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "16",
-            "wis": "10",
-            "int": "14",
-            "con": "12",
-            "str": "8",
-            "dex": "22",
+            "cha": 16,
+            "wis": 10,
+            "int": 14,
+            "con": 12,
+            "str": 8,
+            "dex": 22,
             "hp": {
                 "formula": "16d8 + 76",
                 "average": 166
@@ -9513,12 +8809,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "13",
-            "int": "10",
-            "con": "16",
-            "str": "12",
-            "dex": "18",
+            "cha": 8,
+            "wis": 13,
+            "int": 10,
+            "con": 16,
+            "str": 12,
+            "dex": 18,
             "hp": {
                 "formula": "3d10 + 22",
                 "average": 40
@@ -9673,12 +8969,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "15",
-            "int": "10",
-            "con": "15",
-            "str": "12",
-            "dex": "20",
+            "cha": 8,
+            "wis": 15,
+            "int": 10,
+            "con": 15,
+            "str": 12,
+            "dex": 20,
             "hp": {
                 "formula": "11d10 + 34",
                 "average": 100
@@ -9890,12 +9186,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "13",
-            "wis": "10",
-            "int": "12",
-            "con": "16",
-            "str": "20",
-            "dex": "8",
+            "cha": 13,
+            "wis": 10,
+            "int": 12,
+            "con": 16,
+            "str": 20,
+            "dex": 8,
             "hp": {
                 "formula": "11d10 + 46",
                 "average": 112
@@ -10046,12 +9342,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "13",
-            "wis": "10",
-            "int": "12",
-            "con": "16",
-            "str": "18",
-            "dex": "8",
+            "cha": 13,
+            "wis": 10,
+            "int": 12,
+            "con": 16,
+            "str": 18,
+            "dex": 8,
             "hp": {
                 "formula": "3d10 + 22",
                 "average": 40
@@ -10161,12 +9457,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "18",
-            "int": "12",
-            "con": "16",
-            "str": "16",
-            "dex": "10",
+            "cha": 8,
+            "wis": 18,
+            "int": 12,
+            "con": 16,
+            "str": 16,
+            "dex": 10,
             "hp": {
                 "formula": "11d8 + 44",
                 "average": 101
@@ -10349,12 +9645,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "18",
-            "int": "12",
-            "con": "16",
-            "str": "16",
-            "dex": "10",
+            "cha": 8,
+            "wis": 18,
+            "int": 12,
+            "con": 16,
+            "str": 16,
+            "dex": 10,
             "hp": {
                 "formula": "12d8 + 44",
                 "average": 107
@@ -10549,12 +9845,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "18",
-            "int": "12",
-            "con": "16",
-            "str": "13",
-            "dex": "10",
+            "cha": 8,
+            "wis": 18,
+            "int": 12,
+            "con": 16,
+            "str": 13,
+            "dex": 10,
             "hp": {
                 "formula": "3d8 + 17",
                 "average": 35
@@ -10711,12 +10007,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "20",
-            "int": "12",
-            "con": "16",
-            "str": "16",
-            "dex": "10",
+            "cha": 8,
+            "wis": 20,
+            "int": 12,
+            "con": 16,
+            "str": 16,
+            "dex": 10,
             "hp": {
                 "formula": "16d8 + 59",
                 "average": 141
@@ -10925,12 +10221,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "13",
-            "wis": "10",
-            "int": "12",
-            "con": "18",
-            "str": "23",
-            "dex": "20",
+            "cha": 13,
+            "wis": 10,
+            "int": 12,
+            "con": 18,
+            "str": 23,
+            "dex": 20,
             "hp": {
                 "formula": "17d10 + 118",
                 "average": 220
@@ -11105,12 +10401,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "13",
-            "wis": "10",
-            "int": "12",
-            "con": "16",
-            "str": "20",
-            "dex": "8",
+            "cha": 13,
+            "wis": 10,
+            "int": 12,
+            "con": 16,
+            "str": 20,
+            "dex": 8,
             "hp": {
                 "formula": "14d10 + 85",
                 "average": 169
@@ -11254,12 +10550,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "8",
-            "wis": "15",
-            "int": "10",
-            "con": "15",
-            "str": "12",
-            "dex": "20",
+            "cha": 8,
+            "wis": 15,
+            "int": 10,
+            "con": 15,
+            "str": 12,
+            "dex": 20,
             "hp": {
                 "formula": "15d10 + 42",
                 "average": 132
@@ -11499,12 +10795,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "12",
-            "wis": "11",
-            "int": "20",
-            "con": "19",
-            "str": "23",
-            "dex": "13",
+            "cha": 12,
+            "wis": 11,
+            "int": 20,
+            "con": 19,
+            "str": 23,
+            "dex": 13,
             "hp": {
                 "formula": "15d6 + 70",
                 "average": 130
@@ -11747,12 +11043,12 @@
                 "G"
             ],
             "size": "M",
-            "cha": "12",
-            "wis": "10",
-            "int": "8",
-            "con": "19",
-            "str": "18",
-            "dex": "16",
+            "cha": 12,
+            "wis": 10,
+            "int": 8,
+            "con": 19,
+            "str": 18,
+            "dex": 16,
             "hp": {
                 "formula": "10d12 + 60",
                 "average": 126
@@ -11912,12 +11208,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "13",
-            "int": "18",
-            "con": "14",
-            "str": "19",
-            "dex": "8",
+            "cha": 10,
+            "wis": 13,
+            "int": 18,
+            "con": 14,
+            "str": 19,
+            "dex": 8,
             "hp": {
                 "formula": "8d6 + 2d8 + 28",
                 "average": 70
@@ -12157,12 +11453,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "13",
-            "int": "20",
-            "con": "20",
-            "str": "29",
-            "dex": "8",
+            "cha": 10,
+            "wis": 13,
+            "int": 20,
+            "con": 20,
+            "str": 29,
+            "dex": 8,
             "hp": {
                 "formula": "13d6 + 2d8 + 61",
                 "average": 180
@@ -12643,12 +11939,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "12",
-            "int": "14",
-            "con": "14",
-            "str": "8",
-            "dex": "18",
+            "cha": 10,
+            "wis": 12,
+            "int": 14,
+            "con": 14,
+            "str": 8,
+            "dex": 18,
             "hp": {
                 "formula": "4d10 + 22",
                 "average": 42
@@ -12780,12 +12076,12 @@
                 "U"
             ],
             "size": "G",
-            "cha": "5",
-            "wis": "5",
-            "int": "5",
-            "con": "30",
-            "str": "30",
-            "dex": "1",
+            "cha": 5,
+            "wis": 5,
+            "int": 5,
+            "con": 30,
+            "str": 30,
+            "dex": 1,
             "hp": {
                 "formula": "18d20 + 180",
                 "average": 360.0
@@ -12895,12 +12191,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "19",
-            "wis": "10",
-            "int": "8",
-            "con": "16",
-            "str": "8",
-            "dex": "14",
+            "cha": 19,
+            "wis": 10,
+            "int": 8,
+            "con": 16,
+            "str": 8,
+            "dex": 14,
             "hp": {
                 "formula": "5d8 + 26",
                 "average": 51
@@ -13078,12 +12374,12 @@
                 "E"
             ],
             "size": "M",
-            "cha": "19",
-            "wis": "10",
-            "int": "14",
-            "con": "14",
-            "str": "8",
-            "dex": "12",
+            "cha": 19,
+            "wis": 10,
+            "int": 14,
+            "con": 14,
+            "str": 8,
+            "dex": 12,
             "hp": {
                 "formula": "9d8 + 28",
                 "average": 73
@@ -13308,12 +12604,12 @@
                 "N"
             ],
             "size": "M",
-            "cha": "10",
-            "wis": "8",
-            "int": "9",
-            "con": "14",
-            "str": "18",
-            "dex": "12",
+            "cha": 10,
+            "wis": 8,
+            "int": 9,
+            "con": 14,
+            "str": 18,
+            "dex": 12,
             "hp": {
                 "formula": "5d10 + 22",
                 "average": 59
@@ -13487,6 +12783,908 @@
             ],
             "source": "MPPirates",
             "page": 1
+        },
+        {
+            "name": "Will \"The Wickie\" Winslow",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "triton",
+                    "cleric"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "size": "M",
+            "cha": 8,
+            "wis": 16,
+            "int": 8,
+            "con": 16,
+            "str": 16,
+            "dex": 12,
+            "hp": {
+                "formula": "5d8 + 32",
+                "average": 51
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item |phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "cr": "5",
+            "save": {
+                "wis": "+6",
+                "cha": "+2"
+            },
+            "skill": {
+                "athletics": "+6",
+                "insight": "+6",
+                "persuasion": "+2",
+                "survival": "+6"
+            },
+            "passive": 13,
+            "resist": [
+                "cold"
+            ],
+            "languages": [
+                "Common",
+                "Deep Speech"
+            ],
+            "senses": [
+                "darkvision 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The Wickie can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Emissary of the Sea",
+                    "entries": [
+                        "Winslow can communicate simple ideas to any Beast, Elemental, or Monstrosity with a swimming speed."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Wickie's innate spellcasting ability is Charisma (spell save {@dc 10}, {@hit 2} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "cha",
+                    "daily": {
+                        "1e": [
+                            "{@spell fog cloud}",
+                            "{@spell gust of wind}",
+                            "{@spell water walk}"
+                        ]
+                    }
+                },
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell guidance}",
+                                "{@spell light}",
+                                "{@spell sacred flame}",
+                                "{@spell thaumaturgy}",
+                                "{@spell word of radiance|XGE}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell bless}",
+                                "{@spell burning hands}",
+                                "{@spell guiding bolt}",
+                                "{@spell faerie fire}",
+                                "{@spell healing word}",
+                                "{@spell sanctuary}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell flaming sphere}",
+                                "{@spell scorching ray}",
+                                "{@spell silence}",
+                                "{@spell spiritual weapon}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell daylight}",
+                                "{@spell dispel magic}",
+                                "{@spell fireball}",
+                                "{@spell spirit guardians}"
+                            ],
+                            "slots": 3
+                        }
+                    },
+                    "headerEntries": [
+                        "The Wickie is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The Wickie has the following cleric spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "I",
+                "CC"
+            ],
+            "action": [
+                {
+                    "name": "Mace",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Dafoe's Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 5 ({@damage 1d4 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (2/Short Rest)",
+                    "entries": [
+                        "The Wickie uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Radiance of the Dawn}",
+                                    "entry": "All magical darkness within 30ft of Winslow is dispelled. Each hostile creature within 30 feet of the Wickie must succeed a {@dc 14} Constitution saving throw or take 17 ({@damage 2d10 + 6}) radiant damage or take half damage on a failed save."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": " Each undead within 30 feet of the Wickie must make a {@dc 14} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Wickie as it can, can't willingly move to a space within 30 feet of the Wickie, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there's nowhere to move. When an undead of CR {@b 3} or lower fails its saving throw, the creature is instantly destroyed."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Warding Flare (3/Long Rest)",
+                    "entries": [
+                        "When a creature is attacked by another creature that cannot be {@condition blinded} within 30 feet of Winslow, he can impose disadvantage on the attack roll."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "languageTags": [
+                "C",
+                "DS"
+            ],
+            "source": "MPPirates",
+            "page": 1
+        }
+    ],
+    "item": [
+        {
+            "name": "Veldarin's Pact Baton",
+            "source": "MPSource",
+            "page": 1,
+            "type": "RD",
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": "by a warlock of Veldarin",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+3",
+            "bonusSpellSaveDc": "+3",
+            "entries": [
+                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, being attuned to this rod grants the following abilities.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "name": "Veldarin's Favor",
+                            "entries": [
+                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Protection",
+                            "entries": [
+                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Arcana",
+                            "entries": [
+                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cloak of the Stranger",
+            "source": "MPSource",
+            "page": 195,
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": "requires attunement by an evil wizard of level 17 or higher",
+            "reqAttuneTags": [
+                {
+                    "alignment": [
+                        "E"
+                    ]
+                },
+                {
+                    "class": "wizard"
+                }
+            ],
+            "wondrous": true,
+            "bonusSpellAttack": "+3",
+            "bonusSpellSaveDc": "+3",
+            "entries": [
+                "A deep black fabric with silver and violet accents and runes flecked with bright dots remeniscent if a clear night's sky. The elegance of the cloak is juxtaposed by the scorched hem that hangs just above the ground. Through years of experimentation {@creature The Stranger|MPSource} was able to improve upon the already magically potent {@item Robe of the Archmagi|DMG} she procured from a Warlock of old.",
+                "Six stars, dotted across the cloak, are particularly large. As an action you can extinguish a star to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@damage 1d6} extinguished stars reignite on the robe.",
+                "While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.",
+                "You gain these benefits while wearing the robe:",
+                {
+                    "type": "list",
+                    "items": [
+                        "If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier + your Intelligence modifier.",
+                        "Your spell save DC and spell attack bonus each increase by 3.",
+                        "You have advantage on saving throws against spells and other magical effects.",
+                        "You gain a +1 bonus to saving throws while you wear it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chained Eye of Tharizdun",
+            "source": "MPSource",
+            "page": 195,
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "entries": [
+                "A fragment of a dagger infused with the power of {@b Tharizdun the Chained God}. This object has been manipulated and worked to heighten it's power to levels before thought impossible.",
+                {
+                    "type": "entries",
+                    "name": "Tharizdun the Chained God",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Asylum",
+                                    "entries": [
+                                        "The wearer has immunity to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks and resistance to all Bludgeoning, Piercing and Slashing Damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Immortality",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 8 for each level they have and and increases by 8 again whenever they gain a level.",
+                                        "The wielder's Constitution score is 21. This has no effect on if their Constitution is already 21 or higher without them."
+                                    ]
+                                },
+                                {
+                                    "name": "Mental Barrier",
+                                    "entries": [
+                                        "The wearer has resistance to all Psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Stanger's Mask",
+                                    "entries": [
+                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already and gains expertise with those skills. The wearer has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 19 Wisdom saving throw or forget the interaction over the next day. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds."
+                                    ]
+                                },
+                                {
+                                    "name": "Wreathed in the Unknowable",
+                                    "entries": [
+                                        "The wearer is hidden from divination magic and can't be perceived through magical scrying sensors. When a creature targets the wearer using the {@spell scrying} spell or similar spell, it must make a Wisdom saving throw against it's own save DC or take 13 ({@damage 3d8}) psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Blessing of Tharizdun.",
+                                    "entries": [
+                                        "When the wielder takes damage, it can use its reaction to force each hostile creature within 10 feet of it to make a DC 15 Intelligence saving throw. On a failed save, a creature takes half the damage the cultist took as psychic damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Tharizdun's Bolt {@recharge 6}",
+                                    "entries": [
+                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
+                                        "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - I",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use an action action to connect the blade to the endless expanse. The connection remains until for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take an additional {@damage 1d8} cold damage and have their movement reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - II",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "You can use a bonus action to connect the blade to the endless expanse. The connection remains until an attack using this weapon hits a creature. That creature takes an additional {@damage 2d8} cold damage and their movement is reduced by 10ft for 1 turn. The dagger can't be used this way again until the next dawn.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to half the attacker's proficiency bonus rounded down."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - III",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "very rare",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect."
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Borem",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Borem of the Lake of Boiling Mud",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Nomad} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Nomad's Boon",
+                                    "entries": [
+                                        "The wielder gain proficiency in {@item Vehicles (Land)}, {@item Vehicles (Water)}, and Wisdom ({@skill Animal Handling}) checks if they did not have it already. The wielder has advantage on all Wisdom ({@skill Animal Handling}), Intelligence ({@skill Nature}) and Wisdom ({@skill Survival}) checks. In addition your Wisdom score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Borem's Embrace (1/Day)",
+                                    "entries": [
+                                        "The wielder touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@damage 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the wielder is incapacitated or dies, or until the target is immersed in water.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they must maintain concentration or a creature is released from the mud. They also take 4 ({@damage 1d6}) fire damage each round a creature is coated in mud."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Haask",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Haask the Voice of Hargut",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Tyrant} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Tyrant's subjugation",
+                                    "entries": [
+                                        "The wielder gain proficiency in Charisma ({@skill Intimidation}) checks if they did not have it already. Creatures have disadvantage on saving throws and ability checks made to avoid being charmed or frightened by the wielder. In addition your Charisma score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Haask's Presence (1/Day)",
+                                    "entries": [
+                                        "The wielder transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid must succeed on a DC 15 Charisma saving throw or be charmed by the wielder. While the target is charmed, the wielder has control of it on the target's next turn. At the end of that turn, the wielder teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The wielder can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 7 ({@damage 3d10}) psychic damage each when they transform into the leech."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Tharizdun",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Tharizdun the Chained God",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Stanger's Mask",
+                                    "entries": [
+                                        "The wielder gains proficiency with Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks if they did not have it already. The wielder has advantage on all checks made to hide their identity. In addition, after interacting with the wielder, creatures must succeed a DC 15 Wisdom saving throw or forget the interaction over the next few days. A creature attuned to a {@item Nighteye Dagger|MPSource} automatically succeeds. "
+                                    ]
+                                },
+                                {
+                                    "name": "Tharizdun's Spark {@recharge 6}",
+                                    "entries": [
+                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
+                                        "When a non-evil creature uses this ability they take 6 ({@damage 1d10}) psychic damage each when another creature is inflicted with madness this way."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Tyranthraxus",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Tyranthraxus the Flamed One",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Scholar} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Scholar's Grasp",
+                                    "entries": [
+                                        "The wielder gain proficiency in Intelligence saving throws if they did not have it already. The wielder has advantage on all Intelligence Checks made to recall information. In addition the wielder Intelligence score increases by 2, as does their maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Radiant Flames (1/Day)",
+                                    "entries": [
+                                        "Multi-hued flame surrounds the wielder for 1 minute, until the wielder is incapacitated or dies, or until the wielder extinguishes the flame (no action required). While inflamed, the wielder has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the wielder must make a DC 15 Dexterity saving throw, taking 16 ({@damage 3d10}) radiant damage on a failed save, or half as much damage on a successful one.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the DC 15 Dexterity saving throw.",
+                                        "When a non-evil creature uses this ability they take 7 ({@damage 1d12}) fire damage each round they are inflamed."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nighteye Dagger - Atropus",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "legendary",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Atropus the World Born Dead",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Thieve's Clutch",
+                                    "entries": [
+                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Gaze of Corruption {@recharge 6}.",
+                                    "entries": [
+                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@damage 3d10}) necrotic damage and be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                                        "This ability can be used as a bonus action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 4 ({@damage 1d6}) poison damage and can only poison one creature at a time."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Toxic Nighteye Dagger",
+            "source": "MPSource",
+            "page": 1,
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "tier": "major",
+            "reqAttune": true,
+            "rarity": "artifact",
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When a weapon attack made with this weapon hits, it deals additional damage equal to the attacker's proficiency bonus as well as an additional {@damage 2d8} cold damage. Creatures that take this damage have their movement reduced by 10ft for 1 minute. This can be cured with the use of the lesser restoration spell or a similar or spell that ends a magical effect.",
+                {
+                    "type": "entries",
+                    "name": "Atropus the World Born Dead",
+                    "entries": [
+                        "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Elder Evil's Protection",
+                                    "entries": [
+                                        "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
+                                    ]
+                                },
+                                {
+                                    "name": "Eldritch Resilience",
+                                    "entries": [
+                                        "The wielder's hit point maximum increases by 2 for each level they have and and increases by 2 again whenever they gain a level."
+                                    ]
+                                },
+                                {
+                                    "name": "Thieve's Clutch",
+                                    "entries": [
+                                        "The wielder gains proficiency with thieves' tools and Dexterity ({@skill Sleight of Hand}) checks if they did not have it already. The wielder has advantage on all Dexterity ({@skill Sleight of Hand) checks and checks made with {@item Thieves' Tools}. In addition your Dexterity score increases by 2, as does your maximum for that score."
+                                    ]
+                                },
+                                {
+                                    "name": "Leer of Corruption {@recharge 6}.",
+                                    "entries": [
+                                        "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
+                                        "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
+                                        "When a non-evil creature uses this ability they take 17 (5d6) poison damage and can only poison one creature at a time."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Gnoll",
+            "source": "MPSource",
+            "page": 20,
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "str": 2,
+                    "con": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 66,
+                "heightMod": "2d10",
+                "baseWeight": 180,
+                "weightMod": "2d6"
+            },
+            "age": {
+                "mature": 20,
+                "max": 100
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "intimidation",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "other": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnoll mature and age at about the same rate as humans."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "entries": [
+                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Gnoll."
+                    ],
+                    "type": "entries"
+                }
+            ]
         }
     ]
 }
