@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.10",
+                "version": "1.0.12",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1679883327.0
+        "dateLastModified": 1681162913.0
     },
     "class": [
         {
@@ -2779,6 +2779,2802 @@
             ]
         }
     ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        }
+    ],
+    "monster": [
+        {
+            "name": "Stalfos",
+            "source": "WOR",
+            "page": 272,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 25,
+                "formula": "3d8 + 12"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 14,
+            "int": 8,
+            "wis": 8,
+            "cha": 8,
+            "skill": {
+                "athletics": "+6"
+            },
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 9,
+            "immune": [
+                "piercing",
+                "poison"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands Common"
+            ],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Stalfos Longsword.",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Charge"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "C",
+                "CS"
+            ],
+            "damageTags": [
+                "S"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Stalkin",
+            "source": "WOR",
+            "page": 341,
+            "size": [
+                "T"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 7,
+                    "from": [
+                        "brittle bones"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed": {
+                "walk": 15
+            },
+            "str": 12,
+            "dex": 5,
+            "con": 8,
+            "int": 2,
+            "wis": 3,
+            "cha": 2,
+            "passive": 6,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "immune": [
+                "poison"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "0",
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Pin Prick",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Pack Tactics"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Stalhound",
+            "source": "WOR",
+            "page": 341,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "bones"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 10,
+                "formula": "1d8 + 5"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 13,
+            "dex": 14,
+            "con": 20,
+            "int": 5,
+            "wis": 6,
+            "cha": 5,
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 8,
+            "immune": [
+                "poison"
+            ],
+            "resist": [
+                "piercing"
+            ],
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "poisoned"
+            ],
+            "cr": "1/4",
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Pack Tactics"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Re-Dead",
+            "source": "WOR",
+            "page": 316,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                8
+            ],
+            "hp": {
+                "average": 22,
+                "formula": "3d8 + 9"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 13,
+            "dex": 7,
+            "con": 16,
+            "int": 3,
+            "wis": 6,
+            "cha": 5,
+            "save": {
+                "wis": "+0"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist": [
+                "necrotic"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands all languages it spoke in life but can't speak"
+            ],
+            "cr": "1/2",
+            "trait": [
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
+                    ]
+                },
+                {
+                    "name": "Petrifying Gaze",
+                    "entries": [
+                        "Once per turn, the Re-Dead targets one creature it can see within 60 feet of it. If the target can see the Re-Dead, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Re-Dead's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Petrifying Gaze of all Re-Deads for the next 2 hours."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "traitTags": [
+                "Undead Fortitude"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "CS",
+                "LF"
+            ],
+            "damageTags": [
+                "P",
+                "N"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Gibdo",
+            "source": "WOR",
+            "page": 316,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 63,
+                "formula": "10d8 + 18"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 16,
+            "dex": 8,
+            "con": 15,
+            "int": 6,
+            "wis": 10,
+            "cha": 10,
+            "save": {
+                "wis": "+2"
+            },
+            "skill": {
+                "intimidation": "+3"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "vulnerable": [
+                "fire"
+            ],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "languages": [
+                "understands all languages it spoke in life but can't speak"
+            ],
+            "cr": "3",
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
+                    ]
+                },
+                {
+                    "name": "Rotting Fist",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by {@h}4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d12 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Dreadful Glare",
+                    "entries": [
+                        "The Gibdo targets one creature it can see within 60 feet of it. If the target can see the Gibdo, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Gibdo's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all Gibdos for the next 2 hours."
+                    ]
+                }
+            ],
+            "environment": [
+                "desert"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "C",
+                "UC"
+            ],
+            "damageTags": [
+                "P",
+                "N"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Advanced Bullywug",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": 10,
+            "wis": 11,
+            "int": 10,
+            "con": 14,
+            "str": 14,
+            "dex": 14,
+            "hp": {
+                "formula": "4d8 + 6",
+                "average": 26
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "cr": "2",
+            "save": {
+                "dex": "+4"
+            },
+            "skill": {
+                "stealth": "+4",
+                "survival": "+2"
+            },
+            "passive": 10,
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The bullywug has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks: one with its bite and one with its shortsword."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious",
+                "Magic Resistance"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Boss",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "M",
+            "cha": 10,
+            "wis": 12,
+            "int": 10,
+            "con": 15,
+            "str": 16,
+            "dex": 14,
+            "hp": {
+                "formula": "7d8 + 12",
+                "average": 47
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 25,
+                "swim": 40
+            },
+            "cr": "3",
+            "save": {
+                "con": "+4"
+            },
+            "skill": {
+                "intimidation": "+2",
+                "stealth": "+4",
+                "survival": "+3"
+            },
+            "passive": 11,
+            "resist": [
+                "acid"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two melee attacks with its pike or bite."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 14}). And if the target is Small or smaller, it is pulled up to 10 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled and in range, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug King/Queen",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "L",
+            "cha": 12,
+            "wis": 13,
+            "int": 12,
+            "con": 19,
+            "str": 18,
+            "dex": 14,
+            "hp": {
+                "formula": "13d10 + 48",
+                "average": 126
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 60
+            },
+            "cr": "5",
+            "save": {
+                "con": "+7",
+                "wis": "+4"
+            },
+            "skill": {
+                "intimidation": "+4",
+                "persuasion": "+4",
+                "stealth": "+5",
+                "survival": "+4"
+            },
+            "passive": 11,
+            "resist": [
+                "acid",
+                "poison"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bullywug makes two attacks with its battleaxe."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Battleaxe",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, range 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
+                    ]
+                },
+                {
+                    "name": "Tongue",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 15 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 15 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+                    ]
+                },
+                {
+                    "name": "Stoke Fear (2/day)",
+                    "entries": [
+                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Bullywug Shaman",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "bullywug",
+                    "druid"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "M",
+            "cha": 9,
+            "wis": 16,
+            "int": 10,
+            "con": 14,
+            "str": 12,
+            "dex": 15,
+            "hp": {
+                "formula": "6d8 + 10",
+                "average": 40
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item breastplate|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "cr": "2",
+            "save": {
+                "int": "+2",
+                "wis": "+5"
+            },
+            "skill": {
+                "medicine": "+5",
+                "nature": "+2",
+                "stealth": "+4",
+                "survival": "+5"
+            },
+            "passive": 13,
+            "resist": [
+                "acid"
+            ],
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Bullywug",
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The bullywug can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Speak with Frogs and Toads",
+                    "entries": [
+                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+                    ]
+                },
+                {
+                    "name": "Perpetually Intoxicated",
+                    "entries": [
+                        "The bullywug has disadvantage on nonmagical attack rolls and ability checks. In addition, when the bullywug rolls damage for a spell it can reroll up to two damage dice. It must use the new rolls."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Swamp Camouflage",
+                    "entries": [
+                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell produce flame}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell fog cloud}",
+                                "{@spell goodberry}",
+                                "{@spell thunderwave}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell barkskin}",
+                                "{@spell spike growth}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell conjure animals} (amphibians only)"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CD"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bully makes two attacks, one with its bite and one with its quarterstaff."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Staff",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 (1d6 + 2) bludgeoning damage, or 5 (1d8 + 2) bludgeoning damage if wielded with two hands."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Baltigan Sand Spider",
+            "type": "Beast",
+            "alignment": [
+                "U"
+            ],
+            "size": "L",
+            "cha": 4,
+            "wis": 12,
+            "int": 4,
+            "con": 14,
+            "str": 20,
+            "dex": 17,
+            "hp": {
+                "formula": "14d10 + 28",
+                "average": 98.0
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "burrow": 20
+            },
+            "cr": "7",
+            "skill": {
+                "perception": "+4",
+                "stealth": "+6"
+            },
+            "passive": 14,
+            "languages": [
+                "Understands Garo but does not speak it"
+            ],
+            "senses": [
+                "darkvision 60ft.",
+                "tremorsense 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Sand Stealth",
+                    "entries": [
+                        "The sand spider gains an additional +3 to Stealth (+9 in total) in sand terrain."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "The sand spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Ambusher",
+                    "entries": [
+                        "The sand spider has advantage on attack rolls against surprised targets."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The sand spider makes two attacks with its impaling legs and one bite attack."
+                    ]
+                },
+                {
+                    "name": "Impaling Leg",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage. If the sand spider scores a critical hit with this attack, it rolls damage dice three times instead of twice. If both impaling leg attacks hit the same target, the second hit deals an extra 11 ({@damage 1d12 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 13 ({@damage 3d8}) poison damage, or half as much poison damage with a successful {@dc 13} Constitution saving throw."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Trapdoor Ambush",
+                    "entries": [
+                        "When a creature walks over a sand spider's hidden burrow, the spider can use its reaction to attack that creature with two impaling leg attacks. The creature is considered a surprised target for both attacks if they did not notice the burrow. If either attack hits and the target is a Medium or smaller creature, then the sand spider and the target engage in a Strength ({@skill Athletics}) contest. If the creature wins, it can immediately move 5 feet away from the sand spider. If the contest results in a tie, the creature is {@condition grappled} (escape {@dc 15}). If the sand spider wins, the creature is grappled and dragged by the sand spider 30 feet into its lair. If the creature is still grappled at the start of the sand spider's next turn, it becomes {@condition restrained} instead. The restrained creature can escape by using an action to make a successful {@dc 15} Strength (Athletics) check."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Spider Climb",
+                "Ambusher"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Dennis",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "elf",
+                    "ranger"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": 14,
+            "wis": 16,
+            "int": 12,
+            "con": 16,
+            "str": 14,
+            "dex": 18,
+            "hp": {
+                "formula": "18d10 + 54",
+                "average": 152
+            },
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "{@item shield|phb}",
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 35
+            },
+            "cr": "10",
+            "save": {
+                "str": "+6",
+                "dex": "+8",
+                "wis": "+7",
+                "cha": "+6"
+            },
+            "skill": {
+                "acrobatics": "+8",
+                "athletics": "+6",
+                "insight": "+7",
+                "intimidation": "+6",
+                "investigation": "+5",
+                "perception": "+7",
+                "stealth": "+8"
+            },
+            "passive": 17,
+            "languages": [
+                "Aquan",
+                "Celestial",
+                "Common",
+                "Elvish",
+                "Undercommon"
+            ],
+            "senses": [
+                "darkvision 90ft."
+            ],
+            "trait": [
+                {
+                    "name": "Fearless Assassin",
+                    "entries": [
+                        "Dennis has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and can't be put to sleep with magic."
+                    ]
+                },
+                {
+                    "name": "Favored Enemy",
+                    "entries": [
+                        "Dennis gains a {@b +4} bonus to damage rolls with weapon attacks against, and has advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track humanoids and celestials. Dennis also has advantage on saving throws against the spells and abilities of celestials."
+                    ]
+                },
+                {
+                    "name": "Hitman's Advantage",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Dennis ignores difficult terrain.",
+                                "Dennis has advantage on initiative rolls.",
+                                "During the first round of combat Dennis has advantage on attack rolls against creatures that have yet to act."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Can't Run",
+                    "entries": [
+                        "Dennis can spending 1 uninterrupted minute concentrating tosense whether any celestials are humanoids are within 5 miles. They learn:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "which of your favored enemies are present",
+                                "their numbers",
+                                "the creatures' general direction and distance (in miles) from you."
+                            ]
+                        },
+                        "Dennis learns this for each groups within range."
+                    ]
+                },
+                {
+                    "name": "Did You Miss Me?",
+                    "entries": [
+                        "When Dennis attempts to hide on they can opt to not move on that turn to incur a -10 penalty to their Wisdom ({@skill Perception}) checks until the start of your next turn. This penalty is lost if Dennis moves or falls {@condition prone}, and Dennis is still automatically detected if any effect or action causes them to no longer be hidden. This effect continues as long as Dennis remains motionless."
+                    ]
+                },
+                {
+                    "name": "Finally Got You Right Where I Want You",
+                    "entries": [
+                        "Dennis has a +3 bonus to initiative. For the first turn of each combat Dennis's walking speed increases by 10ft, they can make an additional weapon attack and that attack does an extra 4 ({@damage 1d8}) damage."
+                    ]
+                },
+                {
+                    "name": "Tug Thug Dealer",
+                    "entries": [
+                        "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, Dennis gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Dennis is proficient with improvised weapons.",
+                                "When Dennis hits a creature with an unarmed strike or an improvised weapon, they can use a bonus action to attempt to grapple the target."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "1": {
+                            "spells": [
+                                "{@spell {@spell hale of thorns}}",
+                                "{@spell hunter's mark}",
+                                "{@spell zephyr strike|XGE}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell pass without trace}",
+                                "{@spell spike growth}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell conjure animals}",
+                                "{@spell lightning arrow}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Dennis is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The Dennis has the following Ranger spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CR"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Dennis makes either two melee or two ranged attacks."
+                    ]
+                },
+                {
+                    "name": "Name's Dennis",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Bubble Blowing Baby Popper",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Big Boot",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}. Once knocked prone, Dennis stomps on them with his big spiked boots dealing 6 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Bubble's Death Bow",
+                    "entries": [
+                        "{@atk rw} {@hit 10} to hit, range 200/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Can't Hide",
+                    "entries": [
+                        "Dennis can communicate simple ideas to a beast through sounds and gestures and read its basic mood and intent like: ",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Its emotional state",
+                                "Whether it is affected by magic of any sort",
+                                "Its short-term needs (such as food or safety)",
+                                "Any way to persuade it to not attack"
+                            ]
+                        },
+                        "This cannot be used against a creature they have attacked within the past 10 minutes."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cleats",
+                    "entries": [
+                        "The Dennis can take the Dash action."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "AQ",
+                "CE",
+                "C",
+                "E",
+                "U"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Stevinius Irwinius",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "human",
+                    "ranger"
+                ]
+            },
+            "alignment": [
+                "C",
+                "G"
+            ],
+            "size": "M",
+            "cha": 16,
+            "wis": 16,
+            "int": 10,
+            "con": 16,
+            "str": 18,
+            "dex": 16,
+            "hp": {
+                "formula": "15d8 + 45",
+                "average": 105.0
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@classFeature unarmored defense|WOR}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "cr": "10",
+            "save": {
+                "str": "+8",
+                "dex": "+7",
+                "con": "+7"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "animal Handling": "+11",
+                "athletics": "+8",
+                "intimidation": "+7",
+                "nature": "+4",
+                "perception": "+7",
+                "stealth": "+7",
+                "survival": "+7"
+            },
+            "passive": 17,
+            "languages": [
+                "Common"
+            ],
+            "trait": [
+                {
+                    "name": "Brave",
+                    "entries": [
+                        "Mr. Irwinius has advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Favored Enemy",
+                    "entries": [
+                        "Stevinius gains a {@b +2} bonus to damage rolls with weapon attacks against, and has advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track beasts and lizardfolk."
+                    ]
+                },
+                {
+                    "name": "Natural Explorer",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Stevinius ignores difficult terrain.",
+                                "Stevinius has advantage on initiative rolls.",
+                                "During the first round of combat Stevinius has advantage on attack rolls against creatures that have yet to act."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Coordinated Attack",
+                    "entries": [
+                        "When Mr. Irwinius uses the Attack action on your turn, if their companion can see them, it can use its reaction to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Open Hand Technique",
+                    "entries": [
+                        "Whenever Stevinius hits a creature with an attack from {@i {@b Flurry of Blows}}, they can impose one of the following effects:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target must succeed a {@dc 15} Dexterity saving throw or be knocked {@condition prone}.",
+                                "The target must make a {@dc 15} Strength saving throw. or be pushed up to 15 feet away from Mr. Irwinius.",
+                                "It can't take reactions until the end of Stevinius's next turn."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Ki (5/Short Rest)",
+                    "entries": [
+                        "Mr. Irwinius can spend these points to fuel various ki features. You start knowing three such features: ",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Flurry of Blows}",
+                                    "entry": "Immediately after using Multiattack, Stevinius can spend 1 ki point to make two unarmed strikes as a bonus action."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Patient Defense}",
+                                    "entry": " Stevinius can spend 1 ki point to take the Dodge action as a bonus action."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Step of the Wind}",
+                                    "entry": " Stevinius can spend 1 ki point to take the Disengage or Dash action as a bonus action, and their jump distance is doubled for the turn."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Stunning Strike",
+                    "entries": [
+                        "When Mr. Irwinius hits a creature with a melee weapon attack, they can spend 1 {@b {@i ki}} point and the target must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of Stevinius's next turn."
+                    ]
+                },
+                {
+                    "name": "Grapple Savant",
+                    "entries": [
+                        "In reference to grappling, Stevinius gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Stevinius has advantage on attack rolls against a creature they are grappling.",
+                                "Mr. Irwinius can use their action to try to pin a creature they've {@condition grappled} by making another grapple check. If Stevinius succeeds, him and the target are both {@condition restrained} until the grapple ends.",
+                                "When they successfully start a grapple, Stevinius deals and additional 2 ({@damage 1d4}) bludgeoning damage to the target, and deals this damage whenever they hit it with a melee attack, until the grapple ends."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tavern Brawler",
+                    "entries": [
+                        "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, Stevinius gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Stevinius is proficient with improvised weapons.",
+                                "When Stevinius hits a creature with an unarmed strike or an improvised weapon, they can use a bonus action to attempt to grapple the target."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Animal Companion",
+                    "entries": [
+                        "Stevinius has bonded with a stingray names {@i Stingy} who gains all the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The animal companion loses its {@b {@i Multiattack}} action, if it has one.",
+                                "The companion rolls for initiative, but obeys Stevinius's commands.",
+                                "When using your {@b {@i Natural Explorer}} feature, you and your animal companion can both move stealthily at a normal pace.",
+                                "The animal companion's proficiency bonus becomes {@b +4} and adds that to its AC and to its damage rolls.",
+                                "The animal companion gains proficiency in two skills of your choice as well as all saving throws.",
+                                "The animal companion gains {@b 2} additional hit die.",
+                                "The animal companion gains the benefits of the {@b {@i Favored Enemy}} feature."
+                            ]
+                        },
+                        "",
+                        "If {@i Stingy} is ever slain, Stevinius can spend 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food to create a new body for it."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "1": {
+                            "spells": [
+                                "{@spell ensnaring strike}",
+                                "{@spell hunter's mark}",
+                                "{@spell snare|XGE}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell healing spirit|XGE}",
+                                "{@spell pass without trace}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Mr. Irwinius is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The Stevinius has the following Ranger spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CR"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Stevinius makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Wombat Wack",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Grizzly Knife",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Headbutt",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Monk Arts",
+                    "entries": [
+                        "When Stevinius makes a {@i {@b wombat wack}} or {@i {@b headbutt}} attack, they can make one unarmed strike."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Deflect Missiles",
+                    "entries": [
+                        "When hit by a ranged weapon attack, Stevinius can reduce the damage by 13 ({@damage 1d10 + 8}). If the damage is reduced to 0, Mr. Irwinius can pend 1 {@i {@b ki}} point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction."
+                    ]
+                },
+                {
+                    "name": "Slow Fall",
+                    "entries": [
+                        "When Stevinius takes fall damage, they can reduce the damage taken by {@b 25}."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Myconid Mage",
+            "type": {
+                "type": "Plant",
+                "tags": [
+                    "wizard"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": 12,
+            "wis": 16,
+            "int": 18,
+            "con": 12,
+            "str": 10,
+            "dex": 14,
+            "hp": {
+                "formula": "8d8 + 8",
+                "average": 40.0
+            },
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": {
+                "cr": "4",
+                "xp": "1,100"
+            },
+            "save": {
+                "int": "+7",
+                "wis": "+6"
+            },
+            "skill": {
+                "arcana": "+7",
+                "insight": "+6"
+            },
+            "passive": 13,
+            "languages": [
+                "Understands Common",
+                "Sylvan but does not speak it"
+            ],
+            "senses": [
+                "darkvision 120ft."
+            ],
+            "trait": [
+                {
+                    "name": "Distress Spores",
+                    "entries": [
+                        "When the Myconid Mage takes damage, all other myconids within 240 feet of it can sense its pain."
+                    ]
+                },
+                {
+                    "name": "Sun Sickness",
+                    "entries": [
+                        "While in sunlight, the Myconid Mage has disadvantage on ability checks, attack rolls, and saving throws. The Mage dies if it spends more than 1 hour in direct sunlight."
+                    ]
+                },
+                {
+                    "name": "Arcane Ward (Recharges after a Long Rest)",
+                    "entries": [
+                        "When the Myconid Mage casts an abjuration spell of 1st level or higher, it can simultaneously create a magical ward on itself that. The ward has a hit point maximum equal to +16. Whenever the Mage takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "2": {
+                            "spells": [
+                                "{@spell chill touch}",
+                                "{@spell infestation|XGE}",
+                                "{@spell mage hand}",
+                                "{@spell poison spray}"
+                            ]
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell absorb elements|XGE}*",
+                                "{@spell ray of sickness}",
+                                "{@spell shield}*",
+                                "{@spell tasha's caustic brew|TCE}"
+                            ],
+                            "slots": 4
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell {@spell Maximillian's earthen grasp}}",
+                                "{@spell crown of madness}",
+                                "{@spell misty step}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell counterspell}*",
+                                "{@spell fear}",
+                                "{@spell slow}"
+                            ],
+                            "slots": 3
+                        }
+                    },
+                    "headerEntries": [
+                        "The Myconid Mage is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following wizard spells prepared:"
+                    ],
+                    "footerEntries": [
+                        "*Abjuration spell of 1st level or higher"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CW"
+            ],
+            "action": [
+                {
+                    "name": "Fist",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 3 to hit, reach 5 ft., one target. Hit: 8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Hallucination Spores",
+                    "entries": [
+                        "The Myconid Mage ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Pacifying Spores",
+                    "entries": [
+                        "The Myconid Mage ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Rapport Spores",
+                    "entries": [
+                        "A 30-foot radius of spores extends from the Myconid Mage. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+                    ]
+                },
+                {
+                    "name": "Animating Spores (3/day)",
+                    "entries": [
+                        "The Myconid Mage targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Projected Ward",
+                    "entries": [
+                        "When a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your {@i {@b Arcane Ward}} to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage."
+                    ]
+                }
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Myconid Martial",
+            "type": "Plant",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": 10,
+            "wis": 12,
+            "int": 10,
+            "con": 18,
+            "str": 18,
+            "dex": 12,
+            "hp": {
+                "formula": "7d8 + 28",
+                "average": 56.0
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "6",
+            "save": {
+                "str": "+7",
+                "con": "+7"
+            },
+            "skill": {
+                "athletics": "+7",
+                "insight": "+4",
+                "intimidation": "+3"
+            },
+            "passive": 11,
+            "languages": [
+                "Understands Sylvan but does not speak it"
+            ],
+            "senses": [
+                "darkvision 120ft."
+            ],
+            "trait": [
+                {
+                    "name": "Samurai's Pride",
+                    "entries": [
+                        "When the Myconid Martial wields a katana and no other weapons, you gain a {@b +2} bonus to damage rolls with that katana."
+                    ]
+                },
+                {
+                    "name": "Distress Spores",
+                    "entries": [
+                        "When the Myconid Martial takes damage, all other myconids within 240 feet of it can sense its pain."
+                    ]
+                },
+                {
+                    "name": "Sun Sickness",
+                    "entries": [
+                        "While in sunlight, the Myconid Martial has disadvantage on ability checks, attack rolls, and saving throws. The Marital dies if it spends more than 1 hour in direct sunlight."
+                    ]
+                },
+                {
+                    "name": "Action Surge (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "On its turn, the Myconid Martial can take one additional action."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Myconid Martial uses either its Hallucination Spores or its Pacifying Spores, then makes a melee weapon attack. Alternatively, it may make two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Mycelium Katana",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 11 ({@damage 1d10 + 6}) slashing damage plus 7 ({@damage 3d4}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Fist",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 8 ({@damage 3d4 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Hallucination Spores",
+                    "entries": [
+                        "The Myconid Martial ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Pacifying Spores",
+                    "entries": [
+                        "The Myconid Martial ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Rapport Spores",
+                    "entries": [
+                        "A 30-foot radius of spores extends from the Myconid Martial. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+                    ]
+                },
+                {
+                    "name": "Animating Spores (3/day)",
+                    "entries": [
+                        "The Myconid Martial targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Second Wind (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "The Marital can to regain 11 ({@damage 1d10 + 6}) HP."
+                    ]
+                },
+                {
+                    "name": "Fighting Spirit (3/Long Rest)",
+                    "entries": [
+                        "The Myconid Martial can give itself advantage on weapon attack rolls until the end of the current turn. The Marital also gain {@b 5} temporary hit points."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Myconid Medic",
+            "type": {
+                "type": "Plant",
+                "tags": [
+                    "cleric"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": 12,
+            "wis": 18,
+            "int": 12,
+            "con": 16,
+            "str": 14,
+            "dex": 12,
+            "hp": {
+                "formula": "7d8 + 21",
+                "average": 49.0
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": {
+                "cr": "4",
+                "xp": "1,100"
+            },
+            "save": {
+                "wis": "+7",
+                "cha": "+4"
+            },
+            "skill": {
+                "insight": "+7",
+                "nature": "+4",
+                "religion": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "Understands Common",
+                "Druidic",
+                "Sylvan but does not speak it"
+            ],
+            "senses": [
+                "darkvision 120ft."
+            ],
+            "trait": [
+                {
+                    "name": "Distress Spores",
+                    "entries": [
+                        "When the Myconid Medic takes damage, all other myconids within 240 feet of it can sense its pain."
+                    ]
+                },
+                {
+                    "name": "Sun Sickness",
+                    "entries": [
+                        "While in sunlight, the Myconid Medic has disadvantage on ability checks, attack rolls, and saving throws. The Medic dies if it spends more than 1 hour in direct sunlight."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "2": {
+                            "spells": [
+                                "{@spell guidance}",
+                                "{@spell mending}",
+                                "{@spell resistance}",
+                                "{@spell thorn whip}",
+                                "{@spell toll the dead|XGE}"
+                            ]
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell animal friendship}",
+                                "{@spell bane}",
+                                "{@spell healing word}",
+                                "{@spell inflict wounds}",
+                                "{@spell sanctuary}",
+                                "{@spell speak with animals}"
+                            ],
+                            "slots": 4
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell barkskin}",
+                                "{@spell blindness/deafness}",
+                                "{@spell hold person}",
+                                "{@spell spike growth}",
+                                "{@spell spiritual weapon}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell aura of vitality}",
+                                "{@spell dispel magic}",
+                                "{@spell plant growth}",
+                                "{@spell spirit guardians}",
+                                "{@spell wind wall}"
+                            ],
+                            "slots": 3
+                        }
+                    },
+                    "headerEntries": [
+                        "The myconid medic is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CC"
+            ],
+            "action": [
+                {
+                    "name": "Fist",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 5 to hit, reach 5 ft., one target. Hit: 8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Hallucination Spores",
+                    "entries": [
+                        "The Myconid Medic ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Pacifying Spores",
+                    "entries": [
+                        "The Myconid Medic ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Rapport Spores",
+                    "entries": [
+                        "A 30-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+                    ]
+                },
+                {
+                    "name": "Animating Spores (3/day)",
+                    "entries": [
+                        "The Myconid Medic targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (2/Short Rest)",
+                    "entries": [
+                        "The Medic uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Charm Animals and Plants}",
+                                    "entry": "Each beast or plant creature that can see you within 30 feet of you must make a {@dc 15} Wisdom saving throw or be {@condition charmed} by the Medic for 1 minute or until it takes damage. While it is charmed by the Myconid Medic, the beast is friendly to it and other creatures it designates."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn Undead}",
+                                    "entry": " Each undead within 30 feet of the Medic must make a {@dc 15} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from the Medic as it can, can't willingly move to a space within 30 feet of the Medic, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there's nowhere to move. When an undead of CR {@b 1/2} or lower fails its saving throw, the creature is instantly destroyed."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Dampen Elements",
+                    "entries": [
+                        "When a creature within 30 feet of the [MONs] takes acid, cold, fire, lightning, or thunder damage, the Medic can grant resistance to the creature against that instance of the damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "DU"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Myconid Monk",
+            "type": "Plant",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": 10,
+            "wis": 16,
+            "int": 12,
+            "con": 16,
+            "str": 12,
+            "dex": 18,
+            "hp": {
+                "formula": "7d8 + 21",
+                "average": 49.0
+            },
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 45
+            },
+            "cr": {
+                "cr": "3",
+                "xp": "700"
+            },
+            "save": {
+                "str": "+4",
+                "dex": "+7"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "insight": "+6"
+            },
+            "passive": 13,
+            "languages": [
+                "Understands Common",
+                "Sylvan but does not speak it"
+            ],
+            "senses": [
+                "darkvision 120ft."
+            ],
+            "trait": [
+                {
+                    "name": "Martial Arts",
+                    "entries": [
+                        "When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Distress Spores",
+                    "entries": [
+                        "When the Myconid Monk takes damage, all other myconids within 240 feet of it can sense its pain."
+                    ]
+                },
+                {
+                    "name": "Sun Sickness",
+                    "entries": [
+                        "While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight."
+                    ]
+                },
+                {
+                    "name": "Touch of Death",
+                    "entries": [
+                        "When Myconid Monk reduces a creature within 5 feet of it to 0 hit points, it gains +9 temporary hit points."
+                    ]
+                },
+                {
+                    "name": "Stunning Strike",
+                    "entries": [
+                        "When Myconid Monk hits a creature with a melee weapon attack, they can spend 1 {@b {@i ki}} point and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of Monk's next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Myconid Monk uses either its Hallucination Spores or its Pacifying Spores, then makes a melee weapon attack."
+                    ]
+                },
+                {
+                    "name": "Fist",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 7 ({@damage 1d6 + 4}) bludgeoning damage plus 2 ({@damage 1d4}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Hallucination Spores",
+                    "entries": [
+                        "The Myconid Monk ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Pacifying Spores",
+                    "entries": [
+                        "The Myconid Monk ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Rapport Spores",
+                    "entries": [
+                        "A 30-foot radius of spores extends from the Myconid Monk. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+                    ]
+                },
+                {
+                    "name": "Animating Spores (3/day)",
+                    "entries": [
+                        "The Myconid Monk targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Martial Arts",
+                    "entries": [
+                        "When the Myconid Monk uses the attack action, it can make one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Ki (6/Short Rest)",
+                    "entries": [
+                        "The Myconid Monk can spend these points to fuel the following ki features: ",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Flurry of Blows}",
+                                    "entry": "Immediately after using Multiattack, the Monk can spend 1 ki point to make two unarmed strikes."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Patient Defense}",
+                                    "entry": " The Monk can spend 1 ki point to take the Dodge action."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Step of the Wind}",
+                                    "entry": " The Monk can spend 1 ki point to take the Disengage or Dash action, and its jump distance is doubled for the turn."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Deflect Missiles",
+                    "entries": [
+                        "When hit by a ranged weapon attack, the Myconid Monk can reduce the damage by 15 ({@damage 1d10 + 10}). If the damage is reduced to 0, the Monk can spend 1 {@i {@b ki}} point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition they just caught, as part of the same reaction."
+                    ]
+                },
+                {
+                    "name": "Slow Fall",
+                    "entries": [
+                        "When the [MONs] takes fall damage, they can reduce the damage taken by {@b 30}."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        },
+        {
+            "name": "Vine Lord",
+            "type": "Plant",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "size": "M",
+            "cha": 18,
+            "wis": 16,
+            "int": 14,
+            "con": 16,
+            "str": 12,
+            "dex": 20,
+            "hp": {
+                "formula": "14d8 + 42",
+                "average": 98.0
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "7",
+            "save": {
+                "con": "+6",
+                "wis": "+6",
+                "cha": "+7"
+            },
+            "passive": 13,
+            "conditionImmune": [
+                "blinded",
+                "deafened"
+            ],
+            "languages": [
+                "Common"
+            ],
+            "senses": [
+                "blindsight 30ft. (blind beyond this radius)"
+            ],
+            "trait": [
+                {
+                    "name": "Green Strider",
+                    "entries": [
+                        "The vine lord ignores movement restrictions and damage caused by natural undergrowth."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The vine lord has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The vine lord regains 10 hit points at the start of its turn if it has at least 1 hit point and is within its home forest or jungle."
+                    ]
+                },
+                {
+                    "name": "Root Mind",
+                    "entries": [
+                        "Within its home forest or jungle, the vine lord's blindsight extends to 60 ft., it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The vine lord makes two claw attacks and four tendril attacks."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Spore Sacs (1/week)",
+                    "entries": [
+                        "The vine lord can release seeds from specialized sacs on its tendrils. These seeds sprout into 1d4 green spore pods that reach maturity in 3 days. The pods contain noxious spores that are released when the pod is stepped on, picked, or otherwise tampered with. A humanoid or beast that inhales these spores must succeed on a {@dc 14} Constitution saving throw against disease or tendrils start growing inside the creature's body. If the disease is not cured within 3 months, the tendrils take over the creature's nervous system and the victim becomes a tendril puppet."
+                    ]
+                },
+                {
+                    "name": "Tendril",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Awaken the Green (1/Day)",
+                    "entries": [
+                        "The vine lord magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the vine lord. The tree remains animate for 1 day or until it dies; until the vine lord dies or is more than 120 feet from the tree; or until the vine lord takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Magic Resistance",
+                "Regeneration"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Vine Lord",
+                "source": "WOR"
+            }
+        },
+        {
+            "name": "Vine Lord's Tendril Puppet",
+            "type": "Plant",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "size": "M",
+            "cha": 8,
+            "wis": 6,
+            "int": 6,
+            "con": 18,
+            "str": 16,
+            "dex": 12,
+            "hp": {
+                "formula": "4d8 + 16",
+                "average": 32.0
+            },
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "studded leather armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0
+            },
+            "cr": "2",
+            "passive": 8,
+            "conditionImmune": [
+                "blinded",
+                "deafened"
+            ],
+            "languages": [
+                "-"
+            ],
+            "senses": [
+                "darkvision 0ft.",
+                "blindsight 30ft. (blind beyond this radius)",
+                "tremorsense 0ft.",
+                "truesight 0ft."
+            ],
+            "trait": [
+                {
+                    "name": "Poor Vision",
+                    "entries": [
+                        "Tendril puppets see almost nothing beyond 30 feet away."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The tendril puppet regains 5 hit points at the start of its turn if it has at least 1 hit point and is in jungle terrain."
+                    ]
+                },
+                {
+                    "name": "Root Mind",
+                    "entries": [
+                        "Within a vine lord's forest or jungle, the tendril puppet's blindsight extends to 60 feet, it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
+                    ]
+                },
+                {
+                    "name": "Green Strider",
+                    "entries": [
+                        "The tendril puppet ignores movement restrictions and damage caused by natural undergrowth."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The tendril puppet has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Assegai",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Hurl Thorns",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the thorn explodes in a 10-foot-radius sphere centered on the target. Every creature in the affected area other than the original target takes 4 ({@damage 1d8}) piercing damage, or half damage with a successful {@dc 13} Dexterity saving throw."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Regeneration",
+                "Magic Resistance"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1
+        }
+    ],
     "optionalfeature": [
         {
             "name": "Dance of the Dragon",
@@ -3363,2128 +6159,6 @@
             "featureType": [
                 "Dance"
             ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "monster": [
-        {
-            "name": "Stalfos",
-            "source": "WOR",
-            "page": 272,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "armor scraps"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 25,
-                "formula": "3d8 + 12"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 18,
-            "dex": 14,
-            "con": 14,
-            "int": 8,
-            "wis": 8,
-            "cha": 8,
-            "skill": {
-                "athletics": "+6"
-            },
-            "senses": [
-                "darkvision 120 ft."
-            ],
-            "passive": 9,
-            "immune": [
-                "piercing",
-                "poison"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "languages": [
-                "understands Common"
-            ],
-            "cr": "2",
-            "trait": [
-                {
-                    "name": "Charge",
-                    "entries": [
-                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Stalfos Longsword.",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Charge"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "C",
-                "CS"
-            ],
-            "damageTags": [
-                "S"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        },
-        {
-            "name": "Stalkin",
-            "source": "WOR",
-            "page": 341,
-            "size": [
-                "T"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 7,
-                    "from": [
-                        "brittle bones"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 1,
-                "formula": "1d4 - 1"
-            },
-            "speed": {
-                "walk": 15
-            },
-            "str": 12,
-            "dex": 5,
-            "con": 8,
-            "int": 2,
-            "wis": 3,
-            "cha": 2,
-            "passive": 6,
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "immune": [
-                "poison"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "cr": "0",
-            "trait": [
-                {
-                    "name": "Pack Tactics",
-                    "entries": [
-                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Pin Prick",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Pack Tactics"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "conditionInflict": [
-                "prone"
-            ]
-        },
-        {
-            "name": "Stalhound",
-            "source": "WOR",
-            "page": 341,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 12,
-                    "from": [
-                        "bones"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 10,
-                "formula": "1d8 + 5"
-            },
-            "speed": {
-                "walk": 40
-            },
-            "str": 13,
-            "dex": 14,
-            "con": 20,
-            "int": 5,
-            "wis": 6,
-            "cha": 5,
-            "senses": [
-                "darkvision 120 ft."
-            ],
-            "passive": 8,
-            "immune": [
-                "poison"
-            ],
-            "resist": [
-                "piercing"
-            ],
-            "vulnerable": [
-                "bludgeoning"
-            ],
-            "conditionImmune": [
-                "exhaustion",
-                "poisoned"
-            ],
-            "cr": "1/4",
-            "trait": [
-                {
-                    "name": "Pack Tactics",
-                    "entries": [
-                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Pack Tactics"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "conditionInflict": [
-                "prone"
-            ]
-        },
-        {
-            "name": "Re-Dead",
-            "source": "WOR",
-            "page": 316,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N",
-                "E"
-            ],
-            "ac": [
-                8
-            ],
-            "hp": {
-                "average": 22,
-                "formula": "3d8 + 9"
-            },
-            "speed": {
-                "walk": 20
-            },
-            "str": 13,
-            "dex": 7,
-            "con": 16,
-            "int": 3,
-            "wis": 6,
-            "cha": 5,
-            "save": {
-                "wis": "+0"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 8,
-            "resist": [
-                "necrotic"
-            ],
-            "immune": [
-                "poison"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "frightened",
-                "poisoned"
-            ],
-            "languages": [
-                "understands all languages it spoke in life but can't speak"
-            ],
-            "cr": "1/2",
-            "trait": [
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
-                    ]
-                },
-                {
-                    "name": "Petrifying Gaze",
-                    "entries": [
-                        "Once per turn, the Re-Dead targets one creature it can see within 60 feet of it. If the target can see the Re-Dead, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Re-Dead's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Petrifying Gaze of all Re-Deads for the next 2 hours."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "traitTags": [
-                "Undead Fortitude"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "CS",
-                "LF"
-            ],
-            "damageTags": [
-                "P",
-                "N"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        },
-        {
-            "name": "Gibdo",
-            "source": "WOR",
-            "page": 316,
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N",
-                "E"
-            ],
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "armor scraps"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 63,
-                "formula": "10d8 + 18"
-            },
-            "speed": {
-                "walk": 20
-            },
-            "str": 16,
-            "dex": 8,
-            "con": 15,
-            "int": 6,
-            "wis": 10,
-            "cha": 10,
-            "save": {
-                "wis": "+2"
-            },
-            "skill": {
-                "intimidation": "+3"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 10,
-            "vulnerable": [
-                "fire"
-            ],
-            "resist": [
-                {
-                    "resist": [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks",
-                    "cond": true
-                }
-            ],
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "frightened",
-                "paralyzed",
-                "poisoned"
-            ],
-            "languages": [
-                "understands all languages it spoke in life but can't speak"
-            ],
-            "cr": "3",
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
-                    ]
-                },
-                {
-                    "name": "Rotting Fist",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by {@h}4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
-                    ]
-                },
-                {
-                    "name": "Greatsword",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d12 + 3}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Dreadful Glare",
-                    "entries": [
-                        "The Gibdo targets one creature it can see within 60 feet of it. If the target can see the Gibdo, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the Gibdo's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all Gibdos for the next 2 hours."
-                    ]
-                }
-            ],
-            "environment": [
-                "desert"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "C",
-                "UC"
-            ],
-            "damageTags": [
-                "P",
-                "N"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        },
-        {
-            "name": "Advanced Bullywug",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "bullywug"
-                ]
-            },
-            "alignment": [
-                "C",
-                "N"
-            ],
-            "size": "M",
-            "cha": 10,
-            "wis": 11,
-            "int": 10,
-            "con": 14,
-            "str": 14,
-            "dex": 14,
-            "hp": {
-                "formula": "4d8 + 6",
-                "average": 26
-            },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "{@item shield|phb}",
-                        "{@item chain shirt|phb}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 30,
-                "swim": 40
-            },
-            "cr": "2",
-            "save": {
-                "dex": "+4"
-            },
-            "skill": {
-                "stealth": "+4",
-                "survival": "+2"
-            },
-            "passive": 10,
-            "languages": [
-                "Bullywug",
-                "Common"
-            ],
-            "trait": [
-                {
-                    "name": "Amphibious",
-                    "entries": [
-                        "The bullywug can breathe air and water."
-                    ]
-                },
-                {
-                    "name": "Speak with Frogs and Toads",
-                    "entries": [
-                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
-                    ]
-                },
-                {
-                    "name": "Standing Leap",
-                    "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
-                    ]
-                },
-                {
-                    "name": "Swamp Camouflage",
-                    "entries": [
-                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries": [
-                        "The bullywug has advantage on saving throws against spells and other magical effects."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The bullywug makes two melee attacks: one with its bite and one with its shortsword."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Shortsword",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Amphibious",
-                "Magic Resistance"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Bullywug Boss",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "bullywug"
-                ]
-            },
-            "alignment": [
-                "C",
-                "E"
-            ],
-            "size": "M",
-            "cha": 10,
-            "wis": 12,
-            "int": 10,
-            "con": 15,
-            "str": 16,
-            "dex": 14,
-            "hp": {
-                "formula": "7d8 + 12",
-                "average": 47
-            },
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "{@item chain shirt|phb}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 25,
-                "swim": 40
-            },
-            "cr": "3",
-            "save": {
-                "con": "+4"
-            },
-            "skill": {
-                "intimidation": "+2",
-                "stealth": "+4",
-                "survival": "+3"
-            },
-            "passive": 11,
-            "resist": [
-                "acid"
-            ],
-            "languages": [
-                "Bullywug",
-                "Common"
-            ],
-            "trait": [
-                {
-                    "name": "Amphibious",
-                    "entries": [
-                        "The bullywug can breathe air and water."
-                    ]
-                },
-                {
-                    "name": "Speak with Frogs and Toads",
-                    "entries": [
-                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
-                    ]
-                },
-                {
-                    "name": "Standing Leap",
-                    "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
-                    ]
-                },
-                {
-                    "name": "Swamp Camouflage",
-                    "entries": [
-                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The bullywug makes two melee attacks with its pike or bite."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Pike",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Tongue",
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 14}). And if the target is Small or smaller, it is pulled up to 10 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled and in range, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Amphibious"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Bullywug King/Queen",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "bullywug"
-                ]
-            },
-            "alignment": [
-                "C",
-                "E"
-            ],
-            "size": "L",
-            "cha": 12,
-            "wis": 13,
-            "int": 12,
-            "con": 19,
-            "str": 18,
-            "dex": 14,
-            "hp": {
-                "formula": "13d10 + 48",
-                "average": 126
-            },
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "{@item breastplate|phb}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 30,
-                "swim": 60
-            },
-            "cr": "5",
-            "save": {
-                "con": "+7",
-                "wis": "+4"
-            },
-            "skill": {
-                "intimidation": "+4",
-                "persuasion": "+4",
-                "stealth": "+5",
-                "survival": "+4"
-            },
-            "passive": 11,
-            "resist": [
-                "acid",
-                "poison"
-            ],
-            "conditionImmune": [
-                "frightened"
-            ],
-            "languages": [
-                "Bullywug",
-                "Common"
-            ],
-            "trait": [
-                {
-                    "name": "Amphibious",
-                    "entries": [
-                        "The bullywug can breathe air and water."
-                    ]
-                },
-                {
-                    "name": "Speak with Frogs and Toads",
-                    "entries": [
-                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
-                    ]
-                },
-                {
-                    "name": "Standing Leap",
-                    "entries": [
-                        "The bullywug's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
-                    ]
-                },
-                {
-                    "name": "Swamp Camouflage",
-                    "entries": [
-                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The bullywug makes two attacks with its battleaxe."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Battleaxe",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, range 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
-                    ]
-                },
-                {
-                    "name": "Tongue",
-                    "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 15 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 15 feet towards the bullywug, and {@condition restrained} until the grapple ends. If the target is grappled, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
-                    ]
-                },
-                {
-                    "name": "Stoke Fear (2/day)",
-                    "entries": [
-                        "Each creature of the bullywug's choice that is within 30 feet of it, can hear it, and not already affected by Stoke Fear gain advantage on all melee attack rolls until the start of the bullywug king/queen's next turn, but attack rolls against an affected creature have advantage until the start of its next turn."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Amphibious"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Bullywug Shaman",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "bullywug",
-                    "druid"
-                ]
-            },
-            "alignment": [
-                "C",
-                "E"
-            ],
-            "size": "M",
-            "cha": 9,
-            "wis": 16,
-            "int": 10,
-            "con": 14,
-            "str": 12,
-            "dex": 15,
-            "hp": {
-                "formula": "6d8 + 10",
-                "average": 40
-            },
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "{@item breastplate|phb}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 20,
-                "swim": 40
-            },
-            "cr": "2",
-            "save": {
-                "int": "+2",
-                "wis": "+5"
-            },
-            "skill": {
-                "medicine": "+5",
-                "nature": "+2",
-                "stealth": "+4",
-                "survival": "+5"
-            },
-            "passive": 13,
-            "resist": [
-                "acid"
-            ],
-            "conditionImmune": [
-                "frightened"
-            ],
-            "languages": [
-                "Bullywug",
-                "Common"
-            ],
-            "trait": [
-                {
-                    "name": "Amphibious",
-                    "entries": [
-                        "The bullywug can breathe air and water."
-                    ]
-                },
-                {
-                    "name": "Speak with Frogs and Toads",
-                    "entries": [
-                        "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
-                    ]
-                },
-                {
-                    "name": "Perpetually Intoxicated",
-                    "entries": [
-                        "The bullywug has disadvantage on nonmagical attack rolls and ability checks. In addition, when the bullywug rolls damage for a spell it can reroll up to two damage dice. It must use the new rolls."
-                    ]
-                },
-                {
-                    "name": "Standing Leap",
-                    "entries": [
-                        "The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
-                    ]
-                },
-                {
-                    "name": "Swamp Camouflage",
-                    "entries": [
-                        "The bullywug has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
-                    ]
-                }
-            ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell druidcraft}",
-                                "{@spell poison spray}",
-                                "{@spell produce flame}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell fog cloud}",
-                                "{@spell goodberry}",
-                                "{@spell thunderwave}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell barkskin}",
-                                "{@spell spike growth}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell call lightning}",
-                                "{@spell conjure animals} (amphibians only)"
-                            ],
-                            "slots": 2
-                        }
-                    },
-                    "headerEntries": [
-                        "The bullywug is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The bullywug has the following druid spells prepared:"
-                    ]
-                }
-            ],
-            "spellcastingTags": [
-                "CD"
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The bully makes two attacks, one with its bite and one with its quarterstaff."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Staff",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 (1d6 + 2) bludgeoning damage, or 5 (1d8 + 2) bludgeoning damage if wielded with two hands."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Amphibious"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Baltigan Sand Spider",
-            "type": "Beast",
-            "alignment": [
-                "U"
-            ],
-            "size": "L",
-            "cha": 4,
-            "wis": 12,
-            "int": 4,
-            "con": 14,
-            "str": 20,
-            "dex": 17,
-            "hp": {
-                "formula": "14d10 + 28",
-                "average": 98.0
-            },
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 30,
-                "burrow": 20
-            },
-            "cr": "7",
-            "skill": {
-                "perception": "+4",
-                "stealth": "+6"
-            },
-            "passive": 14,
-            "languages": [
-                "Understands Garo but does not speak it"
-            ],
-            "senses": [
-                "darkvision 60ft.",
-                "tremorsense 60ft."
-            ],
-            "trait": [
-                {
-                    "name": "Sand Stealth",
-                    "entries": [
-                        "The sand spider gains an additional +3 to Stealth (+9 in total) in sand terrain."
-                    ]
-                },
-                {
-                    "name": "Spider Climb",
-                    "entries": [
-                        "The sand spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-                    ]
-                },
-                {
-                    "name": "Ambusher",
-                    "entries": [
-                        "The sand spider has advantage on attack rolls against surprised targets."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The sand spider makes two attacks with its impaling legs and one bite attack."
-                    ]
-                },
-                {
-                    "name": "Impaling Leg",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage. If the sand spider scores a critical hit with this attack, it rolls damage dice three times instead of twice. If both impaling leg attacks hit the same target, the second hit deals an extra 11 ({@damage 1d12 + 5}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 13 ({@damage 3d8}) poison damage, or half as much poison damage with a successful {@dc 13} Constitution saving throw."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Trapdoor Ambush",
-                    "entries": [
-                        "When a creature walks over a sand spider's hidden burrow, the spider can use its reaction to attack that creature with two impaling leg attacks. The creature is considered a surprised target for both attacks if they did not notice the burrow. If either attack hits and the target is a Medium or smaller creature, then the sand spider and the target engage in a Strength ({@skill Athletics}) contest. If the creature wins, it can immediately move 5 feet away from the sand spider. If the contest results in a tie, the creature is {@condition grappled} (escape {@dc 15}). If the sand spider wins, the creature is grappled and dragged by the sand spider 30 feet into its lair. If the creature is still grappled at the start of the sand spider's next turn, it becomes {@condition restrained} instead. The restrained creature can escape by using an action to make a successful {@dc 15} Strength (Athletics) check."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Spider Climb",
-                "Ambusher"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Dennis",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "elf",
-                    "ranger"
-                ]
-            },
-            "alignment": [
-                "C",
-                "N"
-            ],
-            "size": "M",
-            "cha": 14,
-            "wis": 16,
-            "int": 12,
-            "con": 16,
-            "str": 14,
-            "dex": 18,
-            "hp": {
-                "formula": "18d10 + 54",
-                "average": 152
-            },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "{@item shield|phb}",
-                        "{@item studded leather armor|phb}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 35
-            },
-            "cr": "10",
-            "save": {
-                "str": "+6",
-                "dex": "+8",
-                "wis": "+7",
-                "cha": "+6"
-            },
-            "skill": {
-                "acrobatics": "+8",
-                "athletics": "+6",
-                "insight": "+7",
-                "intimidation": "+6",
-                "investigation": "+5",
-                "perception": "+7",
-                "stealth": "+8"
-            },
-            "passive": 17,
-            "languages": [
-                "Aquan",
-                "Celestial",
-                "Common",
-                "Elvish",
-                "Undercommon"
-            ],
-            "senses": [
-                "darkvision 90ft."
-            ],
-            "trait": [
-                {
-                    "name": "Fearless Assassin",
-                    "entries": [
-                        "Dennis has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and can't be put to sleep with magic."
-                    ]
-                },
-                {
-                    "name": "Favored Enemy",
-                    "entries": [
-                        "Dennis gains a {@b +4} bonus to damage rolls with weapon attacks against, and has advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track humanoids and celestials. Dennis also has advantage on saving throws against the spells and abilities of celestials."
-                    ]
-                },
-                {
-                    "name": "Hitman's Advantage",
-                    "entries": [
-                        {
-                            "type": "list",
-                            "items": [
-                                "Dennis ignores difficult terrain.",
-                                "Dennis has advantage on initiative rolls.",
-                                "During the first round of combat Dennis has advantage on attack rolls against creatures that have yet to act."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Can't Run",
-                    "entries": [
-                        "Dennis can spending 1 uninterrupted minute concentrating tosense whether any celestials are humanoids are within 5 miles. They learn:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "which of your favored enemies are present",
-                                "their numbers",
-                                "the creatures' general direction and distance (in miles) from you."
-                            ]
-                        },
-                        "Dennis learns this for each groups within range."
-                    ]
-                },
-                {
-                    "name": "Did You Miss Me?",
-                    "entries": [
-                        "When Dennis attempts to hide on they can opt to not move on that turn to incur a -10 penalty to their Wisdom ({@skill Perception}) checks until the start of your next turn. This penalty is lost if Dennis moves or falls {@condition prone}, and Dennis is still automatically detected if any effect or action causes them to no longer be hidden. This effect continues as long as Dennis remains motionless."
-                    ]
-                },
-                {
-                    "name": "Finally Got You Right Where I Want You",
-                    "entries": [
-                        "Dennis has a +3 bonus to initiative. For the first turn of each combat Dennis's walking speed increases by 10ft, they can make an additional weapon attack and that attack does an extra 4 ({@damage 1d8}) damage."
-                    ]
-                },
-                {
-                    "name": "Tug Thug Dealer",
-                    "entries": [
-                        "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, Dennis gains the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "Dennis is proficient with improvised weapons.",
-                                "When Dennis hits a creature with an unarmed strike or an improvised weapon, they can use a bonus action to attempt to grapple the target."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "1": {
-                            "spells": [
-                                "{@spell {@spell hale of thorns}}",
-                                "{@spell hunter's mark}",
-                                "{@spell zephyr strike|XGE}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell pass without trace}",
-                                "{@spell spike growth}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell conjure animals}",
-                                "{@spell lightning arrow}"
-                            ],
-                            "slots": 2
-                        }
-                    },
-                    "headerEntries": [
-                        "Dennis is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The Dennis has the following Ranger spells prepared:"
-                    ]
-                }
-            ],
-            "spellcastingTags": [
-                "CR"
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "Dennis makes either two melee or two ranged attacks."
-                    ]
-                },
-                {
-                    "name": "Name's Dennis",
-                    "entries": [
-                        "{@atk mw, rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Bubble Blowing Baby Popper",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Big Boot",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}. Once knocked prone, Dennis stomps on them with his big spiked boots dealing 6 ({@damage 1d4 + 4}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Bubble's Death Bow",
-                    "entries": [
-                        "{@atk rw} {@hit 10} to hit, range 200/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Can't Hide",
-                    "entries": [
-                        "Dennis can communicate simple ideas to a beast through sounds and gestures and read its basic mood and intent like: ",
-                        {
-                            "type": "list",
-                            "items": [
-                                "Its emotional state",
-                                "Whether it is affected by magic of any sort",
-                                "Its short-term needs (such as food or safety)",
-                                "Any way to persuade it to not attack"
-                            ]
-                        },
-                        "This cannot be used against a creature they have attacked within the past 10 minutes."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cleats",
-                    "entries": [
-                        "The Dennis can take the Dash action."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "AQ",
-                "CE",
-                "C",
-                "E",
-                "U"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Stevinius Irwinius",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "human",
-                    "ranger"
-                ]
-            },
-            "alignment": [
-                "C",
-                "G"
-            ],
-            "size": "M",
-            "cha": 16,
-            "wis": 16,
-            "int": 10,
-            "con": 16,
-            "str": 18,
-            "dex": 16,
-            "hp": {
-                "formula": "15d8 + 45",
-                "average": 105.0
-            },
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "{@classFeature unarmored defense|WOR}"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 40
-            },
-            "cr": "10",
-            "save": {
-                "str": "+8",
-                "dex": "+7",
-                "con": "+7"
-            },
-            "skill": {
-                "acrobatics": "+7",
-                "animal Handling": "+11",
-                "athletics": "+8",
-                "intimidation": "+7",
-                "nature": "+4",
-                "perception": "+7",
-                "stealth": "+7",
-                "survival": "+7"
-            },
-            "passive": 17,
-            "languages": [
-                "Common"
-            ],
-            "trait": [
-                {
-                    "name": "Brave",
-                    "entries": [
-                        "Mr. Irwinius has advantage on saving throws against being {@condition frightened}."
-                    ]
-                },
-                {
-                    "name": "Favored Enemy",
-                    "entries": [
-                        "Stevinius gains a {@b +2} bonus to damage rolls with weapon attacks against, and has advantage on Intelligence checks to recall information about and Wisdom ({@skill Survival}) checks to track beasts and lizardfolk."
-                    ]
-                },
-                {
-                    "name": "Natural Explorer",
-                    "entries": [
-                        {
-                            "type": "list",
-                            "items": [
-                                "Stevinius ignores difficult terrain.",
-                                "Stevinius has advantage on initiative rolls.",
-                                "During the first round of combat Stevinius has advantage on attack rolls against creatures that have yet to act."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Coordinated Attack",
-                    "entries": [
-                        "When Mr. Irwinius uses the Attack action on your turn, if their companion can see them, it can use its reaction to make a melee attack."
-                    ]
-                },
-                {
-                    "name": "Open Hand Technique",
-                    "entries": [
-                        "Whenever Stevinius hits a creature with an attack from {@i {@b Flurry of Blows}}, they can impose one of the following effects:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The target must succeed a {@dc 15} Dexterity saving throw or be knocked {@condition prone}.",
-                                "The target must make a {@dc 15} Strength saving throw. or be pushed up to 15 feet away from Mr. Irwinius.",
-                                "It can't take reactions until the end of Stevinius's next turn."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Ki (5/Short Rest)",
-                    "entries": [
-                        "Mr. Irwinius can spend these points to fuel various ki features. You start knowing three such features: ",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "item",
-                                    "name": "{@b Flurry of Blows}",
-                                    "entry": "Immediately after using Multiattack, Stevinius can spend 1 ki point to make two unarmed strikes as a bonus action."
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "{@b Patient Defense}",
-                                    "entry": " Stevinius can spend 1 ki point to take the Dodge action as a bonus action."
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "{@b Step of the Wind}",
-                                    "entry": " Stevinius can spend 1 ki point to take the Disengage or Dash action as a bonus action, and their jump distance is doubled for the turn."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Stunning Strike",
-                    "entries": [
-                        "When Mr. Irwinius hits a creature with a melee weapon attack, they can spend 1 {@b {@i ki}} point and the target must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of Stevinius's next turn."
-                    ]
-                },
-                {
-                    "name": "Grapple Savant",
-                    "entries": [
-                        "In reference to grappling, Stevinius gains the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "Stevinius has advantage on attack rolls against a creature they are grappling.",
-                                "Mr. Irwinius can use their action to try to pin a creature they've {@condition grappled} by making another grapple check. If Stevinius succeeds, him and the target are both {@condition restrained} until the grapple ends.",
-                                "When they successfully start a grapple, Stevinius deals and additional 2 ({@damage 1d4}) bludgeoning damage to the target, and deals this damage whenever they hit it with a melee attack, until the grapple ends."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Tavern Brawler",
-                    "entries": [
-                        "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, Stevinius gains the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "Stevinius is proficient with improvised weapons.",
-                                "When Stevinius hits a creature with an unarmed strike or an improvised weapon, they can use a bonus action to attempt to grapple the target."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Animal Companion",
-                    "entries": [
-                        "Stevinius has bonded with a stingray names {@i Stingy} who gains all the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The animal companion loses its {@b {@i Multiattack}} action, if it has one.",
-                                "The companion rolls for initiative, but obeys Stevinius's commands.",
-                                "When using your {@b {@i Natural Explorer}} feature, you and your animal companion can both move stealthily at a normal pace.",
-                                "The animal companion's proficiency bonus becomes {@b +4} and adds that to its AC and to its damage rolls.",
-                                "The animal companion gains proficiency in two skills of your choice as well as all saving throws.",
-                                "The animal companion gains {@b 2} additional hit die.",
-                                "The animal companion gains the benefits of the {@b {@i Favored Enemy}} feature."
-                            ]
-                        },
-                        "",
-                        "If {@i Stingy} is ever slain, Stevinius can spend 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food to create a new body for it."
-                    ]
-                }
-            ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "1": {
-                            "spells": [
-                                "{@spell ensnaring strike}",
-                                "{@spell hunter's mark}",
-                                "{@spell snare|XGE}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell healing spirit|XGE}",
-                                "{@spell pass without trace}"
-                            ],
-                            "slots": 2
-                        }
-                    },
-                    "headerEntries": [
-                        "Mr. Irwinius is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The Stevinius has the following Ranger spells prepared:"
-                    ]
-                }
-            ],
-            "spellcastingTags": [
-                "CR"
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "Stevinius makes two attacks."
-                    ]
-                },
-                {
-                    "name": "Wombat Wack",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Grizzly Knife",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Headbutt",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Monk Arts",
-                    "entries": [
-                        "When Stevinius makes a {@i {@b wombat wack}} or {@i {@b headbutt}} attack, they can make one unarmed strike."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Deflect Missiles",
-                    "entries": [
-                        "When hit by a ranged weapon attack, Stevinius can reduce the damage by 13 ({@damage 1d10 + 8}). If the damage is reduced to 0, Mr. Irwinius can pend 1 {@i {@b ki}} point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction."
-                    ]
-                },
-                {
-                    "name": "Slow Fall",
-                    "entries": [
-                        "When Stevinius takes fall damage, they can reduce the damage taken by {@b 25}."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1
-        },
-        {
-            "name": "Vine Lord",
-            "type": "Plant",
-            "alignment": [
-                "L",
-                "N"
-            ],
-            "size": "M",
-            "cha": 18,
-            "wis": 16,
-            "int": 14,
-            "con": 16,
-            "str": 12,
-            "dex": 20,
-            "hp": {
-                "formula": "14d8 + 42",
-                "average": 98.0
-            },
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "cr": "7",
-            "save": {
-                "con": "+6",
-                "wis": "+6",
-                "cha": "+7"
-            },
-            "passive": 13,
-            "conditionImmune": [
-                "blinded",
-                "deafened"
-            ],
-            "languages": [
-                "Common"
-            ],
-            "senses": [
-                "blindsight 30ft. (blind beyond this radius)"
-            ],
-            "trait": [
-                {
-                    "name": "Green Strider",
-                    "entries": [
-                        "The vine lord ignores movement restrictions and damage caused by natural undergrowth."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries": [
-                        "The vine lord has advantage on saving throws against spells and other magical effects."
-                    ]
-                },
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The vine lord regains 10 hit points at the start of its turn if it has at least 1 hit point and is within its home forest or jungle."
-                    ]
-                },
-                {
-                    "name": "Root Mind",
-                    "entries": [
-                        "Within its home forest or jungle, the vine lord's blindsight extends to 60 ft., it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The vine lord makes two claw attacks and four tendril attacks."
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Spore Sacs (1/week)",
-                    "entries": [
-                        "The vine lord can release seeds from specialized sacs on its tendrils. These seeds sprout into 1d4 green spore pods that reach maturity in 3 days. The pods contain noxious spores that are released when the pod is stepped on, picked, or otherwise tampered with. A humanoid or beast that inhales these spores must succeed on a {@dc 14} Constitution saving throw against disease or tendrils start growing inside the creature's body. If the disease is not cured within 3 months, the tendrils take over the creature's nervous system and the victim becomes a tendril puppet."
-                    ]
-                },
-                {
-                    "name": "Tendril",
-                    "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage plus 3 ({@damage 1d6}) poison damage."
-                    ]
-                },
-                {
-                    "name": "Awaken the Green (1/Day)",
-                    "entries": [
-                        "The vine lord magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the vine lord. The tree remains animate for 1 day or until it dies; until the vine lord dies or is more than 120 feet from the tree; or until the vine lord takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
-                    ]
-                }
-            ],
-            "legendaryHeader": [
-                ""
-            ],
-            "legendary": [],
-            "traitTags": [
-                "Magic Resistance",
-                "Regeneration"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "source": "WOR",
-            "page": 1,
-            "legendaryGroup": {
-                "name": "Vine Lord",
-                "source": "WOR"
-            }
-        },
-        {
-            "name": "Vine Lord's Tendril Puppet",
-            "type": "Plant",
-            "alignment": [
-                "L",
-                "N"
-            ],
-            "size": "M",
-            "cha": 8,
-            "wis": 6,
-            "int": 6,
-            "con": 18,
-            "str": 16,
-            "dex": 12,
-            "hp": {
-                "formula": "4d8 + 16",
-                "average": 32.0
-            },
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "studded leather armor"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 30,
-                "burrow": 0,
-                "climb": 0,
-                "fly": 0,
-                "swim": 0
-            },
-            "cr": "2",
-            "passive": 8,
-            "conditionImmune": [
-                "blinded",
-                "deafened"
-            ],
-            "languages": [
-                "-"
-            ],
-            "senses": [
-                "darkvision 0ft.",
-                "blindsight 30ft. (blind beyond this radius)",
-                "tremorsense 0ft.",
-                "truesight 0ft."
-            ],
-            "trait": [
-                {
-                    "name": "Poor Vision",
-                    "entries": [
-                        "Tendril puppets see almost nothing beyond 30 feet away."
-                    ]
-                },
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The tendril puppet regains 5 hit points at the start of its turn if it has at least 1 hit point and is in jungle terrain."
-                    ]
-                },
-                {
-                    "name": "Root Mind",
-                    "entries": [
-                        "Within a vine lord's forest or jungle, the tendril puppet's blindsight extends to 60 feet, it succeeds on all Wisdom ({@skill Perception}) checks, and it can't be surprised."
-                    ]
-                },
-                {
-                    "name": "Green Strider",
-                    "entries": [
-                        "The tendril puppet ignores movement restrictions and damage caused by natural undergrowth."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries": [
-                        "The tendril puppet has advantage on saving throws against spells and other magical effects."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Assegai",
-                    "entries": [
-                        "{@atk mw, rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
-                    ]
-                },
-                {
-                    "name": "Hurl Thorns",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the thorn explodes in a 10-foot-radius sphere centered on the target. Every creature in the affected area other than the original target takes 4 ({@damage 1d8}) piercing damage, or half damage with a successful {@dc 13} Dexterity saving throw."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Regeneration",
-                "Magic Resistance"
-            ],
-            "source": "WOR",
-            "page": 1
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
-            ]
-        }
-    ],
-    "spell": [
-        {
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    }
-                }
-            ],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
         }
     ],
     "boon": [
