@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.12",
+                "version": "1.0.13",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1681162913.0
+        "dateLastModified": 1681245667.0
     },
     "class": [
         {
@@ -2779,37 +2779,6 @@
             ]
         }
     ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
-            ]
-        }
-    ],
     "spell": [
         {
             "name": "Aura of Desecration",
@@ -3080,6 +3049,39 @@
                     }
                 ]
             }
+        }
+    ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
         }
     ],
     "monster": [
@@ -4808,7 +4810,7 @@
                 {
                     "name": "Fist",
                     "entries": [
-                        "{@i Melee Weapon Attack}: 3 to hit, reach 5 ft., one target. Hit: 8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
                     ]
                 },
                 {
@@ -4930,13 +4932,13 @@
                 {
                     "name": "Mycelium Katana",
                     "entries": [
-                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 11 ({@damage 1d10 + 6}) slashing damage plus 7 ({@damage 3d4}) poison damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) slashing damage plus 7 ({@damage 3d4}) poison damage."
                     ]
                 },
                 {
                     "name": "Fist",
                     "entries": [
-                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 8 ({@damage 3d4 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 3d4 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
                     ]
                 },
                 {
@@ -5112,7 +5114,7 @@
                 {
                     "name": "Fist",
                     "entries": [
-                        "{@i Melee Weapon Attack}: 5 to hit, reach 5 ft., one target. Hit: 8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 11 ({@damage 3d6 + 1}) bludgeoning damage plus 7 ({@damage 3d4}) poison damage."
                     ]
                 },
                 {
@@ -5267,7 +5269,7 @@
                 {
                     "name": "Fist",
                     "entries": [
-                        "{@i Melee Weapon Attack}: 7 to hit, reach 5 ft., one target. Hit: 7 ({@damage 1d6 + 4}) bludgeoning damage plus 2 ({@damage 1d4}) poison damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 2 ({@damage 1d4}) poison damage."
                     ]
                 },
                 {
@@ -6161,18 +6163,16 @@
             ]
         }
     ],
-    "boon": [
+    "legendaryGroup": [
         {
-            "name": "Eurasia’s Blessing",
+            "name": "Vine Lord",
             "source": "WOR",
-            "page": 79,
-            "type": "Elven",
-            "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
                 {
                     "type": "list",
                     "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
                     ]
                 }
             ]
