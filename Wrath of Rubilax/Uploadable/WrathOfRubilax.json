@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.13",
+                "version": "1.0.14",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1681245667.0
+        "dateLastModified": 1681352229.0
     },
     "class": [
         {
@@ -3051,39 +3051,6 @@
             }
         }
     ],
-    "boon": [
-        {
-            "name": "Eurasia’s Blessing",
-            "source": "WOR",
-            "page": 79,
-            "type": "Elven",
-            "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
-                    ]
-                }
-            ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
     "monster": [
         {
             "name": "Stalfos",
@@ -4684,6 +4651,251 @@
             "page": 1
         },
         {
+            "name": "Mycelius - Fiendish Contagious Fungus",
+            "type": "Plant/Fiend",
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "H",
+            "cha": 10,
+            "wis": 20,
+            "int": 14,
+            "con": 22,
+            "str": 16,
+            "dex": 8,
+            "hp": {
+                "formula": "16d12 + 96",
+                "average": 192.0
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "mycelium"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 10,
+                "burrow": 30
+            },
+            "cr": "16",
+            "save": {
+                "con": "+11",
+                "int": "+7",
+                "wis": "+10"
+            },
+            "skill": {
+                "animal Handling": "+10",
+                "arcana": "+7",
+                "medicine": "+10",
+                "nature": "+7",
+                "perception": "+10",
+                "stealth": "+4",
+                "survival": "+10"
+            },
+            "passive": 20,
+            "resist": [
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned",
+                "prone"
+            ],
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Druidic",
+                "Elvish",
+                "Sylvan"
+            ],
+            "senses": [
+                "darkvision 60ft.",
+                "tremorsense 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Fey Ancestry",
+                    "entries": [
+                        "Mycelius has advantage against charm or frighten effects and can't be magically put to sleep."
+                    ]
+                },
+                {
+                    "name": "Fungal Body",
+                    "entries": [
+                        "Mycelius can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against him counts as a normal hit instead, unless he is {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Super Symbiotic Entity",
+                    "entries": [
+                        "Mycelius is always considered to be under the effects of {@i {@b Symbiotic Entity}}, gaining the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "When he deals {@i {@b Halo of Spores}} damage, he rolls the damage die a second time and adds it to the total.",
+                                "His melee weapon attacks deal an extra 3 ({@damage 1d6}) necrotic damage to any target they hit (in attack).",
+                                "He recovers 10 hit points at the start of his turn while he has at least 1 hit point."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (1/Day)",
+                    "entries": [
+                        "If Mycelius fails a saving throw, he can choose to succeed instead."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Mycelius's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "wis",
+                    "will": [
+                        "{@spell druidcraft}",
+                        "{@spell chill touch}",
+                        "{@spell shillelagh}",
+                        "{@spell infestation}",
+                        "{@spell mold earth}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell entangle}",
+                            "{@spell faerie fire}",
+                            "{@spell absorb elements|XGE}",
+                            "{@spell moonbeam}"
+                        ],
+                        "2e": [
+                            "{@spell spike growth}",
+                            "{@spell plant growth}",
+                            "{@spell dispel magic}",
+                            "{@spell blight}"
+                        ],
+                        "1e": [
+                            "{@spell contagion}",
+                            "{@spell cloudkill}"
+                        ]
+                    }
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Mycelius makes two Fungal Stalk attacks."
+                    ]
+                },
+                {
+                    "name": "Fungal Stalk",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) magic bludgeoning damage plus 7 ({@damage 2d6}) necrotic damage."
+                    ]
+                },
+                {
+                    "name": "Fungal Fate",
+                    "entries": [
+                        "Mycelius causes putrid spores to engulf one creature he can see within 120 feet of himself. The target must make a {@dc 18} Constitution saving throw, taking 28 ({@damage 4d8 + 10}) necrotic damage on a failed save, or half as much damage on a successful one. A Humanoid killed by this magic rises as a myconid adult at the start of Mycelius' next turn and acts immediately after him in the initiative order. The myconid adult is under Mycelius' control."
+                    ]
+                },
+                {
+                    "name": "Euphoria Spores (2/day)",
+                    "entries": [
+                        "Mycelius releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 18} Constitution saving throw or become {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaustion}."
+                    ]
+                },
+                {
+                    "name": "Infestation Spores (1/day)",
+                    "entries": [
+                        "Mycelius releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on him, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 18} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is afflicted with a random form of indefinite madness (determined by rolling on the {@i Madness of Zuggtmoy} table) that lasts until the creature is cured. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Sinister Spreading Spores",
+                    "entries": [
+                        "Mycelius can hurl spores up to 60 feet away, where they swirl in a 20-foot cube for 1 minute. The spores disappear early if he uses this feature again.",
+                        "Whenever a creature moves into the cube or starts its turn there, that creature must mace a {@dc 18} Constitution Saving throw or take 11 ({@damage 2d10}) necrotic damage. A creature can only take this damage once per turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Halo of Spores (2/round)",
+                    "entries": [
+                        "When a creature moves into a space within 10 feet of Mycelius or starts its turn there, he can force that creature must mace a {@dc 18} Constitution Saving throw or take 11 ({@damage 2d10}) necrotic damage."
+                    ]
+                },
+                {
+                    "name": "Fungal Infestation",
+                    "entries": [
+                        "If a beast or humanoid that is Small, Medium, or Large dies within 30 feet of Mycelius, he can animate it, causing it to stand up immediately with 5 hit points. The creature uses the {@creature Myconid Adult|MM} statistics. It remains animate for 1 hour, after which time it collapses and dies. In combat, the myconid adult's turn is immediately after yours. It obeys Mycelius' mental commands."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "The druid can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The druid regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Heeheehee! (1 action)",
+                    "entries": [
+                        "Mycelius makes a {@i {@b Fungal Stalk}} attack."
+                    ]
+                },
+                {
+                    "name": "Moldy Malaise (2 actions)",
+                    "entries": [
+                        "Mycelius makes a {@i {@b Fungal Fate}} attack."
+                    ]
+                },
+                {
+                    "name": "Spore Spells (2 actions)",
+                    "entries": [
+                        "Mycelius uses an available spell."
+                    ]
+                },
+                {
+                    "name": "Fungal Contagion Cloud (3 actions)",
+                    "entries": [
+                        "Mycelius spews forth a massive abundance of fungal spores from his stalks that spread in a 40-foot radius around himself. Those caught in the spores must make a {@dc 18} Constitution saving throw or be put under the effects of the {@spell contagion} spell."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Fey Ancestry"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "AB",
+                "C",
+                "DU",
+                "E",
+                "S"
+            ],
+            "hasFluff": false,
+            "source": "WOR",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Mycelius",
+                "source": "WOR"
+            }
+        },
+        {
             "name": "Myconid Mage",
             "type": {
                 "type": "Plant",
@@ -5577,6 +5789,68 @@
             "page": 1
         }
     ],
+    "legendaryGroup": [
+        {
+            "name": "Mycelius",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
+                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
     "optionalfeature": [
         {
             "name": "Dance of the Dragon",
@@ -6160,21 +6434,6 @@
             ],
             "featureType": [
                 "Dance"
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
             ]
         }
     ]
