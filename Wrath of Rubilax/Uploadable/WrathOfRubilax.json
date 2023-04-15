@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.15",
+                "version": "1.0.16",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1681532237.0
+        "dateLastModified": 1681569114.0
     },
     "class": [
         {
@@ -3137,50 +3137,20 @@
             ]
         }
     ],
-    "boon": [
+    "condition": [
         {
-            "name": "Eurasia’s Blessing",
+            "name": "Interdicted",
             "source": "WOR",
-            "page": 79,
-            "type": "Elven",
+            "page": 1,
             "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
                 {
                     "type": "list",
                     "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
                     ]
                 }
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Mycelius",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
-                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
-            ]
+            ],
+            "hasFluffImages": false
         }
     ],
     "monster": [
@@ -4784,7 +4754,7 @@
         },
         {
             "name": "Mycelius - Fiendish Contagious Fungus",
-            "type": "Plant/Fiend",
+            "type": "Plant and Fiend",
             "alignment": [
                 "C",
                 "E"
@@ -5921,346 +5891,83 @@
             "page": 1
         }
     ],
-    "condition": [
+    "item": [
         {
-            "name": "Interdicted",
+            "name": "Pinkie of the Celestial",
             "source": "WOR",
-            "page": 1,
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
             "entries": [
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
+                    ]
+                }
+            ]
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Mycelius",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
                 {
                     "type": "list",
                     "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
+                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
                     ]
                 }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "spell": [
-        {
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
+            ]
         },
         {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
+            "name": "Vine Lord",
             "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
                 {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
                     ]
                 }
-            ],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    }
-                }
-            ],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Covenglide's Animate Dead",
-            "source": "WOR",
-            "page": 212,
-            "srd": true,
-            "level": 3,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "minute"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 10
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "entries": [
-                "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
-                "Your exposure to dark, Baltigan magic, has emoldened your power to raise the dead. You can summon additional types of powerful undead to serve you, consuming more remains in the process. You gain the ability to summon a {@creature gibdo|WOR} (4 corpses), a {@creature re-dead|WOR} (2 corpses), a {@creature stalfos|WOR} (2 skeletons), a {@creature stalhound|WOR} (1 skeleton), and {@creature stalkin|WOR} (5 per skeleton).",
-                "After examining the remains of a felled, mad druid, you gain insight a dangerous potential end to the path you follow. You also gain the ability to convert what remains of the dead into fungal monsters to enact your bidding. You gain the ability to summon a {@creature myconid adult|MM} (2 corpses) and a {@creature myconid sovereign|MM} (3 corpses)",
-                "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
-                "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
-                    ]
-                }
-            ],
-            "affectsCreatureType": [
-                "humanoid"
-            ],
-            "miscTags": [
-                "PRM",
-                "SMN",
-                "UBA"
             ]
         }
     ],
@@ -6847,6 +6554,350 @@
             ],
             "featureType": [
                 "Dance"
+            ]
+        }
+    ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Covenglide's Animate Dead",
+            "source": "WOR",
+            "page": 212,
+            "srd": true,
+            "level": 3,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
+                "Your exposure to dark, Baltigan magic, has emoldened your power to raise the dead. You can summon additional types of powerful undead to serve you, consuming more remains in the process. You gain the ability to summon a {@creature gibdo|WOR} (4 corpses), a {@creature re-dead|WOR} (2 corpses), a {@creature stalfos|WOR} (2 skeletons), a {@creature stalhound|WOR} (1 skeleton), and {@creature stalkin|WOR} (5 per skeleton).",
+                "After examining the remains of a felled, mad druid, you gain insight a dangerous potential end to the path you follow. You also gain the ability to convert what remains of the dead into fungal monsters to enact your bidding. You gain the ability to summon a {@creature myconid adult|MM} (2 corpses) and a {@creature myconid sovereign|MM} (3 corpses)",
+                "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+                "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+                    ]
+                }
+            ],
+            "affectsCreatureType": [
+                "humanoid"
+            ],
+            "miscTags": [
+                "PRM",
+                "SMN",
+                "UBA"
             ]
         }
     ]

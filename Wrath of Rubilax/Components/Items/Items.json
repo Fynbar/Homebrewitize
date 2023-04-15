@@ -1,0 +1,66 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "WOR",
+            "abbreviation": "WOR",
+            "full": "Wrath of Rubilax - Testing",
+            "authors": [
+                "The prettiest girl at the party AKA Connor"
+            ],
+            "version": "1.0.0",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "color": "c2b280"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "item": [{
+            "name": "Pinkie of the Celestial",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
+                    ]
+                }
+            ]
+        }
+    ],
+    "itemGroup": [{
+        "name": "Fingers of the Celestial",
+        "source": "WOR",
+        "page": 211,
+        "rarity": "rare",
+        "reqAttune": true,
+        "entries": [
+            "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+        ],
+        "items": [
+            "Pinkie of the Celestial|WOR"
+        ]
+    }]
+}
