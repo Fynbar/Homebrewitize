@@ -1,0 +1,422 @@
+{
+    "_meta": {
+        "tested": true,
+        "sources": [{
+            "json": "WOR",
+            "abbreviation": "WOR",
+            "full": "Subclass Test",
+            "authors": [
+                "Connor 'Is a pretty Girl' "
+            ],
+            "version": "1.0.0",
+            "url": "https://shop.mcdmproductions.com/products/illrigger-class"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967
+    },
+    "subclass": [{
+            "name": "Circle of Abyssal Spores",
+            "shortName": "Abyssal Spores",
+            "source": "WOR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "page": 36,
+            "additionalSpells": [{
+                "known": {
+                    "2": [
+                        "chill touch#c"
+                    ]
+                },
+                "prepared": {
+                    "3": [
+                        "blindness/deafness",
+                        "gentle repose"
+                    ],
+                    "5": [
+                        "covenglide's animate dead",
+                        "gaseous form"
+                    ],
+                    "7": [
+                        "blight",
+                        "confusion"
+                    ],
+                    "9": [
+                        "cloudkill",
+                        "contagion"
+                    ]
+                }
+            }],
+            "subclassFeatures": [
+                "Circle of Abyssal Spores|Druid||Abyssal Spores|WOR|2",
+                "Fungal Infestation|Druid||Abyssal Spores|WOR|6",
+                "Spreading Spores|Druid||Abyssal Spores|WOR|10",
+                "Fungal Body|Druid||Abyssal Spores|WOR|14"
+            ]
+        },
+        {
+            "name": "The Raven Queen",
+            "shortName": "Raven Queen",
+            "source": "WOR",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "page": 2,
+            "additionalSpells": [{
+                "expanded": {
+                    "s1": [
+                        "false life",
+                        "sanctuary"
+                    ],
+                    "s2": [
+                        "silence",
+                        "spiritual weapon"
+                    ],
+                    "s3": [
+                        "feign death",
+                        "speak with dead"
+                    ],
+                    "s4": [
+                        "ice storm",
+                        "locate creature"
+                    ],
+                    "s5": [
+                        "commune",
+                        "cone of cold"
+                    ]
+                }
+            }],
+            "subclassFeatures": [
+                "The Raven Queen|Warlock||Raven Queen|WOR|1",
+                "Soul of the Raven|Warlock||Raven Queen|WOR|6",
+                "Raven's Shield|Warlock||Raven Queen|WOR|10",
+                "Queen's Right Hand|Warlock||Raven Queen|WOR|14"
+            ]
+        }
+    ],
+    "subclassFeature": [{
+            "name": "Circle of Abyssal Spores",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of Abyssal Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.",
+                "These druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.",
+                "Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid||Abyssal Spores|WOR|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Halo of Spores|Druid||Abyssal Spores|WOR|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Symbiotic Entity|Druid||Abyssal Spores|WOR|2"
+                }
+            ]
+        },
+        {
+            "name": "Circle Spells",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the {@spell chill touch} cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Abyssal Spores Spells table.",
+                "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+                {
+                    "type": "table",
+                    "caption": "Circle of Abyssal Spores Spells",
+                    "colLabels": [
+                        "Druid Level",
+                        "Circle Spells"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell blindness/deafness}, {@spell gentle repose}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell covenglide's animate dead|WOR}, {@spell gaseous form}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell blight}, {@spell confusion}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell cloudkill}, {@spell contagion}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Halo of Spores",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal {@damage 1d4} necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to {@dice 1d6} at 6th level, {@dice 1d8} at 10th level, and {@dice 1d10} at 14th level."
+            ]
+        },
+        {
+            "name": "Symbiotic Entity",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 2,
+            "header": 1,
+            "consumes": {
+                "name": "Wild Shape"
+            },
+            "entries": [
+                "At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.",
+                        "Your melee weapon attacks deal an extra {@damage 1d6} necrotic damage to any target they hit."
+                    ]
+                },
+                "These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+            ]
+        },
+        {
+            "name": "Fungal Infestation",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the {@creature zombie} stat block in the {@book Monster Manual|MM}. It remains animate for 1 hour, after which time it collapses and dies.",
+                "Expending multiple uses of this feature causes the creature to use more powerful statistics. The options are: {@creature re-dead|WOR} (2 charges), {@creature gibdo|WOR} (4 charges), {@creature myconid adult|MM} (2 charges) or {@creature myconid sovereign|MM} (3 charges).",
+                "In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the {@action Attack} action, making one melee attack.",
+                "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Spreading Spores",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away, where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.",
+                "Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.",
+                "While the cube of spores persists, you can't use your Halo of Spores reaction."
+            ]
+        },
+        {
+            "name": "Fungal Body",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "At 14th level, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
+            ]
+        }, {
+            "name": "The Raven Queen",
+            "source": "WOR",
+            "page": 2,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Raven Queen",
+            "subclassSource": "WOR",
+            "level": 1,
+            "entries": [
+                "Your patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.",
+                "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
+                {
+                    "type": "entries",
+                    "name": "Expanded Spell List",
+                    "entries": [
+                        "The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                        {
+                            "type": "table",
+                            "caption": "Raven Queen Expanded Spells",
+                            "colLabels": [
+                                "Spell Level",
+                                "Spells"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "{@spell false life}, {@spell sanctuary}"
+                                ],
+                                [
+                                    "2nd",
+                                    "{@spell silence}, {@spell spiritual weapon}"
+                                ],
+                                [
+                                    "3rd",
+                                    "{@spell feign death}, {@spell speak with dead}"
+                                ],
+                                [
+                                    "4th",
+                                    "{@spell ice storm}, {@spell locate creature}"
+                                ],
+                                [
+                                    "5th",
+                                    "{@spell commune}, {@spell cone of cold}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sentinel Raven|Warlock||Raven Queen|WOR|1"
+                }
+            ]
+        },
+        {
+            "name": "Sentinel Raven",
+            "source": "WOR",
+            "page": 2,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Raven Queen",
+            "subclassSource": "WOR",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a {@creature raven}, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
+                "While the raven is perched on your shoulder, you gain {@sense darkvision} with a range of 30 feet and a bonus to your passive Wisdom ({@skill Perception}) score and to Wisdom ({@skill Perception}) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is {@condition incapacitated}.",
+                "You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
+                "The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
+                "At the end of a short or long rest, you can call the raven back to you\u2014no matter where it is or whether it died\u2014and it reappears within 5 feet of you."
+            ]
+        },
+        {
+            "name": "Soul of the Raven",
+            "source": "WOR",
+            "page": 2,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Raven Queen",
+            "subclassSource": "WOR",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to {@action Dash}, {@action Disengage}, {@action Dodge}, {@action Help}, {@action Hide}, or {@action Search}. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
+            ]
+        },
+        {
+            "name": "Raven's Shield",
+            "source": "WOR",
+            "page": 2,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Raven Queen",
+            "subclassSource": "WOR",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the {@condition frightened} condition, and resistance to necrotic damage."
+            ]
+        },
+        {
+            "name": "Queen's Right Hand",
+            "source": "WOR",
+            "page": 2,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Raven Queen",
+            "subclassSource": "WOR",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Starting at 14th level, you can channel the Raven Queen's power to slay a creature. You can cast {@spell finger of death}. After you cast the spell with this feature, you can't do so again until you finish a long rest."
+            ]
+        }
+
+    ],
+    "spell": [{
+        "name": "Covenglide's Animate Dead",
+        "source": "WOR",
+        "page": 212,
+        "srd": true,
+        "level": 3,
+        "school": "N",
+        "time": [{
+            "number": 1,
+            "unit": "minute"
+        }],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 10
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true,
+            "m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
+        },
+        "duration": [{
+            "type": "instant"
+        }],
+        "entries": [
+            "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
+            "Your exposure to dark, Baltigan magic, has emoldened your power to raise the dead. You can summon additional types of powerful undead to serve you, consuming more remains in the process. You gain the ability to summon a {@creature gibdo|WOR} (4 corpses), a {@creature re-dead|WOR} (2 corpses), a {@creature stalfos|WOR} (2 skeletons), a {@creature stalhound|WOR} (1 skeleton), and {@creature stalkin|WOR} (5 per skeleton).",
+            "After examining the remains of a felled, mad druid, you gain insight a dangerous potential end to the path you follow. You also gain the ability to convert what remains of the dead into fungal monsters to enact your bidding. You gain the ability to summon a {@creature myconid adult|MM} (2 corpses) and a {@creature myconid sovereign|MM} (3 corpses)",
+            "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+            "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
+        ],
+        "entriesHigherLevel": [{
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+            ]
+        }],
+        "affectsCreatureType": [
+            "humanoid"
+        ],
+        "miscTags": [
+            "PRM",
+            "SMN",
+            "UBA"
+        ]
+    }]
+}
