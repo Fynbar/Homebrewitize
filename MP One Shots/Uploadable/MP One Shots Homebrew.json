@@ -8,13 +8,52 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.5",
+                "version": "1.0.6",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1682744201.0
+        "dateLastModified": 1682782479.0
     },
+    "legendaryGroup": [
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "lairActions": [
+                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "regionalEffects": [
+                "The Heartmeister imbues its vessel with magic that creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vessel always stays on course to the destination the Heartmeister names.",
+                        "The vessel doesn't sink even if its hull is breached"
+                    ]
+                },
+                "If Captain Ashbeak dies, these effects fade over the course of 1d6 hours."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties) while captaining a vessel, the Heartmeister can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+                        "A strong wind propels the vessel, increasing its speed by 30 feet until initiative count 20 on the next round.",
+                        "The vessel regains 22 ({@damage 4d10}) hit points."
+                    ]
+                }
+            ]
+        }
+    ],
     "vehicle": [
         {
             "name": "The Howling Knave",
@@ -507,7 +546,7 @@
                             "items": [
                                 {
                                     "type": "item",
-                                    "name": "{@spell Forbiddance}",
+                                    "name": "{@i Forbiddence}",
                                     "entry": "Daz'vol can't enter a residence without an invitation from one of the occupants."
                                 },
                                 {
@@ -3269,12 +3308,17 @@
                 "average": 98.0
             },
             "ac": [
-                12
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
             ],
             "speed": {
                 "walk": 25
             },
-            "cr": "10",
+            "cr": "12",
             "save": {
                 "int": "+9",
                 "wis": "+4"
@@ -4731,6 +4775,240 @@
             }
         },
         {
+            "name": "Iago, The Heartmeister",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "kenk-ucan",
+                    "warlock"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": 19,
+            "wis": 10,
+            "int": 8,
+            "con": 16,
+            "str": 8,
+            "dex": 14,
+            "hp": {
+                "formula": "9d8 + 38",
+                "average": 75
+            },
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "cr": "10",
+            "save": {
+                "dex": "+6",
+                "wis": "+4",
+                "cha": "+8"
+            },
+            "skill": {
+                "arcana": "+3",
+                "athletics": "+3",
+                "deception": "+8",
+                "nature": "+3",
+                "perception": "+4",
+                "survival": "+4"
+            },
+            "passive": 14,
+            "resist": [
+                "cold",
+                "fire",
+                "lightning"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "Aquan",
+                "Common",
+                "Understands Abyssal",
+                "Infernal but does not speak it"
+            ],
+            "senses": [
+                "darkvision 30ft.",
+                "blindsight 10ft."
+            ],
+            "trait": [
+                {
+                    "name": "Oceanic Soul",
+                    "entries": [
+                        "When fully submerged any creature that is also fully submerged can understand Captain Ashbeak's speech and he can understand theirs."
+                    ]
+                },
+                {
+                    "name": "Agonizing Blast",
+                    "entries": [
+                        "When Captain Ashbeak hits a creature with {@spell eldritch blast}, each damage roll gets a +4 bonus."
+                    ]
+                },
+                {
+                    "name": "Lance of Lethargy (1/Turn)",
+                    "entries": [
+                        "When Captain Ashbeak hits a creature with {@spell eldritch blast}, that creature's speed is reduced by 10 feet until the end of Captain Ashbeak's next turn."
+                    ]
+                },
+                {
+                    "name": "Repelling Blast",
+                    "entries": [
+                        "When Captain Ashbeak hits a creature with {@spell eldritch blast}, that creature's speed can be pushed up to 10 feet away in a straight line."
+                    ]
+                },
+                {
+                    "name": "Expert Duplication",
+                    "entries": [
+                        "Captain Ashbeak has advantage on any ability checks to produce an exact duplicate of writing or craftwork."
+                    ]
+                },
+                {
+                    "name": "Kenku Recall (3/Long Rest",
+                    "entries": [
+                        "Captain Ashbeak can give himself when he makes a skill check he has proficiency in."
+                    ]
+                },
+                {
+                    "name": "Mimicry",
+                    "entries": [
+                        "Captain Ashbeak can accurately mimic sounds and voices he has heard. A creature can tell they are imitations only with a successful {@dc 16} Wisdom ({@skill Insight}) check."
+                    ]
+                },
+                {
+                    "name": "Gift of the Sea",
+                    "entries": [
+                        "Captain Ashbeak can breathe underwater."
+                    ]
+                },
+                {
+                    "name": "Grasping Tentacles",
+                    "entries": [
+                        "Whenever Captain Ashbeak casts {@spell evard's black tentacles} they gain {@b 10} temporary hit points."
+                    ]
+                },
+                {
+                    "name": "Eldritch Mind",
+                    "entries": [
+                        "Captain Ashbeak has advantage on Constitution saving throws they make to maintain concentration on a spell."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell chill touch}",
+                                "{@spell eldritch blast}",
+                                "{@spell mage hand}",
+                                "{@spell minor illusion}",
+                                "{@spell prestidigitation}",
+                                "{@spell ray of frost}",
+                                "{@spell thorn whip}"
+                            ]
+                        },
+                        "5": {
+                            "lower": "1",
+                            "slots": 2,
+                            "spells": [
+                                "{@spell bigby's hand}",
+                                "{@spell conjure elemental}",
+                                "{@spell control water}",
+                                "{@spell counterspell}",
+                                "{@spell dimension door}",
+                                "{@spell evard's black tentacles}*",
+                                "{@spell gust of wind}",
+                                "{@spell hellish rebuke}",
+                                "{@spell hunger of hadar}",
+                                "{@spell lightning bolt}",
+                                "{@spell mind spike|XGE}",
+                                "{@spell shatter}"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "Captain Ashbeak is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Captain Ashbeak has the following warlock spells prepared:"
+                    ],
+                    "footerEntries": [
+                        "*Damage cannot break  on this spell."
+                    ]
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Heartmeister's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "cha",
+                    "daily": {
+                        "1e": [
+                            "{@spell evard's black tentacles}*"
+                        ]
+                    },
+                    "footerEntries": [
+                        "*Damage cannot break  on this spell."
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CL",
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Rod of the Pact Keeper (Recharges after a Long Rest)",
+                    "entries": [
+                        "Captain Ashbeak regains one warlock spell slot."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Tentacle of the Deeps (3/Long Rest)",
+                    "entries": [
+                        "Captain Ashbeak creates a 10-foot-long tentacle at a point within 60 feet and the tentacle lasts for 1 minute. When creating the tentacle, Captain Ashbeak can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 4 ({@damage 1d8}) cold damage, and its speed is reduced by 10 feet until the start of Captain Ashbeak's next turn.",
+                        "On subsequent turns while the tentacle is active, Captain Ashbeak can move it 30 ft. and make the attack again."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guardian Coil",
+                    "entries": [
+                        "While Captain Ashbeak's {@b {@i Tentacle of the Deeps}} is active and he sees a creature take damage while within 10 feet of the tentacle, it can reduce the damage to that creature by 4 ({@damage 1d8})."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "AQ",
+                "C"
+            ],
+            "source": "MPOSource",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Captain Ashbeak",
+                "source": "MPOSource"
+            }
+        },
+        {
             "name": "Le Capitaine",
             "type": {
                 "type": "Fey",
@@ -5113,7 +5391,7 @@
                 {
                     "name": "Primeval Awareness",
                     "entries": [
-                        "Parrot Paul can expend one spell slot to focus your awareness for 1 minute per level of the spell slot. Parrot Paul can sense whether the following types of creatures are present within 1 mile: aberrations, celestials, dragons, elementals, fey, fiends, and undead. ",
+                        "Parrot Paul can expend one spell slot to focus his awareness for 1 minute per level of the spell slot. Parrot Paul can sense whether the following types of creatures are present within 1 mile: aberrations, celestials, dragons, elementals, fey, fiends, and undead. ",
                         "This range expands up to 6 miles when in forests or the coast."
                     ]
                 }
@@ -5213,12 +5491,12 @@
                                 {
                                     "type": "item",
                                     "name": "{@i {@b Disarming Attack}}",
-                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Strength} saving throw or drop the object you choose. The object lands at its feet."
+                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Strength} saving throw or drop the object Glacier choose. The object lands at its feet."
                                 },
                                 {
                                     "type": "item",
                                     "name": "{@i {@b Goading Attack}}",
-                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Wisdom} saving throw or the target has disadvantage on all attack rolls against targets other than Glacier until the end of your next turn."
+                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Wisdom} saving throw or the target has disadvantage on all attack rolls against targets other than Glacier until the end of his next turn."
                                 }
                             ]
                         }
@@ -5518,19 +5796,6 @@
             ],
             "source": "MPOSource",
             "page": 1
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "lairActions": [
-                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": []
-                }
-            ]
         }
     ]
 }
