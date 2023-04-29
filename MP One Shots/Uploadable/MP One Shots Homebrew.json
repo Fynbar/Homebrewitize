@@ -8,57 +8,90 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.3",
+                "version": "1.0.4",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1682740845.0
+        "dateLastModified": 1682743840.0
     },
-    "item": [
+    "variant": [
         {
-            "name": "Veldarin's Pact Baton",
-            "source": "MPSource",
-            "page": 1,
-            "type": "RD",
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldarin",
-            "reqAttuneTags": [
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
                 {
-                    "class": "warlock"
+                    "armor": true
                 }
             ],
-            "weight": 2,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, being attuned to this rod grants the following abilities.",
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "lairActions": [
+                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
                 {
                     "type": "list",
-                    "items": [
-                        {
-                            "name": "Veldarin's Favor",
-                            "entries": [
-                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Protection",
-                            "entries": [
-                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Arcana",
-                            "entries": [
-                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
-                            ]
-                        }
-                    ]
+                    "items": []
                 }
             ]
         }
@@ -350,87 +383,6 @@
                             "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
                         }
                     ]
-                }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "lairActions": [
-                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": []
                 }
             ]
         }
@@ -3395,6 +3347,235 @@
             "page": 1
         },
         {
+            "name": "Parry, The Star Spawn Envoy",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "halfling",
+                    "wizard"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": 12,
+            "wis": 10,
+            "int": 20,
+            "con": 16,
+            "str": 8,
+            "dex": 15,
+            "hp": {
+                "formula": "14d8 + 42",
+                "average": 98.0
+            },
+            "ac": [
+                12
+            ],
+            "speed": {
+                "walk": 25
+            },
+            "cr": "10",
+            "save": {
+                "int": "+9",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+9",
+                "history": "+9",
+                "insight": "+4",
+                "intimidation": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "resist": [
+                "poison",
+                "psychic"
+            ],
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Deep Speech",
+                "Elvish",
+                "Halfling",
+                "Undercommon"
+            ],
+            "trait": [
+                {
+                    "name": "Manifest Mind - Cast Spell (4/Long Rest)",
+                    "entries": [
+                        "When casting a wizard spell, Parry can cast it from the spectral tome's space."
+                    ]
+                },
+                {
+                    "name": "Arcane Recovery (Recharges after a Long Rest)",
+                    "entries": [
+                        "When finishing a short rest, the Parry can recover expended spell slots - up to a combined level of {@b 5}, and none of the slots can be 6th level or higher."
+                    ]
+                },
+                {
+                    "name": "Awakened Spellbook",
+                    "entries": [
+                        "When casting a spell, Parry can replace its damage type with the damage type done by another spell of the same level."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - One with the Word",
+                    "entries": [
+                        "The Parry has advantage on all Intelligence ({@skill Arcana}) checks."
+                    ]
+                },
+                {
+                    "name": "Lucky",
+                    "entries": [
+                        "When Parry rolls a 1 on an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll."
+                    ]
+                },
+                {
+                    "name": "Brave",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "Parry can move through the space of any creature that is medium or larger."
+                    ]
+                },
+                {
+                    "name": "Stout Resilience",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition poisoned}."
+                    ]
+                },
+                {
+                    "name": "Cosmic Awareness",
+                    "entries": [
+                        "The Parry has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Out-Of-Phase Movement",
+                    "entries": [
+                        "Parry can move through other creatures and objects as if they were difficult terrain. Each creature it moves through takes 3 ({@damage 1d6}) psychic damage; no creature can take this damage more than once per turn.",
+                        "",
+                        "The Envoy takes 3 ({@damage 1d6}) force damage if it ends its turn inside an object."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell fire bolt}",
+                                "{@spell mage hand}",
+                                "{@spell mind sliver|TCE}",
+                                "{@spell minor illusion}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell burning hands}",
+                                "{@spell chromatic orb}",
+                                "{@spell magic missile}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell invisibility}",
+                                "{@spell scorching ray}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell counterspell}",
+                                "{@spell fireball}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell polymorph}",
+                                "{@spell summon aberration|TCE}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell bigby's hand}",
+                                "{@spell mislead}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Parry is a 10th-level spellcaster. Their spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The Parry has the following wizard spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "headerEntries": [
+                        "Parry's ritual spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell alarm}",
+                        "{@spell {@spell contact other planes}}",
+                        "{@spell detect magic}",
+                        "{@spell find familiar}",
+                        "{@spell identify}"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CW"
+            ],
+            "action": [
+                {
+                    "name": "Dart",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Psychic Orb",
+                    "entries": [
+                        "{@i Ranged Spell Attack:} 9 to hit, range 120 ft., one target. {@i Hit:} 21 ({@damage 3d10 + 5}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Collapse Distance (1/day)",
+                    "entries": [
+                        "The Envoy warps space around one creature it can see within 30 feet of it. That creature must make a {@dc 17} Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is teleported up to 60 feet to an unoccupied space the Envoy can see, and then each creature within 10 feet of the target's original space takes 26 ({@damage 4d12}) psychic damage. On a successful save, the target takes 13 ({@damage 2d12}) psychic damage and isn't teleported."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of Parry. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Parry what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "AB",
+                "C",
+                "DS",
+                "E",
+                "U"
+            ],
+            "source": "MPOSource",
+            "page": 1
+        },
+        {
             "name": "Mart (First Mate)",
             "source": "MPOSource",
             "page": 247,
@@ -5439,6 +5620,54 @@
             ],
             "source": "MPOSource",
             "page": 1
+        }
+    ],
+    "item": [
+        {
+            "name": "Veldarin's Pact Baton",
+            "source": "MPSource",
+            "page": 1,
+            "type": "RD",
+            "tier": "major",
+            "rarity": "legendary",
+            "reqAttune": "by a warlock of Veldarin",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+3",
+            "bonusSpellSaveDc": "+3",
+            "entries": [
+                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, being attuned to this rod grants the following abilities.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "name": "Veldarin's Favor",
+                            "entries": [
+                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Protection",
+                            "entries": [
+                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Veldarin's Arcana",
+                            "entries": [
+                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
