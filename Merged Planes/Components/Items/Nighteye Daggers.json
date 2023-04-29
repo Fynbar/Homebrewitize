@@ -105,7 +105,7 @@
                                 {
                                     "name": "Tharizdun's Bolt {@recharge 6}",
                                     "entries": [
-                                        "As a bonus action, the wielder makes an attack with this weapon. The creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
+                                        "As a bonus action, the wielder selects one creature it can see that can see it with in 60 ft. The creature must succeed on a DC 19 Wisdom saving throw or experience The creature must succeed on a DC 19 Wisdom saving throw or experience short-term madness for {@dice 1d6*10} minutes or long-term madness for {@dice 1d10} hours. Consult the Short-Term Madness table (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success.",
                                         "When a non-evil creature uses this ability is inflicted with the same madness as the target creature."
                                     ]
                                 }
