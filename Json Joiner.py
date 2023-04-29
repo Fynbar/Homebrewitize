@@ -26,12 +26,12 @@ def generatepathlist(BasePath):
 
 def IndexVersionNumber(data, outputFile):
     # global d, f
-    print(".",end="")
+    print(".",end="") #1
     if os.path.isfile(outputFile):
         with open(outputFile, 'r', encoding='utf-8') as json_file:
             # print(Outputpath+'WrathOfRubilax.json')
             # print(json_file)
-            print(".",end="")
+            print(".",end="") #2
             d = json.load(json_file)
     for i,t in enumerate(d["_meta"]["sources"]):
         f = t["version"].split(".")
