@@ -1,0 +1,14 @@
+{
+    "sources": [{
+        "json": "MPOSource",
+        "abbreviation": "MPO",
+        "full": "MP One Shots",
+        "authors": [
+            "Me"
+        ],
+        "version": "1.0.0",
+        "color": "5c28a1"
+    }],
+    "dateAdded": 1620498967,
+    "dateLastModified": 1620498967
+}
