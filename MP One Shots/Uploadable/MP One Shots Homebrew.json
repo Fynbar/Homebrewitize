@@ -8,94 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.4",
+                "version": "1.0.5",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1682743840.0
+        "dateLastModified": 1682744201.0
     },
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "lairActions": [
-                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": []
-                }
-            ]
-        }
-    ],
     "vehicle": [
         {
             "name": "The Howling Knave",
@@ -1201,27 +1120,6 @@
             ],
             "source": "MPOSource",
             "page": 1
-        },
-        {
-            "name": "Blurg",
-            "isNpc": true,
-            "isNamedCreature": true,
-            "source": "MPOSource",
-            "page": 29,
-            "_copy": {
-                "name": "Orog",
-                "source": "MM",
-                "_mod": {
-                    "*": {
-                        "mode": "replaceTxt",
-                        "replace": "the orog",
-                        "with": "Blurg",
-                        "flags": "i"
-                    }
-                }
-            },
-            "hasToken": true,
-            "hasFluffImages": true
         },
         {
             "name": "Corrupted S.C.A.L.P.E.L.",
@@ -5622,50 +5520,15 @@
             "page": 1
         }
     ],
-    "item": [
+    "legendaryGroup": [
         {
-            "name": "Veldarin's Pact Baton",
-            "source": "MPSource",
-            "page": 1,
-            "type": "RD",
-            "tier": "major",
-            "rarity": "legendary",
-            "reqAttune": "by a warlock of Veldarin",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+3",
-            "bonusSpellSaveDc": "+3",
-            "entries": [
-                "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, being attuned to this rod grants the following abilities.",
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "lairActions": [
+                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
                 {
                     "type": "list",
-                    "items": [
-                        {
-                            "name": "Veldarin's Favor",
-                            "entries": [
-                                "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Protection",
-                            "entries": [
-                                "You gain resistance to Psychic, Necrotic, and Radiant Damage. You are also immune to being {@condition frightened}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Veldarin's Arcana",
-                            "entries": [
-                                "When attuned to this rod, all cantrips you cast act as if they are cast at a tier greater than they are. This means using an additional damage dice or having an additional target."
-                            ]
-                        }
-                    ]
+                    "items": []
                 }
             ]
         }
