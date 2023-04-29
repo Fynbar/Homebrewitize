@@ -1,32 +1,19 @@
 {
     "_meta": {
-        "sources": [
-            {
-                "json": "MPSource",
-                "abbreviation": "MPE",
-                "full": "Merged Planes Enchiridion",
-                "authors": [
-                    "Me"
-                ],
-                "version": "1.0.51",
-                "color": "5c28a1"
-            },
-            {
-                "json": "MPPirate",
-                "abbreviation": "MPPirate",
-                "full": "Merged Planes Pirates",
-                "authors": [
-                    "Me"
-                ],
-                "version": "1.0.9",
-                "color": "2b65ec"
-            }
-        ],
+        "sources": [{
+            "json": "MPSource",
+            "abbreviation": "MPE",
+            "full": "Merged Planes Enchiridion",
+            "authors": [
+                "Me"
+            ],
+            "version": "1.0.51",
+            "color": "5c28a1"
+        }],
         "dateAdded": 1620498967,
         "dateLastModified": 1682734532.0
     },
-    "item": [
-        {
+    "item": [{
             "name": "Veldarin's Pact Baton",
             "source": "MPSource",
             "page": 1,
@@ -34,11 +21,9 @@
             "tier": "major",
             "rarity": "legendary",
             "reqAttune": "by a warlock of Veldarin",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock"
-                }
-            ],
+            "reqAttuneTags": [{
+                "class": "warlock"
+            }],
             "weight": 2,
             "bonusSpellAttack": "+3",
             "bonusSpellSaveDc": "+3",
@@ -47,8 +32,7 @@
                 "In addition, being attuned to this rod grants the following abilities.",
                 {
                     "type": "list",
-                    "items": [
-                        {
+                    "items": [{
                             "name": "Veldarin's Favor",
                             "entries": [
                                 "This item has 2 charges. You can expend a charge as an action and regain a warlock spell slot while holding the rod. All expended uses recharge when you finish a long rest."
@@ -79,8 +63,7 @@
             "tier": "major",
             "rarity": "legendary",
             "reqAttune": "requires attunement by an evil wizard of level 17 or higher",
-            "reqAttuneTags": [
-                {
+            "reqAttuneTags": [{
                     "alignment": [
                         "E"
                     ]
@@ -124,8 +107,7 @@
                         "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Asylum",
                                     "entries": [
                                         "The wearer has immunity to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks and resistance to all Bludgeoning, Piercing and Slashing Damage."
@@ -281,8 +263,7 @@
                         "While attuned the wielder is known as {@b The Nomad} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -344,8 +325,7 @@
                         "While attuned the wielder is known as {@b The Tyrant} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -407,8 +387,7 @@
                         "While attuned the wielder is known as {@b The Stranger} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -469,8 +448,7 @@
                         "While attuned the wielder is known as {@b The Scholar} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -532,8 +510,7 @@
                         "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -595,8 +572,7 @@
                         "While attuned the wielder is known as {@b The Theif} and has access to the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "name": "Elder Evil's Protection",
                                     "entries": [
                                         "The wielder has resistance to all Bludgeoning, Piercing, and Slashing Damage from Nonmagical Attacks."
@@ -629,8 +605,7 @@
             ]
         }
     ],
-    "monster": [
-        {
+    "monster": [{
             "name": "Caliope Saltwing",
             "type": {
                 "type": "Humanoid",
@@ -654,14 +629,12 @@
                 "formula": "7d10 + 24",
                 "average": 68
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "studded leather armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "studded leather armor"
+                ]
+            }],
             "speed": {
                 "walk": 35,
                 "climb": 35,
@@ -693,8 +666,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Land's Stride",
                     "entries": [
                         "Moving through nonmagical difficult terrain costs Caliope no extra movement. They can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
@@ -715,8 +687,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Caliope's innate spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -759,8 +730,7 @@
                 "I",
                 "CR"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Caliope makes two attacks."
@@ -785,14 +755,12 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Twin Weapon Fighting",
-                    "entries": [
-                        "When holding 2 weapons, Caliope can make a weapon attack."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Twin Weapon Fighting",
+                "entries": [
+                    "When holding 2 weapons, Caliope can make a weapon attack."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -831,16 +799,14 @@
                 "formula": "15d8 + 70",
                 "average": 147
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "glamoured studded leather armor",
-                        "shield +1",
-                        "{@item ring of protection|DMG}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "glamoured studded leather armor",
+                    "shield +1",
+                    "{@item ring of protection|DMG}"
+                ]
+            }],
             "speed": {
                 "walk": 35,
                 "climb": 35
@@ -870,8 +836,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Mask of the Wild",
                     "entries": [
                         "The Ice Queen can attempt to hide even when only lightly obscured."
@@ -902,8 +867,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The Ice Queen can cast the following spells innately (spell save {@dc 13}). She can innately cast the following spells, requiring no material components:"
@@ -1010,8 +974,7 @@
                 "I",
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Nighteye Dagger (Haask the Voice of Hargut)",
                     "entries": [
                         "{@atk mw, rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 11 ({@damage 1d4 + 9}) piercing damage plus 9 ({@damage 2d8}) psychic damage. On a hit the attack does an additional 9 ({@damage 2d8}) cold damage and the targets speed is reduced by 10ft."
@@ -1036,8 +999,7 @@
                         "The Ice Queen uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Order's Demand}",
                                     "entry": "Each creature of choice within 30 feet of the Ice Queen must succeed a {@dc 18} Wisdom saving throw or be {@condition charmed} until the end of their next turn or until the charmed creature takes any damage. The Ice Queen can also cause any of the charmed creatures to drop what they are holding."
@@ -1052,27 +1014,22 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Embodiment of the Law (5/Long Rest)",
-                    "entries": [
-                        "The Ice Queen casts an enchantment spell of of 1st level or higher with the casting time of 1 action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "War Caster",
-                    "entries": [
-                        "When a creature's provokes an opportunity attack, the Ice Queen can cast a spell at the creature, rather than making an opportunity attack."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Embodiment of the Law (5/Long Rest)",
+                "entries": [
+                    "The Ice Queen casts an enchantment spell of of 1st level or higher with the casting time of 1 action."
+                ]
+            }],
+            "reaction": [{
+                "name": "War Caster",
+                "entries": [
+                    "When a creature's provokes an opportunity attack, the Ice Queen can cast a spell at the creature, rather than making an opportunity attack."
+                ]
+            }],
             "legendaryHeader": [
                 "The Ice Queen can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Ice Queen regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Disengage",
                     "entries": [
                         "The Ice Queen takes the disengage action."
@@ -1123,14 +1080,12 @@
                 "formula": "11d8 + 20",
                 "average": 75
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "survivalist's studded leather"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "survivalist's studded leather"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -1164,8 +1119,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Fey Ancestry",
                     "entries": [
                         "Richter has advantage on saving throws against being {@condition charmed}, and magic can't put them to sleep."
@@ -1222,43 +1176,40 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell mage hand}",
-                                "{@spell message}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell charm person}",
-                                "{@spell disguise self}",
-                                "{@spell feather fall}",
-                                "{@spell silvery barbs|SCC}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell invisibility}",
-                                "{@spell knock}"
-                            ],
-                            "slots": 2
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell mage hand}",
+                            "{@spell message}"
+                        ]
                     },
-                    "headerEntries": [
-                        "Richter is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Richter has the following Bard spells prepared:"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell charm person}",
+                            "{@spell disguise self}",
+                            "{@spell feather fall}",
+                            "{@spell silvery barbs|SCC}"
+                        ],
+                        "slots": 4
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell invisibility}",
+                            "{@spell knock}"
+                        ],
+                        "slots": 2
+                    }
+                },
+                "headerEntries": [
+                    "Richter is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Richter has the following Bard spells prepared:"
+                ]
+            }],
             "spellcastingTags": [
                 "CB"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Rapier of Wounding",
                     "entries": [
                         "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. Damage done by this weapon can only be regained through a short or long rest.",
@@ -1283,8 +1234,7 @@
                         "Richter can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Insight}) check if they both share a language. If Richter succeeds and the creature is",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "Hostile",
                                     "entry": "It has disadvantage on attack rolls and can't make opportunity attacks against anyone other than Richter for one minute or until the target is 60 feet away."
@@ -1299,8 +1249,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Cunning Action",
                     "entries": [
                         "On each of its turns, Richter can take the Dash, Disengage, or Hide action."
@@ -1319,14 +1268,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Uncanny Dodge",
-                    "entries": [
-                        "When an attacker hits Richter with an attack, they can halve the attack's damage."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Uncanny Dodge",
+                "entries": [
+                    "When an attacker hits Richter with an attack, they can halve the attack's damage."
+                ]
+            }],
             "traitTags": [
                 "Fey Ancestry",
                 "Sneak Attack"
@@ -1363,15 +1310,13 @@
                 "formula": "7d10 + 4d8 + 34",
                 "average": 108
             },
-            "ac": [
-                {
-                    "ac": 19,
-                    "from": [
-                        "{@item shield|phb}",
-                        "{@item splint armor|phb}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 19,
+                "from": [
+                    "{@item shield|phb}",
+                    "{@item splint armor|phb}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -1396,15 +1341,13 @@
             "senses": [
                 "blindsight 10ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Blade Flourish (1/Turn)",
                     "entries": [
                         "Whenever Neatred takes the Attack action, their walking speed increases by 10 feet until the end of the turn, and can use a Blade Flourish option:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@i {@b Defensive Flourish}}",
                                     "entry": "You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn."
@@ -1465,8 +1408,7 @@
                         "Neatred can use the following abilities:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@i {@b Trip Attack}}",
                                     "entry": "When Neatred hits with a weapon attack they add the superiority die to the attack's damage roll. They can force a Large or smaller target to succeed a 16 {@dc Strength} saving throw or be knocked {@condition prone}."
@@ -1496,8 +1438,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Neatred makes two attacks."
@@ -1522,8 +1463,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Goring Rush",
                     "entries": [
                         "After using the Dash action and moving at least 20 feet, Neatred can make one {@b {@i Horns}} attack as a bonus action."
@@ -1548,14 +1488,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Mage Slayer",
-                    "entries": [
-                        "When a creature within 5 feet of Neatred casts a spell, they can make a melee weapon attack against that creature."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Mage Slayer",
+                "entries": [
+                    "When a creature within 5 feet of Neatred casts a spell, they can make a melee weapon attack against that creature."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -1590,14 +1528,12 @@
                 "formula": "30d6 + 300",
                 "average": 422
             },
-            "ac": [
-                {
-                    "ac": 23,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 23,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 80
@@ -1642,8 +1578,7 @@
                 "darkvision 240ft.",
                 "truesight 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Magic Weapons",
                     "entries": [
                         "Veldarin's weapon attacks are magical."
@@ -1722,8 +1657,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Veldarin's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
@@ -1887,8 +1821,7 @@
                 "I",
                 "CW"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Veldarin attacks twice with his {@b {@i Shadow Gauntlets}} and uses his {@b {@i Mental Stunting}}."
@@ -1919,8 +1852,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Illusory Trickery (Recharges after a Short or Long Rest)",
                     "entries": [
                         "The Archmage of Alyentlea can invoke an illusory duplicate of themself as if they had cast the {@spell mirror image} spell."
@@ -1945,8 +1877,7 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
+            "reaction": [{
                     "name": "War Caster",
                     "entries": [
                         "When a creature's provokes an opportunity attack, Veldarin can cast a spell at the creature, rather than making an opportunity attack."
@@ -1962,8 +1893,7 @@
             "legendaryHeader": [
                 "The Archmage of Alyentlea can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Veldarin regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Mental Stunting",
                     "entries": [
                         "Veldarin uses his {@b {@i Mental Stunting}}."
@@ -2042,15 +1972,13 @@
                 "formula": "14d10 + 70",
                 "average": 154
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "mithral plate",
-                        "{@item shield|phb}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "mithral plate",
+                    "{@item shield|phb}"
+                ]
+            }],
             "speed": {
                 "walk": 20,
                 "swim": 30
@@ -2079,8 +2007,7 @@
             "senses": [
                 "blindsight 10ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Aura of Courage",
                     "entries": [
                         "Captain Tefor and friendly creatures within 10 ft. can’t be {@condition frightened}."
@@ -2129,59 +2056,56 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "1": {
-                            "spells": [
-                                "{@spell bless}",
-                                "{@spell create or destroy water}",
-                                "{@spell expeditious retreat}",
-                                "{@spell heroism}",
-                                "{@spell thunderous smite}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell {@spell agury}}",
-                                "{@spell aid}",
-                                "{@spell lesser restoration}",
-                                "{@spell misty step}",
-                                "{@spell prayer of healing}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell call lightning}",
-                                "{@spell crusader's mantle}",
-                                "{@spell dispel magic}",
-                                "{@spell freedom of the waves|CSR}",
-                                "{@spell remove curse}"
-                            ],
-                            "slots": 3
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell control water}",
-                                "{@spell find greater steed|XGE}",
-                                "{@spell freedom of movement}"
-                            ],
-                            "slots": 2
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "1": {
+                        "spells": [
+                            "{@spell bless}",
+                            "{@spell create or destroy water}",
+                            "{@spell expeditious retreat}",
+                            "{@spell heroism}",
+                            "{@spell thunderous smite}"
+                        ],
+                        "slots": 4
                     },
-                    "headerEntries": [
-                        "Captain Tefor is a 15th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Captain Tefor has the following paladin spells prepared:"
-                    ]
-                }
-            ],
+                    "2": {
+                        "spells": [
+                            "{@spell {@spell agury}}",
+                            "{@spell aid}",
+                            "{@spell lesser restoration}",
+                            "{@spell misty step}",
+                            "{@spell prayer of healing}"
+                        ],
+                        "slots": 3
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell call lightning}",
+                            "{@spell crusader's mantle}",
+                            "{@spell dispel magic}",
+                            "{@spell freedom of the waves|CSR}",
+                            "{@spell remove curse}"
+                        ],
+                        "slots": 3
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell control water}",
+                            "{@spell find greater steed|XGE}",
+                            "{@spell freedom of movement}"
+                        ],
+                        "slots": 2
+                    }
+                },
+                "headerEntries": [
+                    "Captain Tefor is a 15th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Captain Tefor has the following paladin spells prepared:"
+                ]
+            }],
             "spellcastingTags": [
                 "CP"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Captain Tefor makes two attacks."
@@ -2205,8 +2129,7 @@
                         "The Captain Tefor uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Marine Layer}",
                                     "entry": "Captain Tefor creates a thick cloud of fog that surrounds them and heavily obscures the area for 20 ft. in all directions, following as they move. Captain Tefor and all creatures within 5 ft. of them treats this fog as lightly obscured. This fog lasts 10 minutes, spreads around corners, and cannot be dispersed unless they choose to end it."
@@ -2239,14 +2162,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Stormy Waters",
-                    "entries": [
-                        "When a creature that enters or exits Captain Tefor's melee range, it takes 6 ({@damage 1d12}) bludgeoning damage and must succeed on a STR saving throw ({@dc 16}) or be knocked {@condition prone}."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Stormy Waters",
+                "entries": [
+                    "When a creature that enters or exits Captain Tefor's melee range, it takes 6 ({@damage 1d12}) bludgeoning damage and must succeed on a STR saving throw ({@dc 16}) or be knocked {@condition prone}."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -2279,14 +2200,12 @@
                 "formula": "11d12 + 44",
                 "average": 110.0
             },
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 15,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 15,
                 "swim": 50
@@ -2300,8 +2219,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Amphibious",
                     "entries": [
                         "The Lion of Tefor can breathe air and water."
@@ -2320,14 +2238,12 @@
                     ]
                 }
             ],
-            "action": [
-                {
-                    "name": "Headbash",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
-                    ]
-                }
-            ],
+            "action": [{
+                "name": "Headbash",
+                "entries": [
+                    "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+                ]
+            }],
             "traitTags": [
                 "Amphibious",
                 "Charge"
@@ -2359,14 +2275,12 @@
                 "formula": "14d12 + 57",
                 "average": 155
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "barrier tattoo"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "barrier tattoo"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 40,
@@ -2388,8 +2302,7 @@
                 "Auran",
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Relentless Rage",
                     "entries": [
                         "If RAAAGH drops to 0 hit points while raging and doesn’t die, they can make a {@dc 10} CON saving throw and instead drop to 1 hit point on a success.",
@@ -2456,8 +2369,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "RAAAGH makes two attacks."
@@ -2488,8 +2400,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Dredge Line",
                     "entries": [
                         "While {@b {@i raging}}, RAAAGH can target one creature within 15 feet. The target must succeed on a 14 STR saving throw or be pulled up to 10 feet in a straight line towards RAAAGH."
@@ -2540,14 +2451,12 @@
                 "formula": "27d20 + 243",
                 "average": 513.0
             },
-            "ac": [
-                {
-                    "ac": 22,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 22,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 80,
@@ -2578,8 +2487,7 @@
                 "darkvision 120ft.",
                 "blindsight 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Amphibious",
                     "entries": [
                         "The dragon can breathe air and water."
@@ -2604,33 +2512,30 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "headerEntries": [
-                        "The Ancient Gold Shadow Dragon's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
-                    ],
-                    "ability": "cha",
-                    "daily": {
-                        "1e": [
-                            "{@spell abi-dalzim's horrid wilting|XGE}",
-                            "{@spell bestow curse}",
-                            "{@spell danse macabre|XGE}",
-                            "{@spell eyebite}",
-                            "{@spell maze}",
-                            "{@spell negative energy flood|XGE}",
-                            "{@spell prismatic spray}",
-                            "{@spell shadow of moil|XGE}",
-                            "{@spell summon undead|TCE}"
-                        ]
-                    }
+            "spellcasting": [{
+                "name": "Innate Spellcasting",
+                "headerEntries": [
+                    "The Ancient Gold Shadow Dragon's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                ],
+                "ability": "cha",
+                "daily": {
+                    "1e": [
+                        "{@spell abi-dalzim's horrid wilting|XGE}",
+                        "{@spell bestow curse}",
+                        "{@spell danse macabre|XGE}",
+                        "{@spell eyebite}",
+                        "{@spell maze}",
+                        "{@spell negative energy flood|XGE}",
+                        "{@spell prismatic spray}",
+                        "{@spell shadow of moil|XGE}",
+                        "{@spell summon undead|TCE}"
+                    ]
                 }
-            ],
+            }],
             "spellcastingTags": [
                 "I"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
@@ -2666,8 +2571,7 @@
                         "The dragon uses one of the following breath weapons:",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Shadow Breath}",
                                     "entry": "The dragon exhales shadowy mist in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 71 ({@damage 13d10}) necrotic damage on a failed save, or half as much damage on a successful one."
@@ -2689,19 +2593,16 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Shadow Stealth",
-                    "entries": [
-                        "While in dim light or darkness, the dragon can take the Hide action."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Shadow Stealth",
+                "entries": [
+                    "While in dim light or darkness, the dragon can take the Hide action."
+                ]
+            }],
             "legendaryHeader": [
                 "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Detect",
                     "entries": [
                         "The dragon makes a Wisdom ({@skill Perception}) check."
@@ -2764,14 +2665,12 @@
                 "formula": "19d8 + 328",
                 "average": 423
             },
-            "ac": [
-                {
-                    "ac": 25,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 25,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 30
@@ -2825,8 +2724,7 @@
                 "darkvision 180ft.",
                 "blindsight 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Actor",
                     "entries": [
                         "Syl has advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks made to hide his identity."
@@ -2899,8 +2797,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Syl's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
@@ -2975,8 +2872,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Syl makes three attacks."
@@ -3032,16 +2928,13 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "Syl can command his familiar to take the Attack action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Investment of the Chain Master",
+                "entries": [
+                    "Syl can command his familiar to take the Attack action."
+                ]
+            }],
+            "reaction": [{
                     "name": "Beguiling Defenses",
                     "entries": [
                         "When another creature attempts to charm Syl he can force them to make a 20 {@dc Wisdom} saving throw or be {@condition charmed} for 1 minute or until the creature takes any damage."
@@ -3063,8 +2956,7 @@
             "legendaryHeader": [
                 "The Usurper can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Syl regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Revengence",
                     "entries": [
                         "Syl attacks with {@i {@b Revengence}}."
@@ -3154,14 +3046,12 @@
                 "formula": "19d8 + 328",
                 "average": 423
             },
-            "ac": [
-                {
-                    "ac": 24,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 24,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 30
@@ -3215,8 +3105,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Actor",
                     "entries": [
                         "Sylvester has advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks made to hide his identity."
@@ -3283,8 +3172,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
@@ -3352,8 +3240,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Sylvester makes three attacks."
@@ -3403,16 +3290,13 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "Sylvester can command his familiar to take the Attack action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Investment of the Chain Master",
+                "entries": [
+                    "Sylvester can command his familiar to take the Attack action."
+                ]
+            }],
+            "reaction": [{
                     "name": "Beguiling Defenses",
                     "entries": [
                         "When another creature attempts to charm Sylvester he can force them to make a 20 {@dc Wisdom} saving throw or be {@condition charmed} for 1 minute or until the creature takes any damage."
@@ -3434,8 +3318,7 @@
             "legendaryHeader": [
                 "The Avatar of Velradin can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Avatar regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Attack",
                     "entries": [
                         "Sylvester makes a melee attack."
@@ -3521,14 +3404,12 @@
                 "formula": "19d8 + 68",
                 "average": 163
             },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "barrier tattoo"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 18,
+                "from": [
+                    "barrier tattoo"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 30
@@ -3568,8 +3449,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Actor",
                     "entries": [
                         "Sylvester has advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks made to hide his identity."
@@ -3624,8 +3504,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
@@ -3693,8 +3572,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Sylvester makes three attacks."
@@ -3744,16 +3622,13 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "Sylvester can command his familiar to take the Attack action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Investment of the Chain Master",
+                "entries": [
+                    "Sylvester can command his familiar to take the Attack action."
+                ]
+            }],
+            "reaction": [{
                     "name": "Beguiling Defenses",
                     "entries": [
                         "When another creature attempts to charm Sylvester he can force them to make a 20 {@dc Wisdom} saving throw or be {@condition charmed} for 1 minute or until the creature takes any damage."
@@ -3814,14 +3689,12 @@
                 "formula": "19d8 + 68",
                 "average": 163
             },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "barrier tattoo"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 18,
+                "from": [
+                    "barrier tattoo"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "fly": 30
@@ -3861,8 +3734,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Actor",
                     "entries": [
                         "Sylvester has advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks made to hide his identity."
@@ -3917,8 +3789,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Sylvester's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). They can innately cast the following spells, requiring no material components:"
@@ -3986,8 +3857,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Sylvester makes three attacks."
@@ -4037,16 +3907,13 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Investment of the Chain Master",
-                    "entries": [
-                        "Sylvester can command his familiar to take the Attack action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Investment of the Chain Master",
+                "entries": [
+                    "Sylvester can command his familiar to take the Attack action."
+                ]
+            }],
+            "reaction": [{
                     "name": "Beguiling Defenses",
                     "entries": [
                         "When another creature attempts to charm Sylvester he can force them to make a 20 {@dc Wisdom} saving throw or be {@condition charmed} for 1 minute or until the creature takes any damage."
@@ -4107,14 +3974,12 @@
                 "formula": "6d8 + 29",
                 "average": 59
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -4145,8 +4010,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Devil's Sight",
                     "entries": [
                         "Magical darkness doesn't impede Osxian's darkvision."
@@ -4183,8 +4047,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "Osxian's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -4233,8 +4096,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Dagger",
                     "entries": [
                         "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
@@ -4253,14 +4115,12 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Healing Light (Recharges after a Long Rest)",
-                    "entries": [
-                        "Osxian has a pool of 8d6's. They can heal one creature within 60 feet, by spending up to 4 dice from the pool."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Healing Light (Recharges after a Long Rest)",
+                "entries": [
+                    "Osxian has a pool of 8d6's. They can heal one creature within 60 feet, by spending up to 4 dice from the pool."
+                ]
+            }],
             "traitTags": [
                 "Devil's Sight",
                 "Fey Ancestry"
@@ -4300,14 +4160,12 @@
                 "formula": "6d6 + 27",
                 "average": 51
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -4338,8 +4196,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Empowered Healing (1/Turn)",
                     "entries": [
                         "When Zansariph or an ally within 5 feet rolls dice restore hit points, Zansariph can spend 1 sorcery point to reroll any number of those dice once."
@@ -4366,59 +4223,56 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell light}",
-                                "{@spell mage hand}",
-                                "{@spell message}",
-                                "{@spell prestidigitation}",
-                                "{@spell word of radiance|XGE}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell cure wounds}",
-                                "{@spell guiding bolt}",
-                                "{@spell healing word}",
-                                "{@spell shield of faith}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell scorching ray}",
-                                "{@spell warding bond}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell fireball}",
-                                "{@spell mass healing word}"
-                            ],
-                            "slots": 3
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell charm monster|XGE}"
-                            ],
-                            "slots": 1
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell light}",
+                            "{@spell mage hand}",
+                            "{@spell message}",
+                            "{@spell prestidigitation}",
+                            "{@spell word of radiance|XGE}"
+                        ]
                     },
-                    "headerEntries": [
-                        "Zansariph is a 7th-level spellcaster. Their spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Zansariph has the following Sorcerer spells prepared:"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell cure wounds}",
+                            "{@spell guiding bolt}",
+                            "{@spell healing word}",
+                            "{@spell shield of faith}"
+                        ],
+                        "slots": 4
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell scorching ray}",
+                            "{@spell warding bond}"
+                        ],
+                        "slots": 3
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell fireball}",
+                            "{@spell mass healing word}"
+                        ],
+                        "slots": 3
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell charm monster|XGE}"
+                        ],
+                        "slots": 1
+                    }
+                },
+                "headerEntries": [
+                    "Zansariph is a 7th-level spellcaster. Their spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Zansariph has the following Sorcerer spells prepared:"
+                ]
+            }],
             "spellcastingTags": [
                 "CS"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Dagger",
                     "entries": [
                         "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
@@ -4469,14 +4323,12 @@
                 "formula": "15d10 + 74",
                 "average": 164
             },
-            "ac": [
-                {
-                    "ac": 21,
-                    "from": [
-                        "{@item dwarven plate|DMG}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 21,
+                "from": [
+                    "{@item dwarven plate|DMG}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -4506,8 +4358,7 @@
                 "Draconic",
                 "Elvish"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Aura of Conquest",
                     "entries": [
                         "A creature that is {@condition frightened} of the Tyrant within 10 ft. of them has its speed is reduced to 0 and it takes 8 psychic damage if it starts its turn there."
@@ -4550,62 +4401,59 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "1": {
-                            "spells": [
-                                "{@spell armor of agathys}",
-                                "{@spell bless}",
-                                "{@spell command}",
-                                "{@spell cure wounds}",
-                                "{@spell shield of faith}",
-                                "{@spell wrathful smite}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell aid}",
-                                "{@spell hold person}",
-                                "{@spell lesser restoration}",
-                                "{@spell spiritual weapon}",
-                                "{@spell staggering smite}",
-                                "{@spell zone of truth}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell aura of vitality}",
-                                "{@spell bestow curse}",
-                                "{@spell fear}",
-                                "{@spell remove curse}",
-                                "{@spell revivify}"
-                            ],
-                            "slots": 3
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell banishment}",
-                                "{@spell death ward}",
-                                "{@spell dominate beast}",
-                                "{@spell stoneskin}"
-                            ],
-                            "slots": 2
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "1": {
+                        "spells": [
+                            "{@spell armor of agathys}",
+                            "{@spell bless}",
+                            "{@spell command}",
+                            "{@spell cure wounds}",
+                            "{@spell shield of faith}",
+                            "{@spell wrathful smite}"
+                        ],
+                        "slots": 4
                     },
-                    "headerEntries": [
-                        "The Tyrant is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The Tyrant has the following paladin spells prepared:"
-                    ]
-                }
-            ],
+                    "2": {
+                        "spells": [
+                            "{@spell aid}",
+                            "{@spell hold person}",
+                            "{@spell lesser restoration}",
+                            "{@spell spiritual weapon}",
+                            "{@spell staggering smite}",
+                            "{@spell zone of truth}"
+                        ],
+                        "slots": 3
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell aura of vitality}",
+                            "{@spell bestow curse}",
+                            "{@spell fear}",
+                            "{@spell remove curse}",
+                            "{@spell revivify}"
+                        ],
+                        "slots": 3
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell banishment}",
+                            "{@spell death ward}",
+                            "{@spell dominate beast}",
+                            "{@spell stoneskin}"
+                        ],
+                        "slots": 2
+                    }
+                },
+                "headerEntries": [
+                    "The Tyrant is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The Tyrant has the following paladin spells prepared:"
+                ]
+            }],
             "spellcastingTags": [
                 "CP"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Tyrant makes two attacks."
@@ -4629,8 +4477,7 @@
                         "The Tyrant uses one of the following abilities.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Ice Breath}",
                                     "entry": "As an action the Tyrant exhales in a 15 ft. cone. Each creature in range must make a 17 {@dc Constitution} saving throw, taking 17 ({@damage 5d6}) cold damage on a failed save, or half as much damage on a successful one."
@@ -4650,8 +4497,7 @@
                         "The Tyrant uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Conquering Presence}",
                                     "entry": "As an action, the Tyrant forces each creature of their choice within 30 feet to make a {@dc 18} Wisdom saving throw or becomes {@condition frightened} of the Tyrant for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -4684,19 +4530,16 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Great Weapon Master",
-                    "entries": [
-                        "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Great Weapon Master",
+                "entries": [
+                    "When the Tyrant score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, they can make one melee weapon attack."
+                ]
+            }],
             "legendaryHeader": [
                 "The Tyrant can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Tyrant regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Move",
                     "entries": [
                         "The Tyrant moves up to its speed without provoking opportunity attacks."
@@ -4756,15 +4599,13 @@
                 "formula": "12d8 + 47",
                 "average": 107
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "glamoured breastplate",
-                        "shield +1"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "glamoured breastplate",
+                    "shield +1"
+                ]
+            }],
             "speed": {
                 "walk": 40
             },
@@ -4791,8 +4632,7 @@
             "senses": [
                 "darkvision 120ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Devil's Sight",
                     "entries": [
                         "Magical darkness doesn't impede the Scholar's darkvision."
@@ -4811,8 +4651,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The Scholar's innate spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -4867,8 +4706,7 @@
                 "I",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Scholar makes two attacks with their pact weapons."
@@ -4917,36 +4755,31 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "One creature visible within 30 feet of the Scholar is cursed for 1 minute unless the target dies, the Scholar dies, or is {@condition incapacitated}. ",
-                        "Until then, they gain the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "The Scholar gains a 5 bonus to damage rolls against the cursed target.",
-                                "Any attack roll the Scholar make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-                                "If the cursed target dies, the Scholar regains +17 hit points"
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Armor of Hexes",
-                    "entries": [
-                        "If the target cursed by the Scholar's Hexblade's Curse hits them with an attack roll, roll a d6. On a 4 or higher, the attack instead misses, regardless of its roll."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "One creature visible within 30 feet of the Scholar is cursed for 1 minute unless the target dies, the Scholar dies, or is {@condition incapacitated}. ",
+                    "Until then, they gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "The Scholar gains a 5 bonus to damage rolls against the cursed target.",
+                            "Any attack roll the Scholar make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+                            "If the cursed target dies, the Scholar regains +17 hit points"
+                        ]
+                    }
+                ]
+            }],
+            "reaction": [{
+                "name": "Armor of Hexes",
+                "entries": [
+                    "If the target cursed by the Scholar's Hexblade's Curse hits them with an attack roll, roll a d6. On a 4 or higher, the attack instead misses, regardless of its roll."
+                ]
+            }],
             "legendaryHeader": [
                 "The Scholar can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Scholar regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Move",
                     "entries": [
                         "The Scholar moves up to its speed without provoking opportunity attacks."
@@ -5009,14 +4842,12 @@
                 "formula": "15d8 + 72",
                 "average": 155
             },
-            "ac": [
-                {
-                    "ac": 21,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 21,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40
             },
@@ -5054,8 +4885,7 @@
                 "darkvision 120ft.",
                 "truesight 30ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Martial Prowess",
                     "entries": [
                         "When using {@i {@b Two-Weapon Fighting}}, the Split Servant can make an additional 2 weapon attacks with and can add +6 to the damage rolls."
@@ -5086,8 +4916,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The Split Servant's innate spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -5167,8 +4996,7 @@
                 "P",
                 "CL"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Split Servant makes two attacks with their pact weapons."
@@ -5205,8 +5033,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Hexblade's Curse (Recharges after a Short or Long Rest)",
                     "entries": [
                         "One creature visible within 30 feet of the Split Servant is cursed for 1 minute unless the target dies, the Split Servant dies, or is {@condition incapacitated}. ",
@@ -5228,19 +5055,16 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Armor of Hexes",
-                    "entries": [
-                        "If the target cursed by the Split Servant's Hexblade's Curse hits them with an attack roll, roll a d6. On a 4 or higher, the attack instead misses, regardless of its roll."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Armor of Hexes",
+                "entries": [
+                    "If the target cursed by the Split Servant's Hexblade's Curse hits them with an attack roll, roll a d6. On a 4 or higher, the attack instead misses, regardless of its roll."
+                ]
+            }],
             "legendaryHeader": [
                 "The Split Servant can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Scholar regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Move",
                     "entries": [
                         "The Split Servant moves up to its speed without provoking opportunity attacks."
@@ -5302,14 +5126,12 @@
                 "formula": "15d10 + 74",
                 "average": 164
             },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "{@item glamoured studded leather|DMG}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 18,
+                "from": [
+                    "{@item glamoured studded leather|DMG}"
+                ]
+            }],
             "speed": {
                 "walk": 30,
                 "climb": 20,
@@ -5347,8 +5169,7 @@
             "senses": [
                 "darkvision 90ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Favored Enemy",
                     "entries": [
                         "The Nomad has advantage on Wisdom ({@skill Survival}) checks to track Aberrations, Humans, ELves and Monstrosities, as well as on Intelligence checks to recall information about them."
@@ -5415,8 +5236,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The Nomad's innate spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -5482,8 +5302,7 @@
                 "I",
                 "CR"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Nomad makes two attacks."
@@ -5518,8 +5337,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Nature's Veil (5/Long Rest)",
                     "entries": [
                         "The Nomad can magically become {@condition invisible} as until the start of their next turn."
@@ -5532,19 +5350,16 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Shadowy Dodge",
-                    "entries": [
-                        "Whenever a creature makes an attack roll against the Nomad without advantage, they can impose disadvantage on it."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Shadowy Dodge",
+                "entries": [
+                    "Whenever a creature makes an attack roll against the Nomad without advantage, they can impose disadvantage on it."
+                ]
+            }],
             "legendaryHeader": [
                 "The Nomad can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Nomad regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Move",
                     "entries": [
                         "The Nomad moves up to its speed without provoking opportunity attacks."
@@ -5601,14 +5416,12 @@
                 "formula": "19d6 + 247",
                 "average": 325
             },
-            "ac": [
-                {
-                    "ac": 23,
-                    "from": [
-                        "{@item cloak of the stranger|MPSOURCE}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 23,
+                "from": [
+                    "{@item cloak of the stranger|MPSOURCE}"
+                ]
+            }],
             "speed": {
                 "walk": 30,
                 "fly": {
@@ -5654,8 +5467,7 @@
             "senses": [
                 "truesight 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Eyes Beyond Time",
                     "entries": [
                         "The Stranger has advantage on Intelligence ({@skill History}) checks."
@@ -5710,8 +5522,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Spellcasting",
                     "spells": {
                         "0": {
@@ -5828,8 +5639,7 @@
             "spellcastingTags": [
                 "CW"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Light Crossbow",
                     "entries": [
                         "{@atk rw} {@hit 7} to hit, (80/320), one creature. {@h}[1d8+1] piercing damage."
@@ -5860,16 +5670,13 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Tharizdun's Bolt {@recharge 6}",
-                    "entries": [
-                        "The Stranger selects one creature it can see that can see it with in 60 ft. The creature hit must succeed on a {@dc 19} Wisdom saving throw or experience short-term madness for 1 hour or long-term madness for 10 minutes. Consult the Short-Term and Long-Term Madness tables (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of every 10 minutes if inflicted with short-term madness or at the end of each minute for long-term madness, ending the effect on itself on a success."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Tharizdun's Bolt {@recharge 6}",
+                "entries": [
+                    "The Stranger selects one creature it can see that can see it with in 60 ft. The creature hit must succeed on a {@dc 19} Wisdom saving throw or experience short-term madness for 1 hour or long-term madness for 10 minutes. Consult the Short-Term and Long-Term Madness tables (see \"Madness Effects\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of every 10 minutes if inflicted with short-term madness or at the end of each minute for long-term madness, ending the effect on itself on a success."
+                ]
+            }],
+            "reaction": [{
                     "name": "Chronal Shift (2/day)",
                     "entries": [
                         "After anyone within 30 feet of the Stranger makes an attack roll, an ability check, or a saving throw, they can force the creature to reroll. The target must use the result of the second roll."
@@ -5888,8 +5695,7 @@
                     ]
                 }
             ],
-            "mythic": [
-                {
+            "mythic": [{
                     "name": "Confront Infinity",
                     "entries": [
                         "Until the start of the Stranger's next turn, any creature that hits them with a melee attack ages 1d10 years. Any ammunition the Stranger is hit with during this time becomes unusable."
@@ -5908,8 +5714,7 @@
             "legendaryHeader": [
                 "The Stranger can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Stranger regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Cantrip",
                     "entries": [
                         "The Stranger casts a cantrip."
@@ -5971,14 +5776,12 @@
                 "formula": "10d8 + 18",
                 "average": 63
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "{@item glamoured studded leather|DMG}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "{@item glamoured studded leather|DMG}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -6011,8 +5814,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Assassinate",
                     "entries": [
                         "During its first turn, Zhihlah has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Zhihlah scores against a surprised creature is a critical hit."
@@ -6055,29 +5857,26 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "headerEntries": [
-                        "The Zhihlah's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
-                    ],
-                    "ability": "cha",
-                    "will": [
-                        "{@spell poison spray}",
-                        "{@spell animal friendship} (On snakes only)"
-                    ],
-                    "daily": {
-                        "1e": [
-                            "{@spell suggestion}"
-                        ]
-                    }
+            "spellcasting": [{
+                "name": "Innate Spellcasting",
+                "headerEntries": [
+                    "The Zhihlah's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                ],
+                "ability": "cha",
+                "will": [
+                    "{@spell poison spray}",
+                    "{@spell animal friendship} (On snakes only)"
+                ],
+                "daily": {
+                    "1e": [
+                        "{@spell suggestion}"
+                    ]
                 }
-            ],
+            }],
             "spellcastingTags": [
                 "I"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Dagger of Warning",
                     "entries": [
                         "{@atk mw, rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d4 + 4}) piercing damage."
@@ -6090,8 +5889,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Cunning Action",
                     "entries": [
                         "Zhihlah can take the following as actions: Dash, Disengage, or Hide."
@@ -6104,14 +5902,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Uncanny Dodge",
-                    "entries": [
-                        "Zhihlah can halve the damage from an attack against them if they can see the attacker."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Uncanny Dodge",
+                "entries": [
+                    "Zhihlah can halve the damage from an attack against them if they can see the attacker."
+                ]
+            }],
             "traitTags": [
                 "Magic Resistance",
                 "Sneak Attack"
@@ -6149,14 +5945,12 @@
                 "formula": "16d8 + 76",
                 "average": 166
             },
-            "ac": [
-                {
-                    "ac": 19,
-                    "from": [
-                        "{@item glamoured studded leather|DMG}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 19,
+                "from": [
+                    "{@item glamoured studded leather|DMG}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -6191,8 +5985,7 @@
                 "darkvision 60ft.",
                 "blindsight 10ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Assassinate",
                     "entries": [
                         "During its first turn, the Thief has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Thief scores against a surprised creature is a critical hit."
@@ -6253,29 +6046,26 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "headerEntries": [
-                        "The Thief's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
-                    ],
-                    "ability": "cha",
-                    "will": [
-                        "{@spell poison spray}",
-                        "{@spell animal friendship} (On snakes only)"
-                    ],
-                    "daily": {
-                        "1e": [
-                            "{@spell suggestion}"
-                        ]
-                    }
+            "spellcasting": [{
+                "name": "Innate Spellcasting",
+                "headerEntries": [
+                    "The Thief's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                ],
+                "ability": "cha",
+                "will": [
+                    "{@spell poison spray}",
+                    "{@spell animal friendship} (On snakes only)"
+                ],
+                "daily": {
+                    "1e": [
+                        "{@spell suggestion}"
+                    ]
                 }
-            ],
+            }],
             "spellcastingTags": [
                 "I"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Toxic Nighteye Dagger",
                     "entries": [
                         "{@atk mw, rw} {@hit 13} to hit, reach 5 ft. or range 60 ft., one target. {@i Hit:} 15 ({@damage 1d4 + 13}) piercing damage plus 9 ({@damage 2d8}) cold damage, the targets speed is reduced by 10ft. and the target must make a {@dc 14} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
@@ -6300,8 +6090,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Cunning Action",
                     "entries": [
                         "Thief can take the following as actions: Dash, Disengage, or Hide."
@@ -6314,19 +6103,16 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Uncanny Dodge",
-                    "entries": [
-                        "The Thief can halve the damage from an attack against them if they can see the attacker."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Uncanny Dodge",
+                "entries": [
+                    "The Thief can halve the damage from an attack against them if they can see the attacker."
+                ]
+            }],
             "legendaryHeader": [
                 "The Thief can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Thief regains spent legendary actions at the start of its turn."
             ],
-            "legendary": [
-                {
+            "legendary": [{
                     "name": "Shift",
                     "entries": [
                         "The Thief moves up to half its speed without provoking opportunity attacks."
@@ -6382,15 +6168,13 @@
                 "formula": "3d10 + 22",
                 "average": 40
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "{@item studded leather armor|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "{@item studded leather armor|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -6424,8 +6208,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The {@i Combat Optimized Martial Personnel And Survival Savant} has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -6456,8 +6239,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The C.O.M.P.A.S.S. Unit's innate spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -6492,8 +6274,7 @@
                 "I",
                 "CR"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Longbow",
                     "entries": [
                         "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
@@ -6543,15 +6324,13 @@
                 "formula": "11d10 + 34",
                 "average": 100
             },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "studded leather armor +1",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 18,
+                "from": [
+                    "studded leather armor +1",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -6585,8 +6364,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The {@i Combat Optimized Martial Personnel And Survival Savant} has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -6637,8 +6415,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The C.O.M.P.A.S.S. Unit's innate spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -6693,8 +6470,7 @@
                 "I",
                 "CR"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The C.O.M.P.A.S.S. Unit makes two attacks."
@@ -6719,14 +6495,12 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Nature's Veil (4/Long Rest)",
-                    "entries": [
-                        "The C.O.M.P.A.S.S. Unit can magically become {@condition invisible} as until the start of their next turn."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Nature's Veil (4/Long Rest)",
+                "entries": [
+                    "The C.O.M.P.A.S.S. Unit can magically become {@condition invisible} as until the start of their next turn."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -6761,16 +6535,14 @@
                 "formula": "11d10 + 46",
                 "average": 112
             },
-            "ac": [
-                {
-                    "ac": 22,
-                    "from": [
-                        "plate armor",
-                        "{@item shield|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 22,
+                "from": [
+                    "plate armor",
+                    "{@item shield|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "climb": 40,
@@ -6798,8 +6570,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The C.U.D.G.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -6844,8 +6615,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "C.U.D.G.E.L. Unit makes three attacks."
@@ -6870,22 +6640,18 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Second Wind (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The C.U.D.G.E.L. Unit can to regain 23 ({@damage 1d10 + 18}) HP."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Sentinel",
-                    "entries": [
-                        "When a creature within 5 feet of the C.U.D.G.E.L. Unit makes an attack against another target (without the {@i Sentinel} feat), the C.U.D.G.E.L. Unit can make a melee weapon attack against the attacking creature."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Second Wind (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "The C.U.D.G.E.L. Unit can to regain 23 ({@damage 1d10 + 18}) HP."
+                ]
+            }],
+            "reaction": [{
+                "name": "Sentinel",
+                "entries": [
+                    "When a creature within 5 feet of the C.U.D.G.E.L. Unit makes an attack against another target (without the {@i Sentinel} feat), the C.U.D.G.E.L. Unit can make a melee weapon attack against the attacking creature."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -6918,16 +6684,14 @@
                 "formula": "3d10 + 22",
                 "average": 40
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "{@item chain mail|phb}",
-                        "{@item shield|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "{@item chain mail|phb}",
+                    "{@item shield|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -6956,8 +6720,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The C.U.D.G.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -6976,8 +6739,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Longsword",
                     "entries": [
                         "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
@@ -6996,14 +6758,12 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Second Wind (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The C.U.D.G.E.L. Unit can to regain 9 ({@damage 1d10 + 4}) HP."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Second Wind (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "The C.U.D.G.E.L. Unit can to regain 9 ({@damage 1d10 + 4}) HP."
+                ]
+            }],
             "languageTags": [
                 "C"
             ],
@@ -7034,16 +6794,14 @@
                 "formula": "11d8 + 44",
                 "average": 101
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "splint armor",
-                        "{@item shield|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "splint armor",
+                    "{@item shield|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -7069,8 +6827,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Blessed Disciple",
                     "entries": [
                         "When the {@i Surgical Combat Anti-Lethal Physiology Examination Liason} casts a healing spell on another creature, they both regain HP equal to 2 + the spell's level."
@@ -7083,83 +6840,80 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell guidance}",
-                                "{@spell light}",
-                                "{@spell mending}",
-                                "{@spell sacred flame}",
-                                "{@spell spare the dying}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell bless}",
-                                "{@spell cure wounds}*",
-                                "{@spell guiding bolt}",
-                                "{@spell healing word}*",
-                                "{@spell sanctuary}",
-                                "{@spell shield of faith}"
-                            ]
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell aid}*",
-                                "{@spell lesser restoration}",
-                                "{@spell prayer of healing}*",
-                                "{@spell protection from poison}",
-                                "{@spell spiritual weapon}",
-                                "{@spell warding bond}"
-                            ]
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell beacon of hope}",
-                                "{@spell mass healing word}*",
-                                "{@spell revivify}*",
-                                "{@spell spirit guardians}"
-                            ]
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell banishment}",
-                                "{@spell death ward}",
-                                "{@spell guardian of faith}",
-                                "{@spell locate creature}"
-                            ]
-                        },
-                        "5": {
-                            "spells": [
-                                "{@spell dispel evil and good}",
-                                "{@spell greater restoration}",
-                                "{@spell mass cure wounds}*",
-                                "{@spell raise dead}"
-                            ]
-                        },
-                        "6": {
-                            "spells": [
-                                "{@spell harm}",
-                                "{@spell heal}*"
-                            ]
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell guidance}",
+                            "{@spell light}",
+                            "{@spell mending}",
+                            "{@spell sacred flame}",
+                            "{@spell spare the dying}"
+                        ]
                     },
-                    "headerEntries": [
-                        "The S.C.A.L.P.E.L. Unit is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
-                    ],
-                    "footerEntries": [
-                        "*Healing spell of 1st level or higher"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell bless}",
+                            "{@spell cure wounds}*",
+                            "{@spell guiding bolt}",
+                            "{@spell healing word}*",
+                            "{@spell sanctuary}",
+                            "{@spell shield of faith}"
+                        ]
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell aid}*",
+                            "{@spell lesser restoration}",
+                            "{@spell prayer of healing}*",
+                            "{@spell protection from poison}",
+                            "{@spell spiritual weapon}",
+                            "{@spell warding bond}"
+                        ]
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell beacon of hope}",
+                            "{@spell mass healing word}*",
+                            "{@spell revivify}*",
+                            "{@spell spirit guardians}"
+                        ]
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell banishment}",
+                            "{@spell death ward}",
+                            "{@spell guardian of faith}",
+                            "{@spell locate creature}"
+                        ]
+                    },
+                    "5": {
+                        "spells": [
+                            "{@spell dispel evil and good}",
+                            "{@spell greater restoration}",
+                            "{@spell mass cure wounds}*",
+                            "{@spell raise dead}"
+                        ]
+                    },
+                    "6": {
+                        "spells": [
+                            "{@spell harm}",
+                            "{@spell heal}*"
+                        ]
+                    }
+                },
+                "headerEntries": [
+                    "The S.C.A.L.P.E.L. Unit is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
+                ],
+                "footerEntries": [
+                    "*Healing spell of 1st level or higher"
+                ]
+            }],
             "spellcastingTags": [
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Mace, +1",
                     "entries": [
                         "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 4 ({@damage 1d8}) radiant damage."
@@ -7177,8 +6931,7 @@
                         "The S.C.A.L.P.E.L. Unit uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Preserve Life}",
                                     "entry": "The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
@@ -7223,16 +6976,14 @@
                 "formula": "12d8 + 44",
                 "average": 107
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "{@item splint armor|phb}",
-                        "{@item shield|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "{@item splint armor|phb}",
+                    "{@item shield|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -7258,8 +7009,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The S.C.A.L.P.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -7272,95 +7022,92 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell guidance}",
-                                "{@spell light}",
-                                "{@spell mending}",
-                                "{@spell sacred flame}",
-                                "{@spell spare the dying}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell bless}",
-                                "{@spell cure wounds}*",
-                                "{@spell guiding bolt}",
-                                "{@spell healing word}*",
-                                "{@spell sanctuary}",
-                                "{@spell shield of faith}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell lesser restoration}",
-                                "{@spell prayer of healing}*",
-                                "{@spell protection from poison}",
-                                "{@spell spiritual weapon}",
-                                "{@spell warding bond}"
-                            ],
-                            "slots": 3
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell beacon of hope}",
-                                "{@spell mass healing word}*",
-                                "{@spell revivify}",
-                                "{@spell spirit guardians}"
-                            ],
-                            "slots": 3
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell banishment}",
-                                "{@spell death ward}",
-                                "{@spell guardian of faith}",
-                                "{@spell locate creature}"
-                            ],
-                            "slots": 3
-                        },
-                        "5": {
-                            "spells": [
-                                "{@spell dispel evil and good}",
-                                "{@spell greater restoration}",
-                                "{@spell mass cure wounds}*",
-                                "{@spell raise dead}"
-                            ],
-                            "slots": 2
-                        },
-                        "6": {
-                            "spells": [
-                                "{@spell harm}",
-                                "{@spell heal}*"
-                            ],
-                            "slots": 1
-                        },
-                        "7": {
-                            "spells": [
-                                "{@spell plane shift}",
-                                "{@spell regenerate}*"
-                            ],
-                            "slots": 1
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell guidance}",
+                            "{@spell light}",
+                            "{@spell mending}",
+                            "{@spell sacred flame}",
+                            "{@spell spare the dying}"
+                        ]
                     },
-                    "headerEntries": [
-                        "The S.C.A.L.P.E.L. Unit is a 13th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
-                    ],
-                    "footerEntries": [
-                        "*Healing spell of 1st level or higher"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell bless}",
+                            "{@spell cure wounds}*",
+                            "{@spell guiding bolt}",
+                            "{@spell healing word}*",
+                            "{@spell sanctuary}",
+                            "{@spell shield of faith}"
+                        ],
+                        "slots": 4
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell lesser restoration}",
+                            "{@spell prayer of healing}*",
+                            "{@spell protection from poison}",
+                            "{@spell spiritual weapon}",
+                            "{@spell warding bond}"
+                        ],
+                        "slots": 3
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell beacon of hope}",
+                            "{@spell mass healing word}*",
+                            "{@spell revivify}",
+                            "{@spell spirit guardians}"
+                        ],
+                        "slots": 3
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell banishment}",
+                            "{@spell death ward}",
+                            "{@spell guardian of faith}",
+                            "{@spell locate creature}"
+                        ],
+                        "slots": 3
+                    },
+                    "5": {
+                        "spells": [
+                            "{@spell dispel evil and good}",
+                            "{@spell greater restoration}",
+                            "{@spell mass cure wounds}*",
+                            "{@spell raise dead}"
+                        ],
+                        "slots": 2
+                    },
+                    "6": {
+                        "spells": [
+                            "{@spell harm}",
+                            "{@spell heal}*"
+                        ],
+                        "slots": 1
+                    },
+                    "7": {
+                        "spells": [
+                            "{@spell plane shift}",
+                            "{@spell regenerate}*"
+                        ],
+                        "slots": 1
+                    }
+                },
+                "headerEntries": [
+                    "The S.C.A.L.P.E.L. Unit is a 13th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
+                ],
+                "footerEntries": [
+                    "*Healing spell of 1st level or higher"
+                ]
+            }],
             "spellcastingTags": [
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Mace, +1",
                     "entries": [
                         "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 4 ({@damage 1d8}) radiant damage."
@@ -7378,8 +7125,7 @@
                         "The S.C.A.L.P.E.L. Unit uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Preserve Life}",
                                     "entry": "The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
@@ -7424,16 +7170,14 @@
                 "formula": "3d8 + 17",
                 "average": 35
             },
-            "ac": [
-                {
-                    "ac": 19,
-                    "from": [
-                        "{@item chain mail|phb}",
-                        "{@item shield|phb}",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 19,
+                "from": [
+                    "{@item chain mail|phb}",
+                    "{@item shield|phb}",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -7462,8 +7206,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The S.C.A.L.P.E.L. Unit has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -7476,54 +7219,51 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell guidance}",
-                                "{@spell light}",
-                                "{@spell mending}",
-                                "{@spell sacred flame}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell bless}",
-                                "{@spell cure wounds}*",
-                                "{@spell guiding bolt}",
-                                "{@spell healing word}*",
-                                "{@spell inflict wounds}",
-                                "{@spell sanctuary}",
-                                "{@spell shield of faith}"
-                            ],
-                            "slots": 4
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell lesser restoration}",
-                                "{@spell prayer of healing}*",
-                                "{@spell protection from poison}",
-                                "{@spell spiritual weapon}",
-                                "{@spell warding bond}"
-                            ],
-                            "slots": 3
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell guidance}",
+                            "{@spell light}",
+                            "{@spell mending}",
+                            "{@spell sacred flame}"
+                        ]
                     },
-                    "headerEntries": [
-                        "The S.C.A.L.P.E.L. Unit is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
-                    ],
-                    "footerEntries": [
-                        "*healing spell of 1st level or higher"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell bless}",
+                            "{@spell cure wounds}*",
+                            "{@spell guiding bolt}",
+                            "{@spell healing word}*",
+                            "{@spell inflict wounds}",
+                            "{@spell sanctuary}",
+                            "{@spell shield of faith}"
+                        ],
+                        "slots": 4
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell lesser restoration}",
+                            "{@spell prayer of healing}*",
+                            "{@spell protection from poison}",
+                            "{@spell spiritual weapon}",
+                            "{@spell warding bond}"
+                        ],
+                        "slots": 3
+                    }
+                },
+                "headerEntries": [
+                    "The S.C.A.L.P.E.L. Unit is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The S.C.A.L.P.E.L. Unit has the following cleric spells prepared:"
+                ],
+                "footerEntries": [
+                    "*healing spell of 1st level or higher"
+                ]
+            }],
             "spellcastingTags": [
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Mace",
                     "entries": [
                         "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
@@ -7541,8 +7281,7 @@
                         "The S.C.A.L.P.E.L. Unit uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Preserve Life}",
                                     "entry": "The S.C.A.L.P.E.L. Unit restores 65 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
@@ -7587,16 +7326,14 @@
                 "formula": "16d8 + 59",
                 "average": 141
             },
-            "ac": [
-                {
-                    "ac": 22,
-                    "from": [
-                        "plate armor",
-                        "shield +1",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 22,
+                "from": [
+                    "plate armor",
+                    "shield +1",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -7625,8 +7362,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The D.E.A.C.O.N. has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -7645,101 +7381,98 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell guidance}",
-                                "{@spell light}",
-                                "{@spell mending}",
-                                "{@spell sacred flame}",
-                                "{@spell spare the dying}"
-                            ]
-                        },
-                        "1": {
-                            "spells": [
-                                "{@spell bless}",
-                                "{@spell cure wounds}*",
-                                "{@spell guiding bolt}",
-                                "{@spell healing word}*",
-                                "{@spell inflict wounds}",
-                                "{@spell sanctuary}",
-                                "{@spell shield of faith}"
-                            ]
-                        },
-                        "2": {
-                            "spells": [
-                                "{@spell aid}*",
-                                "{@spell lesser restoration}",
-                                "{@spell prayer of healing}*",
-                                "{@spell protection from poison}",
-                                "{@spell spiritual weapon}",
-                                "{@spell warding bond}"
-                            ]
-                        },
-                        "3": {
-                            "spells": [
-                                "{@spell beacon of hope}",
-                                "{@spell mass healing word}*",
-                                "{@spell revivify}*",
-                                "{@spell spirit guardians}"
-                            ]
-                        },
-                        "4": {
-                            "spells": [
-                                "{@spell banishment}",
-                                "{@spell death ward}",
-                                "{@spell guardian of faith}",
-                                "{@spell locate creature}"
-                            ]
-                        },
-                        "5": {
-                            "spells": [
-                                "{@spell dispel evil and good}",
-                                "{@spell greater restoration}",
-                                "{@spell mass cure wounds}*",
-                                "{@spell raise dead}"
-                            ]
-                        },
-                        "6": {
-                            "spells": [
-                                "{@spell harm}",
-                                "{@spell heal}*"
-                            ]
-                        },
-                        "7": {
-                            "spells": [
-                                "{@spell plane shift}",
-                                "{@spell regenerate}*"
-                            ]
-                        },
-                        "8": {
-                            "spells": [
-                                "{@spell holy aura}",
-                                "{@spell sunburst}"
-                            ]
-                        },
-                        "9": {
-                            "spells": [
-                                "{@spell mass heal}*"
-                            ]
-                        }
+            "spellcasting": [{
+                "name": "Spellcasting",
+                "spells": {
+                    "0": {
+                        "spells": [
+                            "{@spell guidance}",
+                            "{@spell light}",
+                            "{@spell mending}",
+                            "{@spell sacred flame}",
+                            "{@spell spare the dying}"
+                        ]
                     },
-                    "headerEntries": [
-                        "The D.E.A.C.O.N. is a 17th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The D.E.A.C.O.N. has the following cleric spells prepared:"
-                    ],
-                    "footerEntries": [
-                        "*Healing spell of 1st level or higher"
-                    ]
-                }
-            ],
+                    "1": {
+                        "spells": [
+                            "{@spell bless}",
+                            "{@spell cure wounds}*",
+                            "{@spell guiding bolt}",
+                            "{@spell healing word}*",
+                            "{@spell inflict wounds}",
+                            "{@spell sanctuary}",
+                            "{@spell shield of faith}"
+                        ]
+                    },
+                    "2": {
+                        "spells": [
+                            "{@spell aid}*",
+                            "{@spell lesser restoration}",
+                            "{@spell prayer of healing}*",
+                            "{@spell protection from poison}",
+                            "{@spell spiritual weapon}",
+                            "{@spell warding bond}"
+                        ]
+                    },
+                    "3": {
+                        "spells": [
+                            "{@spell beacon of hope}",
+                            "{@spell mass healing word}*",
+                            "{@spell revivify}*",
+                            "{@spell spirit guardians}"
+                        ]
+                    },
+                    "4": {
+                        "spells": [
+                            "{@spell banishment}",
+                            "{@spell death ward}",
+                            "{@spell guardian of faith}",
+                            "{@spell locate creature}"
+                        ]
+                    },
+                    "5": {
+                        "spells": [
+                            "{@spell dispel evil and good}",
+                            "{@spell greater restoration}",
+                            "{@spell mass cure wounds}*",
+                            "{@spell raise dead}"
+                        ]
+                    },
+                    "6": {
+                        "spells": [
+                            "{@spell harm}",
+                            "{@spell heal}*"
+                        ]
+                    },
+                    "7": {
+                        "spells": [
+                            "{@spell plane shift}",
+                            "{@spell regenerate}*"
+                        ]
+                    },
+                    "8": {
+                        "spells": [
+                            "{@spell holy aura}",
+                            "{@spell sunburst}"
+                        ]
+                    },
+                    "9": {
+                        "spells": [
+                            "{@spell mass heal}*"
+                        ]
+                    }
+                },
+                "headerEntries": [
+                    "The D.E.A.C.O.N. is a 17th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The D.E.A.C.O.N. has the following cleric spells prepared:"
+                ],
+                "footerEntries": [
+                    "*Healing spell of 1st level or higher"
+                ]
+            }],
             "spellcastingTags": [
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Mace, +1",
                     "entries": [
                         "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 9 ({@damage 2d8}) radiant damage."
@@ -7757,8 +7490,7 @@
                         "The D.E.A.C.O.N. uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Preserve Life}",
                                     "entry": "The D.E.A.C.O.N. restores 85 HP spread among any creatures within 30 ft. of them. Creatures cannot be healed past half of its hit point maximum."
@@ -7802,16 +7534,14 @@
                 "formula": "17d10 + 118",
                 "average": 220
             },
-            "ac": [
-                {
-                    "ac": 24,
-                    "from": [
-                        "sigil of gelezis",
-                        "shield +1",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 24,
+                "from": [
+                    "sigil of gelezis",
+                    "shield +1",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "climb": 40,
@@ -7839,8 +7569,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The L.E.G.A.T.E. has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -7897,8 +7626,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "L.E.G.A.T.E. makes three attacks."
@@ -7923,8 +7651,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Nimbleness of the Empire",
                     "entries": [
                         "The L.E.G.A.T.E. can to take the Dash action."
@@ -7937,8 +7664,7 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
+            "reaction": [{
                     "name": "Protection",
                     "entries": [
                         "The L.E.G.A.T.E. can impose disadvantage on an attack roll from a creature they can see again a target within 5 feet of the L.E.G.A.T.E.."
@@ -7983,15 +7709,13 @@
                 "formula": "14d10 + 85",
                 "average": 169
             },
-            "ac": [
-                {
-                    "ac": 21,
-                    "from": [
-                        "plate armor +1",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 21,
+                "from": [
+                    "plate armor +1",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -8020,8 +7744,7 @@
             "senses": [
                 "blindsight 10ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The {@i Regal Enforcer Galvanizing Exemplary Neutralization Tactics} has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -8066,8 +7789,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The R.E.G.E.N.T. makes three attacks."
@@ -8092,14 +7814,12 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Second Wind (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The R.E.G.E.N.T. can to regain 20 ({@damage 1d10 + 15}) HP."
-                    ]
-                }
-            ],
+            "bonus": [{
+                "name": "Second Wind (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "The R.E.G.E.N.T. can to regain 20 ({@damage 1d10 + 15}) HP."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -8133,15 +7853,13 @@
                 "formula": "15d10 + 42",
                 "average": 132
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "studded leather armor +2",
-                        "integrated protection"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "studded leather armor +2",
+                    "integrated protection"
+                ]
+            }],
             "speed": {
                 "walk": 35,
                 "climb": 35,
@@ -8177,8 +7895,7 @@
             "senses": [
                 "darkvision 60ft."
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Constructed Resilience",
                     "entries": [
                         "The {@i Survival Crossing Optimized Utility Tracker} has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put them to sleep."
@@ -8223,8 +7940,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Innate Spellcasting",
                     "headerEntries": [
                         "The S.C.O.U.T.'s innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
@@ -8289,8 +8005,7 @@
                 "I",
                 "CR"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The S.C.O.U.T. makes two attacks."
@@ -8321,8 +8036,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Nature's Veil (5/Long Rest)",
                     "entries": [
                         "The S.C.O.U.T. can magically become {@condition invisible}, until the start of theirr next turn."
@@ -8335,14 +8049,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Shadowy Dodge",
-                    "entries": [
-                        "The S.C.O.U.T. imposes disadvantage on an attack roll a creature makes against them without advantage on the roll."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Shadowy Dodge",
+                "entries": [
+                    "The S.C.O.U.T. imposes disadvantage on an attack roll a creature makes against them without advantage on the roll."
+                ]
+            }],
             "actionTags": [
                 "Multiattack"
             ],
@@ -8378,14 +8090,12 @@
                 "formula": "10d12 + 60",
                 "average": 126
             },
-            "ac": [
-                {
-                    "ac": 17,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 17,
+                "from": [
+                    "natural armor"
+                ]
+            }],
             "speed": {
                 "walk": 40,
                 "swim": 30
@@ -8413,8 +8123,7 @@
             "languages": [
                 "Common"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Danger Sense",
                     "entries": [
                         "The Arc Fighter has advantage on DEX saving throws against effects they can see."
@@ -8464,8 +8173,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Arc Fighter makes two attacks."
@@ -8484,8 +8192,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Rage (4/Long Rest)",
                     "entries": [
                         "Enter a rage for up to 1 minute (10 rounds). The Arc Fighter gains advantage on STR checks and saving throws (not attacks), {@b +3} melee damage with STR weapons, resistance to bludgeoning, piercing, slashing damage. The rage ends early if they are knocked {@condition unconscious} or if their turn ends and they haven't attacked a hostile creature since their last turn or taken damage since then. The Arc Fighter can also end the rage as a bonus action."
@@ -8498,14 +8205,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
-                    "entries": [
-                        "The Arc Fighter can reduce damage dealt to them by 10 ({@damage 1d12 + 4})"
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+                "entries": [
+                    "The Arc Fighter can reduce damage dealt to them by 10 ({@damage 1d12 + 4})"
+                ]
+            }],
             "traitTags": [
                 "Reckless"
             ],
@@ -8544,15 +8249,13 @@
                 "formula": "8d6 + 2d8 + 28",
                 "average": 70
             },
-            "ac": [
-                {
-                    "ac": 20,
-                    "from": [
-                        "{@item shield|phb}",
-                        "{@item plate armor|phb}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 20,
+                "from": [
+                    "{@item shield|phb}",
+                    "{@item plate armor|phb}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -8579,8 +8282,7 @@
                 "Common",
                 "Primordial"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Manifest Mind - Cast Spell (4/Long Rest)",
                     "entries": [
                         "When casting a wizard spell, the Lightning Scribe can cast it from the spectral tome's space."
@@ -8605,8 +8307,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Spellcasting",
                     "spells": {
                         "0": {
@@ -8705,8 +8406,7 @@
                 "CW",
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Longsword, +1",
                     "entries": [
                         "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands."
@@ -8718,8 +8418,7 @@
                         "The Lightning Scribe uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Destructive Wrath}",
                                     "entry": "When the Lightning Scribe rolls lightning or thunder damage, they can use their Channel Divinity to deal maximum damage, instead of rolling."
@@ -8734,17 +8433,14 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
-                    "entries": [
-                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Lightning Scribe. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Lightning Scribe what it sees and hears (no action required).",
-                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                "entries": [
+                    "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Lightning Scribe. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Lightning Scribe what it sees and hears (no action required).",
+                    "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                ]
+            }],
+            "reaction": [{
                     "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
                     "entries": [
                         "The Lightning Scribe can reduce damage dealt to them by 8 ({@damage 1d12 + 2})"
@@ -8790,15 +8486,13 @@
                 "formula": "13d6 + 2d8 + 61",
                 "average": 180
             },
-            "ac": [
-                {
-                    "ac": 22,
-                    "from": [
-                        "plate +1",
-                        "shield +1"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 22,
+                "from": [
+                    "plate +1",
+                    "shield +1"
+                ]
+            }],
             "speed": {
                 "walk": 30,
                 "fly": 30
@@ -8825,8 +8519,7 @@
                 "Common",
                 "Primordial"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Manifest Mind - Cast Spell (4/Long Rest)",
                     "entries": [
                         "When casting a wizard spell, the Boltscrawler can cast it from the spectral tome's space."
@@ -8863,8 +8556,7 @@
                     ]
                 }
             ],
-            "spellcasting": [
-                {
+            "spellcasting": [{
                     "name": "Spellcasting",
                     "spells": {
                         "0": {
@@ -8976,8 +8668,7 @@
                 "CW",
                 "CC"
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Boltscrawler makes two attacks."
@@ -9001,8 +8692,7 @@
                         "The Boltscrawler uses their Channel Divinity in one of the following ways.",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Destructive Wrath}",
                                     "entry": "When the Boltscrawler rolls lightning or thunder damage, they can use their Channel Divinity to deal maximum damage, instead of rolling."
@@ -9017,17 +8707,14 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
-                    "entries": [
-                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Boltscrawler. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Boltscrawler what it sees and hears (no action required).",
-                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
+            "bonus": [{
+                "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                "entries": [
+                    "A Tiny spectral tome hovers in an unoccupied space within 60 feet of the Boltscrawler. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Boltscrawler what it sees and hears (no action required).",
+                    "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                ]
+            }],
+            "reaction": [{
                     "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
                     "entries": [
                         "The Boltscrawler can reduce damage dealt to them by 11 ({@damage 1d12 + 5})"
@@ -9106,25 +8793,22 @@
                 "halfling"
             ],
             "cr": "12",
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "headerEntries": [
-                        "The Captain's innate spellcasting ability is Wisdom. The Captain can innately cast the following spells, without providing material components:"
-                    ],
-                    "daily": {
-                        "1e": [
-                            "{@spell darkness}",
-                            "{@spell darkvision}",
-                            "{@spell pass without trace}",
-                            "{@spell silence}"
-                        ]
-                    },
-                    "ability": "wis"
-                }
-            ],
-            "trait": [
-                {
+            "spellcasting": [{
+                "name": "Innate Spellcasting",
+                "headerEntries": [
+                    "The Captain's innate spellcasting ability is Wisdom. The Captain can innately cast the following spells, without providing material components:"
+                ],
+                "daily": {
+                    "1e": [
+                        "{@spell darkness}",
+                        "{@spell darkvision}",
+                        "{@spell pass without trace}",
+                        "{@spell silence}"
+                    ]
+                },
+                "ability": "wis"
+            }],
+            "trait": [{
                     "name": "Assassinate",
                     "entries": [
                         "During its first turn, the Captain has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Captain scores against a surprised creature is a critical hit."
@@ -9191,8 +8875,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "The Captain makes three attacks: one with its dagger and two of which can be an unarmed strike or a dart attack."
@@ -9223,14 +8906,12 @@
                     ]
                 }
             ],
-            "reaction": [
-                {
-                    "name": "Uncanny Dodge",
-                    "entries": [
-                        "The Captain halves the damage that it takes from an attack that hits it. The Captain must be able to see the attacker."
-                    ]
-                }
-            ],
+            "reaction": [{
+                "name": "Uncanny Dodge",
+                "entries": [
+                    "The Captain halves the damage that it takes from an attack that hits it. The Captain must be able to see the attacker."
+                ]
+            }],
             "traitTags": [
                 "Sneak Attack"
             ],
@@ -9277,15 +8958,13 @@
                 "formula": "4d10 + 22",
                 "average": 42
             },
-            "ac": [
-                {
-                    "ac": 18,
-                    "from": [
-                        "{@item shield|phb}",
-                        "{@item studded leather armor|phb}"
-                    ]
-                }
-            ],
+            "ac": [{
+                "ac": 18,
+                "from": [
+                    "{@item shield|phb}",
+                    "{@item studded leather armor|phb}"
+                ]
+            }],
             "speed": {
                 "walk": 30
             },
@@ -9311,8 +8990,7 @@
                 "Goblin",
                 "Sylvan"
             ],
-            "trait": [
-                {
+            "trait": [{
                     "name": "Lucky Footwork",
                     "entries": [
                         "Ches can add 2 ({@damage 1d4}) when making a Dexterity saving throw."
@@ -9336,8 +9014,7 @@
                         "Ches can apply an Arcane Shot Option to an arrow when they make a ranged weapon attack",
                         {
                             "type": "list",
-                            "items": [
-                                {
+                            "items": [{
                                     "type": "item",
                                     "name": "{@b Piercing Arrow}",
                                     "entry": "The shot goes passes through a 30 foot long line and creatures in it must make a {@dc 13} Dexterity saving throw or take an extra 3 ({@damage 1d6}) piercing damage or half as much on a successful save."
@@ -9352,8 +9029,7 @@
                     ]
                 }
             ],
-            "action": [
-                {
+            "action": [{
                     "name": "Multiattack",
                     "entries": [
                         "Ches makes two attacks."
@@ -9372,8 +9048,7 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
+            "bonus": [{
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
                         "Ches can regain 10 ({@damage 1d10 + 5}) HP."
@@ -9399,146 +9074,134 @@
             "page": 1
         }
     ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
-            ]
-        }
-    ],
-    "race": [
-        {
-            "name": "Gnoll",
-            "source": "MPSource",
-            "page": 20,
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "ability": [
-                {
-                    "str": 2,
-                    "con": 1
-                }
-            ],
-            "heightAndWeight": {
-                "baseHeight": 66,
-                "heightMod": "2d10",
-                "baseWeight": 180,
-                "weightMod": "2d6"
+    "itemGroup": [{
+        "name": "Nighteye Dagger",
+        "source": "MPSource",
+        "page": 211,
+        "baseItem": "dagger|PHB",
+        "type": "M",
+        "rarity": "legendary",
+        "reqAttune": true,
+        "weight": 1,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+3",
+        "dagger": true,
+        "weapon": true,
+        "entries": [
+            "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+        ],
+        "items": [
+            "Nighteye Dagger - I|MPSource",
+            "Nighteye Dagger - II|MPSource",
+            "Nighteye Dagger - III|MPSource",
+            "Nighteye Dagger - Borem|MPSource",
+            "Nighteye Dagger - Haask|MPSource",
+            "Nighteye Dagger - Tharizdun|MPSource",
+            "Nighteye Dagger - Tyranthraxus|MPSource",
+            "Nighteye Dagger - Atropus|MPSource",
+            "Toxic Nighteye Dagger|MPSource"
+        ]
+    }],
+    "race": [{
+        "name": "Gnoll",
+        "source": "MPSource",
+        "page": 20,
+        "size": [
+            "M"
+        ],
+        "speed": 30,
+        "ability": [{
+            "str": 2,
+            "con": 1
+        }],
+        "heightAndWeight": {
+            "baseHeight": 66,
+            "heightMod": "2d10",
+            "baseWeight": 180,
+            "weightMod": "2d6"
+        },
+        "age": {
+            "mature": 20,
+            "max": 100
+        },
+        "darkvision": 60,
+        "traitTags": [
+            "Natural Weapon"
+        ],
+        "skillProficiencies": [{
+            "choose": {
+                "from": [
+                    "athletics",
+                    "intimidation",
+                    "perception",
+                    "survival"
+                ]
+            }
+        }],
+        "languageProficiencies": [{
+            "common": true,
+            "other": true
+        }],
+        "entries": [{
+                "name": "Age",
+                "type": "entries",
+                "entries": [
+                    "Gnoll mature and age at about the same rate as humans."
+                ]
             },
-            "age": {
-                "mature": 20,
-                "max": 100
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+                ]
             },
-            "darkvision": 60,
-            "traitTags": [
-                "Natural Weapon"
-            ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "athletics",
-                            "intimidation",
-                            "perception",
-                            "survival"
-                        ]
-                    }
-                }
-            ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": true
-                }
-            ],
-            "entries": [
-                {
-                    "name": "Age",
-                    "type": "entries",
-                    "entries": [
-                        "Gnoll mature and age at about the same rate as humans."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "Gnoll are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Hunter's Instincts",
-                    "entries": [
-                        "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Rampage",
-                    "entries": [
-                        "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries": [
-                        "You can speak, read, and write Common and Gnoll."
-                    ],
-                    "type": "entries"
-                }
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
+            {
+                "name": "Darkvision",
+                "entries": [
+                    "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Bite",
+                "entries": [
+                    "Your fangs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Hunter's Instincts",
+                "entries": [
+                    "You have proficiency in one of the following skills of your choice: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Rampage",
+                "entries": [
+                    "When you reduce a creature to 0 hit points with a melee attack, as a bonus action you can move up to half your speed and make a {@i bite} attack."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read, and write Common and Gnoll."
+                ],
+                "type": "entries"
+            }
+        ]
+    }],
+    "legendaryGroup": [{
             "name": "Veldarin",
             "source": "MPSource",
             "regionalEffects": [
@@ -9665,15 +9328,12 @@
             ]
         }
     ],
-    "variant": [
-        {
+    "variant": [{
             "name": "Glamoured Armor",
             "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
+            "requires": [{
+                "armor": true
+            }],
             "inherits": {
                 "namePrefix": "Glamoured ",
                 "source": "MPSource",
@@ -9690,11 +9350,9 @@
         {
             "name": "Survivalist's Armor",
             "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
+            "requires": [{
+                "armor": true
+            }],
             "inherits": {
                 "namePrefix": "Survivalist's ",
                 "source": "MPSource",
@@ -9713,11 +9371,9 @@
         {
             "name": "Frost Tongue",
             "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
+            "requires": [{
+                "sword": true
+            }],
             "inherits": {
                 "namePrefix": "Frost Tongue ",
                 "source": "MPSource",

@@ -1,25 +1,14 @@
 {
     "sources": [{
-            "json": "MPSource",
-            "abbreviation": "MPE",
-            "full": "Merged Planes Enchiridion",
-            "authors": [
-                "Me"
-            ],
-            "version": "1.0.0",
-            "color": "5c28a1"
-        },
-        {
-            "json": "MPPirate",
-            "abbreviation": "MPPirate",
-            "full": "Merged Planes Pirates",
-            "authors": [
-                "Me"
-            ],
-            "version": "1.0.0",
-            "color": "2b65ec"
-        }
-    ],
+        "json": "MPSource",
+        "abbreviation": "MPE",
+        "full": "Merged Planes Enchiridion",
+        "authors": [
+            "Me"
+        ],
+        "version": "1.0.0",
+        "color": "5c28a1"
+    }],
     "dateAdded": 1620498967,
     "dateLastModified": 1620498967
 }
