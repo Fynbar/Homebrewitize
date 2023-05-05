@@ -72,7 +72,7 @@
             "trait": [{
                 "name": "Charge",
                 "entries": [
-                    "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra {@h}9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+                    "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra 9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
                 ]
             }],
             "action": [{
@@ -320,7 +320,7 @@
             "action": [{
                 "name": "Bite",
                 "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus {@h}3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage plus {@h}3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
+                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage 3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
                 ]
             }],
             "environment": [
@@ -420,7 +420,7 @@
                 {
                     "name": "Rotting Fist",
                     "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus {@h}7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by {@h}4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 1}) bludgeoning damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw or be cursed with Gibdo rot. The cursed target can't regain hit points, and its hit point maximum decreases by 4 ({@damage 1d6 + 1}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
                     ]
                 },
                 {
