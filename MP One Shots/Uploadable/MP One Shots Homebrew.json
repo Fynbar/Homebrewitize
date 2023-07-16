@@ -8,343 +8,13 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.6",
+                "version": "1.0.7",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1682782479.0
+        "dateLastModified": 1687659753.0
     },
-    "legendaryGroup": [
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "lairActions": [
-                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": []
-                }
-            ]
-        },
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "regionalEffects": [
-                "The Heartmeister imbues its vessel with magic that creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vessel always stays on course to the destination the Heartmeister names.",
-                        "The vessel doesn't sink even if its hull is breached"
-                    ]
-                },
-                "If Captain Ashbeak dies, these effects fade over the course of 1d6 hours."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties) while captaining a vessel, the Heartmeister can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
-                        "A strong wind propels the vessel, increasing its speed by 30 feet until initiative count 20 on the next round.",
-                        "The vessel regains 22 ({@damage 4d10}) hit points."
-                    ]
-                }
-            ]
-        }
-    ],
-    "vehicle": [
-        {
-            "name": "The Howling Knave",
-            "source": "MPOSource",
-            "page": 192,
-            "vehicleType": "SHIP",
-            "size": "G",
-            "dimensions": [
-                "100 ft.",
-                "20 ft."
-            ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 30,
-            "capPassenger": 20,
-            "capCargo": 100,
-            "pace": 5,
-            "str": 20,
-            "dex": 7,
-            "con": 17,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "trait": [
-                {
-                    "name": "Defiant Sails",
-                    "entries": [
-                        "These sails glitter with a fine coat of mithral treated with abjuration magic. While the sails are unfurled, ranged weapon attacks made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
-                    ]
-                }
-            ],
-            "hull": {
-                "ac": 15,
-                "hp": 300,
-                "dt": 15
-            },
-            "control": [
-                {
-                    "name": "Helm",
-                    "ac": 18,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-                    ]
-                }
-            ],
-            "movement": [
-                {
-                    "name": "Defiant Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "weapon": [
-                {
-                    "name": "Ballista",
-                    "ac": 15,
-                    "hp": 50,
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Mangonel",
-                    "ac": 15,
-                    "hp": 100,
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 3,
-                "2": 10,
-                "3": 20
-            },
-            "action": [
-                "On its turn, the Howling Knave can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Fire Ballista",
-                            "entry": "The Howling Knave can fire its {@object ballista} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonel",
-                            "entry": "The Howling Knave can fire its {@object mangonel} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Move",
-                            "entry": "The Howling Knave can use its helm to move with its sails."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "The Abyssal Pillager",
-            "source": "MPOSource",
-            "page": 194,
-            "vehicleType": "SHIP",
-            "size": "G",
-            "dimensions": [
-                "100 ft.",
-                "20 ft."
-            ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 40,
-            "capPassenger": 60,
-            "capCargo": 200,
-            "pace": 4,
-            "str": 20,
-            "dex": 4,
-            "con": 20,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "trait": [
-                {
-                    "name": "Death Vessel",
-                    "entries": [
-                        "Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
-                    ]
-                },
-                {
-                    "name": "Bones of Endless Toil",
-                    "entries": [
-                        "The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
-                    ]
-                }
-            ],
-            "hull": {
-                "ac": 15,
-                "hp": 500,
-                "dt": 20
-            },
-            "control": [
-                {
-                    "name": "Helm",
-                    "ac": 18,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Abyssal Pillager can't turn."
-                    ]
-                }
-            ],
-            "movement": [
-                {
-                    "name": "Oars",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "20 ft. (requires at least 20 crew)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-10 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "weapon": [
-                {
-                    "name": "Ballistas",
-                    "count": 2,
-                    "ac": 15,
-                    "hp": 50,
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Mangonels",
-                    "count": 2,
-                    "ac": 15,
-                    "hp": 100,
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Naval Ram",
-                    "ac": 20,
-                    "hp": 100,
-                    "dt": 10,
-                    "entries": [
-                        "The Abyssal Pillager has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the Abyssal Pillager."
-                    ]
-                }
-            ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 3,
-                "2": 10,
-                "3": 20
-            },
-            "action": [
-                "On its turn, the Abyssal Pillager can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Fire Ballistas",
-                            "entry": "The Abyssal Pillager can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonels",
-                            "entry": "The Abyssal Pillager can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Move",
-                            "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
     "monster": [
         {
             "name": "Armed Animated Armor",
@@ -1553,7 +1223,7 @@
                     "name": "Staff of Fire (Costs 2 Actions)",
                     "entries": [
                         "If Carrion has {@b {@i Investiture of Flame is Active}} active, this only Costs 1 Action.",
-                        ">Carrion makes an attack with the {@b {@i Staff of Fire}}."
+                        "Carrion makes an attack with the {@b {@i Staff of Fire}}."
                     ]
                 },
                 {
@@ -5135,7 +4805,7 @@
                                 "{@spell faerie fire}",
                                 "{@spell find familiar} (rit)",
                                 "{@spell greater invisibility}",
-                                "{@spell {@spell halucinatory terrain}}",
+                                "{@spell halucinatory terrain}",
                                 "{@spell mislead}",
                                 "{@spell misty step}",
                                 "{@spell sleep}",
@@ -5346,7 +5016,7 @@
                             "spells": [
                                 "{@spell cure wounds}",
                                 "{@spell ensnaring strike}",
-                                "{@spell {@spell fairie fire}}",
+                                "{@spell fairie fire}",
                                 "{@spell hunter's mark}",
                                 "{@spell zephyr strike|XGE}"
                             ],
@@ -5522,7 +5192,7 @@
                     ],
                     "daily": {
                         "1e": [
-                            "{@spell {@spell create of destroy water}}",
+                            "{@spell create of destroy water}",
                             "{@spell water walk}"
                         ]
                     },
@@ -5576,7 +5246,7 @@
                 {
                     "name": "Second Wind (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "The Glacier can to regain 11 ({@damage 1d10 + 6}) HP."
+                        "The Glacier can regain 11 ({@damage 1d10 + 6}) HP."
                     ]
                 },
                 {
@@ -5796,6 +5466,336 @@
             ],
             "source": "MPOSource",
             "page": 1
+        }
+    ],
+    "vehicle": [
+        {
+            "name": "The Howling Knave",
+            "source": "MPOSource",
+            "page": 192,
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "100 ft.",
+                "20 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 30,
+            "capPassenger": 20,
+            "capCargo": 100,
+            "pace": 5,
+            "str": 20,
+            "dex": 7,
+            "con": 17,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "trait": [
+                {
+                    "name": "Defiant Sails",
+                    "entries": [
+                        "These sails glitter with a fine coat of mithral treated with abjuration magic. While the sails are unfurled, ranged weapon attacks made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
+                    ]
+                }
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 300,
+                "dt": 15
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 18,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Defiant Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "weapon": [
+                {
+                    "name": "Ballista",
+                    "ac": 15,
+                    "hp": 50,
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Mangonel",
+                    "ac": 15,
+                    "hp": 100,
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 3,
+                "2": 10,
+                "3": 20
+            },
+            "action": [
+                "On its turn, the Howling Knave can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Fire Ballista",
+                            "entry": "The Howling Knave can fire its {@object ballista} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fire Mangonel",
+                            "entry": "The Howling Knave can fire its {@object mangonel} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Move",
+                            "entry": "The Howling Knave can use its helm to move with its sails."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Abyssal Pillager",
+            "source": "MPOSource",
+            "page": 194,
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "100 ft.",
+                "20 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 40,
+            "capPassenger": 60,
+            "capCargo": 200,
+            "pace": 4,
+            "str": 20,
+            "dex": 4,
+            "con": 20,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "trait": [
+                {
+                    "name": "Death Vessel",
+                    "entries": [
+                        "Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
+                    ]
+                },
+                {
+                    "name": "Bones of Endless Toil",
+                    "entries": [
+                        "The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
+                    ]
+                }
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 500,
+                "dt": 20
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 18,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Abyssal Pillager can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 20 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-10 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "weapon": [
+                {
+                    "name": "Ballistas",
+                    "count": 2,
+                    "ac": 15,
+                    "hp": 50,
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Mangonels",
+                    "count": 2,
+                    "ac": 15,
+                    "hp": 100,
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Naval Ram",
+                    "ac": 20,
+                    "hp": 100,
+                    "dt": 10,
+                    "entries": [
+                        "The Abyssal Pillager has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the Abyssal Pillager."
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 3,
+                "2": 10,
+                "3": 20
+            },
+            "action": [
+                "On its turn, the Abyssal Pillager can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Fire Ballistas",
+                            "entry": "The Abyssal Pillager can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fire Mangonels",
+                            "entry": "The Abyssal Pillager can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Move",
+                            "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "lairActions": [
+                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "regionalEffects": [
+                "The Heartmeister imbues its vessel with magic that creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vessel always stays on course to the destination the Heartmeister names.",
+                        "The vessel doesn't sink even if its hull is breached"
+                    ]
+                },
+                "If Captain Ashbeak dies, these effects fade over the course of 1d6 hours."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties) while captaining a vessel, the Heartmeister can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+                        "A strong wind propels the vessel, increasing its speed by 30 feet until initiative count 20 on the next round.",
+                        "The vessel regains 22 ({@damage 4d10}) hit points."
+                    ]
+                }
+            ]
         }
     ]
 }
