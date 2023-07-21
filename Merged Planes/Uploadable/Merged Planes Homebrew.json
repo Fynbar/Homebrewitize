@@ -8,13 +8,190 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.54",
+                "version": "1.0.55",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1682782419.0
+        "dateLastModified": 1689909506.0
     },
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "monsterFluff": [
+        {
+            "name": "Eldritch Lich",
+            "source": "MPSource",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        "From beyond the stars, a Great Old One whispers promises of reality-defying knowledge and world-bending power. When a wizard or a warlock hears that whisper and listens too intently, they might set foot on the twisting path toward becoming an eldritch lich.",
+                        "Like other liches, eldritch liches are spellcasters who have cheated death, but an eldritch lich does so by allowing a Great Old One to implant a Far Realm parasite in the lich. That parasite bestows undeath upon the spellcaster and causes strange tentacles to sprout from the body. The parasite's mouth is visible on the lich's torso, and the parasite guards the lich against destruction, reviving the lich a few days after death. Canny foes can sabotage an eldritch lich's revival by slaying the lich in a magic circle, thereby forcing the lich to return in a distorted form, robbed of most of its power.",
+                        "An eldritch lich constantly hears bizarre whispers from the Far Realm, to which the lich nods and mutters. Occasionally, the lich uses its telepathy to share those whispers with the minds around it."
+                    ]
+                },
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Form of the Great Old One",
+                            "entries": [
+                                "Multiple entities bear the title Great Old One. You may roll on the Great Old Ones table to determine which entity gave an eldritch lich its parasite.",
+                                {
+                                    "type": "entries",
+                                    "name": "Great Old Ones",
+                                    "entries": [
+                                        {
+                                            "type": "table",
+                                            "colLabels": [
+                                                "d6",
+                                                "Form"
+                                            ],
+                                            "colStyles": [
+                                                "col-2 text-center",
+                                                "col-10"
+                                            ],
+                                            "rows": [
+                                                [
+                                                    "1",
+                                                    "Cthulhu"
+                                                ],
+                                                [
+                                                    "2",
+                                                    "Tharizdun, the Chained God"
+                                                ],
+                                                [
+                                                    "3",
+                                                    "Dendar, the Night Serpent"
+                                                ],
+                                                [
+                                                    "4",
+                                                    "Ghaunadaur"
+                                                ],
+                                                [
+                                                    "5",
+                                                    "Zargon, the Returner"
+                                                ],
+                                                [
+                                                    "6",
+                                                    "That Which Lurks"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
+        }
+    ],
     "legendaryGroup": [
         {
             "name": "Veldarin",
@@ -140,112 +317,6 @@
                         "{@b Available after using {@i Abandon Corporal Form}} The Stranger creates a chronurgic ward around itself that remains until initiative count 20 on the next round or until the Stranger is no longer in the their lair. While the ward is active, whenever the Stranger takes damage, they instead take half the damage (rounded down). The ward erupts in a 15 sphere centered on the Stranger and each creature must make e a {@dc 18} Constitution saving throw or take the remaining damage on a failed save."
                     ]
                 }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
             ]
         }
     ],
@@ -423,6 +494,8 @@
                 "GO",
                 "S"
             ],
+            "level": 8,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -714,6 +787,8 @@
                 "C",
                 "E"
             ],
+            "level": 16,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -954,6 +1029,8 @@
                 "GO",
                 "TC"
             ],
+            "level": 12,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -1179,6 +1256,8 @@
             "languageTags": [
                 "C"
             ],
+            "level": 1,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -1626,6 +1705,8 @@
             "languageTags": [
                 "XX"
             ],
+            "level": 30,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -1869,6 +1950,8 @@
                 "AQ",
                 "C"
             ],
+            "level": 12,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -1946,6 +2029,7 @@
                 "Amphibious",
                 "Charge"
             ],
+            "isNamedCreature": true,
             "source": "MPSource",
             "page": 1
         },
@@ -2131,6 +2215,8 @@
                 "AU",
                 "C"
             ],
+            "level": 12,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -2344,6 +2430,7 @@
                 "C",
                 "DR"
             ],
+            "isNamedCreature": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -2733,6 +2820,8 @@
                 "P",
                 "S"
             ],
+            "level": 20,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -3103,6 +3192,8 @@
                 "P",
                 "S"
             ],
+            "level": 20,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -3395,6 +3486,8 @@
                 "P",
                 "S"
             ],
+            "level": 20,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -3687,8 +3780,195 @@
                 "P",
                 "S"
             ],
+            "level": 20,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
+        },
+        {
+            "name": "Eldritch Lich",
+            "source": "MPSource",
+            "page": 6,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "alignmentPrefix": "typically ",
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 165,
+                "formula": "22d8 + 66"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": {
+                    "number": 30,
+                    "condition": "(hover)"
+                },
+                "canHover": true
+            },
+            "str": 11,
+            "dex": 18,
+            "con": 16,
+            "int": 19,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "int": "+9",
+                "wis": "+7"
+            },
+            "skill": {
+                "arcana": "+14",
+                "perception": "+7"
+            },
+            "senses": [
+                "truesight 120ft."
+            ],
+            "passive": 17,
+            "resist": [
+                "necrotic",
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "languages": [
+                "Common",
+                "Deep Speech",
+                "telepathy 120 ft."
+            ],
+            "cr": "15",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The lich casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell detect magic}",
+                        "{@spell mage hand}",
+                        "{@spell prestidigitation}"
+                    ],
+                    "daily": {
+                        "2e": [
+                            "{@spell dispel magic}",
+                            "{@spell hunger of Hadar}",
+                            "{@spell lightning bolt}"
+                        ],
+                        "1e": [
+                            "{@spell arcane eye}",
+                            "{@spell dimension door}",
+                            "{@spell plane shift} (self only)"
+                        ]
+                    },
+                    "ability": "int",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Far Realm Parasite",
+                    "entries": [
+                        "Inside the lich's torso dwells a wormlike parasite that contains the lich's soul. When the lich dies, it implodes into the parasite, which then vanishes into the Far Realm. In {@dice 2d4} days, the parasite causes the lich to reappear within {@dice 1d4} miles of where it died. If the lich died inside a magic circle cast to contain Undead, the lich instead reappears as an {@creature otyugh} with all the lich's memories."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (4/Day)",
+                    "entries": [
+                        "If the lich fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Unusual Nature",
+                    "entries": [
+                        "The lich doesn't need air, food, drink, or sleep."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The lich makes one Parasitic Tentacle attack or uses Spellcasting. The lich also uses Psychic Whisper twice."
+                    ]
+                },
+                {
+                    "name": "Parasitic Tentacle",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}25 ({@damage 6d6 + 4}) piercing damage plus 25 ({@damage 6d6 + 4}) necrotic damage. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} target can repeat the save at the end of each of its turns, ending the effect on itself on a success. The third time the target fails the save, the target dies and dissolves into a {@creature gibbering mouther} that obeys the lich and uses the target's initiative."
+                    ]
+                },
+                {
+                    "name": "Psychic Whisper",
+                    "entries": [
+                        "The lich targets one creature it can see within 120 feet of itself. The target must succeed on a {@dc 17} Wisdom saving throw or take 25 ({@damage 6d6 + 4}) psychic damage and be {@condition stunned} until the end of the lich's next turn as incomprehensible whispers fill the target's mind."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Far Realm Step",
+                    "entries": [
+                        "Immediately after taking damage, the lich, along with any equipment it is wearing or carrying, magically teleports up to 60 feet to an unoccupied space it can see."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Legendary Resistances",
+                "Unusual Nature"
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DS",
+                "TP"
+            ],
+            "damageTags": [
+                "N",
+                "P",
+                "Y"
+            ],
+            "damageTagsSpell": [
+                "A",
+                "C",
+                "L",
+                "O"
+            ],
+            "spellcastingTags": [
+                "O"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "conditionInflict": [
+                "poisoned",
+                "stunned"
+            ],
+            "conditionInflictSpell": [
+                "blinded"
+            ],
+            "hasFluff": true
         },
         {
             "name": "Osxian Gloomlight",
@@ -3879,6 +4159,8 @@
                 "I",
                 "S"
             ],
+            "level": 8,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -4047,6 +4329,8 @@
                 "E",
                 "S"
             ],
+            "level": 8,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -4089,6 +4373,7 @@
                 "cr": "19",
                 "lair": "20"
             },
+            "pbNote": "+5",
             "save": {
                 "wis": "+5",
                 "cha": "+10"
@@ -4329,6 +4614,8 @@
                 "DR",
                 "E"
             ],
+            "level": 16,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -4585,6 +4872,8 @@
                 "C",
                 "G"
             ],
+            "level": 13,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -4761,7 +5050,7 @@
                         }
                     },
                     "headerEntries": [
-                        "The Split Servant is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). The Split Servant has the following warlock spells prepared:"
+                        "The Split Servant is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). The Split Servant has the following warlock spells prepared:"
                     ]
                 }
             ],
@@ -4877,6 +5166,8 @@
             "languageTags": [
                 "XX"
             ],
+            "level": 16,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -5175,6 +5466,8 @@
                 "S",
                 "U"
             ],
+            "level": 17,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -5221,6 +5514,7 @@
                 "cr": "24",
                 "lair": "25"
             },
+            "pbNote": "+6",
             "save": {
                 "con": "+11",
                 "int": "+12",
@@ -5541,6 +5835,8 @@
                 "DS",
                 "P"
             ],
+            "level": 19,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1,
             "legendaryGroup": {
@@ -5722,6 +6018,8 @@
                 "DR",
                 "TC"
             ],
+            "level": 11,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -5954,6 +6252,8 @@
                 "DR",
                 "TC"
             ],
+            "level": 17,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -7367,6 +7667,8 @@
             "languageTags": [
                 "C"
             ],
+            "level": 1,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -7547,6 +7849,8 @@
             "languageTags": [
                 "C"
             ],
+            "level": 1,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -7695,6 +7999,8 @@
             "languageTags": [
                 "C"
             ],
+            "level": 1,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -7939,6 +8245,8 @@
                 "E",
                 "G"
             ],
+            "level": 16,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -8102,6 +8410,8 @@
             "languageTags": [
                 "C"
             ],
+            "level": 8,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -8347,6 +8657,8 @@
                 "C",
                 "P"
             ],
+            "level": 8,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -8638,6 +8950,8 @@
                 "C",
                 "P"
             ],
+            "level": 12,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         },
@@ -8978,6 +9292,8 @@
                 "GO",
                 "S"
             ],
+            "level": 5,
+            "isNPC": true,
             "source": "MPSource",
             "page": 1
         }
