@@ -8,12 +8,12 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.9",
+                "version": "1.0.10",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1689909509.0
+        "dateLastModified": 1689981106.0
     },
     "legendaryGroup": [
         {
@@ -487,6 +487,7 @@
                 "walk": 35,
                 "climb": 35
             },
+            "pbNote": "+5",
             "cr": {
                 "cr": "10",
                 "xp": "5,000"
@@ -692,7 +693,7 @@
                 "E",
                 "U"
             ],
-            "level": 13,
+            "level": 14,
             "isNPC": true,
             "source": "MPOSource",
             "page": 1
@@ -2401,7 +2402,7 @@
                 "GO",
                 "TC"
             ],
-            "level": 6,
+            "level": 7,
             "isNPC": true,
             "source": "MPOSource",
             "page": 1
@@ -3100,7 +3101,7 @@
                 "C",
                 "S"
             ],
-            "level": 12,
+            "level": 10,
             "isNPC": true,
             "source": "MPOSource",
             "page": 1
@@ -3301,7 +3302,7 @@
                 "DS",
                 "E"
             ],
-            "level": 12,
+            "level": 10,
             "isNPC": true,
             "source": "MPOSource",
             "page": 1
@@ -4301,6 +4302,7 @@
                     "condition": "(40 ft. with {@i bladesong})"
                 }
             },
+            "pbNote": "+5",
             "cr": {
                 "cr": "12",
                 "xp": "8,400"
@@ -5071,6 +5073,7 @@
                 "walk": 30,
                 "swim": 30
             },
+            "pbNote": "+4",
             "cr": {
                 "cr": "6",
                 "xp": "2,300"

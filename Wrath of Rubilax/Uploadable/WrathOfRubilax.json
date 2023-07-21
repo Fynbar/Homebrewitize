@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.21",
+                "version": "1.0.22",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1689909515.0
+        "dateLastModified": 1689981108.0
     },
     "class": [
         {
@@ -3464,6 +3464,22 @@
             ]
         }
     ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
     "boon": [
         {
             "name": "Eurasia’s Blessing",
@@ -3479,115 +3495,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "item": [
-        {
-            "name": "Pinkie of the Celestial",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "entries": [
-                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
-                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
-                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
-            ]
-        },
-        {
-            "name": "Demon Core",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
-                {
-                    "type": "entries",
-                    "name": "Curse",
-                    "entries": [
-                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Staff of the Grove",
-            "source": "WOR",
-            "page": 204,
-            "srd": true,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": "by a druid",
-            "reqAttuneTags": [
-                {
-                    "class": "druid"
-                }
-            ],
-            "weight": 4,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "bonusWeapon": "+2",
-            "bonusSpellAttack": "+2",
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 4}",
-            "charges": 10,
-            "staff": true,
-            "entries": [
-                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
-                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
-                {
-                    "type": "entries",
-                    "name": "Spells",
-                    "entries": [
-                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Tree Form",
-                    "entries": [
-                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
-                    ]
-                }
-            ],
-            "attachedSpells": [
-                "pass without trace",
-                "animal friendship",
-                "awaken",
-                "barkskin",
-                "locate animals or plants",
-                "speak with animals",
-                "speak with plants",
-                "wall of thorns"
-            ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
         }
     ],
     "optionalfeature": [
@@ -4176,6 +4083,21 @@
             ]
         }
     ],
+    "itemGroup": [
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
     "legendaryGroup": [
         {
             "name": "Mycelius",
@@ -4202,6 +4124,99 @@
                         "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
                     ]
                 }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Pinkie of the Celestial",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Staff of the Grove",
+            "source": "WOR",
+            "page": 204,
+            "srd": true,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": "by a druid",
+            "reqAttuneTags": [
+                {
+                    "class": "druid"
+                }
+            ],
+            "weight": 4,
+            "weaponCategory": "simple",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "dmg2": "1d8",
+            "bonusWeapon": "+2",
+            "bonusSpellAttack": "+2",
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 4}",
+            "charges": 10,
+            "staff": true,
+            "entries": [
+                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
+                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
+                {
+                    "type": "entries",
+                    "name": "Spells",
+                    "entries": [
+                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
+                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tree Form",
+                    "entries": [
+                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
+                    ]
+                }
+            ],
+            "attachedSpells": [
+                "pass without trace",
+                "animal friendship",
+                "awaken",
+                "barkskin",
+                "locate animals or plants",
+                "speak with animals",
+                "speak with plants",
+                "wall of thorns"
             ]
         }
     ],
@@ -5528,7 +5543,7 @@
                 "E",
                 "U"
             ],
-            "level": 10,
+            "level": 19,
             "isNPC": true,
             "source": "WOR",
             "page": 1
@@ -5796,7 +5811,7 @@
             "languageTags": [
                 "C"
             ],
-            "level": 10,
+            "level": 16,
             "isNPC": true,
             "source": "WOR",
             "page": 1
@@ -6043,7 +6058,7 @@
                 "E",
                 "S"
             ],
-            "level": 16,
+            "level": 17,
             "isNPC": true,
             "source": "WOR",
             "page": 1,
@@ -6086,6 +6101,7 @@
             "speed": {
                 "walk": 30
             },
+            "pbNote": "+3",
             "cr": {
                 "cr": "4",
                 "xp": "1,100"
@@ -6390,6 +6406,7 @@
             "speed": {
                 "walk": 30
             },
+            "pbNote": "+3",
             "cr": {
                 "cr": "4",
                 "xp": "1,100"
@@ -6576,6 +6593,7 @@
             "speed": {
                 "walk": 45
             },
+            "pbNote": "+3",
             "cr": {
                 "cr": "3",
                 "xp": "700"
@@ -6936,21 +6954,6 @@
             ],
             "source": "WOR",
             "page": 1
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Fingers of the Celestial",
-            "source": "WOR",
-            "page": 211,
-            "rarity": "rare",
-            "reqAttune": true,
-            "entries": [
-                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
-            ],
-            "items": [
-                "Pinkie of the Celestial|WOR"
-            ]
         }
     ]
 }
