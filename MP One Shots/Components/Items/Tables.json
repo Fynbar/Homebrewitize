@@ -1,0 +1,60 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Test-Source",
+                "abbreviation": "MPOSource",
+                "full": "Merge Planes Table",
+                "authors": [
+                    "Me"
+                ],
+                "version": "1.0.0",
+                "color": "c2b280"
+            }
+        ],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "table": [
+        {
+            "name": "Ooze Rest Ambush",
+            "source": "MPOSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "colLabels": [
+                "1d10",
+                "Encounter"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "1 {@creature Black Pudding|MM}"
+                ],
+                [
+                    "2\u20133",
+                    "{@dice 1d6} {@creature Gray Ooze|MM}"
+                ],
+                [
+                    "4",
+                    "{@dice 1d3} {@creature Gray Ooze|MM|Psychic Grey Ooze}"
+                ],
+                [
+                    "5",
+                    "1 {@creature Slithering Tracker|MPMM}"
+                ],
+                [
+                    "6\u20137",
+                    "{@dice 1d3} {@creature Ochre Jelly|MM}"
+                ],
+                [
+                    "8\u201310",
+                    "{@dice 1d6} {@creature Oblex Spawn|MPMM}"
+                ]
+            ]
+        }
+    ]
+}

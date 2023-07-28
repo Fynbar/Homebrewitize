@@ -8,13 +8,54 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.10",
+                "version": "1.0.12",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1689981106.0
+        "dateLastModified": 1690509131.0
     },
+    "table": [
+        {
+            "name": "Ooze Rest Ambush",
+            "source": "MPOSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "colLabels": [
+                "1d10",
+                "Encounter"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "1 {@creature Black Pudding|MM}"
+                ],
+                [
+                    "2–3",
+                    "{@dice 1d6} {@creature Gray Ooze|MM}"
+                ],
+                [
+                    "4",
+                    "{@dice 1d3} {@creature Gray Ooze|MM|Psychic Grey Ooze}"
+                ],
+                [
+                    "5",
+                    "1 {@creature Slithering Tracker|MPMM}"
+                ],
+                [
+                    "6–7",
+                    "{@dice 1d3} {@creature Ochre Jelly|MM}"
+                ],
+                [
+                    "8–10",
+                    "{@dice 1d6} {@creature Oblex Spawn|MPMM}"
+                ]
+            ]
+        }
+    ],
     "legendaryGroup": [
         {
             "name": "Captain Ashbeak",
@@ -3538,6 +3579,7 @@
                 "E",
                 "U"
             ],
+            "level": 15,
             "source": "MPOSource",
             "page": 1
         },
@@ -5501,7 +5543,7 @@
                 {
                     "name": "Action Surge (Recharges after a Short or Long Rest)",
                     "entries": [
-                        "Smitty Werbenjagermanjensen can take one additional action on their turn."
+                        "Smitty Werbenjagermanjensen, AKA \"The Glacier\", can take one additional action on their turn."
                     ]
                 },
                 {
@@ -5513,24 +5555,24 @@
                 {
                     "name": "Combat Superiority (4d8/Long Rest)",
                     "entries": [
-                        "Glacier can use the following abilities:",
+                        "The Glacier can use the following abilities:",
                         {
                             "type": "list",
                             "items": [
                                 {
                                     "type": "item",
                                     "name": "{@i {@b Trip Attack}}",
-                                    "entry": "When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force a Large or smaller target to succeed a 15 {@dc Strength} saving throw or be knocked {@condition prone}."
+                                    "entry": "When the Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force a Large or smaller target to succeed a 15 {@dc Strength} saving throw or be knocked {@condition prone}."
                                 },
                                 {
                                     "type": "item",
                                     "name": "{@i {@b Disarming Attack}}",
-                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Strength} saving throw or drop the object Glacier choose. The object lands at its feet."
+                                    "entry": " When the Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Strength} saving throw or drop the object the Glacier choose. The object lands at its feet."
                                 },
                                 {
                                     "type": "item",
                                     "name": "{@i {@b Goading Attack}}",
-                                    "entry": " When Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Wisdom} saving throw or the target has disadvantage on all attack rolls against targets other than Glacier until the end of his next turn."
+                                    "entry": " When the Glacier hits with a weapon attack they add the superiority die to the attack's damage roll. They can force the target to succeed a 15 {@dc Wisdom} saving throw or the target has disadvantage on all attack rolls against targets other than the Glacier until the end of his next turn."
                                 }
                             ]
                         }
