@@ -8,13 +8,224 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.57",
+                "version": "1.0.58",
                 "color": "5c28a1"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1690336604.0
+        "dateLastModified": 1690509127.0
     },
+    "monsterFluff": [
+        {
+            "name": "Eldritch Lich",
+            "source": "MPSource",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        "From beyond the stars, a Great Old One whispers promises of reality-defying knowledge and world-bending power. When a wizard or a warlock hears that whisper and listens too intently, they might set foot on the twisting path toward becoming an eldritch lich.",
+                        "Like other liches, eldritch liches are spellcasters who have cheated death, but an eldritch lich does so by allowing a Great Old One to implant a Far Realm parasite in the lich. That parasite bestows undeath upon the spellcaster and causes strange tentacles to sprout from the body. The parasite's mouth is visible on the lich's torso, and the parasite guards the lich against destruction, reviving the lich a few days after death. Canny foes can sabotage an eldritch lich's revival by slaying the lich in a magic circle, thereby forcing the lich to return in a distorted form, robbed of most of its power.",
+                        "An eldritch lich constantly hears bizarre whispers from the Far Realm, to which the lich nods and mutters. Occasionally, the lich uses its telepathy to share those whispers with the minds around it."
+                    ]
+                },
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Form of the Great Old One",
+                            "entries": [
+                                "Multiple entities bear the title Great Old One. You may roll on the Great Old Ones table to determine which entity gave an eldritch lich its parasite.",
+                                {
+                                    "type": "entries",
+                                    "name": "Great Old Ones",
+                                    "entries": [
+                                        {
+                                            "type": "table",
+                                            "colLabels": [
+                                                "d6",
+                                                "Form"
+                                            ],
+                                            "colStyles": [
+                                                "col-2 text-center",
+                                                "col-10"
+                                            ],
+                                            "rows": [
+                                                [
+                                                    "1",
+                                                    "Cthulhu"
+                                                ],
+                                                [
+                                                    "2",
+                                                    "Tharizdun, the Chained God"
+                                                ],
+                                                [
+                                                    "3",
+                                                    "Dendar, the Night Serpent"
+                                                ],
+                                                [
+                                                    "4",
+                                                    "Ghaunadaur"
+                                                ],
+                                                [
+                                                    "5",
+                                                    "Zargon, the Returner"
+                                                ],
+                                                [
+                                                    "6",
+                                                    "That Which Lurks"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "table": [
+        {
+            "name": "Broker Result",
+            "source": "MPSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-6",
+                "col-4"
+            ],
+            "colLabels": [
+                "1d20",
+                "Interuption",
+                "Effect"
+            ],
+            "rows": [
+                [
+                    "1–2",
+                    "Doubles the time",
+                    "Roll again, reroll 1-2"
+                ],
+                [
+                    "3",
+                    "There's a quest",
+                    "Sidequest time baby!"
+                ],
+                [
+                    "4–8",
+                    "Auction, High Interest",
+                    "{@table Aucition Price|MPSource|Price} - 1d4 + 1"
+                ],
+                [
+                    "9–12",
+                    "Estate Sale, High Interest",
+                    "+{@dice 5d6}%"
+                ],
+                [
+                    "13–16",
+                    "Auction, Low Interest",
+                    "{@table Auction Price|MPSource|Price}"
+                ],
+                [
+                    "17–19",
+                    "Estate Sale, Low Interest",
+                    "+{@dice 2d6-4}%"
+                ],
+                [
+                    "20",
+                    "Super Cheap at an Estate Sale",
+                    "{@dice -25-2.5*1d10}%"
+                ]
+            ]
+        },
+        {
+            "name": "Auction Price",
+            "source": "MPSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "colLabels": [
+                "1d8",
+                "Adjustment"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "+30%"
+                ],
+                [
+                    "2–3",
+                    "+20%"
+                ],
+                [
+                    "4–5",
+                    "+10%"
+                ],
+                [
+                    "6",
+                    "+0%"
+                ],
+                [
+                    "7",
+                    "-5%"
+                ],
+                [
+                    "8",
+                    "-10%"
+                ]
+            ]
+        },
+        {
+            "name": "Time to find/deliver",
+            "source": "MPSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "colLabels": [
+                "1d12",
+                "Duration"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "3 weeks"
+                ],
+                [
+                    "2–3",
+                    "{@dice 1d20} Days"
+                ],
+                [
+                    "4",
+                    "{@dice 1d12} Days"
+                ],
+                [
+                    "5–6",
+                    "{@dice 1d10} Days"
+                ],
+                [
+                    "7",
+                    "{@dice 1d8} Days"
+                ],
+                [
+                    "8–9",
+                    "{@dice 1d6} Days"
+                ],
+                [
+                    "10–11",
+                    "{@dice 1d4} Days"
+                ],
+                [
+                    "12",
+                    "Next Day"
+                ]
+            ]
+        }
+    ],
     "item": [
         {
             "name": "Veldarin's Pact Baton",
@@ -610,218 +821,6 @@
                                         "The wielder targets one creature it can see within 30 feet of it. The target must succeed on a DC 18 Constitution saving throw or take 27 ({@damage 5d10}) necrotic damage and be {@condition poisoned} for 10 minutes. The poisoned target can repeat the saving throw at the end of each of each minute, ending the effect on itself on a success.",
                                         "This ability can be used as a free action after the wielder hits one creature with a weapon attack, forcing the target of the attack to make the saving throw.",
                                         "When a non-evil creature uses this ability they take 17 (5d6) poison damage and can only poison one creature at a time."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "table": [
-        {
-            "name": "Broker Result",
-            "source": "MPSource",
-            "page": 1,
-            "colStyles": [
-                "col-2 text-center",
-                "col-6",
-                "col-4"
-            ],
-            "colLabels": [
-                "1d20",
-                "Interuption",
-                "Effect"
-            ],
-            "rows": [
-                [
-                    "1–2",
-                    "Doubles the time",
-                    "Roll again, reroll 1-2"
-                ],
-                [
-                    "3",
-                    "There's a quest",
-                    "Sidequest time baby!"
-                ],
-                [
-                    "4–8",
-                    "Auction, High Interest",
-                    "{@table Aucition Price|MPSource|Price} - 1d4 + 1"
-                ],
-                [
-                    "9–12",
-                    "Estate Sale, High Interest",
-                    "+{@dice 5d6}%"
-                ],
-                [
-                    "13–16",
-                    "Auction, Low Interest",
-                    "{@table Auction Price|MPSource|Price}"
-                ],
-                [
-                    "17–19",
-                    "Estate Sale, Low Interest",
-                    "+{@dice 2d6-4}%"
-                ],
-                [
-                    "20",
-                    "Super Cheap at an Estate Sale",
-                    "{@dice -25-2.5*1d10}%"
-                ]
-            ]
-        },
-        {
-            "name": "Auction Price",
-            "source": "MPSource",
-            "page": 1,
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "colLabels": [
-                "1d8",
-                "Adjustment"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "+30%"
-                ],
-                [
-                    "2–3",
-                    "+20%"
-                ],
-                [
-                    "4–5",
-                    "+10%"
-                ],
-                [
-                    "6",
-                    "+0%"
-                ],
-                [
-                    "7",
-                    "-5%"
-                ],
-                [
-                    "8",
-                    "-10%"
-                ]
-            ]
-        },
-        {
-            "name": "Time to find/deliver",
-            "source": "MPSource",
-            "page": 1,
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "colLabels": [
-                "1d12",
-                "Duration"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "3 weeks"
-                ],
-                [
-                    "2–3",
-                    "{@dice 1d20} Days"
-                ],
-                [
-                    "4",
-                    "{@dice 1d12} Days"
-                ],
-                [
-                    "5–6",
-                    "{@dice 1d10} Days"
-                ],
-                [
-                    "7",
-                    "{@dice 1d8} Days"
-                ],
-                [
-                    "8–9",
-                    "{@dice 1d6} Days"
-                ],
-                [
-                    "10–11",
-                    "{@dice 1d4} Days"
-                ],
-                [
-                    "12",
-                    "Next Day",
-                    ""
-                ]
-            ]
-        }
-    ],
-    "monsterFluff": [
-        {
-            "name": "Eldritch Lich",
-            "source": "MPSource",
-            "entries": [
-                {
-                    "type": "entries",
-                    "entries": [
-                        "From beyond the stars, a Great Old One whispers promises of reality-defying knowledge and world-bending power. When a wizard or a warlock hears that whisper and listens too intently, they might set foot on the twisting path toward becoming an eldritch lich.",
-                        "Like other liches, eldritch liches are spellcasters who have cheated death, but an eldritch lich does so by allowing a Great Old One to implant a Far Realm parasite in the lich. That parasite bestows undeath upon the spellcaster and causes strange tentacles to sprout from the body. The parasite's mouth is visible on the lich's torso, and the parasite guards the lich against destruction, reviving the lich a few days after death. Canny foes can sabotage an eldritch lich's revival by slaying the lich in a magic circle, thereby forcing the lich to return in a distorted form, robbed of most of its power.",
-                        "An eldritch lich constantly hears bizarre whispers from the Far Realm, to which the lich nods and mutters. Occasionally, the lich uses its telepathy to share those whispers with the minds around it."
-                    ]
-                },
-                {
-                    "type": "section",
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Form of the Great Old One",
-                            "entries": [
-                                "Multiple entities bear the title Great Old One. You may roll on the Great Old Ones table to determine which entity gave an eldritch lich its parasite.",
-                                {
-                                    "type": "entries",
-                                    "name": "Great Old Ones",
-                                    "entries": [
-                                        {
-                                            "type": "table",
-                                            "colLabels": [
-                                                "d6",
-                                                "Form"
-                                            ],
-                                            "colStyles": [
-                                                "col-2 text-center",
-                                                "col-10"
-                                            ],
-                                            "rows": [
-                                                [
-                                                    "1",
-                                                    "Cthulhu"
-                                                ],
-                                                [
-                                                    "2",
-                                                    "Tharizdun, the Chained God"
-                                                ],
-                                                [
-                                                    "3",
-                                                    "Dendar, the Night Serpent"
-                                                ],
-                                                [
-                                                    "4",
-                                                    "Ghaunadaur"
-                                                ],
-                                                [
-                                                    "5",
-                                                    "Zargon, the Returner"
-                                                ],
-                                                [
-                                                    "6",
-                                                    "That Which Lurks"
-                                                ]
-                                            ]
-                                        }
                                     ]
                                 }
                             ]
@@ -9820,6 +9819,343 @@
             "isNPC": true,
             "source": "MPSource",
             "page": 1
+        },
+        {
+            "name": "Soul of the Talisman",
+            "type": {
+                "type": "Undead",
+                "tags": [
+                    "warlock"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "M",
+            "cha": 20,
+            "wis": 16,
+            "int": 14,
+            "con": 16,
+            "str": 11,
+            "dex": 16,
+            "hp": {
+                "formula": "20d8 + 60",
+                "average": 140.0
+            },
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "21",
+            "save": {
+                "con": "+10",
+                "wis": "+10",
+                "cha": "+12"
+            },
+            "skill": {
+                "arcana": "+9",
+                "history": "+9",
+                "insight": "+10",
+                "perception": "+10"
+            },
+            "passive": 20,
+            "immune": [
+                "bludgeoning, piercing, and slashing from nonmagical attacks"
+            ],
+            "resist": [
+                "cold",
+                "lightning",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "languages": [
+                "Common plus up to two other languages"
+            ],
+            "senses": [
+                "truesight 120ft."
+            ],
+            "trait": [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the Ta-lich-man fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Rejuvenation",
+                    "entries": [
+                        "If the {@i {@b Talisman}} is not destroyed, the Ta-lich-man gains a new body in 5 ({@damage 1d10}) days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the {@i {@b talisman}}."
+                    ]
+                },
+                {
+                    "name": "Turn Resistance",
+                    "entries": [
+                        "The Ta-lich-man has advantage on saving throws against any effect that turns undead."
+                    ]
+                },
+                {
+                    "name": "Grave Touched (1/Turn)",
+                    "entries": [
+                        "Once during each of their turns, when the Ta-lich-man hits a creature with an attack roll, they can replace the damage type with necrotic damage. While using {@b {@i Form of Dread}}, the Ta-lich-man can roll one additional damage die of necrotic damage."
+                    ]
+                },
+                {
+                    "name": "Pact of the Talisman (6/Long Rest)",
+                    "entries": [
+                        "While wearing the amulet, when the Ta-lich-man fails an ability check or saving throw, it can add a 2 ({@damage 1d4}) to the roll, potentially turning the roll into a success."
+                    ]
+                },
+                {
+                    "name": "Undead Nature",
+                    "entries": [
+                        "The Ta-lich-man doesn't need to eat, drink, or breathe."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell mage hand}",
+                                "{@spell prestidigitation}",
+                                "{@spell ray of frost}"
+                            ]
+                        },
+                        "5": {
+                            "lower": "1",
+                            "slots": 4,
+                            "spells": [
+                                "{@spell antilife shell}",
+                                "{@spell bane}",
+                                "{@spell blindness/deafness}",
+                                "{@spell cloudkill}",
+                                "{@spell dimension door}",
+                                "{@spell dispel magic}",
+                                "{@spell elemental weapon}",
+                                "{@spell greater invisibility}",
+                                "{@spell hellish rebuke}",
+                                "{@spell misty step}",
+                                "{@spell phantasmal force}"
+                            ]
+                        }
+                    },
+                    "headerEntries": [
+                        "The Ta-lich-man is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The lich has the following warlock spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CL"
+            ],
+            "action": [
+                {
+                    "name": "Paralyzing Touch",
+                    "entries": [
+                        "{@i Melee Spell Attack:} 12 to hit, reach 5 ft., one creature. {@i Hit:} 10 ({@damage 3d6}) cold damage. The target must succeed on a {@dc 20} 18 Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Spirit Projection (Recharges after a Long Rest)",
+                    "entries": [
+                        "The Ta-lich-man can project its spirit from their body. The body left behind is {@condition unconscious} and in a state of suspended animation. Any damage or other effects that apply to its spirit or physical body affects the other. While projecting its spirit, the Ta-lich-man gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Both spirit and body gain resistance to bludgeoning, piercing, and slashing damage.",
+                                "When casting a spell of the conjuration or necromancy school, the spell doesn't require verbal or somatic components or material components that lack a gold cost.",
+                                "The Ta-lich-man has a flying speed of 30 ft. walking speed and can hover. It can move through creatures and objects as if they were difficult terrain, but takes 5 ({@damage 1d10}) force damage if it ends its turn inside a creature or an object.",
+                                "While using its {@i {@b Form of Dread}}, once during each of its turns when dealing necrotic damage, the Ta-lich-man regains hit points equal to half the amount of necrotic damage dealt."
+                            ]
+                        },
+                        "",
+                        "The Ta-lich-man's spirit can remain outside its body for up to 1 hour or until concentration is broken (as if concentrating on a spell). When this projection ends, this spirit returns to the body or the body magically teleports to the spirit's space (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Form of Dread (6/Long Rest)",
+                    "entries": [
+                        "The Ta-lich-man manifests an aspect of their patron's dreadful power, transforming for 1 minute, gaining the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The Ta-lich-man gains temporary hit points equal to 25 ({@damage 1d10 + 20}).",
+                                "The Ta-lich-man becomes immune to necrotic damage",
+                                "Once during each of their turns, when Ta-lich-man hit a creature with an attack roll, they can force it to make a {@dc 20} Wisdom saving throw, or be {@condition frightened} of the Ta-lich-man until the end of it's next turn.",
+                                "The Ta-lich-man is immune to the frightened condition."
+                            ]
+                        },
+                        "",
+                        "The Ta-lich-man's {@b {@i Form of Dread}} appears as a shroud of shadows masking eyes emanating incomprehensible whispers."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Necrotic Husk (Rechages after 1d4 Long Rests)",
+                    "entries": [
+                        "When the Ta-lich-man would be reduced to 0 hit points, it can drop to 1 hit point instead and cause its body to erupt with deathly energy. Each creature of their choice, within 30 feet of it takes 31 ({@damage 2d10 + 20}) necrotic damage. The Ta-lich-man gains 1 level of {@condition exhaustion}."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Cantrip",
+                    "entries": [
+                        "The Ta-lich-man casts a cantrip."
+                    ]
+                },
+                {
+                    "name": "Paralyzing Touch (Costs 2 Actions)",
+                    "entries": [
+                        "The Ta-lich-man uses its {@i {@b Paralyzing Touch}}."
+                    ]
+                },
+                {
+                    "name": "Frightening Gaze (Costs 2 Actions)",
+                    "entries": [
+                        "The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw against this magic or become {@condition frightened} for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours."
+                    ]
+                },
+                {
+                    "name": "Disrupt Life (Costs 3 Actions)",
+                    "entries": [
+                        "Each non-undead creature within 20 feet of the Ta-lich-man must make a {@dc 20} Constitution saving throw against this magic, taking 21 21 ({@damage 6d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Rejuvenation",
+                "Turn Resistance"
+            ],
+            "source": "MPSource",
+            "page": 1
+        }
+    ],
+    "variant": [
+        {
+            "name": "Glamoured Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Glamoured ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+                ]
+            }
+        },
+        {
+            "name": "Survivalist's Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Survivalist's ",
+                "source": "MPSource",
+                "page": 1,
+                "tier": "major",
+                "rarity": "rare",
+                "bonusAc": "+1",
+                "entries": [
+                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
+                    "While wearing this armor you are immune to the effects of severe weather.",
+                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
+                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
+                ]
+            }
+        },
+        {
+            "name": "Frost Tongue",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Frost Tongue ",
+                "source": "MPSource",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+                ]
+            },
+            "hasFluffImages": false
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Nighteye Dagger",
+            "source": "MPSource",
+            "page": 211,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "bonusWeapon": "+3",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
+            ],
+            "items": [
+                "Nighteye Dagger - I|MPSource",
+                "Nighteye Dagger - II|MPSource",
+                "Nighteye Dagger - III|MPSource",
+                "Nighteye Dagger - Borem|MPSource",
+                "Nighteye Dagger - Haask|MPSource",
+                "Nighteye Dagger - Tharizdun|MPSource",
+                "Nighteye Dagger - Tyranthraxus|MPSource",
+                "Nighteye Dagger - Atropus|MPSource",
+                "Toxic Nighteye Dagger|MPSource"
+            ]
         }
     ],
     "legendaryGroup": [
@@ -10047,112 +10383,6 @@
                     ],
                     "type": "entries"
                 }
-            ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Glamoured Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Glamoured ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
-                ]
-            }
-        },
-        {
-            "name": "Survivalist's Armor",
-            "type": "GV",
-            "requires": [
-                {
-                    "armor": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Survivalist's ",
-                "source": "MPSource",
-                "page": 1,
-                "tier": "major",
-                "rarity": "rare",
-                "bonusAc": "+1",
-                "entries": [
-                    "You have a {=bonusAc} bonus to AC while wearing this armor.",
-                    "While wearing this armor you are immune to the effects of severe weather.",
-                    "When you are in severe cold, you have resistance to fire damage, Inversely, you have resistance to cold damage while in severe heat.",
-                    "You have adantage on any Wisdom ({@skill Survival}) checks made while wearing this armor."
-                ]
-            }
-        },
-        {
-            "name": "Frost Tongue",
-            "type": "GV",
-            "requires": [
-                {
-                    "sword": true
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Frost Tongue ",
-                "source": "MPSource",
-                "page": 170,
-                "srd": true,
-                "tier": "major",
-                "rarity": "rare",
-                "reqAttune": true,
-                "entries": [
-                    "You can use a bonus action to speak this magic sword's command word, causing icicles to erupt from the blade. These icicles shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is afrost, it deals an extra {@dice 3d6} cold damage to any target it hits. The icicles last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
-                ]
-            },
-            "hasFluffImages": false
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Nighteye Dagger",
-            "source": "MPSource",
-            "page": 211,
-            "baseItem": "dagger|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "weight": 1,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "bonusWeapon": "+3",
-            "dagger": true,
-            "weapon": true,
-            "entries": [
-                "A dark metal dagger with a warped eye as the hilt. A long dormant magic rests within callin to those who attuned to it."
-            ],
-            "items": [
-                "Nighteye Dagger - I|MPSource",
-                "Nighteye Dagger - II|MPSource",
-                "Nighteye Dagger - III|MPSource",
-                "Nighteye Dagger - Borem|MPSource",
-                "Nighteye Dagger - Haask|MPSource",
-                "Nighteye Dagger - Tharizdun|MPSource",
-                "Nighteye Dagger - Tyranthraxus|MPSource",
-                "Nighteye Dagger - Atropus|MPSource",
-                "Toxic Nighteye Dagger|MPSource"
             ]
         }
     ]
