@@ -49,6 +49,7 @@
             "subclassFeatures": [
                 "Circle of Abyssal Spores|Druid||Abyssal Spores|WOR|2",
                 "Fungal Infestation|Druid||Abyssal Spores|WOR|6",
+                "Contaminating Filth|Druid||Abyssal Spores|WOR|8",
                 "Spreading Spores|Druid||Abyssal Spores|WOR|10",
                 "Fungal Body|Druid||Abyssal Spores|WOR|14"
             ]
@@ -218,6 +219,21 @@
                 "Expending multiple uses of this feature causes the creature to use more powerful statistics. The options are: {@creature re-dead|WOR} (2 charges), {@creature gibdo|WOR} (4 charges), {@creature myconid adult|MM} (2 charges) or {@creature myconid sovereign|MM} (3 charges).",
                 "In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the {@action Attack} action, making one melee attack.",
                 "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Contaminating Filth",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 8,
+            "header": 2,
+            "entries": [
+                "At 8th level, the further exposure to twisted Hexblade magic has manifested, granting your spores a lingering energy.", 
+                "When an undead you control kills a creature, there is a {@damage 1d5|20%} chance that creature is reanimated as an undead as if summoned by the {@spell covenglide's animate dead|WOR} spell. This undead is typically a {@creature zombie|MM}, but this can be changed at the DM's discretion."
             ]
         },
         {

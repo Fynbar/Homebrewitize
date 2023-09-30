@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.22",
+                "version": "1.0.23",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1689981108.0
+        "dateLastModified": 1696047961.0
     },
     "class": [
         {
@@ -1932,6 +1932,7 @@
             "subclassFeatures": [
                 "Circle of Abyssal Spores|Druid||Abyssal Spores|WOR|2",
                 "Fungal Infestation|Druid||Abyssal Spores|WOR|6",
+                "Contaminating Filth|Druid||Abyssal Spores|WOR|8",
                 "Spreading Spores|Druid||Abyssal Spores|WOR|10",
                 "Fungal Body|Druid||Abyssal Spores|WOR|14"
             ]
@@ -2988,6 +2989,21 @@
             ]
         },
         {
+            "name": "Contaminating Filth",
+            "source": "WOR",
+            "page": 36,
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Abyssal Spores",
+            "subclassSource": "WOR",
+            "level": 8,
+            "header": 2,
+            "entries": [
+                "At 8th level, the further exposure to twisted Hexblade magic has manifested, granting your spores a lingering energy.",
+                "When an undead you control kills a creature, there is a {@damage 1d5|20%} chance that creature is reanimated as an undead as if summoned by the {@spell covenglide's animate dead|WOR} spell. This undead is typically a {@creature zombie|MM}, but this can be changed at the DM's discretion."
+            ]
+        },
+        {
             "name": "Spreading Spores",
             "source": "WOR",
             "page": 36,
@@ -3137,996 +3153,6 @@
             ]
         }
     ],
-    "spell": [
-        {
-            "name": "Aura of Desecration",
-            "level": 5,
-            "school": "A",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "damageInflict": [
-                "necrotic"
-            ],
-            "components": {
-                "v": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Hell's Lash",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "the forked tongue of a serpent"
-            },
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "fire"
-            ],
-            "spellAttack": [
-                "R"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Mote of Hell",
-            "level": 3,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
-                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
-                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
-            ],
-            "source": "WOR",
-            "page": 19,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a piece of sulfur"
-            },
-            "damageInflict": [
-                "fire",
-                "psychic"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Single Combat",
-            "level": 1,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    }
-                }
-            ],
-            "entries": [
-                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
-                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true
-            },
-            "savingThrow": [
-                "charisma"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Wall of Death",
-            "level": 5,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
-            ],
-            "source": "WOR",
-            "page": 20,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small piece of phosphorus"
-            },
-            "damageInflict": [
-                "necrotic"
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Illrigger",
-                        "source": "WOR"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Covenglide's Animate Dead",
-            "source": "WOR",
-            "page": 212,
-            "srd": true,
-            "level": 3,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "minute"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 10
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "entries": [
-                "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
-                "Your exposure to dark, Baltigan magic, has emoldened your power to raise the dead. You can summon additional types of powerful undead to serve you, consuming more remains in the process. You gain the ability to summon a {@creature gibdo|WOR} (4 corpses), a {@creature re-dead|WOR} (2 corpses), a {@creature stalfos|WOR} (2 skeletons), a {@creature stalhound|WOR} (1 skeleton), and {@creature stalkin|WOR} (5 per skeleton).",
-                "After examining the remains of a felled, mad druid, you gain insight a dangerous potential end to the path you follow. You also gain the ability to convert what remains of the dead into fungal monsters to enact your bidding. You gain the ability to summon a {@creature myconid adult|MM} (2 corpses) and a {@creature myconid sovereign|MM} (3 corpses)",
-                "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
-                "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
-                    ]
-                }
-            ],
-            "affectsCreatureType": [
-                "humanoid"
-            ],
-            "miscTags": [
-                "PRM",
-                "SMN",
-                "UBA"
-            ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "boon": [
-        {
-            "name": "Eurasia’s Blessing",
-            "source": "WOR",
-            "page": 79,
-            "type": "Elven",
-            "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
-                    ]
-                }
-            ]
-        }
-    ],
-    "optionalfeature": [
-        {
-            "name": "Dance of the Dragon",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to unleash a dragon's breath. The breath has a range of either a 15-foot cone, or a 20 by 5-foot line, and creatures in the area must make a Dexterity saving throw, taking half damage on a success. The damage is equal to {@dice 2d6} per level spell slot expended, to a max of 10d6. The damage type may be either poison, acid, fire, cold, or lightning."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have Dance of the Dragon active, you gain resistance to the damage type you used for the active effect and one other of your choice among the original choices. You may re-elect the types each time you use the active effect."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance with Death",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have Dance with Death active, you deal an additional {@dice d4} necrotic damage on all weapon attacks and gain advantage against saving throws that would frighten you."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Shifting Sand Salsa",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you can expend a spell slot to cast misty step, but target a number of creatures within 30 feet of yourself (including yourself) equal to the slot level to bring with you. The creatures you bring with you are placed within 5 feet of you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Shifting Sand Salsa active, you have the effects of a 1st-level armor of agathys spell cast on yourself, which refreshes at the start of each of your turns. However, the damage is slashing damage, instead of cold."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Tango of the Troll",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to conjure floating spectral troll arms. You conjure a number of arms equal to the spell slot level expended. You make a number of melee spell attacks on creatures within 15 feet of you equal to the number of troll arms summoned. Each attack deals slashing damage equal to {@dice 1d10} plus your Charisma modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Tango of the Troll active, you regain hit points equal to half your dancer level (rounded up) at the start of each of your turns. If you take fire or acid damage, this doesn't function at the start of your next turn. You do not gain temporary hit points if you gain more health than your hit point maximum."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Waltz of the Pouncing Feline",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to fill yourself with beast-like adrenaline, causing you to pounce on a creature within range of your movement speed, making a melee weapon attack on the creature, using your choice of your Strength or Dexterity modifier. On a hit, the creature is knocked prone and takes slashing damage equal to {@dice 1d8} per slot level plus your choice of your Strength or Dexterity modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Waltz of the Pouncing Feline active, you have claws on your hands, causing your unarmed strikes to deal {@dice 1d6} slashing damage, and allow you to use your Dexterity modifier instead of your Strength modifier if you so choose with them. If you use your action to make an unarmed strike, you can use your bonus action to make another unarmed strike, adding your modifier to the bonus action even if you do not possess the Two-Weapon Fighting fighting style."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Avian",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you can expend a spell slot to grow wings and dash forth up to 30 feet. Creatures within 5 feet of you in the path you dash make Dexterity saving throws, taking {@dice 1d8} slashing damage per slot level used on a failure, and half on a success."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Dance of the Avian active, you have a flight speed of 30 feet. You cannot wear medium or heavy armor with this active and must land at the end of each of your turns."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Mountain Goat Mambo",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to give yourself spectral horns that disappear after you ram with them and ram a creature within range of your movement speed, forcing a Dexterity save on the creature you target. On a failed save, the creature takes {@dice 1d12} bludgeoning damage per slot level, and is knocked prone, taking halfdamage and not being knocked prone on a success."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Mountain Goat Mambo active, you have a climbing speed equal to your walking speed."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Elevated Quickstep",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to give yourself the ability to levitate, as per the levitate spell. You may cast this spell on other creatures as well, equal to the level of spell slot expended."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Elevated Quickstep active, your jump height and distance are doubled and you gain advantage on Strength (Athletics) checks related to jumping."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Blessed Ballroom Dance",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to cast Bless on a number of allies equal to the level of spell slot + 1 in range for 1 minute."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Dance of the Blessed active, those blessed gain an increase to their hit points and hit point maximums equal to your Charisma modifier + proficiency + spell slot level."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Elements",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, target an ally's  and expend one spell slot. Their next attack will deal extra (acid, cold, fire, lightning, or thunder) damage to their target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "The targeted ally's weapon does {@dice d4} of extra (acid, cold, fire, lightning, or thunder) damage on all weapon attacks after the initial attack."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Barbarian Bolero",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, give a number of allies equal to the level of spell slot expended within 15 ft of you advantage on their attack rolls for their next turn, but enemies will have advantage on their attacks against these targets"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "The targets take half damage from your choice of slashing, bludgeoning, or piercing damage."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of Avoidance",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you begin a special dance that loosens your motion and allows you to evade attacks easier, giving you the benefits of the Dodge action until the start of your next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "You gain a bonus to your AC equal to the level of spell slot expended. Additionally, if you attack a creature that is benefiting from the Dodge action, you ignore those benefits as you match the rhythm of their evasive maneuvers."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Peace Polka",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, a number of hostile creature equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets are charmed by you for the next minute. On a successful save, the targeted creatures aren't charmed. A creature who is charmed is able to repeat this saving throw at the beginning of each of their turns, ending the effect on the success. When a creature is no longer charmed, they realize that they have been duped, and become hostile to you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "You and your allies gain advantage on attack rolls against creatures charmed by this effect, but if a charmed creature is attacked by you or your allies, regardless of hitting or missing, the effect ends."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Stage Fright Foxtrot",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, a number of hostile creatures equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targeted creatures subtract your proficiency bonus from all attack rolls, ability checks, and saving throws against you, your spells, and effects they make during the next {@dice d4} rounds. On a successful save, they resist this effect."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "Your anxious dance disconcerts your enemies. Hostile creatures within 15 feet of you are considered to be in difficult terrain."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Acrobat",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a reaction, expend a spell slot to begin a special dance as a creature makes an attack against you. Whether they hit or miss, move half your movement speed. This movement doesn't trigger opportunity attacks. If they hit, you have resistance against the damage. You may choose to do so after the attack roll but before you know the result. You may use this reaction a number of times equal to the level of spell slot expended until the start of your next turn but cannot use any other reactions."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "If you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of the turn."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Lightning Bolt Ballet",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When you are attacked by a creature within 30 feet of you, expend a spell slot to use a reaction to reduce the damage taken from bludgeoning, force, lightning, or thunder damage equal to a number of d8s equal to the level of spell slot expended. Additionally, the creature that attacked you must succeed on a Dexterity saving throw against your spell save DC or take lightning or thunder damage equal to a number of d8s equal to the level of spell slot expended + your charisma bonus."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After the initial attack, you gain resistance to lightning and thunder damage and deal an extra {@dice d4} of your choice of lightning or thunder damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Fiery Flamenco",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, expend a spell slot to create a trail of flames of a length equal to or less than your movement speed. Any creature that enters or start its turn inside the trail must make a Constitution saving throw against your spell save DC. On a failed save, its movement speed is halved and it takes fire damage equal to a number of d8s equal to the level of spell slot expended plus your charisma bonus. On a successful save, it takes half the fire damage and its speed isn't halved. The trail fades at the start of your next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After creating the trail, you have resistance to fire damage and deal an extra {@dice d4} of fire damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Snowflake Samba",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When a hostile creature successfully attacks you, expend a spell slot to use your reaction to cause the ground beneath and around them to erupt with ice, causing icicles to sprout around them. The area within 5 feet of them becomes difficult terrain, and they must make a Dexterity saving throw against your spell save DC or take cold damage equal to a number of d6s equal to the level of spell slot expended + your charisma bonus. On a successful save, they take half the damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After creating the ice, you have resistance to cold damage and deal an extra {@dice d4} cold damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of Entrainment",
-            "source": "WOR",
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 15,
-                        "class": {
-                            "name": "Dancer"
-                        },
-                        "subclass": {
-                            "name": "Dance College of the Twirling Blade",
-                            "visible": false
-                        }
-                    }
-                }
-            ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, expend a spell slot to begin an irresistible dance. A number of creatures equal to the level of spell slot expended (rounded down) within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets begin to dance uncontrollably, as per the spell Otto's Irresistible Dance unless they are immune to being charmed. On a successful save, the targeted creatures aren't charmed."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "Your dance moves beckon others to join you. When a creature that can see you an enters or starts its turn in a 15-foot radius of you must make a Charisma saving throw. On a failure, they must choose one among moving, taking an action, taking a bonus action, or taking a reaction. On a success, they resist this effect and are immune to it for 1 hour."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Fingers of the Celestial",
-            "source": "WOR",
-            "page": 211,
-            "rarity": "rare",
-            "reqAttune": true,
-            "entries": [
-                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
-            ],
-            "items": [
-                "Pinkie of the Celestial|WOR"
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Mycelius",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
-                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
-            ]
-        }
-    ],
     "item": [
         {
             "name": "Pinkie of the Celestial",
@@ -4217,6 +3243,52 @@
                 "speak with animals",
                 "speak with plants",
                 "wall of thorns"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Mycelius",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
+                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
+        }
+    ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
             ]
         }
     ],
@@ -6954,6 +6026,950 @@
             ],
             "source": "WOR",
             "page": 1
+        }
+    ],
+    "spell": [
+        {
+            "name": "Aura of Desecration",
+            "level": 5,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes {@damage 1d6} necrotic damage and you regain hit points equal to the damage dealt."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "damageInflict": [
+                "necrotic"
+            ],
+            "components": {
+                "v": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hell's Lash",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d10} fire damage, and on each of your tums for the duration you can use your action to deal {@dice 1d10} fire  damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "the forked tongue of a serpent"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mote of Hell",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.",
+                "No light, even magical light, can illuminate the area, and any creatures fully within the area are {@condition blinded}. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes {@damage 2d6} fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take {@damage 2d6} psychic damage as the voices of the damned crowd their mind.",
+                "Devils are immune to this damage, can see through the darkness, and regain {@dice 2d6} hit points if they start their turn in this area."
+            ],
+            "source": "WOR",
+            "page": 19,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of sulfur"
+            },
+            "damageInflict": [
+                "fire",
+                "psychic"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Single Combat",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.",
+                "This spell ends if you attack any other creature, if you cast a spell that doesn't include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true
+            },
+            "savingThrow": [
+                "charisma"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wall of Death",
+            "level": 5,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals {@damage 5d8} necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+            ],
+            "source": "WOR",
+            "page": 20,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of phosphorus"
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Illrigger",
+                        "source": "WOR"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Covenglide's Animate Dead",
+            "source": "WOR",
+            "page": 212,
+            "srd": true,
+            "level": 3,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
+                "Your exposure to dark, Baltigan magic, has emoldened your power to raise the dead. You can summon additional types of powerful undead to serve you, consuming more remains in the process. You gain the ability to summon a {@creature gibdo|WOR} (4 corpses), a {@creature re-dead|WOR} (2 corpses), a {@creature stalfos|WOR} (2 skeletons), a {@creature stalhound|WOR} (1 skeleton), and {@creature stalkin|WOR} (5 per skeleton).",
+                "After examining the remains of a felled, mad druid, you gain insight a dangerous potential end to the path you follow. You also gain the ability to convert what remains of the dead into fungal monsters to enact your bidding. You gain the ability to summon a {@creature myconid adult|MM} (2 corpses) and a {@creature myconid sovereign|MM} (3 corpses)",
+                "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+                "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+                    ]
+                }
+            ],
+            "affectsCreatureType": [
+                "humanoid"
+            ],
+            "miscTags": [
+                "PRM",
+                "SMN",
+                "UBA"
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Dance of the Dragon",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to unleash a dragon's breath. The breath has a range of either a 15-foot cone, or a 20 by 5-foot line, and creatures in the area must make a Dexterity saving throw, taking half damage on a success. The damage is equal to {@dice 2d6} per level spell slot expended, to a max of 10d6. The damage type may be either poison, acid, fire, cold, or lightning."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance of the Dragon active, you gain resistance to the damage type you used for the active effect and one other of your choice among the original choices. You may re-elect the types each time you use the active effect."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance with Death",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance with Death active, you deal an additional {@dice d4} necrotic damage on all weapon attacks and gain advantage against saving throws that would frighten you."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Shifting Sand Salsa",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to cast misty step, but target a number of creatures within 30 feet of yourself (including yourself) equal to the slot level to bring with you. The creatures you bring with you are placed within 5 feet of you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Shifting Sand Salsa active, you have the effects of a 1st-level armor of agathys spell cast on yourself, which refreshes at the start of each of your turns. However, the damage is slashing damage, instead of cold."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Tango of the Troll",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to conjure floating spectral troll arms. You conjure a number of arms equal to the spell slot level expended. You make a number of melee spell attacks on creatures within 15 feet of you equal to the number of troll arms summoned. Each attack deals slashing damage equal to {@dice 1d10} plus your Charisma modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Tango of the Troll active, you regain hit points equal to half your dancer level (rounded up) at the start of each of your turns. If you take fire or acid damage, this doesn't function at the start of your next turn. You do not gain temporary hit points if you gain more health than your hit point maximum."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Waltz of the Pouncing Feline",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to fill yourself with beast-like adrenaline, causing you to pounce on a creature within range of your movement speed, making a melee weapon attack on the creature, using your choice of your Strength or Dexterity modifier. On a hit, the creature is knocked prone and takes slashing damage equal to {@dice 1d8} per slot level plus your choice of your Strength or Dexterity modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Waltz of the Pouncing Feline active, you have claws on your hands, causing your unarmed strikes to deal {@dice 1d6} slashing damage, and allow you to use your Dexterity modifier instead of your Strength modifier if you so choose with them. If you use your action to make an unarmed strike, you can use your bonus action to make another unarmed strike, adding your modifier to the bonus action even if you do not possess the Two-Weapon Fighting fighting style."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Avian",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to grow wings and dash forth up to 30 feet. Creatures within 5 feet of you in the path you dash make Dexterity saving throws, taking {@dice 1d8} slashing damage per slot level used on a failure, and half on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Avian active, you have a flight speed of 30 feet. You cannot wear medium or heavy armor with this active and must land at the end of each of your turns."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Mountain Goat Mambo",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself spectral horns that disappear after you ram with them and ram a creature within range of your movement speed, forcing a Dexterity save on the creature you target. On a failed save, the creature takes {@dice 1d12} bludgeoning damage per slot level, and is knocked prone, taking halfdamage and not being knocked prone on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Mountain Goat Mambo active, you have a climbing speed equal to your walking speed."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Elevated Quickstep",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself the ability to levitate, as per the levitate spell. You may cast this spell on other creatures as well, equal to the level of spell slot expended."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Elevated Quickstep active, your jump height and distance are doubled and you gain advantage on Strength (Athletics) checks related to jumping."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Blessed Ballroom Dance",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to cast Bless on a number of allies equal to the level of spell slot + 1 in range for 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Blessed active, those blessed gain an increase to their hit points and hit point maximums equal to your Charisma modifier + proficiency + spell slot level."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Elements",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, target an ally's  and expend one spell slot. Their next attack will deal extra (acid, cold, fire, lightning, or thunder) damage to their target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targeted ally's weapon does {@dice d4} of extra (acid, cold, fire, lightning, or thunder) damage on all weapon attacks after the initial attack."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Barbarian Bolero",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, give a number of allies equal to the level of spell slot expended within 15 ft of you advantage on their attack rolls for their next turn, but enemies will have advantage on their attacks against these targets"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targets take half damage from your choice of slashing, bludgeoning, or piercing damage."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Avoidance",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you begin a special dance that loosens your motion and allows you to evade attacks easier, giving you the benefits of the Dodge action until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You gain a bonus to your AC equal to the level of spell slot expended. Additionally, if you attack a creature that is benefiting from the Dodge action, you ignore those benefits as you match the rhythm of their evasive maneuvers."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Peace Polka",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creature equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets are charmed by you for the next minute. On a successful save, the targeted creatures aren't charmed. A creature who is charmed is able to repeat this saving throw at the beginning of each of their turns, ending the effect on the success. When a creature is no longer charmed, they realize that they have been duped, and become hostile to you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You and your allies gain advantage on attack rolls against creatures charmed by this effect, but if a charmed creature is attacked by you or your allies, regardless of hitting or missing, the effect ends."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Stage Fright Foxtrot",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creatures equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targeted creatures subtract your proficiency bonus from all attack rolls, ability checks, and saving throws against you, your spells, and effects they make during the next {@dice d4} rounds. On a successful save, they resist this effect."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your anxious dance disconcerts your enemies. Hostile creatures within 15 feet of you are considered to be in difficult terrain."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Acrobat",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a reaction, expend a spell slot to begin a special dance as a creature makes an attack against you. Whether they hit or miss, move half your movement speed. This movement doesn't trigger opportunity attacks. If they hit, you have resistance against the damage. You may choose to do so after the attack roll but before you know the result. You may use this reaction a number of times equal to the level of spell slot expended until the start of your next turn but cannot use any other reactions."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "If you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of the turn."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Lightning Bolt Ballet",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you are attacked by a creature within 30 feet of you, expend a spell slot to use a reaction to reduce the damage taken from bludgeoning, force, lightning, or thunder damage equal to a number of d8s equal to the level of spell slot expended. Additionally, the creature that attacked you must succeed on a Dexterity saving throw against your spell save DC or take lightning or thunder damage equal to a number of d8s equal to the level of spell slot expended + your charisma bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After the initial attack, you gain resistance to lightning and thunder damage and deal an extra {@dice d4} of your choice of lightning or thunder damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Fiery Flamenco",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to create a trail of flames of a length equal to or less than your movement speed. Any creature that enters or start its turn inside the trail must make a Constitution saving throw against your spell save DC. On a failed save, its movement speed is halved and it takes fire damage equal to a number of d8s equal to the level of spell slot expended plus your charisma bonus. On a successful save, it takes half the fire damage and its speed isn't halved. The trail fades at the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the trail, you have resistance to fire damage and deal an extra {@dice d4} of fire damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Snowflake Samba",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When a hostile creature successfully attacks you, expend a spell slot to use your reaction to cause the ground beneath and around them to erupt with ice, causing icicles to sprout around them. The area within 5 feet of them becomes difficult terrain, and they must make a Dexterity saving throw against your spell save DC or take cold damage equal to a number of d6s equal to the level of spell slot expended + your charisma bonus. On a successful save, they take half the damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the ice, you have resistance to cold damage and deal an extra {@dice d4} cold damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Entrainment",
+            "source": "WOR",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Dancer"
+                        },
+                        "subclass": {
+                            "name": "Dance College of the Twirling Blade",
+                            "visible": false
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to begin an irresistible dance. A number of creatures equal to the level of spell slot expended (rounded down) within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets begin to dance uncontrollably, as per the spell Otto's Irresistible Dance unless they are immune to being charmed. On a successful save, the targeted creatures aren't charmed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your dance moves beckon others to join you. When a creature that can see you an enters or starts its turn in a 15-foot radius of you must make a Charisma saving throw. On a failure, they must choose one among moving, taking an action, taking a bonus action, or taking a reaction. On a success, they resist this effect and are immune to it for 1 hour."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
         }
     ]
 }
