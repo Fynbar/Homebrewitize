@@ -1,21 +1,24 @@
 {
     "_meta": {
-        "sources": [{
-            "json": "WOR",
-            "abbreviation": "WOR",
-            "full": "Wrath of Rubilax - Testing",
-            "authors": [
-                "The prettiest girl at the party AKA Connor"
-            ],
-            "version": "1.0.0",
-            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
-            "color": "c2b280"
-        }],
+        "sources": [
+            {
+                "json": "WOR",
+                "abbreviation": "WOR",
+                "full": "Wrath of Rubilax - Testing",
+                "authors": [
+                    "The prettiest girl at the party AKA Connor"
+                ],
+                "version": "1.0.0",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "color": "c2b280"
+            }
+        ],
         "dateAdded": 1620498967,
         "dateLastModified": 1620498967,
         "tested": true
     },
-    "monster": [{
+    "monster": [
+        {
             "name": "Stalfos",
             "source": "WOR",
             "page": 272,
@@ -27,12 +30,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 15,
-                "from": [
-                    "armor scraps"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 25,
                 "formula": "3d8 + 12"
@@ -69,18 +74,22 @@
                 "understands Common"
             ],
             "cr": "2",
-            "trait": [{
-                "name": "Charge",
-                "entries": [
-                    "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra 9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
-                ]
-            }],
-            "action": [{
-                "name": "Stalfos Longsword.",
-                "entries": [
-                    "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the Stalfos moves at least 10 feet straight toward a target and then hits it with a melee attack on the same turn, takes an extra 9 ({@damage 2d8}) bludgeoning damage. damage. If the target is a creature it must succeed on a DC {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Stalfos Longsword.",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -99,6 +108,42 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Sporefos",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A spore-dead has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the Sporefos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Stalfos (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the Sporfos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         },
         {
@@ -113,12 +158,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 7,
-                "from": [
-                    "brittle bones"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 7,
+                    "from": [
+                        "brittle bones"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 1,
                 "formula": "1d4 - 1"
@@ -148,18 +195,22 @@
                 "poisoned"
             ],
             "cr": "0",
-            "trait": [{
-                "name": "Pack Tactics",
-                "entries": [
-                    "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                ]
-            }],
-            "action": [{
-                "name": "Pin Prick",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalkin has advantage on an attack roll against a creature if at least one of the Stalkin's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Pin Prick",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -174,6 +225,42 @@
             ],
             "conditionInflict": [
                 "prone"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Sporekin",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A spore-dead has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the sporekin kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Stalkin (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the sporekin kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         },
         {
@@ -188,12 +275,14 @@
                 "L",
                 "E"
             ],
-            "ac": [{
-                "ac": 12,
-                "from": [
-                    "bones"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "bones"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 10,
                 "formula": "1d8 + 5"
@@ -225,18 +314,22 @@
                 "poisoned"
             ],
             "cr": "1/4",
-            "trait": [{
-                "name": "Pack Tactics",
-                "entries": [
-                    "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                ]
-            }],
-            "action": [{
-                "name": "Bite",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
-                ]
-            }],
+            "trait": [
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The Stalhound has advantage on an attack roll against a creature if at least one of the Stalhound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -304,7 +397,8 @@
                 "understands all languages it spoke in life but can't speak"
             ],
             "cr": "1/2",
-            "trait": [{
+            "trait": [
+                {
                     "name": "Undead Fortitude",
                     "entries": [
                         "If damage reduces the Re-Dead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Re-Dead drops to 1 hit point instead."
@@ -317,12 +411,14 @@
                     ]
                 }
             ],
-            "action": [{
-                "name": "Bite",
-                "entries": [
-                    "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage 3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
-                ]
-            }],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must make a {@dc 12} Strength saving, throw or the Re-Dead remains attached to the creature and takes {@h}8 ({@damage 2d6 + 1}) piercing damage 3 ({@damage 1d6}) necrotic damage on each turn until the target succeeds on the saving throw or the Re-Dead is killed."
+                    ]
+                }
+            ],
             "environment": [
                 "desert"
             ],
@@ -342,6 +438,42 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Sporehound",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A spore-dead has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Stalhound (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         },
         {
@@ -356,12 +488,14 @@
                 "N",
                 "E"
             ],
-            "ac": [{
-                "ac": 14,
-                "from": [
-                    "armor scraps"
-                ]
-            }],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "armor scraps"
+                    ]
+                }
+            ],
             "hp": {
                 "average": 63,
                 "formula": "10d8 + 18"
@@ -388,17 +522,20 @@
             "vulnerable": [
                 "fire"
             ],
-            "resist": [{
-                "resist": [
-                    "bludgeoning",
-                    "piercing",
-                    "slashing"
-                ],
-                "note": "from nonmagical attacks",
-                "cond": true
-            }],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
             "immune": [
-                "poison", "necrotic"
+                "poison",
+                "necrotic"
             ],
             "conditionImmune": [
                 "charmed",
@@ -411,7 +548,8 @@
                 "understands all languages it spoke in life but can't speak"
             ],
             "cr": "3",
-            "action": [{
+            "action": [
+                {
                     "name": "Multiattack",
                     "entries": [
                         "The Gibdo can use its Dreadful Glare and then make one attack with either its rotting fist or greatsword."
@@ -455,6 +593,132 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "FunGibdo",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A spore-dead has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the fungibdo kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Gibdo (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the fungibdo kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Zombie",
+            "source": "WOR",
+            "page": 43,
+            "_copy": {
+                "name": "Zombie",
+                "source": "MM"
+            },
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Spore Zombie",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A zpore zombie has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the spore zombie kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Zombie (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the spore zombie kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Skeleton",
+            "source": "WOR",
+            "page": 43,
+            "_copy": {
+                "name": "Skeleton",
+                "source": "MM"
+            },
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Spore Skeleton",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A spore skeleton has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the spore skeleton kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Skeleton (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the spore skeleton kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         }
     ]
