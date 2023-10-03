@@ -233,7 +233,8 @@
             "header": 2,
             "entries": [
                 "At 8th level, the further exposure to twisted Hexblade magic has manifested, granting your spores a lingering energy.", 
-                "When an undead you control kills a creature, there is a {@damage 1d5|20%} chance that creature is reanimated as an undead as if summoned by the {@spell covenglide's animate dead|WOR} spell. This undead is typically a {@creature zombie|MM}, but this can be changed at the DM's discretion."
+                "When an undead you control kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the {@spell covenglide's animate dead|WOR} spell. This undead is typically a {@creature zombie|MM}, but this can be changed at the DM's discretion.",
+                "Creatures lose this trait once your control over them ends as described in the animate dead spell."
             ]
         },
         {

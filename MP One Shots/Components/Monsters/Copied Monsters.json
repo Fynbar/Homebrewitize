@@ -1,0 +1,65 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MPOSource",
+                "abbreviation": "MPOSource",
+                "full": "Test Auto Souce - Copied Monsters",
+                "authors": [
+                    "Me"
+                ],
+                "version": "1.0.0",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "color": "c2b280"
+            }
+        ],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "monster": [
+        {
+            "name": "Dixie",
+            "source": "MPOSource",
+            "_copy": {
+                "name": "Sprite",
+                "source": "MM",
+                "_mod": {
+                    "*": [
+                        {
+                            "mode": "replaceTxt",
+                            "replace": "The sprite",
+                            "with": "Dixie"
+                        },
+                        {
+                            "mode": "replaceTxt",
+                            "replace": "the sprite",
+                            "with": "Dixie"
+                        }
+                    ]
+                }
+            }
+        }, {
+            "name": "Mr. Unicorn",
+            "source": "MPOSource",
+            "_copy": {
+                "name": "Unicorn",
+                "source": "MM",
+                "_mod": {
+                    "*": [
+                        {
+                            "mode": "replaceTxt",
+                            "replace": "The unicorn",
+                            "with": "Mr. Unicorn"
+                        },
+                        {
+                            "mode": "replaceTxt",
+                            "replace": "the unicorn",
+                            "with": "Mr. Unicorn"
+                        }
+                    ]
+                }
+            }
+        }],
+    "legendaryGroup": []
+}
