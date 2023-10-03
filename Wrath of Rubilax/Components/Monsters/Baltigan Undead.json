@@ -15,7 +15,19 @@
         ],
         "dateAdded": 1620498967,
         "dateLastModified": 1620498967,
-        "tested": true
+        "tested": true,
+        "otherSources": {
+            "monster": {
+                "MM": "WOR",
+                "DMG": "WOR",
+                "TCE": "WOR"
+            }
+        },
+        "dependencies": {
+            "monster": [
+                "MM"
+            ]
+        }
     },
     "monster": [
         {
@@ -115,12 +127,12 @@
                     "name": "Sporefos",
                     "entries": [
                         "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
-                        "A spore-dead has the following additional action.",
+                        "A sporefos has the following additional action.",
                         {
                             "type": "entries",
                             "name": "Contaminating Filth",
                             "entries": [
-                                "When the Sporefos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                "When the sporefos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
                             ]
                         }
                     ]
@@ -137,7 +149,7 @@
                                 "items": {
                                     "name": "Contaminating Filth",
                                     "entries": [
-                                        "When the Sporfos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                        "When the sporefos kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
                                     ]
                                 }
                             }
@@ -232,7 +244,7 @@
                     "name": "Sporekin",
                     "entries": [
                         "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
-                        "A spore-dead has the following additional action.",
+                        "A sporekin has the following additional action.",
                         {
                             "type": "entries",
                             "name": "Contaminating Filth",
@@ -344,6 +356,42 @@
             ],
             "conditionInflict": [
                 "prone"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Sporehound",
+                    "entries": [
+                        "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
+                        "A sporehound has the following additional action.",
+                        {
+                            "type": "entries",
+                            "name": "Contaminating Filth",
+                            "entries": [
+                                "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Stalhound (Spore)",
+                    "source": "WOR",
+                    "_mod": {
+                        "trait": {
+                            "mode": "appendArr",
+                            "items": {
+                                "items": {
+                                    "name": "Contaminating Filth",
+                                    "entries": [
+                                        "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         },
         {
@@ -442,7 +490,7 @@
             "variant": [
                 {
                     "type": "variant",
-                    "name": "Sporehound",
+                    "name": "SpoRe-Dead",
                     "entries": [
                         "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
                         "A spore-dead has the following additional action.",
@@ -450,7 +498,7 @@
                             "type": "entries",
                             "name": "Contaminating Filth",
                             "entries": [
-                                "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                "When the spore-dead kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
                             ]
                         }
                     ]
@@ -458,7 +506,7 @@
             ],
             "_versions": [
                 {
-                    "name": "Stalhound (Spore)",
+                    "name": "Re-Dead (Spore)",
                     "source": "WOR",
                     "_mod": {
                         "trait": {
@@ -467,7 +515,7 @@
                                 "items": {
                                     "name": "Contaminating Filth",
                                     "entries": [
-                                        "When the sporehound kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
+                                        "When the spore-dead kills a creature, there is a {@chance 20|20%} chance that creature is reanimated as an undead as if summoned by the spell {@spell covenglide's animate dead|WOR}, typically a {@creature zombie|MM}."
                                     ]
                                 }
                             }
@@ -600,7 +648,7 @@
                     "name": "FunGibdo",
                     "entries": [
                         "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
-                        "A spore-dead has the following additional action.",
+                        "A FunGibdo has the following additional action.",
                         {
                             "type": "entries",
                             "name": "Contaminating Filth",
@@ -645,7 +693,7 @@
                     "name": "Spore Zombie",
                     "entries": [
                         "An undead summoned by a creature exposed to the dark twisted magic of the Shdowfell can spread it's vile rot to the creatures that it slays.",
-                        "A zpore zombie has the following additional action.",
+                        "A spore zombie has the following additional action.",
                         {
                             "type": "entries",
                             "name": "Contaminating Filth",

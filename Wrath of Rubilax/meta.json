@@ -11,5 +11,17 @@
         "color": "c2b280"
     }],
     "dateAdded": 1620498967,
-    "dateLastModified": 1620498967
+    "dateLastModified": 1620498967,
+    "otherSources": {
+        "monster": {
+            "MM": "WOR",
+            "DMG": "WOR",
+            "TCE": "WOR"
+        }
+    },
+    "dependencies": {
+        "monster": [
+            "MM"
+        ]
+    }
 }
