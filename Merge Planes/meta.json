@@ -20,7 +20,14 @@
         },
         "dependencies": {
             "monster": [
-                "MM"
+                "MM",
+                "VGM",
+                "MTF",
+                "MPMM"
             ]
-        }
+        },
+        "internalCopies": [
+            "item",
+            "monster"
+        ]
 }

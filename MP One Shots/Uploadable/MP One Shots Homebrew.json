@@ -8,12 +8,12 @@
                 "authors": [
                     "Me"
                 ],
-                "version": "1.0.14",
+                "version": "1.0.15",
                 "color": "#326ba8"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1696305403.0,
+        "dateLastModified": 1696382175.0,
         "otherSources": {
             "monster": {
                 "MM": "MPOSource",
@@ -23,10 +23,56 @@
         },
         "dependencies": {
             "monster": [
-                "MM"
+                "MM",
+                "VGM",
+                "MTF",
+                "MPMM"
+            ]
+        },
+        "internalCopies": [
+            "item",
+            "monster"
+        ]
+    },
+    "legendaryGroup": [
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "lairActions": [
+                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "name": "Captain Ashbeak",
+            "source": "MPOSource",
+            "regionalEffects": [
+                "The Heartmeister imbues its vessel with magic that creates one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vessel always stays on course to the destination the Heartmeister names.",
+                        "The vessel doesn't sink even if its hull is breached"
+                    ]
+                },
+                "If Captain Ashbeak dies, these effects fade over the course of 1d6 hours."
+            ],
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties) while captaining a vessel, the Heartmeister can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
+                        "A strong wind propels the vessel, increasing its speed by 30 feet until initiative count 20 on the next round.",
+                        "The vessel regains 22 ({@damage 4d10}) hit points."
+                    ]
+                }
             ]
         }
-    },
+    ],
     "monster": [
         {
             "name": "Dixie",
@@ -5486,6 +5532,47 @@
             "page": 1
         }
     ],
+    "table": [
+        {
+            "name": "Ooze Rest Ambush",
+            "source": "MPOSource",
+            "page": 1,
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "colLabels": [
+                "1d10",
+                "Encounter"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "1 {@creature Black Pudding|MM}"
+                ],
+                [
+                    "2–3",
+                    "{@dice 1d6} {@creature Gray Ooze|MM}"
+                ],
+                [
+                    "4",
+                    "{@dice 1d3} {@creature Gray Ooze|MM|Psychic Grey Ooze}"
+                ],
+                [
+                    "5",
+                    "1 {@creature Slithering Tracker|MPMM}"
+                ],
+                [
+                    "6–7",
+                    "{@dice 1d3} {@creature Ochre Jelly|MM}"
+                ],
+                [
+                    "8–10",
+                    "{@dice 1d6} {@creature Oblex Spawn|MPMM}"
+                ]
+            ]
+        }
+    ],
     "vehicle": [
         {
             "name": "The Howling Knave",
@@ -5772,86 +5859,6 @@
                             "name": "Move",
                             "entry": "The Abyssal Pillager can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
                         }
-                    ]
-                }
-            ]
-        }
-    ],
-    "table": [
-        {
-            "name": "Ooze Rest Ambush",
-            "source": "MPOSource",
-            "page": 1,
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "colLabels": [
-                "1d10",
-                "Encounter"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "1 {@creature Black Pudding|MM}"
-                ],
-                [
-                    "2–3",
-                    "{@dice 1d6} {@creature Gray Ooze|MM}"
-                ],
-                [
-                    "4",
-                    "{@dice 1d3} {@creature Gray Ooze|MM|Psychic Grey Ooze}"
-                ],
-                [
-                    "5",
-                    "1 {@creature Slithering Tracker|MPMM}"
-                ],
-                [
-                    "6–7",
-                    "{@dice 1d3} {@creature Ochre Jelly|MM}"
-                ],
-                [
-                    "8–10",
-                    "{@dice 1d6} {@creature Oblex Spawn|MPMM}"
-                ]
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "lairActions": [
-                "When fighting inside its lair, the iago ashbeak can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the iago ashbeak can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": []
-                }
-            ]
-        },
-        {
-            "name": "Captain Ashbeak",
-            "source": "MPOSource",
-            "regionalEffects": [
-                "The Heartmeister imbues its vessel with magic that creates one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vessel always stays on course to the destination the Heartmeister names.",
-                        "The vessel doesn't sink even if its hull is breached"
-                    ]
-                },
-                "If Captain Ashbeak dies, these effects fade over the course of 1d6 hours."
-            ],
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties) while captaining a vessel, the Heartmeister can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The air within 60 feet of the vessel is filled with wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}.",
-                        "A strong wind propels the vessel, increasing its speed by 30 feet until initiative count 20 on the next round.",
-                        "The vessel regains 22 ({@damage 4d10}) hit points."
                     ]
                 }
             ]
