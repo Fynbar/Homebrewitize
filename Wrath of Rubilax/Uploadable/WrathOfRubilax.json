@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.27",
+                "version": "1.0.29",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1720055604.0,
+        "dateLastModified": 1729220109.0,
         "otherSources": {
             "monster": {
                 "MM": "WOR",
@@ -839,6 +839,257 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Warrior",
+            "source": "WOR",
+            "page": 70,
+            "hd": {
+                "number": 1,
+                "faces": 12
+            },
+            "proficiency": [
+                "str",
+                "con"
+            ],
+            "optionalfeatureProgression": [
+                {
+                    "name": "Fighting Style",
+                    "featureType": [
+                        "FS:F"
+                    ],
+                    "progression": {
+                        "1": 1
+                    }
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "heavy",
+                    "shield"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "animal handling",
+                                "athletics",
+                                "history",
+                                "insight",
+                                "intimidation",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+                    "(a) {@item shortbow|phb}, and {@item arrows (20)|phb|20 arrows} or (b) two {@item handaxe|phb|handaxes}",
+                    "(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
+                    "(a) {@item chain mail|phb} and a carved wooden idol related to your heritage"
+                ],
+                "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+                "defaultData": [
+                    {
+                        "a": [
+                            {
+                                "equipmentType": "weaponMartial"
+                            },
+                            "shield|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "shortbow|phb",
+                            "arrows (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "item": "handaxe|phb",
+                                "quantity": 2
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "explorer's pack|phb"
+                        ],
+                        "b": [
+                            "dungeoneer's pack|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "chain mail|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "or": [
+                        {
+                            "str": 13,
+                            "dex": 13
+                        }
+                    ]
+                },
+                "proficienciesGained": {
+                    "armor": [
+                        "light",
+                        "medium",
+                        "shield"
+                    ],
+                    "weapons": [
+                        "simple",
+                        "martial"
+                    ]
+                },
+                "entries": [
+                    "Multiclass characters divide their illrigger levels by three for the purposes of determining how many spell slots they get. This may result in an Architect of Ruin losing a spell level, but Asmodeus takes a dim view of Illriggers who stray from strict commitment to the path of Hell."
+                ]
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Berserks",
+                        "Berserk Damage"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            "+2"
+                        ],
+                        [
+                            2,
+                            "+2"
+                        ],
+                        [
+                            3,
+                            "+2"
+                        ],
+                        [
+                            3,
+                            "+2"
+                        ],
+                        [
+                            3,
+                            "+2"
+                        ],
+                        [
+                            4,
+                            "+2"
+                        ],
+                        [
+                            4,
+                            "+2"
+                        ],
+                        [
+                            4,
+                            "+2"
+                        ],
+                        [
+                            4,
+                            "+3"
+                        ],
+                        [
+                            4,
+                            "+3"
+                        ],
+                        [
+                            4,
+                            "+3"
+                        ],
+                        [
+                            5,
+                            "+3"
+                        ],
+                        [
+                            5,
+                            "+3"
+                        ],
+                        [
+                            5,
+                            "+3"
+                        ],
+                        [
+                            5,
+                            "+3"
+                        ],
+                        [
+                            5,
+                            "+3"
+                        ],
+                        [
+                            6,
+                            "+4"
+                        ],
+                        [
+                            6,
+                            "+4"
+                        ],
+                        [
+                            6,
+                            "+4"
+                        ],
+                        [
+                            6,
+                            "+4"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Fighting Style|Warrior|WOR|1",
+                "Berserk|Warrior|WOR|1",
+                "Reckless Attack|Warrior|WOR|2",
+                "Beastly Demeanor|Warrior|WOR|2",
+                {
+                    "classFeature": "Warrior Archetype|Warrior|WOR|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warrior|WOR|4",
+                "Extra Attack|Warrior|WOR|5",
+                {
+                    "classFeature": "Warrior Archetype feature|Warrior|WOR|6",
+                    "gainSubclassFeature": true
+                },
+                "Raw Intuition|Warrior|WOR|7",
+                "Bellow of the Beast|Warrior|WOR|7",
+                "Ability Score Improvement|Warrior|WOR|8",
+                "Onslaught|Warrior|WOR|9",
+                {
+                    "classFeature": "Warrior Archetype feature|Warrior|WOR|10",
+                    "gainSubclassFeature": true
+                },
+                "Revenge|Warrior|WOR|11",
+                "Ability Score Improvement|Warrior|WOR|12",
+                "Shake It Off|Warrior|WOR|13",
+                "Raw Intuition (Two Uses)|Warrior|WOR|13",
+                {
+                    "classFeature": "Warrior Archetype feature|Warrior|WOR|14",
+                    "gainSubclassFeature": true
+                },
+                "Upheaval|Warrior|WOR|15",
+                "Ability Score Improvement|Warrior|WOR|16",
+                "Beastly Reflexes|Warrior|WOR|17",
+                "Holmgang|Warrior|WOR|18",
+                "Raw Intuition (Three Uses)|Warrior|WOR|18",
+                "Ability Score Improvement|Warrior|WOR|19",
+                "Infuriate|Warrior|WOR|20"
+            ],
+            "subclassTitle": "Warrior Archetype",
+            "hasFluff": true
         }
     ],
     "classFeature": [
@@ -1481,6 +1732,341 @@
             "entries": [
                 "At 20th level, you gain ultimate power from your Diabolic Contract."
             ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Dueling"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Great Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Two-Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Thrown Weapon Fighting|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Unarmed Fighting|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Berserk",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 1,
+            "entries": [
+                "Beginning at the 1st level, on your turn as a bonus action, you can enter a Berserk state of mind, letting your inner beast act freely. While under the effect of Berserk you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on Strength checks and saving throws.",
+                        "When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a Warrior, as shown in the Berserk Damage column of the Warrior table.",
+                        "When you take slashing, piercing or bludgeoning damage, you reduce the damage by half your Constitution modifier rounded up."
+                    ]
+                },
+                "If you are able to cast spells, you are unable to do so while Berserk due to an inability to concentrate. Some warrior class features require target creatures to make saving throws. This is contested by your Berserk DC, calculated below.",
+                "Berserk DC = 8 + your proficiency modifier + your Strength modifier.",
+                "Your berserk state lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you have not attacked a hostile creature since your last turn or taken damage since then. You can also end your berserk state on your turn as a bonus action. For a number of rounds equal to 5 minus your Constitution modifier after your berserk state ends, you may not use the extra attack ability and your base movement speed is halved due to fatigue.",
+                "Once you have gone berserk the number of times shown in for your warrior level in the Berserks column of the Warrior table, you must finish a long rest before you can go Berserk again."
+            ]
+        },
+        {
+            "name": "Reckless Attack",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, when you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on all melee weapon attack rolls using Strength during that turn, but attack rolls against you are rolled with advantage until the beginning of your next turn."
+            ]
+        },
+        {
+            "name": "Beastly Demeanor",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 2,
+            "entries": [
+                "Beginning at the 2nd level you gain a passive Intimidation score which you may use to replace rolls when making Intimidation ability checks. This passive Intimidation score is equal to 10 + your Strength modifier."
+            ]
+        },
+        {
+            "name": "Warrior Archetype",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you select the tradition under which your warrior has trained. The Beast of Defiance tradition focuses on restraining the inner beast of the warrior, and letting its power out only when needed. The Beast of Deliverance tradition focuses on allowing the inner beast to run wild, fighting alongside its power to lay your enemies low. The Marauder has turned from harnessing their inner beast to become fierce fighters on their own power."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+                "The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 6,
+            "entries": [
+                "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Warrior Archetype feature",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature granted by your Warrior Archetype."
+            ]
+        },
+        {
+            "name": "Raw Intuition",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 7,
+            "entries": [
+                "Beginning at 7th level, when you are struck by a melee weapon attack, as a reaction you may move directly back 5ft. from the creature and reduce the damage you have taken by {@dice 1d6}. This damage reduction is increased to {@dice 2d6} at the 13th level and {@dice 3d6} at the 18th level. You can do this once. You must then finish a long rest to use Raw Intuition again. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 18th level."
+            ]
+        },
+        {
+            "name": "Bellow of the Beast",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 7,
+            "entries": [
+                "Beginning at the 7th level, you are able to attempt to dominate a conversation with the assistance of your inner beast. You may expend one use of Berserk to intimidate a creature with advantage and doubling all of your bonuses to the Intimidation skill."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Onslaught",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 9,
+            "entries": [
+                "Beginning at the 9th level, when you use the Dash action, you may make a melee weapon attack as a bonus action. You deal bonus damage on the attack equal to your Constitution modifier."
+            ]
+        },
+        {
+            "name": "Warrior Archetype feature",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature granted by your Warrior Archetype."
+            ]
+        },
+        {
+            "name": "Revenge",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 11,
+            "entries": [
+                "Beginning at the 11th level, when a creature resolves a melee weapon attack action against you, as a reaction you may make one weapon attack against that creature."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Shake It Off",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 13,
+            "entries": [
+                "Beginning at the 13th level, while under the effects of Berserk, when you make a saving throw to resist a condition (excluding: {@condition Exhaustion}, {@condition Grappled}, {@condition Incapacitated}, {@condition Prone}, {@condition Restrained}, {@condition Stunned} and {@condition Unconscious}) you may choose to end your Berserk state to automatically succeed on the saving throw. You may do this after your roll but before the outcome of the resist has been declared."
+            ]
+        },
+        {
+            "name": "Raw Intuition (two uses)",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 13,
+            "entries": [
+                "At 13th level, you can use Raw Intuition twice between long rests."
+            ]
+        },
+        {
+            "name": "Warrior Archetype feature",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature granted by your Warrior Archetype."
+            ]
+        },
+        {
+            "name": "Upheaval",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 15,
+            "entries": [
+                "Beginning at the 15th level, while you are under the effects of Berserk, you are able to unleash a powerful blow fueled by your vigor. You make an unarmed strike. If you hit, you may declare you are using Upheaval. The creature makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failure your unarmed strike deals nd12 force damage, where n is equal to your Constitution modifier with a minimum of {@dice 1d12} force damage and half as much damage on a success. Your Berserk state immediately ends after delivering the blow."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Beastly Reflexes",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 17,
+            "entries": [
+                "Beginning at the 17th level, while you are under the effects of Berserk you are able to make two reactions per round."
+            ]
+        },
+        {
+            "name": "Holmgang",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 18,
+            "entries": [
+                "Beginning at the 18th level, while under the effects of Berserk, as a bonus action you are able to enter an indomitable state known as Holmgang. For a number of rounds equal to half your Constitution modifier, rounded down, your hit points cannot fall below 1. Additionally, you may attempt to link yourself to a creature within 10ft. of you. If the creature is Large sized or smaller the target creature must make a Strength saving throw against your Berserk DC or be dragged to a space within 5 ft. of you. The creature cannot leave the 5ft. radius around you and your movement speed becomes 0ft. for the duration of Holmgang. You may only do this once. You must then finish a long rest to use Holmgang again."
+            ]
+        },
+        {
+            "name": "Raw Intuition (three uses)",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 18,
+            "entries": [
+                "At 18th level, you can use Raw Intuition three times between long rests."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Infuriate",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "level": 20,
+            "entries": [
+                "Beginning at the 20th level, if you have no uses of Berserk left when you roll for initiative, you recover 2 uses of Berserk instantly."
+            ]
         }
     ],
     "subclass": [
@@ -1994,6 +2580,51 @@
                 "Soul of the Raven|Warlock||Raven Queen|WOR|6",
                 "Raven's Shield|Warlock||Raven Queen|WOR|10",
                 "Queen's Right Hand|Warlock||Raven Queen|WOR|14"
+            ]
+        },
+        {
+            "name": "The Beast of Defiance",
+            "shortName": "Defiance",
+            "source": "WOR",
+            "className": "Warrior",
+            "classSource": "WOR",
+            "page": 72,
+            "subclassFeatures": [
+                "The Beast of Defiance|Warrior|WOR|Defiance|WOR|3",
+                "Disruption|Warrior|WOR|Defiance|WOR|3",
+                "Storm’s Path|Warrior|WOR|Defiance|WOR|6",
+                "Voice of the Beast|Warrior|WOR|Defiance|WOR|10",
+                "Inner Beast|Warrior|WOR|Defiance|WOR|14"
+            ]
+        },
+        {
+            "name": "The Beast of Deliverance",
+            "shortName": "Deliverance",
+            "source": "WOR",
+            "className": "Warrior",
+            "classSource": "WOR",
+            "page": 30,
+            "subclassFeatures": [
+                "The Beast of Deliverance|Warrior|WOR|Deliverance|WOR|3",
+                "Inner Release|Warrior|WOR|Deliverance|WOR|3",
+                "Storm's Eye|Warrior|WOR|Deliverance|WOR|6",
+                "Wild Expertise|Warrior|WOR|Deliverance|WOR|10",
+                "Fell Cleave|Warrior|WOR|Deliverance|WOR|14"
+            ]
+        },
+        {
+            "name": "The Marauder",
+            "shortName": "Marauder",
+            "source": "WOR",
+            "className": "Warrior",
+            "classSource": "WOR",
+            "page": 42,
+            "subclassFeatures": [
+                "The Marauder|Warrior|WOR|Marauder|WOR|3",
+                "Blood Bath|Warrior|WOR|Marauder|WOR|3",
+                "Maim|Warrior|WOR|Marauder|WOR|6",
+                "Ruffian Diplomacy|Warrior|WOR|Marauder|WOR|10",
+                "Overpower|Warrior|WOR|Marauder|WOR|14"
             ]
         }
     ],
@@ -3171,64 +3802,310 @@
             "entries": [
                 "Starting at 14th level, you can channel the Raven Queen's power to slay a creature. You can cast {@spell finger of death}. After you cast the spell with this feature, you can't do so again until you finish a long rest."
             ]
+        },
+        {
+            "name": "The Beast of Defiance",
+            "source": "WOR",
+            "page": 183,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Defiance",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "A warrior who has cut their teeth under this tradition has tamed the beast within their heart, and gained great control over it. They channel the strength from this force only when it is needed, and are able to fight defensively with the help of such forces. Finding succor in the destruction of their foes and defense of their friends sees a defiant warrior become a powerful ally."
+            ]
+        },
+        {
+            "name": "Disruption",
+            "source": "WOR",
+            "page": 183,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Defiance",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Beginning at the 3rd level, while you are under the effects of Berserk, when a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll."
+            ]
+        },
+        {
+            "name": "Storm’s Path",
+            "source": "WOR",
+            "page": 183,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Defiance",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Path. The target creature makes a Strength saving throw against your Berserk DC, on a failed save the creature deals {@dice 1d6} less damage on their damage rolls for a number of rounds equal to your Strength modifier. This damage reduction increases to {@dice 2d6} at the 14th level. You may only use Storm's Path once during each use of Berserk."
+            ]
+        },
+        {
+            "name": "Voice of the Beast",
+            "source": "WOR",
+            "page": 183,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Defiance",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "Beginning at the 10th level, you learn the {@spell Charm Monster} and {@spell Beast Sense} spells, and may cast each one once. Strength is your spellcasting ability for these spells. You may only cast Charm Monster on beasts. You can do this once. You must then finish a long rest to use Voice of the Beast again."
+            ]
+        },
+        {
+            "name": "Inner Beast",
+            "source": "WOR",
+            "page": 183,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Defiance",
+            "subclassSource": "WOR",
+            "level": 14,
+            "entries": [
+                "Beginning at the 14th level, as an action you can use Inner Beast. Make a melee weapon attack against a target creature. On a successful attack roll, you deal your normal weapon damage as well as recover hit points equal to {@dice 2d8+6} hit points and deal equal bonus damage. The effects of Berserk ends immediately after you use Inner Beast."
+            ]
+        },
+        {
+            "name": "The Beast of Deliverance",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Deliverance",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "A warrior of the Reckless Tradition has grown alongside their inner beast. They allow this force to take over and push their bodies to incredible feats of strength. They fight without care for their own safety, allowing bloodlust to take over. A reckless warrior's inner beast is hungry, and they allow this overwhelming force to feed without a thought of reserve."
+            ]
+        },
+        {
+            "name": "Inner Release",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Deliverance",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Beginning at the 3rd level, while you are under the effects of Berserk, your weapon attacks score a critical hit on a roll of 19 or 20. At the 14th level, your weapon attacks score a critical hit on a roll of 18-20."
+            ]
+        },
+        {
+            "name": "Storm's Eye",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Deliverance",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Eye. The target creature makes a Constitution saving throw against your Berserk DC, on a failed save the creature receives {@dice 1d6} bonus damage from weapon attacks against it for a number of rounds equal to your Strength ability modifier. This bonus damage is increased to {@dice 2d6} at the 14th level. You may only use Storm's Eye once during each use of Berserk."
+            ]
+        },
+        {
+            "name": "Wild Expertise",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Deliverance",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from {@skill Acrobatics}, {@skill Athletics}, {@skill Stealth} or {@skill Survival} and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill."
+            ]
+        },
+        {
+            "name": "Fell Cleave",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Deliverance",
+            "subclassSource": "WOR",
+            "level": 14,
+            "entries": [
+                "Beginning at the 14th level, while you are under the effects of Berserk you may use Fell Cleave as an action. Make an attack roll against a single creature within melee weapon range. This attack has a critical range of 15-20. On a successful attack, you deal the regular damage of the attack and a bonus {@dice 5d10} damage. Your Berserk ends immediately after the attack is resolved."
+            ]
+        },
+        {
+            "name": "The Marauder",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Marauder",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Some warriors choose to walk away from their inner beast, or try as they may, never make contact with this ferocious being within their hearts. Despite the abandonment or loss of their inner beast, a Marauder has trained extensively to compensate for these losses. Marauders fight with the same ferocity as those with their beasts intact, but only look to themselves as the source of power"
+            ]
+        },
+        {
+            "name": "Blood Bath",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Marauder",
+            "subclassSource": "WOR",
+            "level": 3,
+            "entries": [
+                "Beginning at the 3rd level, while you are under the effects of Berserk, when you land a successful melee weapon attack, you recover {@dice 1d4} hit points. You may only recover hit points once per round in this way. You recover {@dice 2d4} hit points starting at the 14th level."
+            ]
+        },
+        {
+            "name": "Maim",
+            "source": "WOR",
+            "page": 73,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Marauder",
+            "subclassSource": "WOR",
+            "level": 6,
+            "entries": [
+                "Beginning at the 6th level, when you use the Reckless Attack ability under the effects of Berserk, you can declare that you are using Maim. Enemy attacks do not gain advantage against you on their attack rolls for this round. You may use Maim once during each use of Berserk."
+            ]
+        },
+        {
+            "name": "Ruffian Diplomacy",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Marauder",
+            "subclassSource": "WOR",
+            "level": 10,
+            "entries": [
+                "Beginning at the 10th level, you gain proficiency in the persuasion skill. After interacting with a creature for 1 minute, you gain insight into how the creature will react to boasts of might or intimidation. Your DM reveals if these tactics would be especially effective against the creature and you gain advantage on the appropriate Persuasion or Intimidation check if applicable."
+            ]
+        },
+        {
+            "name": "Overpower",
+            "source": "WOR",
+            "page": 72,
+            "className": "Warrior",
+            "classSource": "WOR",
+            "subclassShortName": "Marauder",
+            "subclassSource": "WOR",
+            "level": 14,
+            "entries": [
+                "Beginning at the 14th level, you may cast the spell {@spell Destructive Wave} at the 5th level, using your Berserk DC for the spell effect. Your Berserk state ends immediately after the spell resolves."
+            ]
         }
     ],
-    "itemGroup": [
+    "boon": [
         {
-            "name": "Fingers of the Celestial",
+            "name": "Eurasia’s Blessing",
             "source": "WOR",
-            "page": 211,
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Pinkie of the Celestial",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
             "rarity": "rare",
             "reqAttune": true,
+            "wondrous": true,
             "entries": [
-                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Staff of the Grove",
+            "source": "WOR",
+            "page": 204,
+            "srd": true,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": "by a druid",
+            "reqAttuneTags": [
+                {
+                    "class": "druid"
+                }
             ],
-            "items": [
-                "Pinkie of the Celestial|WOR"
-            ]
-        }
-    ],
-    "legendaryGroup": [
-        {
-            "name": "Jahad",
-            "source": "WOR",
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), Jahad can take one of the following lair actions; Jahad can't take the same lair action two rounds in a row:",
+            "weight": 4,
+            "weaponCategory": "simple",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "dmg2": "1d8",
+            "bonusWeapon": "+2",
+            "bonusSpellAttack": "+2",
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 4}",
+            "charges": 10,
+            "staff": true,
+            "entries": [
+                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
+                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
                 {
-                    "type": "list",
-                    "items": [
-                        "Jahad targets a creature within his lair with unfiltered dragon's blood, making a Dexterity attack roll (11 to hit).",
-                        "Jahad converts dragon blood into pure magic, regaining [3d4+3] health.",
-                        "Jahad uses dragon blood to scrawl a rune he has expended onto his equipment."
+                    "type": "entries",
+                    "name": "Spells",
+                    "entries": [
+                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
+                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tree Form",
+                    "entries": [
+                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
                     ]
                 }
-            ]
-        },
-        {
-            "name": "Mycelius",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
-                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Vine Lord",
-            "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
-                    ]
-                }
+            ],
+            "attachedSpells": [
+                "pass without trace",
+                "animal friendship",
+                "awaken",
+                "barkskin",
+                "locate animals or plants",
+                "speak with animals",
+                "speak with plants",
+                "wall of thorns"
             ]
         }
     ],
@@ -3818,23 +4695,6 @@
             ]
         }
     ],
-    "boon": [
-        {
-            "name": "Eurasia’s Blessing",
-            "source": "WOR",
-            "page": 79,
-            "type": "Elven",
-            "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
-                    ]
-                }
-            ]
-        }
-    ],
     "condition": [
         {
             "name": "Interdicted",
@@ -3849,99 +4709,6 @@
                 }
             ],
             "hasFluffImages": false
-        }
-    ],
-    "item": [
-        {
-            "name": "Pinkie of the Celestial",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "entries": [
-                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
-                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
-                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
-            ]
-        },
-        {
-            "name": "Demon Core",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
-                {
-                    "type": "entries",
-                    "name": "Curse",
-                    "entries": [
-                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Staff of the Grove",
-            "source": "WOR",
-            "page": 204,
-            "srd": true,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": "by a druid",
-            "reqAttuneTags": [
-                {
-                    "class": "druid"
-                }
-            ],
-            "weight": 4,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "bonusWeapon": "+2",
-            "bonusSpellAttack": "+2",
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 4}",
-            "charges": 10,
-            "staff": true,
-            "entries": [
-                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
-                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
-                {
-                    "type": "entries",
-                    "name": "Spells",
-                    "entries": [
-                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Tree Form",
-                    "entries": [
-                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
-                    ]
-                }
-            ],
-            "attachedSpells": [
-                "pass without trace",
-                "animal friendship",
-                "awaken",
-                "barkskin",
-                "locate animals or plants",
-                "speak with animals",
-                "speak with plants",
-                "wall of thorns"
-            ]
         }
     ],
     "spell": [
@@ -5082,6 +5849,431 @@
             ]
         },
         {
+            "name": "Boblin, The Efficient Goblin King",
+            "type": {
+                "type": "Humanoid, Aberration, Fiend",
+                "tags": [
+                    "goblinoid"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "size": "S",
+            "cha": 18,
+            "wis": 14,
+            "int": 12,
+            "con": 24,
+            "str": 18,
+            "dex": 18,
+            "hp": {
+                "formula": "25d6 + 175",
+                "average": 250.0
+            },
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "20",
+            "save": {
+                "dex": "+10",
+                "con": "+13",
+                "cha": "+10"
+            },
+            "skill": {
+                "acrobatics": "+10",
+                "arcana": "+7",
+                "athletics": "+10",
+                "insight": "+14",
+                "intimidation": "+10",
+                "persuasion": "+10",
+                "sleight of Hand": "+10",
+                "stealth": "+16",
+                "survival": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "psychic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "Common",
+                "Deep Speech",
+                "Dwarvish",
+                "Elvish",
+                "Giant",
+                "Goblin",
+                "Orc"
+            ],
+            "senses": [
+                "darkvision 60ft.",
+                "truesight 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "Boblin can move through a space as narrow as 1 inch without squeezing."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "Boblin can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Boblin's Scepter",
+                    "entries": [
+                        "Boblin carries an opulent emerald scepter. He can use it to cast major illusion."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "Boblin has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries": [
+                        "If Boblin fails a saving throw, he can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Slacker Sense",
+                    "entries": [
+                        "Boblin is aware of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "Boblin regains 15 hit points at the start of its turn. If he takes acid or fire damage, this trait doesn't function at the start of his next turn. Boblin dies only if he starts his turn with 0 hit points and doesn't regenerate."
+                    ]
+                },
+                {
+                    "name": "Empathy For The King",
+                    "entries": [
+                        "If Boblin takes psychic damage, each creature within 20 feet of him takes that damage as well."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting (Psionics)",
+                    "headerEntries": [
+                        "Boblin's' innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He can innately cast the following spells, requiring no components:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell guidance}",
+                        "{@spell mage hand}",
+                        "{@spell vicious mockery}",
+                        "{@spell true strike}",
+                        "{@spell detect thoughts}",
+                        "{@spell levitate}"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "{@spell dominate monster}",
+                            "{@spell plane shift} (self only)"
+                        ]
+                    }
+                },
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "1": {
+                            "spells": [
+                                "{@spell charm person}",
+                                "{@spell command}",
+                                "{@spell comprehend languages}",
+                                "{@spell sanctuary}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell crown of madness}",
+                                "{@spell phantasmal force}",
+                                "{@spell see invisibility}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell clairvoyance}",
+                                "{@spell fear}",
+                                "{@spell meld into stone}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell confusion}",
+                                "{@spell stone shape}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell scrying}",
+                                "{@spell telekinesis}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Boblin is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Boblin has the following spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "P"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Boblin makes four attacks with his tentacles or two attacks with his fleshbow. Up to two tentacle attacks can be replaced by Employee Burnout. Boblin has an endless number of tentacles."
+                    ]
+                },
+                {
+                    "name": "Human Resources",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 10 to hit, reach 15 ft., one target. Hit: 17 ({@damage 3d8 + 4}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 18}), pulled into an unoccupied space within 5 feet of Boblin, and must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} until the end of their next turn. A creature cannot be frightened by this feature again for 24 hours. Boblin has unlimited tentacle whips."
+                    ]
+                },
+                {
+                    "name": "Fleshbow",
+                    "entries": [
+                        "{@atk rw} {@hit 10} to hit, range 80/320 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Employee Burnout",
+                    "entries": [
+                        "One creature {@condition grappled} by a tentacle of Boblin's must make a {@dc 17} Constitution saving throw. On a failed save, the target takes 18 ({@damage 4d8}) necrotic damage, and Boblin regains a number of hit points equal to half the necrotic damage taken."
+                    ]
+                },
+                {
+                    "name": "Leadership (1/rest)",
+                    "entries": [
+                        "For 1 minute, Boblin can utter a special command or warning whenever a nonhostile creature that he can see within 30 feet of him makes an attack roll or saving throw. The creature can add d4 to its roll provided it can hear and understand him. A creature can benefit from only one Leadership die at a time. This effect ends if Boblin is {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Managerial Will {@recharge 5}",
+                    "entries": [
+                        "Boblin magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Corporate Slave {@recharge 6}",
+                    "entries": [
+                        "Boblin targets all creatures of his choice he can see within 60 feet of him. The targets must succeed on a {@dc 18} Constitution saving throw or take 22 ({@damage 4d6 + 8}) necrotic damage and become corrupted for 1 minute. A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a {@dc 13} Intelligence check or the spell fails and is wasted. The corrupted creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Productivity Ray",
+                    "entries": [
+                        "Boblin shoots three of the following rays at random (reroll duplicates), choosing targets it can see within 120 feet of it:",
+                        "1. Charm Ray. The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition charmed} by Boblin for 1 hour, or until Boblin harms the creature.",
+                        "2. Paralyzing Ray. The targeted creature must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "3. Fear Ray. The targeted creature must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "4. Slowing Ray. The targeted creature must succeed on a {@dc 16} Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                        "5. Enervation Ray. The targeted creature must make a {@dc 16} Constitution saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one.",
+                        "6. Telekinetic Ray. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or Boblin moves it up to 30 feet in any direction. It is {@condition restrained} by the ray's telekinetic grip until the start of Boblin's next turn or until Boblin is {@condition incapacitated}. If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. Boblin can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.",
+                        "7. Sleep Ray. The targeted creature must succeed on a {@dc 16} Wisdom saving throw or fall asleep and remain {@condition unconscious} for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.",
+                        "8. Petrification Ray. The targeted creature must make a {@dc 16} Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the greater restoration spell or other magic.",
+                        "9. Disintegration Ray. If the target is a creature, it must succeed on a {@dc 16} Dexterity saving throw or take 45 ({@damage 10d8}) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.",
+                        "10. Death Ray. The targeted creature must succeed on a {@dc 16} Dexterity saving throw or take 55 ({@damage 10d10}) necrotic damage. The target dies if the ray reduces it to 0 hit points."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Escape",
+                    "entries": [
+                        "Boblin can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Resume Building {@recharge 5}",
+                    "entries": [
+                        "Boblin dissolves into a shifting mass of flesh, tentacles, eyes, claws, and mouths. Creatures of his choice he can see within 30 feet of himself must make a {@dc 18} Intelligence saving throw, taking 4d8 psychic damage on a failed save, or half as much damage on a successful one. This transformation lasts until the end of Boblin's next turn. While transformed, he has advantage on attack rolls, attack rolls made against him have disadvantage, and he can move through spaces at least 1 inch wide without squeezing."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Redirect Attack",
+                    "entries": [
+                        "When a creature Boblin can see targets him with an attack, he chooses another goblinoid within 30 feet of him. The two goblins swap places, and the chosen goblin becomes the target instead."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "The goblin can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The goblin regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Your Talents Are Better Suited for Other Tasks",
+                    "entries": [
+                        "Boblin targets one creature within 120 feet of him. He breaks the creature's concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell."
+                    ]
+                },
+                {
+                    "name": "An Eye For Productivity",
+                    "entries": [
+                        "Boblin uses a random eye ray."
+                    ]
+                },
+                {
+                    "name": "Managerial Rage",
+                    "entries": [
+                        "Boblin makes a melee attack and moves up to half his speed without invoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Aberrant Cantrip",
+                    "entries": [
+                        "Boblin casts a cantrip or innate spell."
+                    ]
+                },
+                {
+                    "name": "Aberrant Casting (2 actions)",
+                    "entries": [
+                        "Boblin casts a spell of 1st level or higher."
+                    ]
+                },
+                {
+                    "name": "Forced Retirement (3 actions)",
+                    "entries": [
+                        "Boblin uses Corporate Slave."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amorphous",
+                "Spider Climb",
+                "Magic Resistance",
+                "Regeneration"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DS",
+                "D",
+                "E",
+                "GI",
+                "GO",
+                "O"
+            ],
+            "source": "WOR",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Boblin, The Efficient Goblin King",
+                "source": "WOR"
+            }
+        },
+        {
+            "name": "Man-Catcher",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "goblin mutant"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "H",
+            "cha": 9,
+            "wis": 9,
+            "int": 7,
+            "con": 20,
+            "str": 23,
+            "dex": 9,
+            "hp": {
+                "formula": "7d12 + 35",
+                "average": 77.0
+            },
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "cr": "5",
+            "save": {
+                "str": "+9",
+                "con": "+8",
+                "wis": "+2"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "languages": [
+                "Giant",
+                "Goblin"
+            ],
+            "senses": [
+                "darkvision 60ft."
+            ],
+            "action": [
+                {
+                    "name": "Man-Catching Chain",
+                    "entries": [
+                        "{@i Melee Weapon Attack}: 9 to hit, reach 30 ft., one target. Hit: 16 ({@damage 3d6 + 6}) bludgeoning damage. On a hit, the target is {@condition grappled} (escape {@dc 17}, remove {@dc 17} Athletics or Sleight of Hand). Until the grapple ends, the target is {@condition restrained}, and the man-catcher can't use this attack on anything else. The man-catcher can reel in a grappled target 15 feet on its turn as a free action. Also, a grappled target is reeled in 15 feet at the start of its turn."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Furious Defense",
+                    "entries": [
+                        "After a creature the man-catcher can see is dealt damage by a foe within 30 feet of it, the man-catcher makes a chain attack against that foe."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "GI",
+                "GO"
+            ],
+            "source": "WOR",
+            "page": 1
+        },
+        {
             "name": "Advanced Bullywug",
             "type": {
                 "type": "Humanoid",
@@ -6109,87 +7301,6 @@
                 "name": "Jahad",
                 "source": "WOR"
             }
-        },
-        {
-            "name": "Man-Catcher",
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "goblin mutant"
-                ]
-            },
-            "alignment": [
-                "C",
-                "E"
-            ],
-            "size": "H",
-            "cha": 9,
-            "wis": 9,
-            "int": 7,
-            "con": 20,
-            "str": 23,
-            "dex": 9,
-            "hp": {
-                "formula": "7d12 + 35",
-                "average": 77.0
-            },
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "speed": {
-                "walk": 40
-            },
-            "cr": "5",
-            "save": {
-                "str": "+9",
-                "con": "+8",
-                "wis": "+2"
-            },
-            "skill": {
-                "athletics": "+9",
-                "perception": "+2"
-            },
-            "passive": 12,
-            "languages": [
-                "Giant",
-                "Goblin"
-            ],
-            "senses": [
-                "darkvision 60ft."
-            ],
-            "action": [
-                {
-                    "name": "Man-Catching Chain",
-                    "entries": [
-                        "{@i Melee Weapon Attack}: 9 to hit, reach 30 ft., one target. Hit: 16 ({@damage 3d6 + 6}) bludgeoning damage. On a hit, the target is {@condition grappled} (escape {@dc 17}, remove {@dc 17} Athletics or Sleight of Hand). Until the grapple ends, the target is {@condition restrained}, and the man-catcher can't use this attack on anything else. The man-catcher can reel in a grappled target 15 feet on its turn as a free action. Also, a grappled target is reeled in 15 feet at the start of its turn."
-                    ]
-                },
-                {
-                    "name": "Rock",
-                    "entries": [
-                        "{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Furious Defense",
-                    "entries": [
-                        "After a creature the man-catcher can see is dealt damage by a foe within 30 feet of it, the man-catcher makes a chain attack against that foe."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "GI",
-                "GO"
-            ],
-            "source": "WOR",
-            "page": 1
         },
         {
             "name": "Dennis",
@@ -7833,6 +8944,90 @@
             ],
             "source": "WOR",
             "page": 1
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Boblin, The Efficient Goblin King",
+            "source": "WOR",
+            "regionalEffects": [
+                "The region containing Boblin's lair is warped by his presence, which creates the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "If a creature works under the employ of Boblin for at least one workday, that creature must make {@dc 14} Wisdom saving throws every long rest or gain the following flaw: \"I must increase my delivery efficiency at any cost\". If this flaw is gained, the {@dc increases} to 16, and on a failure, the creature gains a mutation of the DM's choice and gains the Aberration creature type. If the creature gains a mutation, the {@dc increases} to 18, and on a failure, the creature is under Boblin's control. The only ways to free the creature are via a {@spell Wish} spell or the death of Boblin. The Demon Core must be destroyed for a creature to return to normal."
+                    ]
+                },
+                "If Boblin dies, the effect fades over the course of 3d6 days."
+            ],
+            "lairActions": [
+                "When fighting inside his lair, Boblin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Boblin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Walls and floors sprout hideous appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to Boblin and starts its turn within 10 feet of a wall or a point on the floor of Boblin's choosing must succeed on a {@dc 17} Dexterity saving throw or be {@condition grappled}. Escaping requires a successful {@dc 17} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
+                        "Boblin's eye pops out of his skull and opens in the air at a point within 50 feet of him. One random eye ray of Boblin's shoots from that eye, which is considered to be an ethereal source, at a target of his choice. The eye then closes and disappears.",
+                        "Boblin commands his pet troll amalgate to seep through the floor and attack his enemies. Any creature in a 20-foot radius circle around a point of Boblin's choice within his lair must make a {@dc 16} Dexterity saving throw or be stabbed by the amalgate's wretched flesh blades, which deal 14 ({@damage 4d6}) piercing or half as much on a save."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Jahad",
+            "source": "WOR",
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), Jahad can take one of the following lair actions; Jahad can't take the same lair action two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Jahad targets a creature within his lair with unfiltered dragon's blood, making a Dexterity attack roll (11 to hit).",
+                        "Jahad converts dragon blood into pure magic, regaining [3d4+3] health.",
+                        "Jahad uses dragon blood to scrawl a rune he has expended onto his equipment."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mycelius",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
+                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,852 @@
+{
+	"_meta": {
+		"tested": false,
+		"sources": [
+			{
+				"json": "WOR",
+				"abbreviation": "WOR",
+				"full": "Warrior Test",
+				"authors": [
+					"Connor 'Is a pretty Girl' "
+				],
+				"version": "1.0.0"
+			}
+		],
+		"dateAdded": 1620498967,
+		"dateLastModified": 1620498967
+	},
+	"class": [
+		{
+			"name": "Warrior",
+			"source": "WOR",
+			"page": 70,
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:F"
+					],
+					"progression": {
+						"1": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"history",
+								"insight",
+								"intimidation",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+					"(a) {@item shortbow|phb}, and {@item arrows (20)|phb|20 arrows} or (b) two {@item handaxe|phb|handaxes}",
+					"(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
+					"(a) {@item chain mail|phb} and a carved wooden idol related to your heritage"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							{
+								"equipmentType": "weaponMartial"
+							},
+							"shield|phb"
+						]
+					},
+					{
+						"a": [
+							"shortbow|phb",
+							"arrows (20)|phb"
+						],
+						"b": [
+							{
+								"item": "handaxe|phb",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"explorer's pack|phb"
+						],
+						"b": [
+							"dungeoneer's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"chain mail|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					]
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				},
+				"entries": [
+					"Multiclass characters divide their illrigger levels by three for the purposes of determining how many spell slots they get. This may result in an Architect of Ruin losing a spell level, but Asmodeus takes a dim view of Illriggers who stray from strict commitment to the path of Hell."
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Berserks",
+						"Berserk Damage"
+					],
+					"rows": [
+						[
+							2,
+							"+2"
+						],
+						[
+							2,
+							"+2"
+						],
+						[
+							3,
+							"+2"
+						],
+						[
+							3,
+							"+2"
+						],
+						[
+							3,
+							"+2"
+						],
+						[
+							4,
+							"+2"
+						],
+						[
+							4,
+							"+2"
+						],
+						[
+							4,
+							"+2"
+						],
+						[
+							4,
+							"+3"
+						],
+						[
+							4,
+							"+3"
+						],
+						[
+							4,
+							"+3"
+						],
+						[
+							5,
+							"+3"
+						],
+						[
+							5,
+							"+3"
+						],
+						[
+							5,
+							"+3"
+						],
+						[
+							5,
+							"+3"
+						],
+						[
+							5,
+							"+3"
+						],
+						[
+							6,
+							"+4"
+						],
+						[
+							6,
+							"+4"
+						],
+						[
+							6,
+							"+4"
+						],
+						[
+							6,
+							"+4"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Fighting Style|Warrior|WOR|1",
+				"Berserk|Warrior|WOR|1",
+				"Reckless Attack|Warrior|WOR|2",
+				"Beastly Demeanor|Warrior|WOR|2",
+				{
+					"classFeature": "Warrior Archetype|Warrior|WOR|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Warrior|WOR|4",
+				"Extra Attack|Warrior|WOR|5",
+				{
+					"classFeature": "Warrior Archetype feature|Warrior|WOR|6",
+					"gainSubclassFeature": true
+				},
+				"Raw Intuition|Warrior|WOR|7",
+				"Bellow of the Beast|Warrior|WOR|7",
+				"Ability Score Improvement|Warrior|WOR|8",
+				"Onslaught|Warrior|WOR|9",
+				{
+					"classFeature": "Warrior Archetype feature|Warrior|WOR|10",
+					"gainSubclassFeature": true
+				},
+				"Revenge|Warrior|WOR|11",
+				"Ability Score Improvement|Warrior|WOR|12",
+				"Shake It Off|Warrior|WOR|13",
+				"Raw Intuition (Two Uses)|Warrior|WOR|13",
+				{
+					"classFeature": "Warrior Archetype feature|Warrior|WOR|14",
+					"gainSubclassFeature": true
+				},
+				"Upheaval|Warrior|WOR|15",
+				"Ability Score Improvement|Warrior|WOR|16",
+				"Beastly Reflexes|Warrior|WOR|17",
+				"Holmgang|Warrior|WOR|18",
+				"Raw Intuition (Three Uses)|Warrior|WOR|18",
+				"Ability Score Improvement|Warrior|WOR|19",
+				"Infuriate|Warrior|WOR|20"
+			],
+			"subclassTitle": "Warrior Archetype",
+			"hasFluff": true
+		}
+	],
+	"subclass": [
+		{
+			"name": "The Beast of Defiance",
+			"shortName": "Defiance",
+			"source": "WOR",
+			"className": "Warrior",
+			"classSource": "WOR",
+			"page": 72,
+			"subclassFeatures": [
+				"The Beast of Defiance|Warrior|WOR|Defiance|WOR|3",
+				"Disruption|Warrior|WOR|Defiance|WOR|3",
+				"Storm’s Path|Warrior|WOR|Defiance|WOR|6",
+				"Voice of the Beast|Warrior|WOR|Defiance|WOR|10",
+				"Inner Beast|Warrior|WOR|Defiance|WOR|14"
+			]
+		},
+		{
+			"name": "The Beast of Deliverance",
+			"shortName": "Deliverance",
+			"source": "WOR",
+			"className": "Warrior",
+			"classSource": "WOR",
+			"page": 30,
+			"subclassFeatures": [
+				"The Beast of Deliverance|Warrior|WOR|Deliverance|WOR|3",
+				"Inner Release|Warrior|WOR|Deliverance|WOR|3",
+				"Storm's Eye|Warrior|WOR|Deliverance|WOR|6",
+				"Wild Expertise|Warrior|WOR|Deliverance|WOR|10",
+				"Fell Cleave|Warrior|WOR|Deliverance|WOR|14"
+			]
+		},
+		{
+			"name": "The Marauder",
+			"shortName": "Marauder",
+			"source": "WOR",
+			"className": "Warrior",
+			"classSource": "WOR",
+			"page": 42,
+			"subclassFeatures": [
+				"The Marauder|Warrior|WOR|Marauder|WOR|3",
+				"Blood Bath|Warrior|WOR|Marauder|WOR|3",
+				"Maim|Warrior|WOR|Marauder|WOR|6",
+				"Ruffian Diplomacy|Warrior|WOR|Marauder|WOR|10",
+				"Overpower|Warrior|WOR|Marauder|WOR|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Fighting Style",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 1,
+			"entries": [
+				"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defense"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Dueling"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Great Weapon Fighting"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Two-Weapon Fighting"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Thrown Weapon Fighting|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unarmed Fighting|TCE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Berserk",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 1,
+			"entries": [
+				"Beginning at the 1st level, on your turn as a bonus action, you can enter a Berserk state of mind, letting your inner beast act freely. While under the effect of Berserk you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Strength checks and saving throws.",
+						"When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a Warrior, as shown in the Berserk Damage column of the Warrior table.",
+						"When you take slashing, piercing or bludgeoning damage, you reduce the damage by half your Constitution modifier rounded up."
+					]
+				},
+				"If you are able to cast spells, you are unable to do so while Berserk due to an inability to concentrate. Some warrior class features require target creatures to make saving throws. This is contested by your Berserk DC, calculated below.",
+				"Berserk DC = 8 + your proficiency modifier + your Strength modifier.",
+				"Your berserk state lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you have not attacked a hostile creature since your last turn or taken damage since then. You can also end your berserk state on your turn as a bonus action. For a number of rounds equal to 5 minus your Constitution modifier after your berserk state ends, you may not use the extra attack ability and your base movement speed is halved due to fatigue.",
+				"Once you have gone berserk the number of times shown in for your warrior level in the Berserks column of the Warrior table, you must finish a long rest before you can go Berserk again."
+			]
+		},
+		{
+			"name": "Reckless Attack",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, when you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on all melee weapon attack rolls using Strength during that turn, but attack rolls against you are rolled with advantage until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Beastly Demeanor",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 2,
+			"entries": [
+				"Beginning at the 2nd level you gain a passive Intimidation score which you may use to replace rolls when making Intimidation ability checks. This passive Intimidation score is equal to 10 + your Strength modifier."
+			]
+		},
+		{
+			"name": "Warrior Archetype",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you select the tradition under which your warrior has trained. The Beast of Defiance tradition focuses on restraining the inner beast of the warrior, and letting its power out only when needed. The Beast of Deliverance tradition focuses on allowing the inner beast to run wild, fighting alongside its power to lay your enemies low. The Marauder has turned from harnessing their inner beast to become fierce fighters on their own power."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+				"The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 6,
+			"entries": [
+				"When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Warrior Archetype feature",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Warrior Archetype."
+			]
+		},
+		{
+			"name": "Raw Intuition",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, when you are struck by a melee weapon attack, as a reaction you may move directly back 5ft. from the creature and reduce the damage you have taken by {@dice 1d6}. This damage reduction is increased to {@dice 2d6} at the 13th level and {@dice 3d6} at the 18th level. You can do this once. You must then finish a long rest to use Raw Intuition again. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 18th level."
+			]
+		},
+		{
+			"name": "Bellow of the Beast",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 7,
+			"entries": [
+				"Beginning at the 7th level, you are able to attempt to dominate a conversation with the assistance of your inner beast. You may expend one use of Berserk to intimidate a creature with advantage and doubling all of your bonuses to the Intimidation skill."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Onslaught",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 9,
+			"entries": [
+				"Beginning at the 9th level, when you use the Dash action, you may make a melee weapon attack as a bonus action. You deal bonus damage on the attack equal to your Constitution modifier."
+			]
+		},
+		{
+			"name": "Warrior Archetype feature",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Warrior Archetype."
+			]
+		},
+		{
+			"name": "Revenge",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 11,
+			"entries": [
+				"Beginning at the 11th level, when a creature resolves a melee weapon attack action against you, as a reaction you may make one weapon attack against that creature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Shake It Off",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 13,
+			"entries": [
+				"Beginning at the 13th level, while under the effects of Berserk, when you make a saving throw to resist a condition (excluding: {@condition Exhaustion}, {@condition Grappled}, {@condition Incapacitated}, {@condition Prone}, {@condition Restrained}, {@condition Stunned} and {@condition Unconscious}) you may choose to end your Berserk state to automatically succeed on the saving throw. You may do this after your roll but before the outcome of the resist has been declared."
+			]
+		},
+		{
+			"name": "Raw Intuition (two uses)",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 13,
+			"entries": [
+				"At 13th level, you can use Raw Intuition twice between long rests."
+			]
+		},
+		{
+			"name": "Warrior Archetype feature",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Warrior Archetype."
+			]
+		},
+		{
+			"name": "Upheaval",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 15,
+			"entries": [
+				"Beginning at the 15th level, while you are under the effects of Berserk, you are able to unleash a powerful blow fueled by your vigor. You make an unarmed strike. If you hit, you may declare you are using Upheaval. The creature makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failure your unarmed strike deals nd12 force damage, where n is equal to your Constitution modifier with a minimum of {@dice 1d12} force damage and half as much damage on a success. Your Berserk state immediately ends after delivering the blow."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Beastly Reflexes",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 17,
+			"entries": [
+				"Beginning at the 17th level, while you are under the effects of Berserk you are able to make two reactions per round."
+			]
+		},
+		{
+			"name": "Holmgang",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 18,
+			"entries": [
+				"Beginning at the 18th level, while under the effects of Berserk, as a bonus action you are able to enter an indomitable state known as Holmgang. For a number of rounds equal to half your Constitution modifier, rounded down, your hit points cannot fall below 1. Additionally, you may attempt to link yourself to a creature within 10ft. of you. If the creature is Large sized or smaller the target creature must make a Strength saving throw against your Berserk DC or be dragged to a space within 5 ft. of you. The creature cannot leave the 5ft. radius around you and your movement speed becomes 0ft. for the duration of Holmgang. You may only do this once. You must then finish a long rest to use Holmgang again."
+			]
+		},
+		{
+			"name": "Raw Intuition (three uses)",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 18,
+			"entries": [
+				"At 18th level, you can use Raw Intuition three times between long rests."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Infuriate",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"level": 20,
+			"entries": [
+				"Beginning at the 20th level, if you have no uses of Berserk left when you roll for initiative, you recover 2 uses of Berserk instantly."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The Beast of Defiance",
+			"source": "WOR",
+			"page": 183,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Defiance",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"A warrior who has cut their teeth under this tradition has tamed the beast within their heart, and gained great control over it. They channel the strength from this force only when it is needed, and are able to fight defensively with the help of such forces. Finding succor in the destruction of their foes and defense of their friends sees a defiant warrior become a powerful ally."
+			]
+		},
+		{
+			"name": "Disruption",
+			"source": "WOR",
+			"page": 183,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Defiance",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"Beginning at the 3rd level, while you are under the effects of Berserk, when a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll."
+			]
+		},
+		{
+			"name": "Storm’s Path",
+			"source": "WOR",
+			"page": 183,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Defiance",
+			"subclassSource": "WOR",
+			"level": 6,
+			"entries": [
+				"Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Path. The target creature makes a Strength saving throw against your Berserk DC, on a failed save the creature deals {@dice 1d6} less damage on their damage rolls for a number of rounds equal to your Strength modifier. This damage reduction increases to {@dice 2d6} at the 14th level. You may only use Storm's Path once during each use of Berserk."
+			]
+		},
+		{
+			"name": "Voice of the Beast",
+			"source": "WOR",
+			"page": 183,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Defiance",
+			"subclassSource": "WOR",
+			"level": 10,
+			"entries": [
+				"Beginning at the 10th level, you learn the {@spell Charm Monster} and {@spell Beast Sense} spells, and may cast each one once. Strength is your spellcasting ability for these spells. You may only cast Charm Monster on beasts. You can do this once. You must then finish a long rest to use Voice of the Beast again."
+			]
+		},
+		{
+			"name": "Inner Beast",
+			"source": "WOR",
+			"page": 183,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Defiance",
+			"subclassSource": "WOR",
+			"level": 14,
+			"entries": [
+				"Beginning at the 14th level, as an action you can use Inner Beast. Make a melee weapon attack against a target creature. On a successful attack roll, you deal your normal weapon damage as well as recover hit points equal to {@dice 2d8+6} hit points and deal equal bonus damage. The effects of Berserk ends immediately after you use Inner Beast."
+			]
+		},
+		{
+			"name": "The Beast of Deliverance",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Deliverance",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"A warrior of the Reckless Tradition has grown alongside their inner beast. They allow this force to take over and push their bodies to incredible feats of strength. They fight without care for their own safety, allowing bloodlust to take over. A reckless warrior's inner beast is hungry, and they allow this overwhelming force to feed without a thought of reserve."
+			]
+		},
+		{
+			"name": "Inner Release",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Deliverance",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"Beginning at the 3rd level, while you are under the effects of Berserk, your weapon attacks score a critical hit on a roll of 19 or 20. At the 14th level, your weapon attacks score a critical hit on a roll of 18-20."
+			]
+		},
+		{
+			"name": "Storm's Eye",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Deliverance",
+			"subclassSource": "WOR",
+			"level": 6,
+			"entries": [
+				"Beginning at the 6th level, when you successfully land a melee weapon attack while under the effects of Berserk, you may declare you are using Storm's Eye. The target creature makes a Constitution saving throw against your Berserk DC, on a failed save the creature receives {@dice 1d6} bonus damage from weapon attacks against it for a number of rounds equal to your Strength ability modifier. This bonus damage is increased to {@dice 2d6} at the 14th level. You may only use Storm's Eye once during each use of Berserk."
+			]
+		},
+		{
+			"name": "Wild Expertise",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Deliverance",
+			"subclassSource": "WOR",
+			"level": 10,
+			"entries": [
+				"Beginning at the 10th level, you allow your inner beast to empower your physical abilities. You choose one skill from {@skill Acrobatics}, {@skill Athletics}, {@skill Stealth} or {@skill Survival} and gain proficiency in that skill. If you are already proficient in that ability, double your proficiency bonus when you make ability checks using that skill."
+			]
+		},
+		{
+			"name": "Fell Cleave",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Deliverance",
+			"subclassSource": "WOR",
+			"level": 14,
+			"entries": [
+				"Beginning at the 14th level, while you are under the effects of Berserk you may use Fell Cleave as an action. Make an attack roll against a single creature within melee weapon range. This attack has a critical range of 15-20. On a successful attack, you deal the regular damage of the attack and a bonus {@dice 5d10} damage. Your Berserk ends immediately after the attack is resolved."
+			]
+		},
+		{
+			"name": "The Marauder",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Marauder",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"Some warriors choose to walk away from their inner beast, or try as they may, never make contact with this ferocious being within their hearts. Despite the abandonment or loss of their inner beast, a Marauder has trained extensively to compensate for these losses. Marauders fight with the same ferocity as those with their beasts intact, but only look to themselves as the source of power"
+			]
+		},
+		{
+			"name": "Blood Bath",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Marauder",
+			"subclassSource": "WOR",
+			"level": 3,
+			"entries": [
+				"Beginning at the 3rd level, while you are under the effects of Berserk, when you land a successful melee weapon attack, you recover {@dice 1d4} hit points. You may only recover hit points once per round in this way. You recover {@dice 2d4} hit points starting at the 14th level."
+			]
+		},
+		{
+			"name": "Maim",
+			"source": "WOR",
+			"page": 73,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Marauder",
+			"subclassSource": "WOR",
+			"level": 6,
+			"entries": [
+				"Beginning at the 6th level, when you use the Reckless Attack ability under the effects of Berserk, you can declare that you are using Maim. Enemy attacks do not gain advantage against you on their attack rolls for this round. You may use Maim once during each use of Berserk."
+			]
+		},
+		{
+			"name": "Ruffian Diplomacy",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Marauder",
+			"subclassSource": "WOR",
+			"level": 10,
+			"entries": [
+				"Beginning at the 10th level, you gain proficiency in the persuasion skill. After interacting with a creature for 1 minute, you gain insight into how the creature will react to boasts of might or intimidation. Your DM reveals if these tactics would be especially effective against the creature and you gain advantage on the appropriate Persuasion or Intimidation check if applicable."
+			]
+		},
+		{
+			"name": "Overpower",
+			"source": "WOR",
+			"page": 72,
+			"className": "Warrior",
+			"classSource": "WOR",
+			"subclassShortName": "Marauder",
+			"subclassSource": "WOR",
+			"level": 14,
+			"entries": [
+				"Beginning at the 14th level, you may cast the spell {@spell Destructive Wave} at the 5th level, using your Berserk DC for the spell effect. Your Berserk state ends immediately after the spell resolves."
+			]
+		}
+	]
+}
