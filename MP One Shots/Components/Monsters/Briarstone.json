@@ -1,0 +1,251 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MPOSource",
+                "abbreviation": "MPOSource",
+                "full": "Test Auto Souce - Briarstone",
+                "authors": [
+                    "Me"
+                ],
+                "version": "1.0.0",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "color": "c2b280"
+            }
+        ],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true
+    },
+    "monster": [
+        {
+            "name": "Ancient Oblex",
+            "type": "Ooze",
+            "alignment": [
+                "U"
+            ],
+            "size": "G",
+            "cha": 18,
+            "wis": 13,
+            "int": 18,
+            "con": 21,
+            "str": 17,
+            "dex": 16,
+            "hp": {
+                "formula": "10d20 + 50",
+                "average": 150.0
+            },
+            "ac": [
+                13
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "cr": "13",
+            "save": {
+                "int": "+9",
+                "cha": "+9"
+            },
+            "skill": {
+                "arcana": "+9",
+                "deception": "+9",
+                "history": "+9",
+                "nature": "+9",
+                "persuasion": "+9",
+                "religion": "+9"
+            },
+            "passive": 11,
+            "resist": [
+                "acid",
+                "cold",
+                "fire"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "poisoned",
+                "prone"
+            ],
+            "languages": [
+                "Common",
+                "plus six more languages"
+            ],
+            "senses": [
+                "blindsight 60ft. (blind beyond this radius)"
+            ],
+            "trait": [
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The jelly can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Aversion to Fire",
+                    "entries": [
+                        "If the Ancient Oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Corrode Metal",
+                    "entries": [
+                        "Any nonmagical weapon made of metal that hits the Ancient Oblex corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Non magical ammunition made of metal that hits the Ancient Oblex is destroyed after dealing damage.",
+                        "The Ancient Oblex can eat through 2-inch-thick, nonmagical metal in 1 round."
+                    ]
+                },
+                {
+                    "name": "Killer Response",
+                    "entries": [
+                        "Any creature that starts its turn in White Maw's space is targeted by a pseudopod attack if White Maw isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Spellcasting (Psionics)",
+                    "entries": [
+                        "The Ancient Oblex's innate spellcasting ability is Intelligence (spell save {@dc 17}, 9 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                        "",
+                        " 3/day each: {@i charm person (as 5th-level spell), detect thoughts}",
+                        " 1/day each: {@i  dominate person, telekinesis}"
+                    ]
+                },
+                {
+                    "name": "Unusual Nature",
+                    "entries": [
+                        "The Ancient Oblex doesn't require sleep."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Ancient Oblex makes three Pseudopod attacks."
+                    ]
+                },
+                {
+                    "name": "Pseudopod",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 4d6 + 3}) bludgeoning damage plus 14 ({@damage 4d6}) psychic damage plus 3 ({@damage 1d6}) acid damage."
+                    ]
+                },
+                {
+                    "name": "Eat Memories {@recharge 6}",
+                    "entries": [
+                        "The oblex targets all creatures creature it can see within 30 feet of it. The target must succeed on a {@dc 17} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
+                        "While memory drained, the target must roll a +0 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a +0, the d6 becomes a +0, and so on until the die becomes a +0, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+                        "",
+                        "The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Amorphous"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "source": "MPOSource",
+            "page": 1
+        },
+        {
+            "name": "Gray Wall",
+            "type": "Ooze",
+            "alignment": [
+                "U"
+            ],
+            "size": "L",
+            "cha": 2,
+            "wis": 6,
+            "int": 1,
+            "con": 18,
+            "str": 16,
+            "dex": 4,
+            "hp": {
+                "formula": "8d10 + 32",
+                "average": 72.0
+            },
+            "ac": [
+                7
+            ],
+            "speed": {
+                "climb": 10
+            },
+            "cr": "5",
+            "skill": {
+                "stealth": "+3"
+            },
+            "passive": 8,
+            "resist": [
+                "acid",
+                "cold",
+                "fire"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "prone"
+            ],
+            "languages": [],
+            "senses": [
+                "blindsight 60ft. (blind beyond this radius)"
+            ],
+            "trait": [
+                {
+                    "name": "Corrode Metal",
+                    "entries": [
+                        "Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.",
+                        "The ooze can eat through 2-inch-thick, nonmagical metal in 1 round."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock."
+                    ]
+                },
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The ooze can take up 10 ft along any wall. The Gray Wall's space includes the wall and 5 ft. in front of it. Creatures can occupy the Gray Wall's space"
+                    ]
+                },
+                {
+                    "name": "In Plain Sight",
+                    "entries": [
+                        "The Gray Wall is hidden until it reveals itself by attacking or if a creature succeeds a {@dc 14} investigation check after the Gray Wall {@b {@i Propogates Spawn}}. Until then it has advantage on all Constitution, Dexterity, and Strength saving throws."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Pseudopod",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+                    ]
+                },
+                {
+                    "name": "Propagate Ooze",
+                    "entries": [
+                        "The Gray Wall releases 1 ({@damage 1d2}) {@b {@i psychic grey oozes}} that immediately move."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "False Appearance",
+                "Amorphous"
+            ],
+            "source": "MPOSource",
+            "page": 1
+        }
+    ],
+    "legendaryGroup": []
+}

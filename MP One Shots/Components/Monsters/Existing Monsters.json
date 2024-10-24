@@ -1,0 +1,549 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MPOSource",
+                "abbreviation": "MPOSource",
+                "full": "Test Auto Souce - Existing Monsters",
+                "authors": [
+                    "Me"
+                ],
+                "version": "1.0.0",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+                "color": "c2b280"
+            }
+        ],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967,
+        "tested": true,
+        "otherSources": {
+            "monster": {
+                "MM": "MPOSource",
+                "DMG": "MPOSource",
+                "TCE": "MPOSource",
+                "MPMM": "MPOSource",
+                "MTF": "MPOSource"
+            },
+            "monsterFluff": {
+                "MM": "MPOSource",
+                "DMG": "MPOSource",
+                "TCE": "MPOSource",
+                "MPMM": "MPOSource",
+                "MTF": "MPOSource"
+            }
+        },
+        "dependencies": {
+            "monster": [
+                "MM",
+                "MTF",
+                "MPMM"
+            ],
+            "fluff": [
+                "MM",
+                "MTF",
+                "MPMM"
+            ]
+        }
+    },
+    "monster": [
+        {
+            "name": "Virtuoso Lich",
+            "source": "MPOSource",
+            "page": 237,
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "L",
+                "NX",
+                "C",
+                "E"
+            ],
+            "ac": [
+                {
+                    "from": [
+                        "natural armor"
+                    ],
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "average": 123,
+                "formula": "19d8 + 38"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 16,
+            "con": 15,
+            "int": 15,
+            "wis": 12,
+            "cha": 20,
+            "save": {
+                "dex": "+7",
+                "wis": "+6",
+                "cha": "+9"
+            },
+            "senses": [
+                "truesight 60 ft."
+            ],
+            "passive": 15,
+            "resist": [
+                "necrotic",
+                {
+                    "note": "from nonmagical attacks",
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "deafened",
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "languages": [
+                "Common",
+                "plus up to two other languages"
+            ],
+            "cr": "12",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The virtuoso lich is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following bard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell mage hand}",
+                                "{@spell message}",
+                                "{@spell true strike}",
+                                "{@spell vicious mockery}"
+                            ]
+                        },
+                        "1": {
+                            "slots": 4,
+                            "spells": [
+                                "{@spell bane}",
+                                "{@spell tasha's hideous laughter|phb|hideous laughter}",
+                                "{@spell thunderwave}"
+                            ]
+                        },
+                        "2": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell enthrall}",
+                                "{@spell hold person}",
+                                "{@spell invisibility}",
+                                "{@spell shatter}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell dispel magic}",
+                                "{@spell fear}",
+                                "{@spell speak with dead}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell compulsion}",
+                                "{@spell confusion}",
+                                "{@spell dimension door}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell dominate person}",
+                                "{@spell mislead}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell otto's irresistible dance|phb|irresistible dance}",
+                                "{@spell programmed illusion}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the lich fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Rejuvenation",
+                    "entries": [
+                        "If it has a phylactery, a destroyed lich gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+                    ]
+                },
+                {
+                    "name": "Turn Resistance",
+                    "entries": [
+                        "The lich has advantage on saving throws against any effect that turns undead."
+                    ]
+                },
+                {
+                    "name": "Versatile Artist",
+                    "entries": [
+                        "At the end of each long rest, the lich chooses one form of artistic expression, such as song, poetry, dance, fashion, paint, or similar. Until it finishes a long rest, the lich has immunity to one type of damage, which is associated with its artistic expression. For example, a lich expressing art through song or poetry has immunity to thunder damage, a lich expressing art through fashion has immunity to slashing damage, and a lich expressing art through paint has immunity to acid damage. This trait can't give the lich immunity to force, psychic, or radiant damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The virtuoso lich uses its Corrupted Art. It then makes two Artistic Flourish attacks."
+                    ]
+                },
+                {
+                    "name": "Artistic Flourish",
+                    "entries": [
+                        "{@atk ms} {@hit +9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) damage of the type chosen with the Versatile Artist trait damage."
+                    ]
+                },
+                {
+                    "name": "Corrupted Art",
+                    "entries": [
+                        "The lich hums a discordant melody, paints a crumbling symbol of death in the air, performs a reality-bending pirouette, or emulates some other expression of corrupted or twisted art and targets one creature it can see within 60 feet. This action's effects change, depending on if the target is undead.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Non-Undead.",
+                                    "entry": "The target must make a {@dc 16} Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Undead.",
+                                    "entry": "The target regains 18 ({@damage 4d8}) hit points. Healing that exceeds the targe's hp maximum becomes temporary hit points."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Call Muse",
+                    "entries": [
+                        "The lich targets one humanoid or beast it can see within 30 feet of it. The target must succeed on a {@dc 17} Wisdom saving throw or be {@condition charmed} by the lich for 1 minute. The {@condition charmed} target, the lich's \"muse,\" has a speed of 0 and is {@condition incapacitated} as it watches or listens to the lich's artistic expression. The muse can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the lich's Call Muse for the next 24 hours. If the muse suffers harm from the lich, it is no longer {@condition charmed}.",
+                        "The lich can have only one muse at a time. If it charms another, the effect on the previous muse ends. If the lich is within 30 feet of its muse and can see its muse, the lich has advantage on its first Artistic Flourish attack each round against a creature that isn't its muse."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Artistic Flourish",
+                    "entries": [
+                        "The lich makes one Artistic Flourish attack."
+                    ]
+                },
+                {
+                    "name": "Move",
+                    "entries": [
+                        "The lich moves up to its speed without provoking {@action opportunity attack|phb|opportunity attacks}."
+                    ]
+                },
+                {
+                    "name": "Cast a Spell (Costs 3 Actions)",
+                    "entries": [
+                        "The lich casts a spell from its list of prepared spells, using a spell slot as normal."
+                    ]
+                },
+                {
+                    "name": "Unrestrained Art (Costs 3 Actions)",
+                    "entries": [
+                        "The lich unleashes the full force of its artistic talents on those nearby. Each creature with 10 feet of the lich must make a {@dc 16} Dexterity saving throw. On a failure, a creature takes 18 ({@damage 4d8}) damage of the type chosen with the Versatile Artist trait and is knocked {@condition prone}. On a success, a creature takes half the damage and isn't knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "legendaryGroup": {
+                "name": "Virtuoso Lich",
+                "source": "MPOSource"
+            },
+            "environment": [
+                "urban"
+            ],
+            "traitTags": [
+                "Legendary Resistances",
+                "Rejuvenation",
+                "Turn Resistance"
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "N"
+            ],
+            "damageTagsSpell": [
+                "O",
+                "T",
+                "Y"
+            ],
+            "spellcastingTags": [
+                "CB"
+            ],
+            "conditionInflict": [
+                "charmed",
+                "incapacitated"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "frightened",
+                "incapacitated",
+                "invisible",
+                "paralyzed",
+                "prone"
+            ],
+            "savingThrowForced": [
+                "constitution",
+                "dexterity",
+                "wisdom"
+            ],
+            "savingThrowForcedSpell": [
+                "charisma",
+                "constitution",
+                "wisdom"
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "entries": [
+                                    {
+                                        "type": "quote",
+                                        "entries": [
+                                            "The beautiful singer bows to the adoring crowd before stepping behind the curtain. Away from the eyes of the crowd, the singer changes its half-mask, briefly revealing a ghastly, undead visage."
+                                        ]
+                                    },
+                                    "A virtuoso lich is an artist whose love of art sustains it beyond death.",
+                                    {
+                                        "type": "entries",
+                                        "name": "Birthed by Art",
+                                        "entries": [
+                                            "A virtuoso lich is created when an artist powerful in both its artistic and magical expression dies with art left undone. Such artists often die before completing or creating a masterpiece, and the torment of the art left undone couples with the artist's powerful magical talents, turning the artist into a virtuoso lich. A virtuoso lich is bound to an object of art, such as a favorite musical instrument, painting, dance slippers, quill, or some other object of artistic expression that was significant to the lich in life. This piece of art is the lich's phylactery."
+                                        ]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Beautiful Mien",
+                                        "entries": [
+                                            "A virtuoso lich maintains the beauty of its former life, appearing much as it did in life—save for one physical feature that betrays its undead nature. This undead feature can be a clawed, skeletal hand, which the lich hides in a glove; a stiff, zombie-like leg, which the lich disguises with robes and a cane; a face ravaged by undeath, which the lich covers in a beautiful mask; or any other appropriate feature."
+                                        ]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Undead Nature",
+                                        "entries": [
+                                            "The virtuoso lich doesn't require air, food, drink, or sleep."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "A Virtuoso Lich's Lair",
+                        "entries": [
+                            "A virtuoso lich chooses a lair with an eye and ear for artistic potential, whether that lair is an ancient cavern with natural acoustics, a meadow with plentiful natural light, a hall of mirrors, or some other locale capable of enhancing some form of art, allowing the lich's magic and artistic expression to swell, reaching every corner."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sibriex",
+            "source": "MPOSource",
+            "_copy": {
+                "name": "Sibriex",
+                "source": "MTF",
+                "_preserve": {
+                    "page": true,
+                    "fluff": true
+                }
+            },
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Flesh Warping",
+                    "entries": [
+                        "Creatures that encounter a sibriex can be twisted beyond recognition. Whenever a creature fails a saving throw against the sibriex's Warp Creature effect, you can roll percentile dice and consult the Flesh Warping table to determine an additional effect, which vanishes when Warp Creature ends on the creature. If the creature transforms into an abyssal wretch, the effect becomes a permanent feature of that body.",
+                        "A creature can willingly submit to flesh warping, an agonizing process that takes at least 1 hour while the creature stays within 30 feet of the sibriex. At the end of the process, roll once on the table (or choose one effect) to determine how the creature is transformed permanently.",
+                        {
+                            "type": "table",
+                            "caption": "Flesh Warping",
+                            "colLabels": [
+                                "{@dice d100}",
+                                "Effect"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "01-05",
+                                    "The color of the target's hair, eyes, and skin becomes blue, red, yellow, or patterned."
+                                ],
+                                [
+                                    "06-10",
+                                    "The target's eyes push out of its head at the end of stalks."
+                                ],
+                                [
+                                    "11-15",
+                                    "The target's hands grow claws, which can be used as daggers."
+                                ],
+                                [
+                                    "16-20",
+                                    "One of the target's legs grows longer than the other, reducing its walking speed by 10 feet."
+                                ],
+                                [
+                                    "21-25",
+                                    "The target's eyes become beacons, filling a 15-foot cone with dim light when they are open."
+                                ],
+                                [
+                                    "26-30",
+                                    "A pair of wings, either feathered or leathery, sprout from the target's back, granting it a flying speed of 30 feet."
+                                ],
+                                [
+                                    "31-35",
+                                    "The target's ears tear free from its head and scurry away; the target is {@condition deafened}."
+                                ],
+                                [
+                                    "36-40",
+                                    "Two of the target's teeth turn into tusks."
+                                ],
+                                [
+                                    "41-45",
+                                    "The target's skin becomes scabby, granting it a +1 bonus to AC but reducing its Charisma by 2 (to a minimum of 1)."
+                                ],
+                                [
+                                    "46-50",
+                                    "The target's arms and legs switch places, preventing the target from moving unless it crawls."
+                                ],
+                                [
+                                    "51-55",
+                                    "The target's arms become tentacles with fingers on the ends, increasing its reach by 5 feet."
+                                ],
+                                [
+                                    "56-60",
+                                    "The target's legs grow incredibly long and springy, increasing its walking speed by 10 feet."
+                                ],
+                                [
+                                    "61-65",
+                                    "The target grows a whiplike tail, which it can use as a {@item whip|phb}."
+                                ],
+                                [
+                                    "66-70",
+                                    "The target's eyes turn black, and it gains darkvision out to a range of 120 feet."
+                                ],
+                                [
+                                    "71-75",
+                                    "The target swells, tripling its weight."
+                                ],
+                                [
+                                    "76-80",
+                                    "The target becomes thin and skeletal, halving its weight."
+                                ],
+                                [
+                                    "81-85",
+                                    "The target's head doubles in size."
+                                ],
+                                [
+                                    "86-90",
+                                    "The target's ears become wings, giving it a flying speed of 5 feet."
+                                ],
+                                [
+                                    "91-95",
+                                    "The target's body becomes unusually brittle, causing the target to have vulnerability to bludgeoning, piercing, and slashing damage."
+                                ],
+                                [
+                                    "96-00",
+                                    "The target grows another head, causing it to have advantage on saving throws against being {@condition charmed}, {@condition frightened}, or {@condition stunned}."
+                                ]
+                            ]
+                        }
+                    ],
+                    "_version": {
+                        "name": "Sibriex (Flesh Warping)",
+                        "addAs": "trait"
+                    }
+                }
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Virtuoso Lich",
+            "source": "MPOSource",
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), the virtuoso lich takes a lair action to cause one of the following effects; the lich can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The virtuoso lich channels artistic expression it can see or hear into a magical assault. The artistic expression must be of the type chosen with the Versatile Artist trait (see traits), but it otherwise can be any form of expression not originating from the lich, such as the song of nearby singers that echoes in the lair, the colorful paint decorating canvases, the twirling forms of dancers, or similar. The virtuoso lich chooses a creature it can see within 30 feet of the artistic expression. The target must make a {@dc 15} Dexterity saving throw, taking 18 ({@damage 4d8}) damage of the type chosen with the Versatile Artist trait on a failed save, or half as much damage on a successful one.",
+                        "The virtuoso lich enhances the natural artistry of its lair, distracting and hindering nearby creatures. The lich chooses a point it can see within 60 feet of it. Each creature within 5 feet of that point must make a {@dc 15} Charisma saving throw. On a failure, a creature has disadvantage on saving throws against the lich's spells and its Corrupted Art action until initiative count 20 on the next round.",
+                        "The virtuoso lich rolls a {@dice d4} and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sibriex",
+            "source": "MPOSource",
+            "_copy": {
+                "name": "Sibriex",
+                "source": "MTF"
+            }
+        }
+    ],
+    "monsterFluff": [
+        {
+            "name": "Sibriex",
+            "source": "MPOSource",
+            "_copy": {
+                "name": "Sibriex",
+                "source": "MTF"
+            }
+        }
+    ]
+}
