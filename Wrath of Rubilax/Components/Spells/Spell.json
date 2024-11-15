@@ -1,0 +1,90 @@
+{
+    "_meta": {
+        "tested": true,
+        "sources": [{
+            "json": "WOR",
+            "abbreviation": "WOR",
+            "full": "Spells Test",
+            "authors": [
+                "Connor 'Is a pretty Girl' "
+            ],
+            "version": "1.0.0",
+            "url": "https://shop.mcdmproductions.com/products/illrigger-class"
+        }],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1620498967
+    },
+    "spell": [
+        {
+			"name": "Conquer Winds",
+			"source": "WOR",
+			"page": 152,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell's duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you've halted.",
+				{
+					"type": "entries",
+					"name": "Gusts",
+					"entries": [
+						"A strong wind picks up within the cube, continually blowing in a horizontal direction you designate. Ranged weapon attacks that move against the winds direction have disadvantage on their attack rolls, while ranged weapon attacks that move with the wind deal an additional damage die of the weapons type. Any creature moving against the wind must spend 1 extra foot of movement for each foot moved, while any creature moving with the wind has it's movement speed increased by 10ft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Downdraft",
+					"entries": [
+						"You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that enter the cube or that are made within it are deflected downward and automatically miss. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked {@condition prone}. Finally any creature moving within the cube must spend 1 extra foot of movement for each foot moved."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Updraft",
+					"entries": [
+						"You cause a sustained blast of strong wind to blow upward from the bottom of the cube. Ranged weapon attacks that enter the cube or that are made within it are deflected upward and automatically miss. Creatures that end a fall within the cube take no damage from the fall as the wind cushions their landing. Finally all creature's within the cube have their jump distance tripled."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			]
+		}
+]
+
+}

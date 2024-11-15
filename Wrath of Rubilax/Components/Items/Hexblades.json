@@ -1,0 +1,524 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WOR",
+				"abbreviation": "WOR",
+				"full": "Wrath of Rubilax - Testing",
+				"authors": [
+					"The prettiest girl at the party AKA Connor"
+				],
+				"version": "1.0.0",
+				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+				"color": "c2b280"
+			}
+		],
+		"dateAdded": 1620498967,
+		"dateLastModified": 1620498967,
+		"tested": true,
+		"internalCopies": [
+			"item"
+		]
+	},
+	"item": [
+		{
+			"name": "Bolg (Awakened)",
+			"source": "WOR",
+			"_copy": {
+				"name": "Bolg (Dormant)",
+				"source": "WOR",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "insertArr",
+							"index": -1,
+							"items": {
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Awakened",
+										"entries": [
+											"When Bolg reaches an awakened state, you gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"The weapon's bonus to attack and damage rolls increases to +2.",
+													"You can speak, read, and write Dwarvish.",
+													"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself. If you already have advantage against the charmed condition, you are now immune to the charmed condition.",
+													"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn. If you already have this feature, the extra damage is double your proficiency bonus.",
+													"In response to taking damage, you may turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack, make a damage roll, cast a spell, or drop Bolg."
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"_preserve": {
+				"page": true
+			},
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Bolg (Dormant)",
+			"source": "WOR",
+			"page": 202,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"sentience": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This unassuming shortsword, bound with meager leather and inscribed with the name “Boblin” in Goblin script, was forged by a mythical goblin smith who made deals with the Raven Queen using perverse rituals for knowledge. As a result, he crafted Bolg, a paragon of goblin works, which inadvertently kicked off the long line of Boblin rulers, with him as the first.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Bolg is a sentient chaotic neutral weapon with an Intelligence of 16, a Wisdom of 18, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet.",
+								"The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Goblin, and Dwarvish"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"Bolg is a tricky blade, using deceptive language to push its wielder into committing mischevious – but seldom truly harmful – deeds. It does, though, take great efforts into preserving the life of its wielder. It dislikes those who it deems to be spoilsports."
+					]
+				},
+				"If someone attempts to use Bolg against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The magic shortsword grants the following benefits in its dormant state:",
+						{
+							"type": "list",
+							"items": [
+								"You can speak, read, and write Goblin.",
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+								"You gain Darkvision of 60 feet. If you already had Darkvision, add this 60 feet to your existing total.",
+								"You may take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns. If you already have this feature, you may take both the Disengage and Hide actions as part of the same bonus action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drakmata (Awakened)",
+			"source": "WOR",
+			"_copy": {
+				"name": "Drakmata (Dormant)",
+				"source": "WOR",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "insertArr",
+							"index": -1,
+							"items": {
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Awakened",
+										"entries": [
+											"When Drakmata reaches an awakened state, you gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"The weapon's bonus to attack and damage rolls increases to +2.",
+													"You can speak, read, and write Giant.",
+													"You gain +1 to your AC while wielding Drakmata.",
+													"Your bonus damage to dragon type creatures increases to {@dice 3d6}. Your bonus damage to half-dragons, dragonborn, and lizardfolk increases to {@dice 2d4}.",
+													"You can focus your senses as an action to magically discern the distance direction to the closest dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+													"You have resistance to damage types that are determined by the kind of dragon that dealt you the damage (see table)."
+												]
+											},
+											{
+												"type": "table",
+												"colStyles": [
+													"col",
+													"col"
+												],
+												"colLabels": [
+													"Dragon",
+													"Resistance"
+												],
+												"rows": [
+													[
+														"Black",
+														"Acid"
+													],
+													[
+														"Blue",
+														"Lightning"
+													],
+													[
+														"Brass",
+														"Fire"
+													],
+													[
+														"Bronze",
+														"Lightning"
+													],
+													[
+														"Copper",
+														"Acid"
+													],
+													[
+														"Gold",
+														"Fire"
+													],
+													[
+														"Green",
+														"Poison"
+													],
+													[
+														"Red",
+														"Fire"
+													],
+													[
+														"Silver",
+														"Cold"
+													],
+													[
+														"White",
+														"Cold"
+													]
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"_preserve": {
+				"page": true
+			},
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Drakmata (Dormant)",
+			"source": "WOR",
+			"page": 202,
+			"baseItem": "Longsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"sentience": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This jeweled longsword was forged by the smiths of old with help of the Raven Queen for use against all dragon-kind in a long-forgotten war. Its pommel and guard are bejeweled by a ruby, sapphire, emerald, onyx, and diamond, and its blade is made of a complex alloy of gold, silver, copper, bronze, and brass.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Drakmata is a sentient neutral evil weapon with an Intelligence of 16, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+								"The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Giant."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"Drakmata has a deep-seated desire to slay dragons, instilled into it by its forgers of old, and it desires to be wielded by a person willing to dedicate everything toward the eradication of dragons and similar creatures. The weapon is impatient and is willing to accept most wielders, attempting to shape them into its ideal master."
+					]
+				},
+				"If someone attempts to use Drakmata against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The magic longsword grants the following benefits in its dormant state:",
+						{
+							"type": "list",
+							"items": [
+								"You can speak, read, and write Draconic.",
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+								"When you hit a {@filter dragon|bestiary|type=dragon} with this weapon, the dragon takes an extra {@dice 2d6} damage. For this weapon, 'dragon' refers to any creature with the dragon type, including dragon turtles and wyverns. Additionally, half-dragons, dragonborn, and lizardfolk take an extra {@dice 1d4} damage.",
+								"You have advantage on saving throws against the Frightful Presence and breath weapons of dragons."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Jahad (Awakened)",
+			"source": "WOR",
+			"_copy": {
+				"name": "Jahad (Dormant)",
+				"source": "WOR",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "insertArr",
+							"index": -1,
+							"items": {
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Awakened",
+										"entries": [
+											"When Jahad reaches an awakened state, you gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"Jahad's bonus to attack and damage rolls increases to +2.",
+													"You learn the {@spell comprehend|PHB} languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.",
+													"You can speak, read, and write Draconic and Giant.",
+													"Your Chromatic Affinity Damage increases to {@dice 2d4}. You may also use Chromatic Affinity and Elemental Shroud a number of times equal to half your proficiency bonus (rounded up).",
+													"The number of runes you know increases to your proficiency bonus.",
+													{
+														"type": "entries",
+														"name": "Giant’s Oath",
+														"entries": [
+															"Jahad contains primeval magic, an echo of the might of giants. After each long rest, you may choose to activate a specific rune etched on Jahad’s blade, which provides benefits according to the table below. Once per turn, when you hit a target with Jahad, you can imbue the attack with an additional effect depending on the rune you chose. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier."
+														]
+													}
+												]
+											},
+											{
+												"type": "table",
+												"colStyles": [
+													"col-4",
+													"col-8"
+												],
+												"colLabels": [
+													"Rune Meaning",
+													"Effect"
+												],
+												"rows": [
+													[
+														"Cloud! Cover and obscure!",
+														"The target takes an extra {@dice 2d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become {@condition invisible} to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
+													],
+													[
+														"Fire! Rage and ruin!",
+														"The target takes an extra {@dice 2d10} fire damage."
+													],
+													[
+														"Frost! Bite and cover!",
+														"The target takes an extra {@dice 2d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
+													],
+													[
+														"Hill! Send them down!",
+														"The target takes an extra {@dice 2d6} damage of Jahad’s weapon damage type. If the target is a creature, it must succeed on a Strength saving throw or be knocked {@condition prone}."
+													],
+													[
+														"Stone! Pound away!",
+														"The target takes an extra {@dice 2d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
+													],
+													[
+														"Storm! Scare and shock!",
+														"The target takes an extra {@dice 2d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn."
+													]
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			"_preserve": {
+				"page": true
+			},
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Jahad (Dormant)",
+			"source": "WOR",
+			"page": 202,
+			"baseItem": "Longsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"sentience": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"Adorned with precious gems and embossed with ancient runes, this longsword was forged by Jahad Zahard, a former lord of Baltigo, using dragon fire and techniques from the elder days of the giants. As he aged, Jahad chose to seal the kinglier aspects of his soul into this, his magnum opus, so that future lords could benefit from his wisdom and so that the order of Dragon Knights could continue to perform the dragon blood ritual he designed, which requires his magic as a component. Slumbering alone in the depths of the Dragon Knight’s fortress Castle Jahad, it grows restless... Its pommel and guard are made of a complex alloy of gold, silver, copper, bronze, and brass, bejeweled by a ruby, sapphire, emerald, onyx, and diamond. The blade is embossed with ancient runes of the giant folk that Jahad had learned in his younger days of adventure. In its exalted state, its runes increase in complexity, and amethyst, quartz, moonstone, and topaz gems appear encrusted on its surface.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Jahad is a sentient lawful neutral weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+								"The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, Giant, Orc, Elvish, Dwarvish, and Sylvan."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"Jahad is the amalgamation of Jahad Zahard’s most kingly, proud, regal, and intimidating traits, with much of the knowledge that Jahad Zahard boasted in life, though its knowledge and memory are limited to what he knew at the time of making the blade sentient. Jahad desires to offer council and aid to a true lord of Baltigo, helping the nation prosper and defend itself in any way it can. The longsword is proud and fickle towards potential wielders, heavily favoring officials of Baltigo, powerful warriors, and knowledgeable scholars and spellcasters."
+					]
+				},
+				"If someone attempts to use Jahad against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"Jahad grants the following benefits in its dormant state:",
+						{
+							"type": "list",
+							"items": [
+								"You can speak, read, and write Orc, Dwarvish, Elvish, and Sylvan.",
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+								{
+									"type": "entries",
+									"name": "Chromatic Affinity",
+									"entries": [
+										"As a bonus action, you can touch one of the gems adorning Jahad. For the next minute, the weapon deals an extra 1d4 damage of the corresponding damage type to the gem you touched when it hits (ruby – fire, sapphire – lightning, emerald – poison, onyx – acid, diamond – cold). After you use this bonus action, you can't do so again until you finish a long rest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Element Shroud",
+									"entries": [
+										"When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. After using this reaction, you can’t do so again until you finish a long rest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rune Magic",
+									"entries": [
+										"You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. You may change the rune you know after each long rest. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for these runes is the same as your spellcasting ability."
+									]
+								}
+							]
+						},
+						{
+							"type": "table",
+							"colStyles": [
+								"col",
+								"col"
+							],
+							"colLabels": [
+								"Rune",
+								"Spell"
+							],
+							"rows": [
+								[
+									"Cloud",
+									"{@spell fog cloud|PHB}"
+								],
+								[
+									"Death",
+									"{@spell inflict wounds|PHB}"
+								],
+								[
+									"Dragon",
+									"{@spell chromatic orb|PHB}"
+								],
+								[
+									"Enemy",
+									"{@spell disguise self|PHB}"
+								],
+								[
+									"Fire",
+									"{@spell burning hands|PHB}"
+								],
+								[
+									"Friend",
+									"{@spell speak with animals|PHB}"
+								],
+								[
+									"Frost",
+									"{@spell armor of agathys|PHB}"
+								],
+								[
+									"Hill",
+									"{@spell goodberry|PHB}"
+								],
+								[
+									"Journey",
+									"{@spell longstrider|PHB}"
+								],
+								[
+									"King",
+									"{@spell command|PHB}"
+								],
+								[
+									"Mountain",
+									"{@spell entangle|PHB}"
+								],
+								[
+									"Stone",
+									"{@spell sanctuary|PHB}"
+								],
+								[
+									"Storm",
+									"{@spell thunderwave|PHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"itemGroup": [
+		{
+			"name": "Hexblade",
+			"source": "WOR",
+			"page": 211,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"Weapons forged by a powerful diety that have beeen scattered across the earth."
+			],
+			"items": [
+				"Drakmata (Dormant)|WOR",
+				"Drakmata (Awakened)|WOR",
+				"Bolg (Dormant)|WOR",
+				"Bolg (Awakened)|WOR",
+				"Jahad (Dormant)|WOR",
+				"Jahad (Awakened)|WOR"
+			]
+		}
+	]
+}

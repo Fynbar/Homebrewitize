@@ -268,6 +268,35 @@
 			"hasFluff": true
 		}
 	],
+	"fluff": [
+		{
+			"name": "The Warrior",
+			"source": "WOR",
+			"type": "section",
+			"entries": [
+				[
+					"A human woman stands locked in combat with a hobgoblin. With each swing of his blade, she meets him with ferocity and powerful blows. The battle rages on, the woman feeding off the ecstasy of battle, receiving succor with each blow she lands.",
+					"A goliath man dashes into the heat of battle, his battleax swinging wildly around him. He lets out an earth-shaking battle cry as he crushes the ground and all those around him with explosive force.",
+					"A lightly armored figure stands at his ally's sides. His powerful voice echoes out across the field, empowering his allies as he leads his comrades into battle, axe drawn and swinging like a tempest of steel and iron.",
+					"Like a symbol crash in an orchestra, a {@b Warrior} is an explosive force which stands out in any situation. Their booming voice, raw strength and powerful strikes are their tools for victory."
+				],
+				{
+					"type": "entries",
+					"name": "Indomitable Forces",
+					"entries": [
+						"The {@b Warrior} finds its roots in ancient tribes akin to barbarians. These fearless fighters are peerless in their control of a force which they call the “inner beast”. Warriors often come from tribal backgrounds in which they learn to nurture and control this inner animal, which in turn grants them beast like strength and ferocity. Warrior bands once roamed unsettled lands as nomads, enjoying the boons which nature offers and defending the weak from those who would do them harm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unending Rage",
+					"entries": [
+						"Not unlike nature itself, a {@b Warrior} has the potential to become a relentless force of destruction. Like a raging forest fire, or an all-consuming tidal wave, a warrior can unleash their inner beast to harness its rage. This state of being is known as “berserking”. While berserking, Warriors continually chase foes and defend allies, using their bloodlust to keep themselves in the battle as a threat."
+					]
+				}
+			]
+		}
+	],
 	"subclass": [
 		{
 			"name": "The Beast of Defiance",

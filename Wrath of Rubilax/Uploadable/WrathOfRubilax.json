@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.29",
+                "version": "1.0.30",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1729220109.0,
+        "dateLastModified": 1731684902.0,
         "otherSources": {
             "monster": {
                 "MM": "WOR",
@@ -3999,113 +3999,32 @@
             ]
         }
     ],
-    "boon": [
+    "fluff": [
         {
-            "name": "Eurasia’s Blessing",
+            "name": "The Warrior",
             "source": "WOR",
-            "page": 79,
-            "type": "Elven",
+            "type": "section",
             "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
-                    ]
-                }
-            ]
-        }
-    ],
-    "item": [
-        {
-            "name": "Pinkie of the Celestial",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "entries": [
-                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
-                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
-                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
-            ]
-        },
-        {
-            "name": "Demon Core",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                [
+                    "A human woman stands locked in combat with a hobgoblin. With each swing of his blade, she meets him with ferocity and powerful blows. The battle rages on, the woman feeding off the ecstasy of battle, receiving succor with each blow she lands.",
+                    "A goliath man dashes into the heat of battle, his battleax swinging wildly around him. He lets out an earth-shaking battle cry as he crushes the ground and all those around him with explosive force.",
+                    "A lightly armored figure stands at his ally's sides. His powerful voice echoes out across the field, empowering his allies as he leads his comrades into battle, axe drawn and swinging like a tempest of steel and iron.",
+                    "Like a symbol crash in an orchestra, a {@b Warrior} is an explosive force which stands out in any situation. Their booming voice, raw strength and powerful strikes are their tools for victory."
+                ],
                 {
                     "type": "entries",
-                    "name": "Curse",
+                    "name": "Indomitable Forces",
                     "entries": [
-                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Staff of the Grove",
-            "source": "WOR",
-            "page": 204,
-            "srd": true,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": "by a druid",
-            "reqAttuneTags": [
-                {
-                    "class": "druid"
-                }
-            ],
-            "weight": 4,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "bonusWeapon": "+2",
-            "bonusSpellAttack": "+2",
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 4}",
-            "charges": 10,
-            "staff": true,
-            "entries": [
-                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
-                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
-                {
-                    "type": "entries",
-                    "name": "Spells",
-                    "entries": [
-                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+                        "The {@b Warrior} finds its roots in ancient tribes akin to barbarians. These fearless fighters are peerless in their control of a force which they call the “inner beast”. Warriors often come from tribal backgrounds in which they learn to nurture and control this inner animal, which in turn grants them beast like strength and ferocity. Warrior bands once roamed unsettled lands as nomads, enjoying the boons which nature offers and defending the weak from those who would do them harm."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "Tree Form",
+                    "name": "Unending Rage",
                     "entries": [
-                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
+                        "Not unlike nature itself, a {@b Warrior} has the potential to become a relentless force of destruction. Like a raging forest fire, or an all-consuming tidal wave, a warrior can unleash their inner beast to harness its rage. This state of being is known as “berserking”. While berserking, Warriors continually chase foes and defend allies, using their bloodlust to keep themselves in the battle as a threat."
                     ]
                 }
-            ],
-            "attachedSpells": [
-                "pass without trace",
-                "animal friendship",
-                "awaken",
-                "barkskin",
-                "locate animals or plants",
-                "speak with animals",
-                "speak with plants",
-                "wall of thorns"
             ]
         }
     ],
@@ -4695,22 +4614,6 @@
             ]
         }
     ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
     "spell": [
         {
             "name": "Aura of Desecration",
@@ -5105,6 +5008,125 @@
             ],
             "areaTags": [
                 "C"
+            ]
+        }
+    ],
+    "legendaryGroup": [
+        {
+            "name": "Boblin, The Efficient Goblin King",
+            "source": "WOR",
+            "regionalEffects": [
+                "The region containing Boblin's lair is warped by his presence, which creates the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "If a creature works under the employ of Boblin for at least one workday, that creature must make {@dc 14} Wisdom saving throws every long rest or gain the following flaw: \"I must increase my delivery efficiency at any cost\". If this flaw is gained, the {@dc increases} to 16, and on a failure, the creature gains a mutation of the DM's choice and gains the Aberration creature type. If the creature gains a mutation, the {@dc increases} to 18, and on a failure, the creature is under Boblin's control. The only ways to free the creature are via a {@spell Wish} spell or the death of Boblin. The Demon Core must be destroyed for a creature to return to normal."
+                    ]
+                },
+                "If Boblin dies, the effect fades over the course of 3d6 days."
+            ],
+            "lairActions": [
+                "When fighting inside his lair, Boblin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Boblin can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Walls and floors sprout hideous appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to Boblin and starts its turn within 10 feet of a wall or a point on the floor of Boblin's choosing must succeed on a {@dc 17} Dexterity saving throw or be {@condition grappled}. Escaping requires a successful {@dc 17} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
+                        "Boblin's eye pops out of his skull and opens in the air at a point within 50 feet of him. One random eye ray of Boblin's shoots from that eye, which is considered to be an ethereal source, at a target of his choice. The eye then closes and disappears.",
+                        "Boblin commands his pet troll amalgate to seep through the floor and attack his enemies. Any creature in a 20-foot radius circle around a point of Boblin's choice within his lair must make a {@dc 16} Dexterity saving throw or be stabbed by the amalgate's wretched flesh blades, which deal 14 ({@damage 4d6}) piercing or half as much on a save."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Jahad",
+            "source": "WOR",
+            "lairActions": [
+                "On initiative count 20 (losing initiative ties), Jahad can take one of the following lair actions; Jahad can't take the same lair action two rounds in a row:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Jahad targets a creature within his lair with unfiltered dragon's blood, making a Dexterity attack roll (11 to hit).",
+                        "Jahad converts dragon blood into pure magic, regaining [3d4+3] health.",
+                        "Jahad uses dragon blood to scrawl a rune he has expended onto his equipment."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mycelius",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
+                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vine Lord",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    ]
+                }
+            ]
+        }
+    ],
+    "itemGroup": [
+        {
+            "name": "Hexblade",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "entries": [
+                "Weapons forged by a powerful diety that have beeen scattered across the earth."
+            ],
+            "items": [
+                "Drakmata (Dormant)|WOR",
+                "Drakmata (Awakened)|WOR",
+                "Bolg (Dormant)|WOR",
+                "Bolg (Awakened)|WOR",
+                "Jahad (Dormant)|WOR",
+                "Jahad (Awakened)|WOR"
+            ]
+        },
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
             ]
         }
     ],
@@ -8946,87 +8968,606 @@
             "page": 1
         }
     ],
-    "itemGroup": [
+    "condition": [
         {
-            "name": "Fingers of the Celestial",
+            "name": "Interdicted",
             "source": "WOR",
-            "page": 211,
-            "rarity": "rare",
-            "reqAttune": true,
+            "page": 1,
             "entries": [
-                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
             ],
-            "items": [
-                "Pinkie of the Celestial|WOR"
-            ]
+            "hasFluffImages": false
         }
     ],
-    "legendaryGroup": [
+    "item": [
         {
-            "name": "Boblin, The Efficient Goblin King",
+            "name": "Bolg (Awakened)",
             "source": "WOR",
-            "regionalEffects": [
-                "The region containing Boblin's lair is warped by his presence, which creates the following effects:",
+            "_copy": {
+                "name": "Bolg (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Bolg reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
+                                                    "You can speak, read, and write Dwarvish.",
+                                                    "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself. If you already have advantage against the charmed condition, you are now immune to the charmed condition.",
+                                                    "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn. If you already have this feature, the extra damage is double your proficiency bonus.",
+                                                    "In response to taking damage, you may turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack, make a damage roll, cast a spell, or drop Bolg."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Bolg (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "shortsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "This unassuming shortsword, bound with meager leather and inscribed with the name “Boblin” in Goblin script, was forged by a mythical goblin smith who made deals with the Raven Queen using perverse rituals for knowledge. As a result, he crafted Bolg, a paragon of goblin works, which inadvertently kicked off the long line of Boblin rulers, with him as the first.",
                 {
-                    "type": "list",
-                    "items": [
-                        "If a creature works under the employ of Boblin for at least one workday, that creature must make {@dc 14} Wisdom saving throws every long rest or gain the following flaw: \"I must increase my delivery efficiency at any cost\". If this flaw is gained, the {@dc increases} to 16, and on a failure, the creature gains a mutation of the DM's choice and gains the Aberration creature type. If the creature gains a mutation, the {@dc increases} to 18, and on a failure, the creature is under Boblin's control. The only ways to free the creature are via a {@spell Wish} spell or the death of Boblin. The Demon Core must be destroyed for a creature to return to normal."
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Bolg is a sentient chaotic neutral weapon with an Intelligence of 16, a Wisdom of 18, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Goblin, and Dwarvish"
+                            ]
+                        }
                     ]
                 },
-                "If Boblin dies, the effect fades over the course of 3d6 days."
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Bolg is a tricky blade, using deceptive language to push its wielder into committing mischevious – but seldom truly harmful – deeds. It does, though, take great efforts into preserving the life of its wielder. It dislikes those who it deems to be spoilsports."
+                    ]
+                },
+                "If someone attempts to use Bolg against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "The magic shortsword grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Goblin.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                "You gain Darkvision of 60 feet. If you already had Darkvision, add this 60 feet to your existing total.",
+                                "You may take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns. If you already have this feature, you may take both the Disengage and Hide actions as part of the same bonus action."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drakmata (Awakened)",
+            "source": "WOR",
+            "_copy": {
+                "name": "Drakmata (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Drakmata reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
+                                                    "You can speak, read, and write Giant.",
+                                                    "You gain +1 to your AC while wielding Drakmata.",
+                                                    "Your bonus damage to dragon type creatures increases to {@dice 3d6}. Your bonus damage to half-dragons, dragonborn, and lizardfolk increases to {@dice 2d4}.",
+                                                    "You can focus your senses as an action to magically discern the distance direction to the closest dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+                                                    "You have resistance to damage types that are determined by the kind of dragon that dealt you the damage (see table)."
+                                                ]
+                                            },
+                                            {
+                                                "type": "table",
+                                                "colStyles": [
+                                                    "col",
+                                                    "col"
+                                                ],
+                                                "colLabels": [
+                                                    "Dragon",
+                                                    "Resistance"
+                                                ],
+                                                "rows": [
+                                                    [
+                                                        "Black",
+                                                        "Acid"
+                                                    ],
+                                                    [
+                                                        "Blue",
+                                                        "Lightning"
+                                                    ],
+                                                    [
+                                                        "Brass",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Bronze",
+                                                        "Lightning"
+                                                    ],
+                                                    [
+                                                        "Copper",
+                                                        "Acid"
+                                                    ],
+                                                    [
+                                                        "Gold",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Green",
+                                                        "Poison"
+                                                    ],
+                                                    [
+                                                        "Red",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Silver",
+                                                        "Cold"
+                                                    ],
+                                                    [
+                                                        "White",
+                                                        "Cold"
+                                                    ]
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Drakmata (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
             ],
-            "lairActions": [
-                "When fighting inside his lair, Boblin can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Boblin can take one lair action to cause one of the following effects:",
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "bonusWeapon": "+1",
+            "entries": [
+                "This jeweled longsword was forged by the smiths of old with help of the Raven Queen for use against all dragon-kind in a long-forgotten war. Its pommel and guard are bejeweled by a ruby, sapphire, emerald, onyx, and diamond, and its blade is made of a complex alloy of gold, silver, copper, bronze, and brass.",
                 {
-                    "type": "list",
-                    "items": [
-                        "Walls and floors sprout hideous appendages until initiative count 20 on the round after next. Any creature, including one on the Ethereal Plane, that is hostile to Boblin and starts its turn within 10 feet of a wall or a point on the floor of Boblin's choosing must succeed on a {@dc 17} Dexterity saving throw or be {@condition grappled}. Escaping requires a successful {@dc 17} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
-                        "Boblin's eye pops out of his skull and opens in the air at a point within 50 feet of him. One random eye ray of Boblin's shoots from that eye, which is considered to be an ethereal source, at a target of his choice. The eye then closes and disappears.",
-                        "Boblin commands his pet troll amalgate to seep through the floor and attack his enemies. Any creature in a 20-foot radius circle around a point of Boblin's choice within his lair must make a {@dc 16} Dexterity saving throw or be stabbed by the amalgate's wretched flesh blades, which deal 14 ({@damage 4d6}) piercing or half as much on a save."
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Drakmata is a sentient neutral evil weapon with an Intelligence of 16, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Giant."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Drakmata has a deep-seated desire to slay dragons, instilled into it by its forgers of old, and it desires to be wielded by a person willing to dedicate everything toward the eradication of dragons and similar creatures. The weapon is impatient and is willing to accept most wielders, attempting to shape them into its ideal master."
+                    ]
+                },
+                "If someone attempts to use Drakmata against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "The magic longsword grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Draconic.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                "When you hit a {@filter dragon|bestiary|type=dragon} with this weapon, the dragon takes an extra {@dice 2d6} damage. For this weapon, 'dragon' refers to any creature with the dragon type, including dragon turtles and wyverns. Additionally, half-dragons, dragonborn, and lizardfolk take an extra {@dice 1d4} damage.",
+                                "You have advantage on saving throws against the Frightful Presence and breath weapons of dragons."
+                            ]
+                        }
                     ]
                 }
             ]
         },
         {
-            "name": "Jahad",
+            "name": "Jahad (Awakened)",
             "source": "WOR",
-            "lairActions": [
-                "On initiative count 20 (losing initiative ties), Jahad can take one of the following lair actions; Jahad can't take the same lair action two rounds in a row:",
+            "_copy": {
+                "name": "Jahad (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Jahad reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "Jahad's bonus to attack and damage rolls increases to +2.",
+                                                    "You learn the {@spell comprehend|PHB} languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.",
+                                                    "You can speak, read, and write Draconic and Giant.",
+                                                    "Your Chromatic Affinity Damage increases to {@dice 2d4}. You may also use Chromatic Affinity and Elemental Shroud a number of times equal to half your proficiency bonus (rounded up).",
+                                                    "The number of runes you know increases to your proficiency bonus.",
+                                                    {
+                                                        "type": "entries",
+                                                        "name": "Giant’s Oath",
+                                                        "entries": [
+                                                            "Jahad contains primeval magic, an echo of the might of giants. After each long rest, you may choose to activate a specific rune etched on Jahad’s blade, which provides benefits according to the table below. Once per turn, when you hit a target with Jahad, you can imbue the attack with an additional effect depending on the rune you chose. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier."
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "table",
+                                                "colStyles": [
+                                                    "col-4",
+                                                    "col-8"
+                                                ],
+                                                "colLabels": [
+                                                    "Rune Meaning",
+                                                    "Effect"
+                                                ],
+                                                "rows": [
+                                                    [
+                                                        "Cloud! Cover and obscure!",
+                                                        "The target takes an extra {@dice 2d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become {@condition invisible} to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
+                                                    ],
+                                                    [
+                                                        "Fire! Rage and ruin!",
+                                                        "The target takes an extra {@dice 2d10} fire damage."
+                                                    ],
+                                                    [
+                                                        "Frost! Bite and cover!",
+                                                        "The target takes an extra {@dice 2d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
+                                                    ],
+                                                    [
+                                                        "Hill! Send them down!",
+                                                        "The target takes an extra {@dice 2d6} damage of Jahad’s weapon damage type. If the target is a creature, it must succeed on a Strength saving throw or be knocked {@condition prone}."
+                                                    ],
+                                                    [
+                                                        "Stone! Pound away!",
+                                                        "The target takes an extra {@dice 2d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
+                                                    ],
+                                                    [
+                                                        "Storm! Scare and shock!",
+                                                        "The target takes an extra {@dice 2d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn."
+                                                    ]
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Jahad (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "bonusWeapon": "+1",
+            "entries": [
+                "Adorned with precious gems and embossed with ancient runes, this longsword was forged by Jahad Zahard, a former lord of Baltigo, using dragon fire and techniques from the elder days of the giants. As he aged, Jahad chose to seal the kinglier aspects of his soul into this, his magnum opus, so that future lords could benefit from his wisdom and so that the order of Dragon Knights could continue to perform the dragon blood ritual he designed, which requires his magic as a component. Slumbering alone in the depths of the Dragon Knight’s fortress Castle Jahad, it grows restless... Its pommel and guard are made of a complex alloy of gold, silver, copper, bronze, and brass, bejeweled by a ruby, sapphire, emerald, onyx, and diamond. The blade is embossed with ancient runes of the giant folk that Jahad had learned in his younger days of adventure. In its exalted state, its runes increase in complexity, and amethyst, quartz, moonstone, and topaz gems appear encrusted on its surface.",
                 {
-                    "type": "list",
-                    "items": [
-                        "Jahad targets a creature within his lair with unfiltered dragon's blood, making a Dexterity attack roll (11 to hit).",
-                        "Jahad converts dragon blood into pure magic, regaining [3d4+3] health.",
-                        "Jahad uses dragon blood to scrawl a rune he has expended onto his equipment."
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Jahad is a sentient lawful neutral weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, Giant, Orc, Elvish, Dwarvish, and Sylvan."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Jahad is the amalgamation of Jahad Zahard’s most kingly, proud, regal, and intimidating traits, with much of the knowledge that Jahad Zahard boasted in life, though its knowledge and memory are limited to what he knew at the time of making the blade sentient. Jahad desires to offer council and aid to a true lord of Baltigo, helping the nation prosper and defend itself in any way it can. The longsword is proud and fickle towards potential wielders, heavily favoring officials of Baltigo, powerful warriors, and knowledgeable scholars and spellcasters."
+                    ]
+                },
+                "If someone attempts to use Jahad against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "Jahad grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Orc, Dwarvish, Elvish, and Sylvan.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                {
+                                    "type": "entries",
+                                    "name": "Chromatic Affinity",
+                                    "entries": [
+                                        "As a bonus action, you can touch one of the gems adorning Jahad. For the next minute, the weapon deals an extra 1d4 damage of the corresponding damage type to the gem you touched when it hits (ruby – fire, sapphire – lightning, emerald – poison, onyx – acid, diamond – cold). After you use this bonus action, you can't do so again until you finish a long rest."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Element Shroud",
+                                    "entries": [
+                                        "When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. After using this reaction, you can’t do so again until you finish a long rest."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rune Magic",
+                                    "entries": [
+                                        "You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. You may change the rune you know after each long rest. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for these runes is the same as your spellcasting ability."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colStyles": [
+                                "col",
+                                "col"
+                            ],
+                            "colLabels": [
+                                "Rune",
+                                "Spell"
+                            ],
+                            "rows": [
+                                [
+                                    "Cloud",
+                                    "{@spell fog cloud|PHB}"
+                                ],
+                                [
+                                    "Death",
+                                    "{@spell inflict wounds|PHB}"
+                                ],
+                                [
+                                    "Dragon",
+                                    "{@spell chromatic orb|PHB}"
+                                ],
+                                [
+                                    "Enemy",
+                                    "{@spell disguise self|PHB}"
+                                ],
+                                [
+                                    "Fire",
+                                    "{@spell burning hands|PHB}"
+                                ],
+                                [
+                                    "Friend",
+                                    "{@spell speak with animals|PHB}"
+                                ],
+                                [
+                                    "Frost",
+                                    "{@spell armor of agathys|PHB}"
+                                ],
+                                [
+                                    "Hill",
+                                    "{@spell goodberry|PHB}"
+                                ],
+                                [
+                                    "Journey",
+                                    "{@spell longstrider|PHB}"
+                                ],
+                                [
+                                    "King",
+                                    "{@spell command|PHB}"
+                                ],
+                                [
+                                    "Mountain",
+                                    "{@spell entangle|PHB}"
+                                ],
+                                [
+                                    "Stone",
+                                    "{@spell sanctuary|PHB}"
+                                ],
+                                [
+                                    "Storm",
+                                    "{@spell thunderwave|PHB}"
+                                ]
+                            ]
+                        }
                     ]
                 }
             ]
         },
         {
-            "name": "Mycelius",
+            "name": "Pinkie of the Celestial",
             "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, Mycelius can invoke ambient magic to take lair actions. On initiative count 20 (losing initiative ties), he can take one lair action to cause one of the following effects:",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
                 {
-                    "type": "list",
-                    "items": [
-                        "Mycelius uses a special use of his {@i {@b Halo of Spores}} feature on a random enemy within his lair.",
-                        "Mycelius releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 18} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of their turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success."
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
                     ]
                 }
             ]
         },
         {
-            "name": "Vine Lord",
+            "name": "Ring of Free Form Jazz",
             "source": "WOR",
-            "lairActions": [
-                "When fighting inside its lair, the vine lord can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the vine lord can take one lair action to cause one of the following effects:",
+            "page": 204,
+            "tier": "major",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 4,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d3}",
+            "charges": 3,
+            "entries": [
+                "This ring has three + PB charges, regaining {@dice 1d3} per dawn. You may use a bonus action to expend a charge, causing an ethereal jazz band to appear and strike a beat in a 10-foot square within 60 feet of you. The band plays three songs that each last no longer than 3.33 minutes, and the players cannot move from where they were summoned. They disappear when their set is complete. If they play during a short rest, any creature that rolls hit dice that turn may roll an additional {@dice 1d6} if they appreciate free form jazz. If all charges are expended, the band, consisting of four members, is summoned in an unoccupied spot adjacent to you in physical form and are hostile toward you and your companions."
+            ]
+        },
+        {
+            "name": "Staff of the Grove",
+            "source": "WOR",
+            "page": 204,
+            "srd": true,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": "by a druid",
+            "reqAttuneTags": [
                 {
-                    "type": "list",
-                    "items": [
-                        "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
+                    "class": "druid"
+                }
+            ],
+            "weight": 4,
+            "weaponCategory": "simple",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "dmg2": "1d8",
+            "bonusWeapon": "+2",
+            "bonusSpellAttack": "+2",
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 4}",
+            "charges": 10,
+            "staff": true,
+            "entries": [
+                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
+                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
+                {
+                    "type": "entries",
+                    "name": "Spells",
+                    "entries": [
+                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
+                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tree Form",
+                    "entries": [
+                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
                     ]
                 }
+            ],
+            "attachedSpells": [
+                "pass without trace",
+                "animal friendship",
+                "awaken",
+                "barkskin",
+                "locate animals or plants",
+                "speak with animals",
+                "speak with plants",
+                "wall of thorns"
             ]
         }
     ]
