@@ -66,63 +66,6 @@
             "entries": [
                 "This ring has three + PB charges, regaining {@dice 1d3} per dawn. You may use a bonus action to expend a charge, causing an ethereal jazz band to appear and strike a beat in a 10-foot square within 60 feet of you. The band plays three songs that each last no longer than 3.33 minutes, and the players cannot move from where they were summoned. They disappear when their set is complete. If they play during a short rest, any creature that rolls hit dice that turn may roll an additional {@dice 1d6} if they appreciate free form jazz. If all charges are expended, the band, consisting of four members, is summoned in an unoccupied spot adjacent to you in physical form and are hostile toward you and your companions."
             ]
-        },
-        {
-            "name": "Staff of the Grove",
-            "source": "WOR",
-            "page": 204,
-            "srd": true,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": "by a druid",
-            "reqAttuneTags": [
-                {
-                    "class": "druid"
-                }
-            ],
-            "weight": 4,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "bonusWeapon": "+2",
-            "bonusSpellAttack": "+2",
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 4}",
-            "charges": 10,
-            "staff": true,
-            "entries": [
-                "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
-                "The staff has 10 charges for the following properties. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
-                {
-                    "type": "entries",
-                    "name": "Spells",
-                    "entries": [
-                        "You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-                        "You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Tree Form",
-                    "entries": [
-                        "You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
-                    ]
-                }
-            ],
-            "attachedSpells": [
-                "pass without trace",
-                "animal friendship",
-                "awaken",
-                "barkskin",
-                "locate animals or plants",
-                "speak with animals",
-                "speak with plants",
-                "wall of thorns"
-            ]
         }
     ],
     "itemGroup": [
