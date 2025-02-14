@@ -8,13 +8,13 @@
                 "authors": [
                     "The prettiest girl at the party AKA Connor"
                 ],
-                "version": "1.0.31",
+                "version": "1.0.32",
                 "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
                 "color": "c2b280"
             }
         ],
         "dateAdded": 1620498967,
-        "dateLastModified": 1731685551.0,
+        "dateLastModified": 1739541949.0,
         "otherSources": {
             "monster": {
                 "MM": "WOR",
@@ -3999,6 +3999,654 @@
             ]
         }
     ],
+    "boon": [
+        {
+            "name": "Eurasia’s Blessing",
+            "source": "WOR",
+            "page": 79,
+            "type": "Elven",
+            "entries": [
+                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                    ]
+                }
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Interdicted",
+            "source": "WOR",
+            "page": 1,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        }
+    ],
+    "fluff": [
+        {
+            "name": "The Warrior",
+            "source": "WOR",
+            "type": "section",
+            "entries": [
+                [
+                    "A human woman stands locked in combat with a hobgoblin. With each swing of his blade, she meets him with ferocity and powerful blows. The battle rages on, the woman feeding off the ecstasy of battle, receiving succor with each blow she lands.",
+                    "A goliath man dashes into the heat of battle, his battleax swinging wildly around him. He lets out an earth-shaking battle cry as he crushes the ground and all those around him with explosive force.",
+                    "A lightly armored figure stands at his ally's sides. His powerful voice echoes out across the field, empowering his allies as he leads his comrades into battle, axe drawn and swinging like a tempest of steel and iron.",
+                    "Like a symbol crash in an orchestra, a {@b Warrior} is an explosive force which stands out in any situation. Their booming voice, raw strength and powerful strikes are their tools for victory."
+                ],
+                {
+                    "type": "entries",
+                    "name": "Indomitable Forces",
+                    "entries": [
+                        "The {@b Warrior} finds its roots in ancient tribes akin to barbarians. These fearless fighters are peerless in their control of a force which they call the “inner beast”. Warriors often come from tribal backgrounds in which they learn to nurture and control this inner animal, which in turn grants them beast like strength and ferocity. Warrior bands once roamed unsettled lands as nomads, enjoying the boons which nature offers and defending the weak from those who would do them harm."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unending Rage",
+                    "entries": [
+                        "Not unlike nature itself, a {@b Warrior} has the potential to become a relentless force of destruction. Like a raging forest fire, or an all-consuming tidal wave, a warrior can unleash their inner beast to harness its rage. This state of being is known as “berserking”. While berserking, Warriors continually chase foes and defend allies, using their bloodlust to keep themselves in the battle as a threat."
+                    ]
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Dance of the Dragon",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to unleash a dragon's breath. The breath has a range of either a 15-foot cone, or a 20 by 5-foot line, and creatures in the area must make a Dexterity saving throw, taking half damage on a success. The damage is equal to {@dice 2d6} per level spell slot expended, to a max of 10d6. The damage type may be either poison, acid, fire, cold, or lightning."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance of the Dragon active, you gain resistance to the damage type you used for the active effect and one other of your choice among the original choices. You may re-elect the types each time you use the active effect."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance with Death",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have Dance with Death active, you deal an additional {@dice d4} necrotic damage on all weapon attacks and gain advantage against saving throws that would frighten you."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Shifting Sand Salsa",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to cast misty step, but target a number of creatures within 30 feet of yourself (including yourself) equal to the slot level to bring with you. The creatures you bring with you are placed within 5 feet of you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Shifting Sand Salsa active, you have the effects of a 1st-level armor of agathys spell cast on yourself, which refreshes at the start of each of your turns. However, the damage is slashing damage, instead of cold."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Tango of the Troll",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to conjure floating spectral troll arms. You conjure a number of arms equal to the spell slot level expended. You make a number of melee spell attacks on creatures within 15 feet of you equal to the number of troll arms summoned. Each attack deals slashing damage equal to {@dice 1d10} plus your Charisma modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Tango of the Troll active, you regain hit points equal to half your dancer level (rounded up) at the start of each of your turns. If you take fire or acid damage, this doesn't function at the start of your next turn. You do not gain temporary hit points if you gain more health than your hit point maximum."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Waltz of the Pouncing Feline",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to fill yourself with beast-like adrenaline, causing you to pounce on a creature within range of your movement speed, making a melee weapon attack on the creature, using your choice of your Strength or Dexterity modifier. On a hit, the creature is knocked prone and takes slashing damage equal to {@dice 1d8} per slot level plus your choice of your Strength or Dexterity modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Waltz of the Pouncing Feline active, you have claws on your hands, causing your unarmed strikes to deal {@dice 1d6} slashing damage, and allow you to use your Dexterity modifier instead of your Strength modifier if you so choose with them. If you use your action to make an unarmed strike, you can use your bonus action to make another unarmed strike, adding your modifier to the bonus action even if you do not possess the Two-Weapon Fighting fighting style."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Avian",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you can expend a spell slot to grow wings and dash forth up to 30 feet. Creatures within 5 feet of you in the path you dash make Dexterity saving throws, taking {@dice 1d8} slashing damage per slot level used on a failure, and half on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Avian active, you have a flight speed of 30 feet. You cannot wear medium or heavy armor with this active and must land at the end of each of your turns."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Mountain Goat Mambo",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself spectral horns that disappear after you ram with them and ram a creature within range of your movement speed, forcing a Dexterity save on the creature you target. On a failed save, the creature takes {@dice 1d12} bludgeoning damage per slot level, and is knocked prone, taking halfdamage and not being knocked prone on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Mountain Goat Mambo active, you have a climbing speed equal to your walking speed."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Elevated Quickstep",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to give yourself the ability to levitate, as per the levitate spell. You may cast this spell on other creatures as well, equal to the level of spell slot expended."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Elevated Quickstep active, your jump height and distance are doubled and you gain advantage on Strength (Athletics) checks related to jumping."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Blessed Ballroom Dance",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, you can expend a spell slot to cast Bless on a number of allies equal to the level of spell slot + 1 in range for 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "While you have the Dance of the Blessed active, those blessed gain an increase to their hit points and hit point maximums equal to your Charisma modifier + proficiency + spell slot level."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Elements",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, target an ally's  and expend one spell slot. Their next attack will deal extra (acid, cold, fire, lightning, or thunder) damage to their target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targeted ally's weapon does {@dice d4} of extra (acid, cold, fire, lightning, or thunder) damage on all weapon attacks after the initial attack."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Barbarian Bolero",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, give a number of allies equal to the level of spell slot expended within 15 ft of you advantage on their attack rolls for their next turn, but enemies will have advantage on their attacks against these targets"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "The targets take half damage from your choice of slashing, bludgeoning, or piercing damage."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Avoidance",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a bonus action, you begin a special dance that loosens your motion and allows you to evade attacks easier, giving you the benefits of the Dodge action until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You gain a bonus to your AC equal to the level of spell slot expended. Additionally, if you attack a creature that is benefiting from the Dodge action, you ignore those benefits as you match the rhythm of their evasive maneuvers."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Peace Polka",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creature equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets are charmed by you for the next minute. On a successful save, the targeted creatures aren't charmed. A creature who is charmed is able to repeat this saving throw at the beginning of each of their turns, ending the effect on the success. When a creature is no longer charmed, they realize that they have been duped, and become hostile to you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "You and your allies gain advantage on attack rolls against creatures charmed by this effect, but if a charmed creature is attacked by you or your allies, regardless of hitting or missing, the effect ends."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Stage Fright Foxtrot",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, a number of hostile creatures equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targeted creatures subtract your proficiency bonus from all attack rolls, ability checks, and saving throws against you, your spells, and effects they make during the next {@dice d4} rounds. On a successful save, they resist this effect."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your anxious dance disconcerts your enemies. Hostile creatures within 15 feet of you are considered to be in difficult terrain."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of the Acrobat",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As a reaction, expend a spell slot to begin a special dance as a creature makes an attack against you. Whether they hit or miss, move half your movement speed. This movement doesn't trigger opportunity attacks. If they hit, you have resistance against the damage. You may choose to do so after the attack roll but before you know the result. You may use this reaction a number of times equal to the level of spell slot expended until the start of your next turn but cannot use any other reactions."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "If you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of the turn."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Lightning Bolt Ballet",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When you are attacked by a creature within 30 feet of you, expend a spell slot to use a reaction to reduce the damage taken from bludgeoning, force, lightning, or thunder damage equal to a number of d8s equal to the level of spell slot expended. Additionally, the creature that attacked you must succeed on a Dexterity saving throw against your spell save DC or take lightning or thunder damage equal to a number of d8s equal to the level of spell slot expended + your charisma bonus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After the initial attack, you gain resistance to lightning and thunder damage and deal an extra {@dice d4} of your choice of lightning or thunder damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Fiery Flamenco",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to create a trail of flames of a length equal to or less than your movement speed. Any creature that enters or start its turn inside the trail must make a Constitution saving throw against your spell save DC. On a failed save, its movement speed is halved and it takes fire damage equal to a number of d8s equal to the level of spell slot expended plus your charisma bonus. On a successful save, it takes half the fire damage and its speed isn't halved. The trail fades at the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the trail, you have resistance to fire damage and deal an extra {@dice d4} of fire damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Snowflake Samba",
+            "source": "WOR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "When a hostile creature successfully attacks you, expend a spell slot to use your reaction to cause the ground beneath and around them to erupt with ice, causing icicles to sprout around them. The area within 5 feet of them becomes difficult terrain, and they must make a Dexterity saving throw against your spell save DC or take cold damage equal to a number of d6s equal to the level of spell slot expended + your charisma bonus. On a successful save, they take half the damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "After creating the ice, you have resistance to cold damage and deal an extra {@dice d4} cold damage with your weapon attacks."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dance of Entrainment",
+            "source": "WOR",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Dancer"
+                        },
+                        "subclass": {
+                            "name": "Dance College of the Twirling Blade",
+                            "visible": false
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Concentration",
+                    "entries": [
+                        "No"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Active",
+                    "entries": [
+                        "As an action, expend a spell slot to begin an irresistible dance. A number of creatures equal to the level of spell slot expended (rounded down) within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets begin to dance uncontrollably, as per the spell Otto's Irresistible Dance unless they are immune to being charmed. On a successful save, the targeted creatures aren't charmed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Passive",
+                    "entries": [
+                        "Your dance moves beckon others to join you. When a creature that can see you an enters or starts its turn in a 15-foot radius of you must make a Charisma saving throw. On a failure, they must choose one among moving, taking an action, taking a bonus action, or taking a reaction. On a success, they resist this effect and are immune to it for 1 hour."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        }
+    ],
     "spell": [
         {
             "name": "Aura of Desecration",
@@ -4396,20 +5044,567 @@
             ]
         }
     ],
-    "boon": [
+    "itemGroup": [
         {
-            "name": "Eurasia’s Blessing",
+            "name": "Hexblade",
             "source": "WOR",
-            "page": 79,
-            "type": "Elven",
+            "page": 211,
+            "rarity": "legendary",
+            "reqAttune": true,
             "entries": [
-                "The blessing of Second Princess of Thrand, Eurasia Mazino, grants you the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You deal and additional +1 damage to {@filter evil aligned plants|bestiary|alignment=e|type=plant}."
+                "Weapons forged by a powerful diety that have beeen scattered across the earth."
+            ],
+            "items": [
+                "Drakmata (Dormant)|WOR",
+                "Drakmata (Awakened)|WOR",
+                "Bolg (Dormant)|WOR",
+                "Bolg (Awakened)|WOR",
+                "Jahad (Dormant)|WOR",
+                "Jahad (Awakened)|WOR"
+            ]
+        },
+        {
+            "name": "Fingers of the Celestial",
+            "source": "WOR",
+            "page": 211,
+            "rarity": "rare",
+            "reqAttune": true,
+            "entries": [
+                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
+            ],
+            "items": [
+                "Pinkie of the Celestial|WOR"
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Bolg (Awakened)",
+            "source": "WOR",
+            "_copy": {
+                "name": "Bolg (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Bolg reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
+                                                    "You can speak, read, and write Dwarvish.",
+                                                    "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself. If you already have advantage against the charmed condition, you are now immune to the charmed condition.",
+                                                    "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn. If you already have this feature, the extra damage is double your proficiency bonus.",
+                                                    "In response to taking damage, you may turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack, make a damage roll, cast a spell, or drop Bolg."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Bolg (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "shortsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "entries": [
+                "This unassuming shortsword, bound with meager leather and inscribed with the name “Boblin” in Goblin script, was forged by a mythical goblin smith who made deals with the Raven Queen using perverse rituals for knowledge. As a result, he crafted Bolg, a paragon of goblin works, which inadvertently kicked off the long line of Boblin rulers, with him as the first.",
+                {
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Bolg is a sentient chaotic neutral weapon with an Intelligence of 16, a Wisdom of 18, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Goblin, and Dwarvish"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Bolg is a tricky blade, using deceptive language to push its wielder into committing mischevious – but seldom truly harmful – deeds. It does, though, take great efforts into preserving the life of its wielder. It dislikes those who it deems to be spoilsports."
+                    ]
+                },
+                "If someone attempts to use Bolg against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "The magic shortsword grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Goblin.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                "You gain Darkvision of 60 feet. If you already had Darkvision, add this 60 feet to your existing total.",
+                                "You may take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns. If you already have this feature, you may take both the Disengage and Hide actions as part of the same bonus action."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drakmata (Awakened)",
+            "source": "WOR",
+            "_copy": {
+                "name": "Drakmata (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Drakmata reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
+                                                    "You can speak, read, and write Giant.",
+                                                    "You gain +1 to your AC while wielding Drakmata.",
+                                                    "Your bonus damage to dragon type creatures increases to {@dice 3d6}. Your bonus damage to half-dragons, dragonborn, and lizardfolk increases to {@dice 2d4}.",
+                                                    "You can focus your senses as an action to magically discern the distance direction to the closest dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+                                                    "You have resistance to damage types that are determined by the kind of dragon that dealt you the damage (see table)."
+                                                ]
+                                            },
+                                            {
+                                                "type": "table",
+                                                "colStyles": [
+                                                    "col",
+                                                    "col"
+                                                ],
+                                                "colLabels": [
+                                                    "Dragon",
+                                                    "Resistance"
+                                                ],
+                                                "rows": [
+                                                    [
+                                                        "Black",
+                                                        "Acid"
+                                                    ],
+                                                    [
+                                                        "Blue",
+                                                        "Lightning"
+                                                    ],
+                                                    [
+                                                        "Brass",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Bronze",
+                                                        "Lightning"
+                                                    ],
+                                                    [
+                                                        "Copper",
+                                                        "Acid"
+                                                    ],
+                                                    [
+                                                        "Gold",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Green",
+                                                        "Poison"
+                                                    ],
+                                                    [
+                                                        "Red",
+                                                        "Fire"
+                                                    ],
+                                                    [
+                                                        "Silver",
+                                                        "Cold"
+                                                    ],
+                                                    [
+                                                        "White",
+                                                        "Cold"
+                                                    ]
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Drakmata (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "bonusWeapon": "+1",
+            "entries": [
+                "This jeweled longsword was forged by the smiths of old with help of the Raven Queen for use against all dragon-kind in a long-forgotten war. Its pommel and guard are bejeweled by a ruby, sapphire, emerald, onyx, and diamond, and its blade is made of a complex alloy of gold, silver, copper, bronze, and brass.",
+                {
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Drakmata is a sentient neutral evil weapon with an Intelligence of 16, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Giant."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Drakmata has a deep-seated desire to slay dragons, instilled into it by its forgers of old, and it desires to be wielded by a person willing to dedicate everything toward the eradication of dragons and similar creatures. The weapon is impatient and is willing to accept most wielders, attempting to shape them into its ideal master."
+                    ]
+                },
+                "If someone attempts to use Drakmata against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "The magic longsword grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Draconic.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                "When you hit a {@filter dragon|bestiary|type=dragon} with this weapon, the dragon takes an extra {@dice 2d6} damage. For this weapon, 'dragon' refers to any creature with the dragon type, including dragon turtles and wyverns. Additionally, half-dragons, dragonborn, and lizardfolk take an extra {@dice 1d4} damage.",
+                                "You have advantage on saving throws against the Frightful Presence and breath weapons of dragons."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Jahad (Awakened)",
+            "source": "WOR",
+            "_copy": {
+                "name": "Jahad (Dormant)",
+                "source": "WOR",
+                "_mod": {
+                    "entries": [
+                        {
+                            "mode": "insertArr",
+                            "index": -1,
+                            "items": {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Awakened",
+                                        "entries": [
+                                            "When Jahad reaches an awakened state, you gain the following benefits:",
+                                            {
+                                                "type": "list",
+                                                "items": [
+                                                    "Jahad's bonus to attack and damage rolls increases to +2.",
+                                                    "You can speak, read, and write Garo.",
+                                                    "You learn the {@spell comprehend|PHB} languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.",
+                                                    "You can speak, read, and write Draconic and Giant.",
+                                                    "Your Chromatic Affinity Damage increases to {@dice 2d4}. You may also use Chromatic Affinity and Elemental Shroud a number of times equal to half your proficiency bonus (rounded up).",
+                                                    "The number of runes you know increases to your proficiency bonus.",
+                                                    {
+                                                        "type": "entries",
+                                                        "name": "Giant’s Oath",
+                                                        "entries": [
+                                                            "Jahad contains primeval magic, an echo of the might of giants. After each long rest, you may choose to activate a specific rune etched on Jahad’s blade, which provides benefits according to the table below. Once per turn, when you hit a target with Jahad, you can imbue the attack with an additional effect depending on the rune you chose. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier."
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "table",
+                                                "colStyles": [
+                                                    "col-4",
+                                                    "col-8"
+                                                ],
+                                                "colLabels": [
+                                                    "Rune Meaning",
+                                                    "Effect"
+                                                ],
+                                                "rows": [
+                                                    [
+                                                        "Cloud! Cover and obscure!",
+                                                        "The target takes an extra {@dice 2d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become {@condition invisible} to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
+                                                    ],
+                                                    [
+                                                        "Fire! Rage and ruin!",
+                                                        "The target takes an extra {@dice 2d10} fire damage."
+                                                    ],
+                                                    [
+                                                        "Frost! Bite and cover!",
+                                                        "The target takes an extra {@dice 2d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
+                                                    ],
+                                                    [
+                                                        "Hill! Send them down!",
+                                                        "The target takes an extra {@dice 2d6} damage of Jahad’s weapon damage type. If the target is a creature, it must succeed on a Strength saving throw or be knocked {@condition prone}."
+                                                    ],
+                                                    [
+                                                        "Stone! Pound away!",
+                                                        "The target takes an extra {@dice 2d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
+                                                    ],
+                                                    [
+                                                        "Storm! Scare and shock!",
+                                                        "The target takes an extra {@dice 2d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn."
+                                                    ]
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "_preserve": {
+                "page": true
+            },
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "Jahad (Dormant)",
+            "source": "WOR",
+            "page": 202,
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "sentience": true,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "bonusWeapon": "+1",
+            "entries": [
+                "Adorned with precious gems and embossed with ancient runes, this longsword was forged by Jahad Zahard, a former lord of Baltigo, using dragon fire and techniques from the elder days of the giants. As he aged, Jahad chose to seal the kinglier aspects of his soul into this, his magnum opus, so that future lords could benefit from his wisdom and so that the order of Dragon Knights could continue to perform the dragon blood ritual he designed, which requires his magic as a component. Slumbering alone in the depths of the Dragon Knight’s fortress Castle Jahad, it grows restless... Its pommel and guard are made of a complex alloy of gold, silver, copper, bronze, and brass, bejeweled by a ruby, sapphire, emerald, onyx, and diamond. The blade is embossed with ancient runes of the giant folk that Jahad had learned in his younger days of adventure. In its exalted state, its runes increase in complexity, and amethyst, quartz, moonstone, and topaz gems appear encrusted on its surface.",
+                {
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Jahad is a sentient lawful neutral weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
+                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, Giant, Orc, Elvish, Dwarvish, and Sylvan."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "Jahad is the amalgamation of Jahad Zahard’s most kingly, proud, regal, and intimidating traits, with much of the knowledge that Jahad Zahard boasted in life, though its knowledge and memory are limited to what he knew at the time of making the blade sentient. Jahad desires to offer council and aid to a true lord of Baltigo, helping the nation prosper and defend itself in any way it can. The longsword is proud and fickle towards potential wielders, heavily favoring officials of Baltigo, powerful warriors, and knowledgeable scholars and spellcasters."
+                    ]
+                },
+                "If someone attempts to use Jahad against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "Jahad grants the following benefits in its dormant state:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can speak, read, and write Orc, Dwarvish, Elvish, and Sylvan.",
+                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                {
+                                    "type": "entries",
+                                    "name": "Chromatic Affinity",
+                                    "entries": [
+                                        "As a bonus action, you can touch one of the gems adorning Jahad. For the next minute, the weapon deals an extra 1d4 damage of the corresponding damage type to the gem you touched when it hits (ruby – fire, sapphire – lightning, emerald – poison, onyx – acid, diamond – cold). After you use this bonus action, you can't do so again until you finish a long rest."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Element Shroud",
+                                    "entries": [
+                                        "When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. After using this reaction, you can’t do so again until you finish a long rest."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rune Magic",
+                                    "entries": [
+                                        "You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. You may change the rune you know after each long rest. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for these runes is the same as your spellcasting ability."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colStyles": [
+                                "col",
+                                "col"
+                            ],
+                            "colLabels": [
+                                "Rune",
+                                "Spell"
+                            ],
+                            "rows": [
+                                [
+                                    "Cloud",
+                                    "{@spell fog cloud|PHB}"
+                                ],
+                                [
+                                    "Death",
+                                    "{@spell inflict wounds|PHB}"
+                                ],
+                                [
+                                    "Dragon",
+                                    "{@spell chromatic orb|PHB}"
+                                ],
+                                [
+                                    "Enemy",
+                                    "{@spell disguise self|PHB}"
+                                ],
+                                [
+                                    "Fire",
+                                    "{@spell burning hands|PHB}"
+                                ],
+                                [
+                                    "Friend",
+                                    "{@spell speak with animals|PHB}"
+                                ],
+                                [
+                                    "Frost",
+                                    "{@spell armor of agathys|PHB}"
+                                ],
+                                [
+                                    "Hill",
+                                    "{@spell goodberry|PHB}"
+                                ],
+                                [
+                                    "Journey",
+                                    "{@spell longstrider|PHB}"
+                                ],
+                                [
+                                    "King",
+                                    "{@spell command|PHB}"
+                                ],
+                                [
+                                    "Mountain",
+                                    "{@spell entangle|PHB}"
+                                ],
+                                [
+                                    "Stone",
+                                    "{@spell sanctuary|PHB}"
+                                ],
+                                [
+                                    "Storm",
+                                    "{@spell thunderwave|PHB}"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pinkie of the Celestial",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
+                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
+                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
+            ]
+        },
+        {
+            "name": "Demon Core",
+            "source": "WOR",
+            "page": 195,
+            "tier": "major",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ring of Free Form Jazz",
+            "source": "WOR",
+            "page": 204,
+            "tier": "major",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 4,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d3}",
+            "charges": 3,
+            "entries": [
+                "This ring has three + PB charges, regaining {@dice 1d3} per dawn. You may use a bonus action to expend a charge, causing an ethereal jazz band to appear and strike a beat in a 10-foot square within 60 feet of you. The band plays three songs that each last no longer than 3.33 minutes, and the players cannot move from where they were summoned. They disappear when their set is complete. If they play during a short rest, any creature that rolls hit dice that turn may roll an additional {@dice 1d6} if they appreciate free form jazz. If all charges are expended, the band, consisting of four members, is summoned in an unoccupied spot adjacent to you in physical form and are hostile toward you and your companions."
             ]
         }
     ],
@@ -5438,7 +6633,7 @@
                 {
                     "name": "Your Talents Are Better Suited for Other Tasks",
                     "entries": [
-                        "Boblin targets one creature within 120 feet of him. He breaks the creature's concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell."
+                        "Boblin targets one creature within 120 feet of him. He breaks the creature's concentration on a spell it has cast. The creature also takes 2 ({@damage 1d4}) psychic damage per level of the spell."
                     ]
                 },
                 {
@@ -6604,6 +7799,208 @@
             "page": 1,
             "legendaryGroup": {
                 "name": "Jahad",
+                "source": "WOR"
+            }
+        },
+        {
+            "name": "Rubelonth - Abyssal Fire Drake",
+            "type": {
+                "type": "Dragon",
+                "tags": [
+                    "red"
+                ]
+            },
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "size": "H",
+            "cha": 24,
+            "wis": 14,
+            "int": 18,
+            "con": 26,
+            "str": 28,
+            "dex": 10,
+            "hp": {
+                "formula": "19d12 + 152",
+                "average": 266.0
+            },
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 80
+            },
+            "cr": "20",
+            "save": {
+                "dex": "+6",
+                "con": "+14",
+                "wis": "+8",
+                "cha": "+13"
+            },
+            "skill": {
+                "intimidation": "+13",
+                "perception": "+14",
+                "stealth": "+6",
+                "survival": "+8"
+            },
+            "passive": 24,
+            "resist": [
+                "cold"
+            ],
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Draconic"
+            ],
+            "senses": [
+                "darkvision 120ft.",
+                "blindsight 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If Rubelonth fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Beguiling Scales",
+                    "entries": [
+                        "Rubelonth has advantage on the first saving throw against the spell or other magical effects of a creature. After the creature forces him to make a save against their magical effect, this trait does not apply to that creature until 24 hours have passed since they last forced Rubelonth to make a save against their magical effect."
+                    ]
+                },
+                {
+                    "name": "Fire Aura",
+                    "entries": [
+                        "At the start of each of Rubelonth's turns, each creature within 5 feet of it takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches Rubelonth or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Rubelonth's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell mending}"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "{@spell alarm}",
+                            "{@spell identify}",
+                            "{@spell hold person}",
+                            "{@spell slow}",
+                            "{@spell wall of fire}",
+                            "{@spell telekinesis}"
+                        ]
+                    }
+                }
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Rubelonth can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Frightful Presence",
+                    "entries": [
+                        "Each creature of Rubelonth's choice that is within 120 ft. of him and aware of him must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+                    ]
+                },
+                {
+                    "name": "Fire Breath {@recharge 5}",
+                    "entries": [
+                        "Rubelonth exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 63 ({@damage 18d6}) fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Avalanche of Greed {@recharge 5}",
+                    "entries": [
+                        "Rubelonth spills a wave of red-hot coins from his trove in a 30-foot cone. All creatures caught in the area must make a {@dc 18} Dexterity saving throw, suffering 30 (10d6) bludgeoning damage and 12 (3d6) fire damage on a failure, or half as much on a success."
+                    ]
+                }
+            ],
+            "legendaryHeader": [
+                "Rubelonth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "entries": [
+                        "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                    ]
+                },
+                {
+                    "name": "Greedy Spellcasting (Costs 2 actions)",
+                    "entries": [
+                        "Rubelonth casts a spell."
+                    ]
+                },
+                {
+                    "name": "Dragon Madness (3 actions)",
+                    "entries": [
+                        "Rubelonth can instill his own wretched greed upon others by tossing a handful of his hellish coins into the midst of his enemies. Anyone within a 30-foot cube centered on Mammon must make a successful {@dc 18} Charisma saving throw or be overwhelmed with desire to possess his hellish coins, using their action on their turn to collect as many as possible. At the end of their turn, a creature affected by the madness can save against this effect again, ending it on a success and becoming immune to it for 24 hours."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack",
+                "Frightful Presence"
+            ],
+            "languageTags": [
+                "AB",
+                "C",
+                "DR"
+            ],
+            "source": "WOR",
+            "page": 1,
+            "legendaryGroup": {
+                "name": "Rubelonth",
                 "source": "WOR"
             }
         },
@@ -8251,536 +9648,6 @@
             "page": 1
         }
     ],
-    "item": [
-        {
-            "name": "Bolg (Awakened)",
-            "source": "WOR",
-            "_copy": {
-                "name": "Bolg (Dormant)",
-                "source": "WOR",
-                "_mod": {
-                    "entries": [
-                        {
-                            "mode": "insertArr",
-                            "index": -1,
-                            "items": {
-                                "entries": [
-                                    {
-                                        "type": "entries",
-                                        "name": "Awakened",
-                                        "entries": [
-                                            "When Bolg reaches an awakened state, you gain the following benefits:",
-                                            {
-                                                "type": "list",
-                                                "items": [
-                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
-                                                    "You can speak, read, and write Dwarvish.",
-                                                    "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself. If you already have advantage against the charmed condition, you are now immune to the charmed condition.",
-                                                    "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn. If you already have this feature, the extra damage is double your proficiency bonus.",
-                                                    "In response to taking damage, you may turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack, make a damage roll, cast a spell, or drop Bolg."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            "_preserve": {
-                "page": true
-            },
-            "bonusWeapon": "+2"
-        },
-        {
-            "name": "Bolg (Dormant)",
-            "source": "WOR",
-            "page": 202,
-            "baseItem": "shortsword|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "sentience": true,
-            "weight": 2,
-            "weaponCategory": "martial",
-            "property": [],
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "bonusWeapon": "+1",
-            "entries": [
-                "This unassuming shortsword, bound with meager leather and inscribed with the name “Boblin” in Goblin script, was forged by a mythical goblin smith who made deals with the Raven Queen using perverse rituals for knowledge. As a result, he crafted Bolg, a paragon of goblin works, which inadvertently kicked off the long line of Boblin rulers, with him as the first.",
-                {
-                    "type": "entries",
-                    "name": "Sentience",
-                    "entries": [
-                        {
-                            "type": "list",
-                            "items": [
-                                "Bolg is a sentient chaotic neutral weapon with an Intelligence of 16, a Wisdom of 18, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet.",
-                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Goblin, and Dwarvish"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Personality",
-                    "entries": [
-                        "Bolg is a tricky blade, using deceptive language to push its wielder into committing mischevious – but seldom truly harmful – deeds. It does, though, take great efforts into preserving the life of its wielder. It dislikes those who it deems to be spoilsports."
-                    ]
-                },
-                "If someone attempts to use Bolg against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
-                {
-                    "type": "entries",
-                    "name": "Dormant",
-                    "entries": [
-                        "The magic shortsword grants the following benefits in its dormant state:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You can speak, read, and write Goblin.",
-                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                                "You gain Darkvision of 60 feet. If you already had Darkvision, add this 60 feet to your existing total.",
-                                "You may take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns. If you already have this feature, you may take both the Disengage and Hide actions as part of the same bonus action."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Drakmata (Awakened)",
-            "source": "WOR",
-            "_copy": {
-                "name": "Drakmata (Dormant)",
-                "source": "WOR",
-                "_mod": {
-                    "entries": [
-                        {
-                            "mode": "insertArr",
-                            "index": -1,
-                            "items": {
-                                "entries": [
-                                    {
-                                        "type": "entries",
-                                        "name": "Awakened",
-                                        "entries": [
-                                            "When Drakmata reaches an awakened state, you gain the following benefits:",
-                                            {
-                                                "type": "list",
-                                                "items": [
-                                                    "The weapon's bonus to attack and damage rolls increases to +2.",
-                                                    "You can speak, read, and write Giant.",
-                                                    "You gain +1 to your AC while wielding Drakmata.",
-                                                    "Your bonus damage to dragon type creatures increases to {@dice 3d6}. Your bonus damage to half-dragons, dragonborn, and lizardfolk increases to {@dice 2d4}.",
-                                                    "You can focus your senses as an action to magically discern the distance direction to the closest dragon within 30 miles of you. This special action can't be used again until the next dawn.",
-                                                    "You have resistance to damage types that are determined by the kind of dragon that dealt you the damage (see table)."
-                                                ]
-                                            },
-                                            {
-                                                "type": "table",
-                                                "colStyles": [
-                                                    "col",
-                                                    "col"
-                                                ],
-                                                "colLabels": [
-                                                    "Dragon",
-                                                    "Resistance"
-                                                ],
-                                                "rows": [
-                                                    [
-                                                        "Black",
-                                                        "Acid"
-                                                    ],
-                                                    [
-                                                        "Blue",
-                                                        "Lightning"
-                                                    ],
-                                                    [
-                                                        "Brass",
-                                                        "Fire"
-                                                    ],
-                                                    [
-                                                        "Bronze",
-                                                        "Lightning"
-                                                    ],
-                                                    [
-                                                        "Copper",
-                                                        "Acid"
-                                                    ],
-                                                    [
-                                                        "Gold",
-                                                        "Fire"
-                                                    ],
-                                                    [
-                                                        "Green",
-                                                        "Poison"
-                                                    ],
-                                                    [
-                                                        "Red",
-                                                        "Fire"
-                                                    ],
-                                                    [
-                                                        "Silver",
-                                                        "Cold"
-                                                    ],
-                                                    [
-                                                        "White",
-                                                        "Cold"
-                                                    ]
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            "_preserve": {
-                "page": true
-            },
-            "bonusWeapon": "+2"
-        },
-        {
-            "name": "Drakmata (Dormant)",
-            "source": "WOR",
-            "page": 202,
-            "baseItem": "Longsword|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "sentience": true,
-            "weight": 2,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmg2": "1d10",
-            "dmgType": "S",
-            "bonusWeapon": "+1",
-            "entries": [
-                "This jeweled longsword was forged by the smiths of old with help of the Raven Queen for use against all dragon-kind in a long-forgotten war. Its pommel and guard are bejeweled by a ruby, sapphire, emerald, onyx, and diamond, and its blade is made of a complex alloy of gold, silver, copper, bronze, and brass.",
-                {
-                    "type": "entries",
-                    "name": "Sentience",
-                    "entries": [
-                        {
-                            "type": "list",
-                            "items": [
-                                "Drakmata is a sentient neutral evil weapon with an Intelligence of 16, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
-                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Giant."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Personality",
-                    "entries": [
-                        "Drakmata has a deep-seated desire to slay dragons, instilled into it by its forgers of old, and it desires to be wielded by a person willing to dedicate everything toward the eradication of dragons and similar creatures. The weapon is impatient and is willing to accept most wielders, attempting to shape them into its ideal master."
-                    ]
-                },
-                "If someone attempts to use Drakmata against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
-                {
-                    "type": "entries",
-                    "name": "Dormant",
-                    "entries": [
-                        "The magic longsword grants the following benefits in its dormant state:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You can speak, read, and write Draconic.",
-                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                                "When you hit a {@filter dragon|bestiary|type=dragon} with this weapon, the dragon takes an extra {@dice 2d6} damage. For this weapon, 'dragon' refers to any creature with the dragon type, including dragon turtles and wyverns. Additionally, half-dragons, dragonborn, and lizardfolk take an extra {@dice 1d4} damage.",
-                                "You have advantage on saving throws against the Frightful Presence and breath weapons of dragons."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Jahad (Awakened)",
-            "source": "WOR",
-            "_copy": {
-                "name": "Jahad (Dormant)",
-                "source": "WOR",
-                "_mod": {
-                    "entries": [
-                        {
-                            "mode": "insertArr",
-                            "index": -1,
-                            "items": {
-                                "entries": [
-                                    {
-                                        "type": "entries",
-                                        "name": "Awakened",
-                                        "entries": [
-                                            "When Jahad reaches an awakened state, you gain the following benefits:",
-                                            {
-                                                "type": "list",
-                                                "items": [
-                                                    "Jahad's bonus to attack and damage rolls increases to +2.",
-                                                    "You learn the {@spell comprehend|PHB} languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.",
-                                                    "You can speak, read, and write Draconic and Giant.",
-                                                    "Your Chromatic Affinity Damage increases to {@dice 2d4}. You may also use Chromatic Affinity and Elemental Shroud a number of times equal to half your proficiency bonus (rounded up).",
-                                                    "The number of runes you know increases to your proficiency bonus.",
-                                                    {
-                                                        "type": "entries",
-                                                        "name": "Giant’s Oath",
-                                                        "entries": [
-                                                            "Jahad contains primeval magic, an echo of the might of giants. After each long rest, you may choose to activate a specific rune etched on Jahad’s blade, which provides benefits according to the table below. Once per turn, when you hit a target with Jahad, you can imbue the attack with an additional effect depending on the rune you chose. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier."
-                                                        ]
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "type": "table",
-                                                "colStyles": [
-                                                    "col-4",
-                                                    "col-8"
-                                                ],
-                                                "colLabels": [
-                                                    "Rune Meaning",
-                                                    "Effect"
-                                                ],
-                                                "rows": [
-                                                    [
-                                                        "Cloud! Cover and obscure!",
-                                                        "The target takes an extra {@dice 2d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become {@condition invisible} to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
-                                                    ],
-                                                    [
-                                                        "Fire! Rage and ruin!",
-                                                        "The target takes an extra {@dice 2d10} fire damage."
-                                                    ],
-                                                    [
-                                                        "Frost! Bite and cover!",
-                                                        "The target takes an extra {@dice 2d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
-                                                    ],
-                                                    [
-                                                        "Hill! Send them down!",
-                                                        "The target takes an extra {@dice 2d6} damage of Jahad’s weapon damage type. If the target is a creature, it must succeed on a Strength saving throw or be knocked {@condition prone}."
-                                                    ],
-                                                    [
-                                                        "Stone! Pound away!",
-                                                        "The target takes an extra {@dice 2d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
-                                                    ],
-                                                    [
-                                                        "Storm! Scare and shock!",
-                                                        "The target takes an extra {@dice 2d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn."
-                                                    ]
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            "_preserve": {
-                "page": true
-            },
-            "bonusWeapon": "+2"
-        },
-        {
-            "name": "Jahad (Dormant)",
-            "source": "WOR",
-            "page": 202,
-            "baseItem": "Longsword|PHB",
-            "type": "M",
-            "rarity": "legendary",
-            "reqAttune": true,
-            "sentience": true,
-            "weight": 2,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmg2": "1d10",
-            "dmgType": "S",
-            "bonusWeapon": "+1",
-            "entries": [
-                "Adorned with precious gems and embossed with ancient runes, this longsword was forged by Jahad Zahard, a former lord of Baltigo, using dragon fire and techniques from the elder days of the giants. As he aged, Jahad chose to seal the kinglier aspects of his soul into this, his magnum opus, so that future lords could benefit from his wisdom and so that the order of Dragon Knights could continue to perform the dragon blood ritual he designed, which requires his magic as a component. Slumbering alone in the depths of the Dragon Knight’s fortress Castle Jahad, it grows restless... Its pommel and guard are made of a complex alloy of gold, silver, copper, bronze, and brass, bejeweled by a ruby, sapphire, emerald, onyx, and diamond. The blade is embossed with ancient runes of the giant folk that Jahad had learned in his younger days of adventure. In its exalted state, its runes increase in complexity, and amethyst, quartz, moonstone, and topaz gems appear encrusted on its surface.",
-                {
-                    "type": "entries",
-                    "name": "Sentience",
-                    "entries": [
-                        {
-                            "type": "list",
-                            "items": [
-                                "Jahad is a sentient lawful neutral weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.",
-                                "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, Giant, Orc, Elvish, Dwarvish, and Sylvan."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Personality",
-                    "entries": [
-                        "Jahad is the amalgamation of Jahad Zahard’s most kingly, proud, regal, and intimidating traits, with much of the knowledge that Jahad Zahard boasted in life, though its knowledge and memory are limited to what he knew at the time of making the blade sentient. Jahad desires to offer council and aid to a true lord of Baltigo, helping the nation prosper and defend itself in any way it can. The longsword is proud and fickle towards potential wielders, heavily favoring officials of Baltigo, powerful warriors, and knowledgeable scholars and spellcasters."
-                    ]
-                },
-                "If someone attempts to use Jahad against its will, it can become ten times heavier than normal and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, it can't be wielded. Nothing short of a wish spell can separate it from the item or surface to which it is adhered without destroying one or the other, though it can choose to end the effect at any time.",
-                {
-                    "type": "entries",
-                    "name": "Dormant",
-                    "entries": [
-                        "Jahad grants the following benefits in its dormant state:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You can speak, read, and write Orc, Dwarvish, Elvish, and Sylvan.",
-                                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                                {
-                                    "type": "entries",
-                                    "name": "Chromatic Affinity",
-                                    "entries": [
-                                        "As a bonus action, you can touch one of the gems adorning Jahad. For the next minute, the weapon deals an extra 1d4 damage of the corresponding damage type to the gem you touched when it hits (ruby – fire, sapphire – lightning, emerald – poison, onyx – acid, diamond – cold). After you use this bonus action, you can't do so again until you finish a long rest."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Element Shroud",
-                                    "entries": [
-                                        "When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. After using this reaction, you can’t do so again until you finish a long rest."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Rune Magic",
-                                    "entries": [
-                                        "You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. You may change the rune you know after each long rest. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for these runes is the same as your spellcasting ability."
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colStyles": [
-                                "col",
-                                "col"
-                            ],
-                            "colLabels": [
-                                "Rune",
-                                "Spell"
-                            ],
-                            "rows": [
-                                [
-                                    "Cloud",
-                                    "{@spell fog cloud|PHB}"
-                                ],
-                                [
-                                    "Death",
-                                    "{@spell inflict wounds|PHB}"
-                                ],
-                                [
-                                    "Dragon",
-                                    "{@spell chromatic orb|PHB}"
-                                ],
-                                [
-                                    "Enemy",
-                                    "{@spell disguise self|PHB}"
-                                ],
-                                [
-                                    "Fire",
-                                    "{@spell burning hands|PHB}"
-                                ],
-                                [
-                                    "Friend",
-                                    "{@spell speak with animals|PHB}"
-                                ],
-                                [
-                                    "Frost",
-                                    "{@spell armor of agathys|PHB}"
-                                ],
-                                [
-                                    "Hill",
-                                    "{@spell goodberry|PHB}"
-                                ],
-                                [
-                                    "Journey",
-                                    "{@spell longstrider|PHB}"
-                                ],
-                                [
-                                    "King",
-                                    "{@spell command|PHB}"
-                                ],
-                                [
-                                    "Mountain",
-                                    "{@spell entangle|PHB}"
-                                ],
-                                [
-                                    "Stone",
-                                    "{@spell sanctuary|PHB}"
-                                ],
-                                [
-                                    "Storm",
-                                    "{@spell thunderwave|PHB}"
-                                ]
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Pinkie of the Celestial",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "entries": [
-                "When {@creature Mycelius - Fiendish Contagious Fungus|WOR|Mycelius} was defeated two objects appeared. A {@item Demon Core|WOR} and a severed pinkie that radiated a celestial essence",
-                "The pinkie houses a forgetful and seemingly friendly personality that wants to be made whole. ",
-                "When attuned, the pinkie can detect other fingers like itself withing 30 miles."
-            ]
-        },
-        {
-            "name": "Demon Core",
-            "source": "WOR",
-            "page": 195,
-            "tier": "major",
-            "rarity": "rare",
-            "reqAttune": true,
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "A crimson orb that can give the weilder great power for a terrible price. At the cost of one's soul, the Demon Core can grant the user near unmatched power. ",
-                {
-                    "type": "entries",
-                    "name": "Curse",
-                    "entries": [
-                        "This item is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the core or you attune to it. Attuning to the core curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed you seek the most violent path possible to accomplish you goals."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ring of Free Form Jazz",
-            "source": "WOR",
-            "page": 204,
-            "tier": "major",
-            "rarity": "uncommon",
-            "reqAttune": true,
-            "weight": 4,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d3}",
-            "charges": 3,
-            "entries": [
-                "This ring has three + PB charges, regaining {@dice 1d3} per dawn. You may use a bonus action to expend a charge, causing an ethereal jazz band to appear and strike a beat in a 10-foot square within 60 feet of you. The band plays three songs that each last no longer than 3.33 minutes, and the players cannot move from where they were summoned. They disappear when their set is complete. If they play during a short rest, any creature that rolls hit dice that turn may roll an additional {@dice 1d6} if they appreciate free form jazz. If all charges are expended, the band, consisting of four members, is summoned in an unoccupied spot adjacent to you in physical form and are hostile toward you and your companions."
-            ]
-        }
-    ],
     "legendaryGroup": [
         {
             "name": "Boblin, The Efficient Goblin King",
@@ -8823,6 +9690,21 @@
             ]
         },
         {
+            "name": "Rubelonth",
+            "source": "WOR",
+            "lairActions": [
+                "When fighting inside its lair, Rubelonth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Rubelonth can take one lair action to cause one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Magma erupts from a point on the ground the dragon can see within 120 feet of it, creating a 20-foot-high, 5-foot-radius geyser. Each creature in the geyser’s area must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one.",
+                        "A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition prone}.",
+                        "Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the end of its turn. While poisoned in this way, a creature is {@condition incapacitated}."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Mycelius",
             "source": "WOR",
             "lairActions": [
@@ -8847,670 +9729,6 @@
                         "The vine lord makes a tendril attack against a random enemy creature within the confines of its lair."
                     ]
                 }
-            ]
-        }
-    ],
-    "fluff": [
-        {
-            "name": "The Warrior",
-            "source": "WOR",
-            "type": "section",
-            "entries": [
-                [
-                    "A human woman stands locked in combat with a hobgoblin. With each swing of his blade, she meets him with ferocity and powerful blows. The battle rages on, the woman feeding off the ecstasy of battle, receiving succor with each blow she lands.",
-                    "A goliath man dashes into the heat of battle, his battleax swinging wildly around him. He lets out an earth-shaking battle cry as he crushes the ground and all those around him with explosive force.",
-                    "A lightly armored figure stands at his ally's sides. His powerful voice echoes out across the field, empowering his allies as he leads his comrades into battle, axe drawn and swinging like a tempest of steel and iron.",
-                    "Like a symbol crash in an orchestra, a {@b Warrior} is an explosive force which stands out in any situation. Their booming voice, raw strength and powerful strikes are their tools for victory."
-                ],
-                {
-                    "type": "entries",
-                    "name": "Indomitable Forces",
-                    "entries": [
-                        "The {@b Warrior} finds its roots in ancient tribes akin to barbarians. These fearless fighters are peerless in their control of a force which they call the “inner beast”. Warriors often come from tribal backgrounds in which they learn to nurture and control this inner animal, which in turn grants them beast like strength and ferocity. Warrior bands once roamed unsettled lands as nomads, enjoying the boons which nature offers and defending the weak from those who would do them harm."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Unending Rage",
-                    "entries": [
-                        "Not unlike nature itself, a {@b Warrior} has the potential to become a relentless force of destruction. Like a raging forest fire, or an all-consuming tidal wave, a warrior can unleash their inner beast to harness its rage. This state of being is known as “berserking”. While berserking, Warriors continually chase foes and defend allies, using their bloodlust to keep themselves in the battle as a threat."
-                    ]
-                }
-            ]
-        }
-    ],
-    "optionalfeature": [
-        {
-            "name": "Dance of the Dragon",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to unleash a dragon's breath. The breath has a range of either a 15-foot cone, or a 20 by 5-foot line, and creatures in the area must make a Dexterity saving throw, taking half damage on a success. The damage is equal to {@dice 2d6} per level spell slot expended, to a max of 10d6. The damage type may be either poison, acid, fire, cold, or lightning."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have Dance of the Dragon active, you gain resistance to the damage type you used for the active effect and one other of your choice among the original choices. You may re-elect the types each time you use the active effect."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance with Death",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal necrotic damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have Dance with Death active, you deal an additional {@dice d4} necrotic damage on all weapon attacks and gain advantage against saving throws that would frighten you."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Shifting Sand Salsa",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you can expend a spell slot to cast misty step, but target a number of creatures within 30 feet of yourself (including yourself) equal to the slot level to bring with you. The creatures you bring with you are placed within 5 feet of you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Shifting Sand Salsa active, you have the effects of a 1st-level armor of agathys spell cast on yourself, which refreshes at the start of each of your turns. However, the damage is slashing damage, instead of cold."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Tango of the Troll",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to conjure floating spectral troll arms. You conjure a number of arms equal to the spell slot level expended. You make a number of melee spell attacks on creatures within 15 feet of you equal to the number of troll arms summoned. Each attack deals slashing damage equal to {@dice 1d10} plus your Charisma modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Tango of the Troll active, you regain hit points equal to half your dancer level (rounded up) at the start of each of your turns. If you take fire or acid damage, this doesn't function at the start of your next turn. You do not gain temporary hit points if you gain more health than your hit point maximum."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Waltz of the Pouncing Feline",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to fill yourself with beast-like adrenaline, causing you to pounce on a creature within range of your movement speed, making a melee weapon attack on the creature, using your choice of your Strength or Dexterity modifier. On a hit, the creature is knocked prone and takes slashing damage equal to {@dice 1d8} per slot level plus your choice of your Strength or Dexterity modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Waltz of the Pouncing Feline active, you have claws on your hands, causing your unarmed strikes to deal {@dice 1d6} slashing damage, and allow you to use your Dexterity modifier instead of your Strength modifier if you so choose with them. If you use your action to make an unarmed strike, you can use your bonus action to make another unarmed strike, adding your modifier to the bonus action even if you do not possess the Two-Weapon Fighting fighting style."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Avian",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you can expend a spell slot to grow wings and dash forth up to 30 feet. Creatures within 5 feet of you in the path you dash make Dexterity saving throws, taking {@dice 1d8} slashing damage per slot level used on a failure, and half on a success."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Dance of the Avian active, you have a flight speed of 30 feet. You cannot wear medium or heavy armor with this active and must land at the end of each of your turns."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Mountain Goat Mambo",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to give yourself spectral horns that disappear after you ram with them and ram a creature within range of your movement speed, forcing a Dexterity save on the creature you target. On a failed save, the creature takes {@dice 1d12} bludgeoning damage per slot level, and is knocked prone, taking halfdamage and not being knocked prone on a success."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Mountain Goat Mambo active, you have a climbing speed equal to your walking speed."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Elevated Quickstep",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to give yourself the ability to levitate, as per the levitate spell. You may cast this spell on other creatures as well, equal to the level of spell slot expended."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Elevated Quickstep active, your jump height and distance are doubled and you gain advantage on Strength (Athletics) checks related to jumping."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Blessed Ballroom Dance",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, you can expend a spell slot to cast Bless on a number of allies equal to the level of spell slot + 1 in range for 1 minute."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "While you have the Dance of the Blessed active, those blessed gain an increase to their hit points and hit point maximums equal to your Charisma modifier + proficiency + spell slot level."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Elements",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "Yes"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, target an ally's  and expend one spell slot. Their next attack will deal extra (acid, cold, fire, lightning, or thunder) damage to their target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of 6d8."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "The targeted ally's weapon does {@dice d4} of extra (acid, cold, fire, lightning, or thunder) damage on all weapon attacks after the initial attack."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Barbarian Bolero",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, give a number of allies equal to the level of spell slot expended within 15 ft of you advantage on their attack rolls for their next turn, but enemies will have advantage on their attacks against these targets"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "The targets take half damage from your choice of slashing, bludgeoning, or piercing damage."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of Avoidance",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a bonus action, you begin a special dance that loosens your motion and allows you to evade attacks easier, giving you the benefits of the Dodge action until the start of your next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "You gain a bonus to your AC equal to the level of spell slot expended. Additionally, if you attack a creature that is benefiting from the Dodge action, you ignore those benefits as you match the rhythm of their evasive maneuvers."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Peace Polka",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, a number of hostile creature equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets are charmed by you for the next minute. On a successful save, the targeted creatures aren't charmed. A creature who is charmed is able to repeat this saving throw at the beginning of each of their turns, ending the effect on the success. When a creature is no longer charmed, they realize that they have been duped, and become hostile to you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "You and your allies gain advantage on attack rolls against creatures charmed by this effect, but if a charmed creature is attacked by you or your allies, regardless of hitting or missing, the effect ends."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Stage Fright Foxtrot",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, a number of hostile creatures equal to the level of spell slot expended within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targeted creatures subtract your proficiency bonus from all attack rolls, ability checks, and saving throws against you, your spells, and effects they make during the next {@dice d4} rounds. On a successful save, they resist this effect."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "Your anxious dance disconcerts your enemies. Hostile creatures within 15 feet of you are considered to be in difficult terrain."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of the Acrobat",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As a reaction, expend a spell slot to begin a special dance as a creature makes an attack against you. Whether they hit or miss, move half your movement speed. This movement doesn't trigger opportunity attacks. If they hit, you have resistance against the damage. You may choose to do so after the attack roll but before you know the result. You may use this reaction a number of times equal to the level of spell slot expended until the start of your next turn but cannot use any other reactions."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "If you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of the turn."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Lightning Bolt Ballet",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When you are attacked by a creature within 30 feet of you, expend a spell slot to use a reaction to reduce the damage taken from bludgeoning, force, lightning, or thunder damage equal to a number of d8s equal to the level of spell slot expended. Additionally, the creature that attacked you must succeed on a Dexterity saving throw against your spell save DC or take lightning or thunder damage equal to a number of d8s equal to the level of spell slot expended + your charisma bonus."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After the initial attack, you gain resistance to lightning and thunder damage and deal an extra {@dice d4} of your choice of lightning or thunder damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Fiery Flamenco",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, expend a spell slot to create a trail of flames of a length equal to or less than your movement speed. Any creature that enters or start its turn inside the trail must make a Constitution saving throw against your spell save DC. On a failed save, its movement speed is halved and it takes fire damage equal to a number of d8s equal to the level of spell slot expended plus your charisma bonus. On a successful save, it takes half the fire damage and its speed isn't halved. The trail fades at the start of your next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After creating the trail, you have resistance to fire damage and deal an extra {@dice d4} of fire damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Snowflake Samba",
-            "source": "WOR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "When a hostile creature successfully attacks you, expend a spell slot to use your reaction to cause the ground beneath and around them to erupt with ice, causing icicles to sprout around them. The area within 5 feet of them becomes difficult terrain, and they must make a Dexterity saving throw against your spell save DC or take cold damage equal to a number of d6s equal to the level of spell slot expended + your charisma bonus. On a successful save, they take half the damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "After creating the ice, you have resistance to cold damage and deal an extra {@dice d4} cold damage with your weapon attacks."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        },
-        {
-            "name": "Dance of Entrainment",
-            "source": "WOR",
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 15,
-                        "class": {
-                            "name": "Dancer"
-                        },
-                        "subclass": {
-                            "name": "Dance College of the Twirling Blade",
-                            "visible": false
-                        }
-                    }
-                }
-            ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Concentration",
-                    "entries": [
-                        "No"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Active",
-                    "entries": [
-                        "As an action, expend a spell slot to begin an irresistible dance. A number of creatures equal to the level of spell slot expended (rounded down) within 15 feet of you that can see you must make a Charisma saving throw against your spell save DC. On a failed save, the targets begin to dance uncontrollably, as per the spell Otto's Irresistible Dance unless they are immune to being charmed. On a successful save, the targeted creatures aren't charmed."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Passive",
-                    "entries": [
-                        "Your dance moves beckon others to join you. When a creature that can see you an enters or starts its turn in a 15-foot radius of you must make a Charisma saving throw. On a failure, they must choose one among moving, taking an action, taking a bonus action, or taking a reaction. On a success, they resist this effect and are immune to it for 1 hour."
-                    ]
-                }
-            ],
-            "featureType": [
-                "Dance"
-            ]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Interdicted",
-            "source": "WOR",
-            "page": 1,
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature afflicted with an {@class Illrigger|WOR|Illrigger's} Baleful Interdict is interdicted."
-                    ]
-                }
-            ],
-            "hasFluffImages": false
-        }
-    ],
-    "itemGroup": [
-        {
-            "name": "Hexblade",
-            "source": "WOR",
-            "page": 211,
-            "rarity": "legendary",
-            "reqAttune": true,
-            "entries": [
-                "Weapons forged by a powerful diety that have beeen scattered across the earth."
-            ],
-            "items": [
-                "Drakmata (Dormant)|WOR",
-                "Drakmata (Awakened)|WOR",
-                "Bolg (Dormant)|WOR",
-                "Bolg (Awakened)|WOR",
-                "Jahad (Dormant)|WOR",
-                "Jahad (Awakened)|WOR"
-            ]
-        },
-        {
-            "name": "Fingers of the Celestial",
-            "source": "WOR",
-            "page": 211,
-            "rarity": "rare",
-            "reqAttune": true,
-            "entries": [
-                "Fingers with incredible celestial energy that have been corrupted and housed in {@item Demon Core|WOR|Demon Cores} to grant incredible power."
-            ],
-            "items": [
-                "Pinkie of the Celestial|WOR"
             ]
         }
     ]
