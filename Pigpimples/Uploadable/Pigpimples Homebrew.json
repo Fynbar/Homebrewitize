@@ -1,0 +1,1058 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PPSoWaMW",
+                "abbreviation": "PPSoWaMW",
+                "full": "Pigpimples",
+                "authors": [
+                    "Me"
+                ],
+                "version": "1.0.18",
+                "color": "#30a5ff"
+            }
+        ],
+        "dateAdded": 1620498967,
+        "dateLastModified": 1753411120.0,
+        "otherSources": {
+            "monster": {
+                "MM": "PPSoWaMW",
+                "DMG": "PPSoWaMW",
+                "TCE": "PPSoWaMW"
+            }
+        },
+        "dependencies": {
+            "monster": [
+                "MM",
+                "VGM",
+                "MTF",
+                "MPMM"
+            ]
+        },
+        "internalCopies": [
+            "item",
+            "monster"
+        ]
+    },
+    "monster": [
+        {
+            "name": "Bernlack, The Grove Guardian",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "human",
+                    "paladin",
+                    "warlock"
+                ]
+            },
+            "alignment": [
+                "C",
+                "G"
+            ],
+            "size": "M",
+            "cha": 16,
+            "wis": 10,
+            "int": 10,
+            "con": 16,
+            "str": 16,
+            "dex": 8,
+            "hp": {
+                "formula": "6d10 + 3d8 + 40",
+                "average": 91
+            },
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item chain mail|phb}"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "9",
+            "save": {
+                "wis": "+4",
+                "cha": "+7"
+            },
+            "skill": {
+                "acrobatics": "+3",
+                "athletics": "+7",
+                "insight": "+4",
+                "nature": "+4",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "conditionImmune": [
+                "frightened"
+            ],
+            "languages": [
+                "Common",
+                "Sylvan"
+            ],
+            "trait": [
+                {
+                    "name": "Divine Smite",
+                    "entries": [
+                        "When Bernlack hits with a melee weapon attack, they can expend one spell slot to deal 9 ({@damage 2d8}) extra radiant damage to the target plus 4 ({@damage 1d8}) for each spell level higher than 1st and and additional 4 ({@damage 1d8}) against undead or fiends."
+                    ]
+                },
+                {
+                    "name": "Great Weapon Fighting",
+                    "entries": [
+                        "Bernlack can reroll a 1 or 2 once on a damage die for an attack made two hands."
+                    ]
+                },
+                {
+                    "name": "Divine Health",
+                    "entries": [
+                        "Bernlack is immune to disease."
+                    ]
+                },
+                {
+                    "name": "Slasher",
+                    "entries": [
+                        "When Bernlack scores a critical hit that deals slashing damage to a creature, the target has disadvantage on all attack rolls until the start of Bernlack's next turn."
+                    ]
+                },
+                {
+                    "name": "Gift of the Ever-Living Ones",
+                    "entries": [
+                        "Whenever Bernlack regains hit points while within 100 feet of their familiar, any dice rolled to regain hit points is treated as having rolled their maximum value."
+                    ]
+                },
+                {
+                    "name": "Stone of Good Luck",
+                    "entries": [
+                        "Bernlack has a {@b +1} bonus to ability checks and saving throws."
+                    ]
+                },
+                {
+                    "name": "Aura of Protection",
+                    "entries": [
+                        "Bernlack grants all friendly creatures within 10 ft. a +3 bonus to all saving throws."
+                    ]
+                },
+                {
+                    "name": "Aura of Warding",
+                    "entries": [
+                        "Friendly creatures within 10 feet of Bernlack have resistance to damage from spells."
+                    ]
+                },
+                {
+                    "name": "Voice of the Chain Master",
+                    "entries": [
+                        "Bernlack can communicate telepathically with his familiar, perceive through its senses, and speak through it in his own voice."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell eldritch blast}",
+                                "{@spell prestidigitation}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell bless}",
+                                "{@spell cure wounds}",
+                                "{@spell ensnaring strike}",
+                                "{@spell faerie fire}",
+                                "{@spell sleep}",
+                                "{@spell speak with animals}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell aid}",
+                                "{@spell branding smite}",
+                                "{@spell find steed}",
+                                "{@spell lesser restoration}",
+                                "{@spell misty step}",
+                                "{@spell moonbeam}",
+                                "{@spell shatter}",
+                                "{@spell suggestion}"
+                            ],
+                            "slots": 5
+                        }
+                    },
+                    "headerEntries": [
+                        "Bernlack is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Bernlack has the following warlock and paladin spells prepared:"
+                    ],
+                    "footerEntries": [
+                        "Bernlack regains up to two 2nd level spell slots on a Short Rest."
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "headerEntries": [
+                        "Bernlack's ritual spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "cha",
+                    "will": [
+                        "{@spell find familiar}"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CP",
+                "CL"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Bernlack makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Glaive",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage. The target's speed is reduced by 10ft. until the start of Bernlack's next turn."
+                    ]
+                },
+                {
+                    "name": "Handaxe",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 6 ({@damage 1d6 + 3}) slashing damage. The target's speed is reduced by 10ft. until the start of Bernlack's next turn."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Bernlack uses their Channel Divinity in one of the following ways.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "{@b Nature's Wrath}",
+                                    "entry": "Bernlack causes vines to erupt and force a creature within 10 feet to make a {@dc 15} Strength or Dexterity saving throw (their choice) or becomes {@condition restrained} for 1 minute. The restrained creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "{@b Turn the Faithless}",
+                                    "entry": " Each fey and fiend within 30 feet of Bernlack must make a {@dc 12} Wisdom saving throw or be turned for 1 minute or until it takes any damage. A turned creature spends its turns moving as far away from Bernlack as it can, can't willingly move to a space within 30 feet of Bernlack, take reactions, and only take the dash action, escape from an effect that prevents it from moving, or take the Dodge action if there's nowhere to move."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Fey Presence (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Bernlack causes each creature in a 10-foot cube to make a 15 Wisdom saving throw or be {@condition charmed} or {@condition frightened} until the end of his next turn."
+                    ]
+                },
+                {
+                    "name": "Lay on Hands Pool (Recharges after a Long Rest)",
+                    "entries": [
+                        "Bernlack has a pool of healing power that can restore {@b 25} HP. Bernlack can touch a creature to restore any number of HP remaining in the pool, or 5 HP to either cure a disease or neutralize a poison affecting the creature."
+                    ]
+                },
+                {
+                    "name": "Divine Sense (6/Long Rest)",
+                    "entries": [
+                        "Until the end of Bernlack's next turn, they can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead within 60 ft. that is not behind total cover."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guardian Emblem (3/day)",
+                    "entries": [
+                        "When a creature within 30 feet of Bernlack suffers a critical hit they can turn the critical hit into a normal hit instead."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "S"
+            ],
+            "level": 10,
+            "isNPC": true,
+            "source": "PPSoWaMW",
+            "page": 1
+        },
+        {
+            "name": "Evelynne Tagoneste",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "size": "S",
+            "cha": 16,
+            "wis": 11,
+            "int": 14,
+            "con": 12,
+            "str": 8,
+            "dex": 14,
+            "hp": {
+                "formula": "1d8 + 1",
+                "average": 9
+            },
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "Pigpimples School Robes"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "2",
+            "save": {
+                "wis": "+2",
+                "cha": "+5"
+            },
+            "skill": {
+                "arcana": "+4",
+                "deception": "+5",
+                "religion": "+4"
+            },
+            "passive": 10,
+            "languages": [
+                "Common"
+            ],
+            "senses": [
+                "darkvision 60ft."
+            ],
+            "trait": [
+                {
+                    "name": "Awakened Mind",
+                    "entries": [
+                        "Evelynne Tagoneste can telepathically speak to any creature within 30 feet of that speaks at least one language."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell eldritch blast}",
+                                "{@spell sword burst|TCE}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell cause fear|XGE}",
+                                "{@spell tasha's hideous laughter}"
+                            ],
+                            "slots": 1
+                        }
+                    },
+                    "headerEntries": [
+                        "Evelynne Tagoneste is a 1st level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Evelynne Tagoneste has the following ??? spells prepared:"
+                    ]
+                }
+            ],
+            "spellcastingTags": [],
+            "action": [
+                {
+                    "name": "Arcane Blast",
+                    "entries": [
+                        "Evelynne Tagoneste can make a {@dc 10} Arcana check and deal +3 non-lethal force damage to a target on success."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw, rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@i Hit:} 4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "source": "PPSoWaMW",
+            "page": 1
+        },
+        {
+            "name": "Parry - Year VI",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "halfling",
+                    "wizard"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "S",
+            "cha": 12,
+            "wis": 10,
+            "int": 20,
+            "con": 16,
+            "str": 8,
+            "dex": 15,
+            "hp": {
+                "formula": "9d6 + 36",
+                "average": 72
+            },
+            "ac": [
+                12
+            ],
+            "speed": {
+                "walk": 25
+            },
+            "cr": "10",
+            "save": {
+                "int": "+9",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+9",
+                "history": "+9",
+                "insight": "+4",
+                "intimidation": "+5"
+            },
+            "passive": 10,
+            "resist": [
+                "poison"
+            ],
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Deep Speech",
+                "Elvish",
+                "Halfling"
+            ],
+            "trait": [
+                {
+                    "name": "Manifest Mind - Cast Spell (4/Long Rest)",
+                    "entries": [
+                        "When casting a wizard spell, Parry can cast it from the spectral tome's space."
+                    ]
+                },
+                {
+                    "name": "Arcane Recovery (Recharges after a Long Rest)",
+                    "entries": [
+                        "When finishing a short rest, the Parry can recover expended spell slots - up to a combined level of {@b 5}, and none of the slots can be 6th level or higher."
+                    ]
+                },
+                {
+                    "name": "Awakened Spellbook",
+                    "entries": [
+                        "When casting a spell, Parry can replace its damage type with the damage type done by another spell of the same level."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - One with the Word",
+                    "entries": [
+                        "The Parry has advantage on all Intelligence ({@skill Arcana}) checks."
+                    ]
+                },
+                {
+                    "name": "Lucky",
+                    "entries": [
+                        "When Parry rolls a 1 on an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll."
+                    ]
+                },
+                {
+                    "name": "Brave",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "Parry can move through the space of any creature that is medium or larger."
+                    ]
+                },
+                {
+                    "name": "Stout Resilience",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition poisoned}."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell fire bolt}",
+                                "{@spell mage hand}",
+                                "{@spell mind sliver|TCE}",
+                                "{@spell minor illusion}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell burning hands}",
+                                "{@spell chromatic orb}",
+                                "{@spell magic missile}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell invisibility}",
+                                "{@spell scorching ray}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell counterspell}",
+                                "{@spell fireball}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell polymorph}",
+                                "{@spell summon aberration|TCE}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell bigby's hand}",
+                                "{@spell mislead}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Parry is a 10th-level spellcaster. Their spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The Parry has the following wizard spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "headerEntries": [
+                        "Parry's ritual spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell alarm}",
+                        "{@spell {@spell contact other planes}}",
+                        "{@spell detect magic}",
+                        "{@spell find familiar}",
+                        "{@spell identify}"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CW"
+            ],
+            "action": [
+                {
+                    "name": "Dart",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of Parry. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Parry what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "AB",
+                "C",
+                "DS",
+                "E"
+            ],
+            "level": 10,
+            "isNPC": true,
+            "source": "PPSoWaMW",
+            "page": 1
+        },
+        {
+            "name": "Parry, The Star Spawn Envoy",
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "halfling",
+                    "wizard"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "size": "M",
+            "cha": 12,
+            "wis": 10,
+            "int": 20,
+            "con": 16,
+            "str": 8,
+            "dex": 15,
+            "hp": {
+                "formula": "14d8 + 42",
+                "average": 98.0
+            },
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 25
+            },
+            "cr": "12",
+            "save": {
+                "int": "+9",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+9",
+                "history": "+9",
+                "insight": "+4",
+                "intimidation": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "resist": [
+                "poison",
+                "psychic"
+            ],
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Deep Speech",
+                "Elvish",
+                "Halfling",
+                "Undercommon"
+            ],
+            "trait": [
+                {
+                    "name": "Manifest Mind - Cast Spell (4/Long Rest)",
+                    "entries": [
+                        "When casting a wizard spell, Parry can cast it from the spectral tome's space."
+                    ]
+                },
+                {
+                    "name": "Arcane Recovery (Recharges after a Long Rest)",
+                    "entries": [
+                        "When finishing a short rest, the Parry can recover expended spell slots - up to a combined level of {@b 5}, and none of the slots can be 6th level or higher."
+                    ]
+                },
+                {
+                    "name": "Awakened Spellbook",
+                    "entries": [
+                        "When casting a spell, Parry can replace its damage type with the damage type done by another spell of the same level."
+                    ]
+                },
+                {
+                    "name": "Manifest Mind - One with the Word",
+                    "entries": [
+                        "The Parry has advantage on all Intelligence ({@skill Arcana}) checks."
+                    ]
+                },
+                {
+                    "name": "Lucky",
+                    "entries": [
+                        "When Parry rolls a 1 on an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll."
+                    ]
+                },
+                {
+                    "name": "Brave",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "Parry can move through the space of any creature that is medium or larger."
+                    ]
+                },
+                {
+                    "name": "Stout Resilience",
+                    "entries": [
+                        "Parry has advantage on saving throws against being {@condition poisoned}."
+                    ]
+                },
+                {
+                    "name": "Cosmic Awareness",
+                    "entries": [
+                        "The Parry has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Out-Of-Phase Movement",
+                    "entries": [
+                        "Parry can move through other creatures and objects as if they were difficult terrain. Each creature it moves through takes 3 ({@damage 1d6}) psychic damage; no creature can take this damage more than once per turn.",
+                        "",
+                        "The Envoy takes 3 ({@damage 1d6}) force damage if it ends its turn inside an object."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell fire bolt}",
+                                "{@spell mage hand}",
+                                "{@spell mind sliver|TCE}",
+                                "{@spell minor illusion}"
+                            ]
+                        },
+                        "1": {
+                            "spells": [
+                                "{@spell burning hands}",
+                                "{@spell chromatic orb}",
+                                "{@spell magic missile}"
+                            ],
+                            "slots": 4
+                        },
+                        "2": {
+                            "spells": [
+                                "{@spell invisibility}",
+                                "{@spell scorching ray}"
+                            ],
+                            "slots": 3
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell counterspell}",
+                                "{@spell fireball}"
+                            ],
+                            "slots": 3
+                        },
+                        "4": {
+                            "spells": [
+                                "{@spell polymorph}",
+                                "{@spell summon aberration|TCE}"
+                            ],
+                            "slots": 3
+                        },
+                        "5": {
+                            "spells": [
+                                "{@spell bigby's hand}",
+                                "{@spell mislead}"
+                            ],
+                            "slots": 2
+                        }
+                    },
+                    "headerEntries": [
+                        "Parry is a 10th-level spellcaster. Their spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The Parry has the following wizard spells prepared:"
+                    ]
+                },
+                {
+                    "name": "Ritual Casting",
+                    "headerEntries": [
+                        "Parry's ritual spellcasting ability for wizard spells is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The spells can be cast at will, taking 10 minutes longer to cast than normal:"
+                    ],
+                    "ability": "int",
+                    "will": [
+                        "{@spell alarm}",
+                        "{@spell {@spell contact other planes}}",
+                        "{@spell detect magic}",
+                        "{@spell find familiar}",
+                        "{@spell identify}"
+                    ]
+                }
+            ],
+            "spellcastingTags": [
+                "CW"
+            ],
+            "action": [
+                {
+                    "name": "Dart",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Psychic Orb",
+                    "entries": [
+                        "{@i Ranged Spell Attack:} 9 to hit, range 120 ft., one target. {@i Hit:} 21 ({@damage 3d10 + 5}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Collapse Distance (1/day)",
+                    "entries": [
+                        "The Envoy warps space around one creature it can see within 30 feet of it. That creature must make a {@dc 17} Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is teleported up to 60 feet to an unoccupied space the Envoy can see, and then each creature within 10 feet of the target's original space takes 26 ({@damage 4d12}) psychic damage. On a successful save, the target takes 13 ({@damage 2d12}) psychic damage and isn't teleported."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Manifest Mind (Recharges after a Long Rest; or a Spell Slot is spent to use it)",
+                    "entries": [
+                        "A Tiny spectral tome hovers in an unoccupied space within 60 feet of Parry. It sheds dim light in a 10-foot radius and disappears if it is 300 feet away from them. While manifested, the tome can hear and see, has 60 ft. of darkvision and can telepathically share with Parry what it sees and hears (no action required).",
+                        "As a bonus action, the tome to hover up to 30 feet. It can pass through creatures but not objects."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "AB",
+                "C",
+                "DS",
+                "E",
+                "U"
+            ],
+            "level": 15,
+            "source": "PPSoWaMW",
+            "page": 1
+        },
+        {
+            "name": "Teeniemat",
+            "type": "Dragon",
+            "alignment": [
+                "U"
+            ],
+            "size": "L",
+            "cha": 16,
+            "wis": 11,
+            "int": 12,
+            "con": 13,
+            "str": 15,
+            "dex": 8,
+            "hp": {
+                "formula": "4d10 + 4",
+                "average": 24.0
+            },
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "cr": "1",
+            "save": {
+                "str": "+4",
+                "dex": "+1",
+                "con": "+3",
+                "int": "+3",
+                "wis": "+2",
+                "cha": "+5"
+            },
+            "skill": {
+                "arcana": "+3",
+                "perception": "+2",
+                "religion": "+3"
+            },
+            "passive": 12,
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "Common",
+                "Draconic",
+                "Infernal"
+            ],
+            "senses": [
+                "darkvision 120ft.",
+                "blindsight 15ft."
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Teeniemat makes two attacks, one with her bite and one with stomp"
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 2 ({@damage 1d4}) damage of type associated with the head that makes the attack: Acid for black, cold for white, fire for red. lightning for blue, and poison for green."
+                    ]
+                },
+                {
+                    "name": "Stomp",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2})  bludgeoning damage and the target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Breath Weapons {@recharge 5}",
+                    "entries": [
+                        "Teeniemat uses one of the following breath weapons:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b {@i Acid Breath.}} Teeniemat exhales acid in a 20 foot line that is 5 feet wide. Any creature in the line must succeed on a {@dc 10} Dexterity saving throw or take 4 ({@damage 1d8}) acid damage, or half as much on a successful save",
+                                "{@b {@i Cold Breath.}} Teeniemat exhales an icy blast in a 10 foot cone. Any creature in the cone must succeed on a {@dc 10} Constitution saving throw or take 4 ({@damage 1d8}) cold damage, or half as much on a successful save.",
+                                "{@b {@i Fire Breath.}} Teeniemat exhales fire in a 10 foot cone. Any creature in the cone must succeed on a {@dc 10} Dexterity saving throw or take 7 ({@damage 2d6}) fire damage, or half as much on a successful save.",
+                                "{@b {@i Lightning Breath.}} Teeniemat exhales lightning in a 20 foot line that is 5 feet wide. Any creature in the line must succeed on a {@dc 10} Dexterity saving throw or Take 5 ({@damage 1d10}) lightning damage, or half as successful save. much on a",
+                                "{@b {@i Poison Breath.}} Teeniemat exhales poisonous gas in a 10 foot cone. Any creature in the cone must succeed on a {@dc 10} Constitution saving throw or take 3 ({@damage 1d6}) poison damage, or half as much on a successful save."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR",
+                "I"
+            ],
+            "source": "PPSoWaMW",
+            "page": 1
+        }
+    ],
+    "item": [
+        {
+            "name": "Umber-ella",
+            "source": "PPSoWaMW",
+            "page": 195,
+            "tier": "minor",
+            "rarity": "uncommon",
+            "reqAttune": false,
+            "wondrous": true,
+            "entries": [
+                "A seemingly normal unbrella made of black fabric with a polished white handle. When opened and held by a creatue with {@b {@i Sunlight Sensitivity}}, the shde created by the Umber-ella is not treated as sunlight."
+            ]
+        },
+        {
+            "name": "Cheezer Longitudinal Universal Budger MK. 2",
+            "source": "PPSoWaMW",
+            "page": 134,
+            "rarity": "rare",
+            "reqAttune": "a member of the Cheezer Family",
+            "wondrous": true,
+            "weight": 3,
+            "recharge": "dawn",
+            "charges": 3,
+            "baseItem": "club|phb",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "entries": [
+                "The lineage of the Cheezer house is forged into this iron rectangle. Long ago Warlton Ulysses Cheezer IV artisinally crafted this weapon to challenge his cousin,  Warlton Robert Cheezer, to a game of the golf to settle their family disputes (As is tradition)",
+                "The C.L.U.B has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use expend one charge to cast {@spell catapault} (DC 14)."
+            ],
+            "attachedSpells": [
+                "catapault"
+            ]
+        },
+        {
+            "name": "Blackwood Account of the Occult",
+            "source": "PPSoWaMW",
+            "page": 134,
+            "rarity": "rare",
+            "reqAttune": "by a male Night elf",
+            "wondrous": true,
+            "weight": 3,
+            "recharge": "dawn",
+            "entries": [
+                "Before his death, Cassiel Blackwood used the access afforded by his wife’s station to research the odd and occult. Many notes in the book are hidden behind codes and ciphers to prevent his findings from becoming public.",
+                "The book seems to almost bend space and time, adding more pages when you seem to get to the end and can be used as a spell book",
+                "This book has a number of charges equal to our proficiency bonus. You can use expend one charge to cast {@spell hellish rebuke|PHB} at second level using your spell save DC. It regains all charges at dawn."
+            ],
+            "attachedSpells": [
+                "hellish rebuke"
+            ]
+        },
+        {
+            "name": "Infinite Sketchbook",
+            "source": "PPSoWaMW",
+            "page": 134,
+            "rarity": "rare",
+            "reqAttune": "by a spellcaster",
+            "wondrous": true,
+            "weight": 3,
+            "recharge": "dawn",
+            "entries": [
+                "A leatherbouind sketchbook that seems to almost bend space and time, adding more pages when you seem to get to the end and can be used as a spell book.",
+                "While attuned to this book, you can can channel your artistic nature and cast {@spell color spray|PHB} at first level at will.",
+                "This book has a number of charges equal to your the half your character level - 1. It regains all charges at dawn.",
+                "This book can also case doodles and musings to come to life. You can use expend the listed charges to cast one of the following spells using your spell DC and ability modifier. A spell can be cast at a higher lever using an additional charge per level.",
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "colLabels": [
+                        "Charges",
+                        "Spell"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@spell summon beast|TCE}"
+                        ],
+                        [
+                            "2",
+                            "{@spell summon fey|TCE}, {@spell summon shadowspawn|TCE}, {@spell summon undead|TCE}"
+                        ],
+                        [
+                            "3",
+                            "{@spell summon aberration|TCE}, {@spell summon construct|TCE}, {@spell summon elemental|TCE}"
+                        ],
+                        [
+                            "4",
+                            "{@spell summon celestial|TCE}, {@spell summon draconic spirit|FTD}"
+                        ],
+                        [
+                            "5",
+                            "{@spell summon fiend|TCE}"
+                        ]
+                    ]
+                }
+            ],
+            "attachedSpells": [
+                "color spray",
+                "summon beast",
+                "summon fey",
+                "summon shadowspawn",
+                "summon undead",
+                "summon aberration",
+                "summon construct",
+                "summon elemental",
+                "summon celestial",
+                "summon draconic spirit",
+                "summon fiend"
+            ]
+        },
+        {
+            "name": "Kaliedescope of Revealing",
+            "source": "PPSoWaMW",
+            "page": 134,
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "weight": 3,
+            "entries": [
+                "A seemingly normal wooden rod with a lens at both ends. When looking through this rod the viewer is treated to a wonderous display of colors and shapes designed to delight and dazzle.",
+                "When an attuned creature looks through this device, they are treated to the same, but when viewing a creature or object altered but Illusion Magic, they appear as they would normally."
+            ]
+        }
+    ]
+}
