@@ -245,7 +245,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a {@creature goblin|MM} for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into a {@creature goblin|MM} for 1 hour."
 			]
 		},
 		{
@@ -342,7 +342,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"For 1 minute, you may magically create three bolts of lightning as an action (recharge 5-6), each of which can strike a target you can see within 120 feet of you. A target must make a DC 23 Dexterity saving throw, taking 22 ({@dice 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+				"For 1 minute, you may magically create three bolts of lightning as an action {@recharge 5}, each of which can strike a target you can see within 120 feet of you. A target must make a DC 23 Dexterity saving throw, taking 22 ({@dice 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -446,7 +446,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"Once each within 24 hours after eating, you may cast Animate Dead and Speak With Dead."
+				"Once each within 24 hours after eating, you may cast {@spell Animate Dead|PHB} and {@spell Speak With Dead|PHB}."
 			]
 		},
 		{
@@ -457,7 +457,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into an {@creature ogre|MM} for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into an {@creature ogre|MM} for 1 hour."
 			]
 		},
 		{
@@ -468,7 +468,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into an {@creature orc|MM} for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into an {@creature orc|MM} for 1 hour."
 			]
 		},
 		{
@@ -492,8 +492,8 @@
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For one hour, your creature type becomes Fey and you have an innate spellcasting ability using Charisma (spell save DC 12). You can innately cast the following spells:",
-				"At will: {@spell druidcraft|MM}",
-				"1/day each: {@spell confusion|MM}, {@spell dancing lights|MM}, {@spell detect evil and good|MM}, {@spell detect thoughts|MM}, {@spell dispel magic|MM}, {@spell entangle|MM}, {@spell fly|MM}, {@spell phantasmal force|MM}, {@spell polymorph|MM}, {@spell sleep|MM}"
+				"At will: {@spell druidcraft|PHB}",
+				"1/day each: {@spell confusion|PHB}, {@spell dancing lights|PHB}, {@spell detect evil and good|PHB}, {@spell detect thoughts|PHB}, {@spell dispel magic|PHB}, {@spell entangle|PHB}, {@spell fly|PHB}, {@spell phantasmal force|PHB}, {@spell polymorph|PHB}, {@spell sleep|PHB}"
 			]
 		},
 		{
@@ -527,7 +527,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You instantly summon a {@creature pegasus|MM} as per the {@spell Find Greater Steed} spell. The pegasus appears by ripping out of your sternum, which heals itself immediately. The pegasus stays for 24 hours or until you dismiss it as per the spell."
+				"You instantly summon a {@creature pegasus|MM} as per the {@spell Find Greater Steed|PHB} spell. The pegasus appears by ripping out of your sternum, which heals itself immediately. The pegasus stays for 24 hours or until you dismiss it as per the spell."
 			]
 		},
 		{
@@ -593,7 +593,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"While in dim light or darkness, you can take the Hide action as a bonus action. Your stealth bonus is also improved to +6 but is not reduced if it is greater."
+				"While in dim light or darkness, you can take the Hide action as a bonus action. Your stealth bonus is also improved to +{@hit 6} but is not reduced if it is greater."
 			]
 		},
 		{
@@ -604,7 +604,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a skeleton for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into a {@creature skeleton|MM} for 1 hour."
 			]
 		},
 		{
@@ -660,7 +660,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a {@creature tyrannosaurus rex|tyrannosaurus|MM} for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into a {@creature tyrannosaurus rex|MM|tyrannosaurus} for 1 hour."
 			]
 		},
 		{
@@ -682,7 +682,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a vampire for 1 hour."
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorph|PHB|polymorphed} into a {@creature vampire|MM} for 1 hour."
 			]
 		},
 		{
@@ -693,7 +693,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"One of Madam Mim's {@item Creature Confections|WOR}",
-				"Make a DC 21 Constitution Saving Throw or be forced to assume the form of a werewolf’s hybrid form for 24 hours, as per the Shapechange spell. You do not concentrate on the spell."
+				"Make a DC 21 Constitution Saving Throw or be forced to assume the form of a {@creature werewolf|MM|werewolf’s} hybrid form for 24 hours, as per the {@spell shapechange|PHB} spell. You do not concentrate on the spell."
 			]
 		},
 		{
