@@ -4,7 +4,7 @@
 			{
 				"json": "WOR",
 				"abbreviation": "WOR",
-				"full": "Creature COnfections - Testing",
+				"full": "Creature Confections - Testing",
 				"authors": [
 					"The prettiest girl at the party AKA Connor"
 				],
@@ -28,7 +28,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You may target one creature you can see within 30 feet of you. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by you until you die or until you are on a different plane of existence from the target. The charmed target is under your control and can't take reactions, and you and the target can communicate telepathically with each other over any distance.",
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You may target one creature you can see within 30 feet of you. The target must succeed on a DC 14 Wisdom saving throw or be magically {@condition charmed} by you until you die or until you are on a different plane of existence from the target. The charmed target is under your control and can't take reactions, and you and the target can communicate telepathically with each other over any distance.",
 				"Whenever the charmed target takes damage or receives a distressing order, the target can repeat the saving throw. On a success, the effect ends. Once every 24 hours, the target can also repeat the saving throw.",
 				"You may use this ability once within 24 hours of consuming the Almond Joys."
 			]
@@ -40,7 +41,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For one minute, at the start of each of your turns, each creature within 5 feet of you takes 10 (3d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches you or hits you with a melee attack while within 5 feet of you takes 10 (3d6) fire damage. Additionally, your creature type becomes Fiend."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For one minute, at the start of each of your turns, each creature within 5 feet of you takes 10 ({@dice 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches you or hits you with a melee attack while within 5 feet of you takes 10 ({@dice 3d6}) fire damage. Additionally, your creature type becomes Fiend."
 			]
 		},
 		{
@@ -50,9 +52,10 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour after consuming the bagel, as an action you can create a puddle of nonflammable oil. The puddle is 1 inch deep and covers the ground in your space. The puddle is difficult terrain for all creatures except you and boggles and lasts for 1 hour. The oil has one of the following additional effects of your choice:",
-				"Slippery Oil. Any non-boggle creature that enters the puddle or starts its turn there must succeed on a DC 12 Dexterity saving throw or fall prone.",
-				"Sticky Oil. Any non-boggle creature that enters the puddle or starts its turn there must succeed on a DC 12 Strength saving throw or be restrained. On its turn, a creature can use an action to try to extricate itself, ending the effect and moving into the nearest unoccupied space of its choice with a successful DC 12 Strength check."
+				"Slippery Oil. Any non-boggle creature that enters the puddle or starts its turn there must succeed on a DC 12 Dexterity saving throw or fall {@condition prone}.",
+				"Sticky Oil. Any non-boggle creature that enters the puddle or starts its turn there must succeed on a DC 12 Strength saving throw or be {@condition restrained}. On its turn, a creature can use an action to try to extricate itself, ending the effect and moving into the nearest unoccupied space of its choice with a successful DC 12 Strength check."
 			]
 		},
 		{
@@ -62,6 +65,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"Once within 24 hours of eating the chocolate, as an action, you may change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
 				"You stay in the new form until you use an action to revert to your true form or until the end of the 24-hour period."
 			]
@@ -73,7 +77,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For 1 minute after eating the cannoli, when you hit a creature with a weapon or spell attack, the target must succeed on a DC 12 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For 1 minute after eating the cannoli, when you hit a creature with a weapon or spell attack, the target must succeed on a DC 12 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} for 24 hours."
 			]
 		},
 		{
@@ -83,6 +88,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour after eating the cake, your AC includes your Charisma bonus (minimum 0)."
 			]
 		},
@@ -93,6 +99,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour after eating the cookie, you have disadvantage on any attack roll against a target more than 30 feet away. Additionally, your size increases by one level if your size is less than Huge, and your creature type becomes Giant."
 			]
 		},
@@ -103,6 +110,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour after eating the donut, you can magically read the surface thoughts of one creature within 60 feet of you as an action. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, you can continue reading its thoughts, as long as your concentration isn't broken (as if concentrating on a spell). While reading the target's mind, you have advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
 			]
 		},
@@ -113,6 +121,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour after eating the cream, you gain resistance to a type of damage depending on the color you consumed, according to the table below.",
 				{
 					"type": "table",
@@ -191,7 +200,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You grow an additional head, granting you has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. This lasts for 8 hours."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You grow an additional head, granting you has advantage on Wisdom (Perception) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}. This lasts for 8 hours."
 			]
 		},
 		{
@@ -201,6 +211,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, you are immune to any effect that would sense your emotions or read your thoughts, as well as all divination spells."
 			]
 		},
@@ -211,6 +222,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, your size decreases by one level if your size is greater than Tiny. Additionally, you gain a flying speed equal to your walking speed, and your creature type becomes Fey."
 			]
 		},
@@ -221,6 +233,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, you gain resistance to bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine."
 			]
 		},
@@ -231,7 +244,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into a goblin for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a {@creature goblin|MM} for 1 hour."
 			]
 		},
 		{
@@ -241,6 +255,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, you have resistance to psychic damage."
 			]
 		},
@@ -251,8 +266,9 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"Once within 24 hours of eating the hotcake, as an action, you may sing a magical melody. Every humanoid and giant within 300 feet of you that can hear the song must succeed on a DC 13 Wisdom saving throw or be charmed until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated.",
-				"While charmed by you, a target is incapacitated and ignores the songs of harpies. If the charmed target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"Once within 24 hours of eating the hotcake, as an action, you may sing a magical melody. Every humanoid and giant within 300 feet of you that can hear the song must succeed on a DC 13 Wisdom saving throw or be {@condition charmed} until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated.",
+				"While charmed by you, a target is {@condition incapacitated} and ignores the songs of harpies. If the charmed target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
 				"A target that successfully saves is immune to your song for the next 24 hours."
 			]
 		},
@@ -263,8 +279,9 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For an hour after eating the ice cream, as an action, you may attempt to charm humanoids. One humanoid you can see within 30 feet of you must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys your verbal commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to your Charm for the next 24 hours. You can have only one target charmed at a time. If you charm another, the effect on the previous target ends.",
-				"Additionally, you can kiss either a creature charmed by you or a willing creature as an action. The target must make a DC 15 Constitution saving throw against this magic, taking 32 (5d10 + 5) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For an hour after eating the ice cream, as an action, you may attempt to charm humanoids. One humanoid you can see within 30 feet of you must succeed on a DC 14 Wisdom saving throw or be magically {@condition charmed} for 1 day. The charmed target obeys your verbal commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to your Charm for the next 24 hours. You can have only one target charmed at a time. If you charm another, the effect on the previous target ends.",
+				"Additionally, you can kiss either a creature charmed by you or a willing creature as an action. The target must make a DC 15 Constitution saving throw against this magic, taking 32 ({@dice 5d10 + 5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 			]
 		},
 		{
@@ -274,7 +291,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For a minute, any creature other than an Ooze that starts its turn within 10 feet of you must succeed on a DC 21 Constitution saving throw or be poisoned until the start of the creature's next turn."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For a minute, any creature other than an Ooze that starts its turn within 10 feet of you must succeed on a DC 21 Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn."
 			]
 		},
 		{
@@ -284,10 +302,36 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For 1 minute, you burble to yourself unless you are incapacitated. Any creature that starts its turn within 30 feet of you and is able to hear your burbling must make a DC 18 Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a d4 to determine what it does during its current turn:",
-				"1-2. The creature does nothing.",
-				"3. The creature does nothing except use all its movement to move in a random direction.",
-				"4. The creature either makes one melee attack against a random creature it can see or does nothing if no visible creature is within its reach."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For 1 minute, you burble to yourself unless you are {@condition incapacitated}. Any creature that starts its turn within 30 feet of you and is able to hear your burbling must make a DC 18 Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a d4 to determine what it does during its current turn:",
+				{
+					"type": "table",
+					"caption": "Jabberwock",
+					"source": "WOR",
+					"page": 1,
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d4",
+						"Result"
+					],
+					"rows": [
+						[
+							"1\u20132",
+							"The creature does nothing."
+						],
+						[
+							"3",
+							"The creature does nothing except use all its movement to move in a random direction."
+						],
+						[
+							"4",
+							"The creature either makes one melee attack against a random creature it can see or does nothing if no visible creature is within its reach."
+						]
+					]
+				}
 			]
 		},
 		{
@@ -297,7 +341,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For 1 minute, you may magically create three bolts of lightning as an action (recharge 5-6), each of which can strike a target you can see within 120 feet of you. A target must make a DC 23 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For 1 minute, you may magically create three bolts of lightning as an action (recharge 5-6), each of which can strike a target you can see within 120 feet of you. A target must make a DC 23 Dexterity saving throw, taking 22 ({@dice 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -307,6 +352,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"Twice within 24 hours of eating the licorice, you may curse a creature that you hit with a melee attack. The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks."
 			]
 		},
@@ -317,7 +363,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"Roll a d6, where 1 is considered as 0. The result is a spell level. Choose a wizard spell of the level you rolled, and you can cast it once using your spellcasting ability or Intelligence if you don’t have one. You must cast the spell in 24 hours or it is lost."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"Roll {@dice 1d6}, where 1 is considered as 0. The result is a spell level. Choose a wizard spell of the level you rolled, and you can cast it once using your spellcasting ability or Intelligence if you don’t have one. You must cast the spell in 24 hours or it is lost."
 			]
 		},
 		{
@@ -327,7 +374,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For a minute, if you move at least 20 feet straight toward a creature and then hit it with a weapon attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, you can make one of the same weapon attack against it as a bonus action."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For a minute, if you move at least 20 feet straight toward a creature and then hit it with a weapon attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked {@condition prone}. If the target is prone, you can make one of the same weapon attack against it as a bonus action."
 			]
 		},
 		{
@@ -337,24 +385,46 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"You grow a manticore tail for an hour with 24 tail spikes and gain the ability to use the below attack:",
-				"Tail Spike. Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+				{
+					"name": "Tail Spike",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/200 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
 			]
 		},
 		{
-			"name": "Myconid Macarons*",
+			"name": "Myconid Macarons",
 			"source": "WOR",
 			"tier": "minor",
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You gain the following abilities and your creature type becomes Plant:",
-				"Hallucination Spores (3 uses as an action within 24 hours).",
-				"You eject spores at one creature you can see within 5 feet of you. The target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The poisoned target is incapacitated while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"Pacifying Spores (1 use as an action within 24 hours).",
-				"You eject spores at one creature it can see within 5 feet of you. The target must succeed on a DC 13 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"Rapport Spores (any number of uses as an action within 24 hours).",
-				"A 30-foot radius of spores extends from you. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For the next 24 hours, you gain the following action and your creature type becomes Plant:",
+				{
+					"type": "entries",
+					"name": "Hallucination Spores (3 Uses).",
+					"entries": [
+						"You eject spores at one creature you can see within 5 feet of you. The target must succeed on a DC 12 Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pacifying Spores (1 Use).",
+					"entries": [
+						"You eject spores at one creature it can see within 5 feet of you. The target must succeed on a DC 13 Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rapport Spores (At will).",
+					"entries": [
+						"A 30-foot radius of spores extends from you. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+					]
+				}
 			]
 		},
 		{
@@ -364,7 +434,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For a minute, in response to another creature dealing damage to you, you can reduce the damage to 0 and regain 3 (1d6) hit points as a reaction."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For a minute, in response to another creature dealing damage to you, you can reduce the damage to 0 and regain 3 ({@dice 1d6}) hit points as a reaction."
 			]
 		},
 		{
@@ -374,6 +445,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"Once each within 24 hours after eating, you may cast Animate Dead and Speak With Dead."
 			]
 		},
@@ -384,7 +456,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into an ogre for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into an {@creature ogre|MM} for 1 hour."
 			]
 		},
 		{
@@ -394,7 +467,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into an orc for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into an {@creature orc|MM} for 1 hour."
 			]
 		},
 		{
@@ -404,8 +478,9 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"If you die, you explode. Each creature in 60-foot-radius sphere centered on you must make a DC 20 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
-				"The explosion destroys your body and leaves behind an egg-shaped cinder, which weighs 5 pounds. The cinder deals 21 (6d6) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after 1d6 days, it hatches an exact replica of you, into which your soul reinhabits."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"If you die, you explode. Each creature in 60-foot-radius sphere centered on you must make a DC 20 Dexterity saving throw, taking 22 ({@dice 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
+				"The explosion destroys your body and leaves behind an egg-shaped cinder, which weighs 5 pounds. The cinder deals 21 ({@dice 6d6}) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after {@dice 1d6} days, it hatches an exact replica of you, into which your soul reinhabits."
 			]
 		},
 		{
@@ -415,9 +490,10 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For one hour, your creature type becomes Fey and you have an innate spellcasting ability using Charisma (spell save DC 12). You can innately cast the following spells:",
-				"At will: druidcraft",
-				"1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep"
+				"At will: {@spell druidcraft|MM}",
+				"1/day each: {@spell confusion|MM}, {@spell dancing lights|MM}, {@spell detect evil and good|MM}, {@spell detect thoughts|MM}, {@spell dispel magic|MM}, {@spell entangle|MM}, {@spell fly|MM}, {@spell phantasmal force|MM}, {@spell polymorph|MM}, {@spell sleep|MM}"
 			]
 		},
 		{
@@ -427,7 +503,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For a minute, your weapon attacks are magical. When you hit with any weapon, the weapon deals an extra 5d8 radiant damage.",
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For a minute, your weapon attacks are magical. When you hit with any weapon, the weapon deals an extra {@dice 5d8} radiant damage.",
 				"Also, you know if you hear a lie for the next hour, and your creature type becomes Celestial."
 			]
 		},
@@ -438,7 +515,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You can move through other creatures and objects as if they were difficult terrain. You take 5 ({@dice 1d10}) force damage if you end your turn inside an object."
 			]
 		},
 		{
@@ -448,7 +526,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You instantly summon a pegasus as per the Find Greater Steed spell. The pegasus appears by ripping out of your sternum, which heals itself immediately. The pegasus stays for 24 hours or until you dismiss it as per the spell."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You instantly summon a {@creature pegasus|MM} as per the {@spell Find Greater Steed} spell. The pegasus appears by ripping out of your sternum, which heals itself immediately. The pegasus stays for 24 hours or until you dismiss it as per the spell."
 			]
 		},
 		{
@@ -458,7 +537,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For one hour, you can magically turn invisible as an action until you attack, or until your concentration ends (as if concentrating on a spell). Any equipment you wear or carry is invisible with you."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For one hour, you can magically turn {@condition invisible} as an action until you attack, or until your concentration ends (as if concentrating on a spell). Any equipment you wear or carry is invisible with you."
 			]
 		},
 		{
@@ -468,24 +548,41 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For one minute, you can't be affected or detected by spells of 6th level or lower unless you wish to be. You have advantage on saving throws against all other spells and magical effects."
 			]
 		},
 		{
-			"name": "Satyr Samosa*",
+			"name": "Satyr Samosa",
 			"source": "WOR",
 			"tier": "minor",
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You gain an ethereal set of pipes. Within 24 hours of eating, you can play the pipes and choose one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. Any creature within 60 feet of you that can hear the pipes must succeed on a DC 13 Wisdom saving throw or be affected as described below. Satyrs and creatures that can't be charmed are unaffected.",
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You gain an ethereal set of pipes. Within 24 hours of eating, you can play the pipes and choose one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. Any creature within 60 feet of you that can hear the pipes must succeed on a DC 13 Wisdom saving throw or be affected as described below. Satyrs and creatures that can't be {@condition charmed} are unaffected.",
 				"An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to these panpipes for the next 24 hours.",
-				"Charming Melody.",
-				"The creature is charmed by you for 1 minute. If you or any of your companions harm the creature, the effect on it ends immediately.",
-				"Frightening Strain.",
-				"The creature is frightened for 1 minute.",
-				"Gentle Lullaby.",
-				"The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake."
+				{
+					"type": "entries",
+					"name": "Charming Melody.",
+					"entries": [
+						"The creature is {@condition charmed} by you for 1 minute. If you or any of your companions harm the creature, the effect on it ends immediately."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frightening Strain.",
+					"entries": [
+						"The creature is {@condition frightened} for 1 minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gentle Lullaby.",
+					"entries": [
+						"The creature falls asleep and is {@condition unconscious} for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake."
+					]
+				}
 			]
 		},
 		{
@@ -495,6 +592,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"While in dim light or darkness, you can take the Hide action as a bonus action. Your stealth bonus is also improved to +6 but is not reduced if it is greater."
 			]
 		},
@@ -505,7 +603,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into a skeleton for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a skeleton for 1 hour."
 			]
 		},
 		{
@@ -515,8 +614,9 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For an hour after eating the souffle, as an action, you may attempt to charm humanoids. One humanoid you can see within 30 feet of you must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys your verbal commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to your Charm for the next 24 hours. You can have only one target charmed at a time. If you charm another, the effect on the previous target ends.",
-				"Additionally, you can kiss either a creature charmed by you or a willing creature as an action. The target must make a DC 15 Constitution saving throw against this magic, taking 32 (5d10 + 5) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For an hour after eating the souffle, as an action, you may attempt to charm humanoids. One humanoid you can see within 30 feet of you must succeed on a DC 14 Wisdom saving throw or be magically {@condition charmed} for 1 day. The charmed target obeys your verbal commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to your Charm for the next 24 hours. You can have only one target charmed at a time. If you charm another, the effect on the previous target ends.",
+				"Additionally, you can kiss either a creature charmed by you or a willing creature as an action. The target must make a DC 15 Constitution saving throw against this magic, taking 32 ({@dice 5d10 + 5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 			]
 		},
 		{
@@ -526,7 +626,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, you are unaffected, and the effect is reflected at the caster as though it originated from you, turning the caster into the target."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll {@dice 1d6}. On a 1 to 5, you are unaffected. On a 6, you are unaffected, and the effect is reflected at the caster as though it originated from you, turning the caster into the target."
 			]
 		},
 		{
@@ -536,7 +637,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For an hour, as a bonus action, you can harden your defenses. Until you lower your guard, you gain a +4 bonus to AC and have advantage on Strength and Constitution saving throws. While hardened, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to lower your guard."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For an hour, as a bonus action, you can harden your defenses. Until you lower your guard, you gain a +4 bonus to AC and have advantage on Strength and Constitution saving throws. While hardened, you are {@condition prone}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to lower your guard."
 			]
 		},
 		{
@@ -546,6 +648,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, you regain 10 hit points at the start of your turn. If you take acid or fire damage, this trait doesn't function at the start of your next turn. You die only if you start your turn with 0 hit points and don't regenerate."
 			]
 		},
@@ -556,7 +659,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into a tyrannosaurus for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a {@creature tyrannosaurus rex|tyrannosaurus|MM} for 1 hour."
 			]
 		},
 		{
@@ -566,7 +670,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"Up to three times within 24 hours of eating, you may touch another creature. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"Up to three times within 24 hours of eating, you may touch another creature. The target magically regains 11 ({@dice 2d8 + 2}) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
 			]
 		},
 		{
@@ -576,7 +681,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"You must make a DC 21 Wisdom Saving Throw or be polymorphed into a vampire for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"You must make a DC 21 Wisdom Saving Throw or be {@spell polymorphed|polymorph|MM} into a vampire for 1 hour."
 			]
 		},
 		{
@@ -586,6 +692,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"Make a DC 21 Constitution Saving Throw or be forced to assume the form of a werewolf’s hybrid form for 24 hours, as per the Shapechange spell. You do not concentrate on the spell."
 			]
 		},
@@ -596,6 +703,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, you can burrow through nonmagical, unworked earth and stone. While doing so, you don’t disturb the material you move through.",
 				"Additionally, you can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of you, and your creature type becomes Elemental."
 			]
@@ -607,7 +715,8 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
-				"For an hour, as an action, you can target one creature you can see within 30 feet of you. If the target can see you, the target must succeed on a DC 14 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of you and all yetis (but not abominable yetis) for 1 hour."
+				"One of Madam Mim's {@item Creature Confections|WOR}",
+				"For an hour, as an action, you can target one creature you can see within 30 feet of you. If the target can see you, the target must succeed on a DC 14 Constitution saving throw against this magic or take 10 ({@dice 3d6}) cold damage and then be {@condition paralyzed} for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of you and all yetis (but not abominable yetis) for 1 hour."
 			]
 		},
 		{
@@ -617,6 +726,7 @@
 			"page": 135,
 			"rarity": "uncommon",
 			"entries": [
+				"One of Madam Mim's {@item Creature Confections|WOR}",
 				"For an hour, if damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead. Additionally, your creature type becomes Undead."
 			]
 		}
@@ -629,7 +739,7 @@
 			"rarity": "varies",
 			"reqAttune": false,
 			"entries": [
-				"Sickly sweets from s supernatural shop on the border between real and unreal."
+				"Sickly sweets from a supernatural shop on the border of the real and unreal."
 			],
 			"items": [
 				"Aboleth Almond-Joys|WOR",
@@ -656,7 +766,7 @@
 				"Lich Lollipops|WOR",
 				"Mammoth Marshmallows|WOR",
 				"Manticore Muffins|WOR",
-				"Myconid Macarons*|WOR",
+				"Myconid Macarons|WOR",
 				"Nilbog Nougat|WOR",
 				"Necromancer Neapolitan|WOR",
 				"Ogre Oreos|WOR",
@@ -668,7 +778,7 @@
 				"Pegasus Pie|WOR",
 				"Quasit Quesito|WOR",
 				"Rakshasa Rhubarb|WOR",
-				"Satyr Samosa*|WOR",
+				"Satyr Samosa|WOR",
 				"Shadow Shortcakes|WOR",
 				"Skeleton Scones|WOR",
 				"Succubus Soufflé|WOR",
